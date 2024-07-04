@@ -7,6 +7,7 @@ import operRoutes from './actions/dboperation.mjs';
 import { dbConfig } from "./db/pcbuilderdb.mjs";
 import { andorrainformaticaData } from "./engin/andorrainformatica.mjs";
 import { rueducommerceData } from "./engin/rueducommerce.mjs";
+import { databaseRefactoring } from "./engin/databaseRefactoring.mjs";
 import { bpmpowerData } from "./engin/bpmpower.mjs";
 import { azertyData } from "./engin/azerty.mjs";
 
@@ -15,7 +16,7 @@ import { azertyData } from "./engin/azerty.mjs";
 const webshops = process.env.WEB_SHOPS;
 const app = express();
 const port = 5000;
-const interval = 5000000; // 10 seconds interval
+const interval = 200000; // 10 seconds interval
 
 // app.use(express.static(path.resolve(new URL('.', import.meta.url).pathname)));
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
@@ -36,7 +37,8 @@ mongoose
   });
 
 const fetchDataFromWebshop = () => {
-  // rueducommerceData();
+  // databaseRefactoring();
+  rueducommerceData();
   azertyData();
   bpmpowerData();  
   andorrainformaticaData();
