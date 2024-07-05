@@ -12,7 +12,7 @@ mongoose.Promise = global.Promise;
 mongoose
   .connect(dbConfig.db)
   .then(() => {
-    console.log("Database successfully connected in profit!");
+    console.log("Database successfully connected in azerty!");
   })
   .catch((error) => {
     console.log("Could not connect to database: " + error);
@@ -23,8 +23,8 @@ const fetchDataFromWebshop =async  () => {
   // databaseRefactoring();
   // await rueducommerceData();
   await azertyData();
-  await bpmpowerData();  
-  await andorrainformaticaData();
+  // await bpmpowerData();  
+  // await andorrainformaticaData();
   busy=false;
 };
 setInterval(() => {

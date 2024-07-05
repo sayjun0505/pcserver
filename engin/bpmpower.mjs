@@ -109,6 +109,7 @@ const bpmpowerData = async () => {
             MPN: manufactureID,
             price: detailData.product.price
           };
+          if(item.name.includes("7950X3D"))console.log(item)
           return item;
         }));
         
