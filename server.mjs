@@ -16,7 +16,7 @@ import { azertyData } from "./engin/azerty.mjs";
 const webshops = process.env.WEB_SHOPS;
 const app = express();
 const port = 5000;
-const interval = 200000; // 10 seconds interval
+const interval = 20000; // 10 seconds interval
 
 // app.use(express.static(path.resolve(new URL('.', import.meta.url).pathname)));
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
@@ -35,18 +35,20 @@ mongoose
   .catch((error) => {
     console.log("Could not connect to database: " + error);
   });
-
-const fetchDataFromWebshop = () => {
+let  busy=false;
+const fetchDataFromWebshop =async  () => {
+  busy=true;
   // databaseRefactoring();
-  rueducommerceData();
-  azertyData();
-  bpmpowerData();  
-  andorrainformaticaData();
+  await rueducommerceData();
+  await azertyData();
+  await bpmpowerData();  
+  await andorrainformaticaData();
+  busy=false;
 };
 
 // Define the interval task
 setInterval(() => {
-  fetchDataFromWebshop();
+  if(!busy)fetchDataFromWebshop();
 }, interval);
 
 app.get("/", (req, res) => {

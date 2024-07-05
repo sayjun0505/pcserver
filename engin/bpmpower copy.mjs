@@ -11,8 +11,9 @@ let total = 0;
 const url_base = "https://www.bpm-power.com/api/v2/getProductsByDepartment";
 
 const insertDB = async (arr) => {
+  let client;
   try {
-    await mongoose.connect(dbConfig.db);
+    client = await mongoose.connect(dbConfig.db);
 
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({ name: product.name });
@@ -59,7 +60,9 @@ const insertDB = async (arr) => {
   } catch (error) {
     console.error(error);
   } finally {
-    mongoose.connection.close();
+    if (client) {
+      await client.disconnect();
+    }
   }
 };
 let arr = [];
@@ -74,56 +77,28 @@ const bpmpowerData = async () => {
     total += products.length;
     arr = [...arr, ...products];
     if (products.length < pagecount) {
-      arr.map(async (product) => {
-        const detailinfo = `https://www.bpm-power.com/api/v2/getProductInfo?idProduct=${product.id}&template=it`;
-        const response = await fetch(detailinfo);
-        const data = await response.json();
-        let core = "";
-        let threads = "";
-        let cur={}
-        for (const item of data.product.datatableElements) {
-          cur=item;
-          if (item.title.trim().toLowerCase().includes("core/thread")) {
-            var x = item.value.split("/");
-            core = x[0];
-            threads = x[1];
-          } else {
-            if (item.title.trim().toLowerCase().includes("processore")) {
-              var x = item.value.split("/");
-              if(x.length!==1){
-                core = x[0].replace(" core");
-                threads = x[1].replace(" thread");
-              }             
-            } 
-            if (item.title.trim().toLowerCase().includes("thread")) {
-                threads = item.value;
-            }
-
-            if (item.title.trim().toLowerCase().includes("core")) {
-                core = item.value.replace(" Base","");
-            }            
+      const finalData = await Promise.all(
+        arr.map(async (product) => {
+          try {
+            const detailInfoUrl = `https://www.bpm-power.com/api/v2/getProductInfo?idProduct=${product.id}&template=it`;
+            const detailData = await fetchData(detailInfoUrl);
+            const manufactureID = detailData.product.producerCode;
+            const processedItem = {
+              ...product,
+              name: product.name,
+              MPN: manufactureID,
+              price: detailData.product.price
+            };
+            await sleep(100); // Control the request rate
+            return processedItem;
+          } catch (error) {
+            console.error(`Error fetching data for product ID ${product.id}: ${error.message}`);
+            return null; // Handle errors gracefully
           }
-          if (core !== "" && threads !== "") {
-            break;
-          }
-        }
-        let tempa=" "+core+'-Core '+threads+" Threads";
-        let temp=tempa.replace(/\n/g, '');
-        // let finishedname=product.name.replace(/Cpu /g, '').replace("undefined","").replace("Processore ").replace(/L3.*\]/g, '').replace(/B.*\]/g, '').replace(/\n/g, '').replace(/\s+$/, '')  +temp;
-        let deltaname=product.name.replace(/Cpu /g, '').replace(/Box /g, '').replace(/Processore /g, '').replace(/Processor /g, '').replace(/\s*$$\s*.*?\s*$$\s*/g, '')
-        let start=deltaname.substring(0,deltaname.toLowerCase().lastIndexOf("gh")).lastIndexOf(" ")
-        let end=deltaname.substring(deltaname.toLowerCase().lastIndexOf("gh"),deltaname.length-1)
+        })
+      ).filter((item) => item !== null);
 
-        
-        let finishedname=deltaname +temp+"----"+deltaname.substring(start,end);
-        console.log(finishedname);
-        const modifiedName = {
-          ...product,
-          name: product.name.replace("Cpu ", "").replace("Cpu ", "")
-        };
-        return modifiedName;
-      });
-      // insertDB(filteredProducts);
+      await insertDB(finalData);
       break;
     }
   }

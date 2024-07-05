@@ -12,6 +12,7 @@ const insertDB = async (arr) => {
   try {
     // Connect to MongoDB
     await mongoose.connect(dbConfig.db);
+
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
       let cpuid;
@@ -50,7 +51,9 @@ const insertDB = async (arr) => {
       }
     }
 
-    console.log(`${arr.length} products inserted into the cpuvendor collection`);
+    console.log(
+      `${arr.length} products inserted into the cpuvendor collection`
+    );
   } catch (error) {
     console.error(error);
   } finally {
@@ -59,22 +62,9 @@ const insertDB = async (arr) => {
   }
 };
 
-const fetchData = async (url, timeout = 10000) => {
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), timeout);
-
-  try {
-    const response = await fetch(url, { signal: controller.signal });
-    return await response.json();
-  } catch (error) {
-    if (error.name === 'AbortError') {
-      throw new Error('Request timed out');
-    } else {
-      throw error;
-    }
-  } finally {
-    clearTimeout(timeoutId);
-  }
+const fetchData = async (url) => {
+  const response = await fetch(url);
+  return await response.json();
 };
 
 const bpmpowerData = async () => {
@@ -85,26 +75,35 @@ const bpmpowerData = async () => {
       const products = data.products || [];
       total += products.length;
       arr.push(...products);
-      
+
       if (products.length < pagecount) {
-        const finalData = await Promise.all(arr.map(async (product) => {
-          const detailInfoUrl = `https://www.bpm-power.com/api/v2/getProductInfo?idProduct=${product.id}&template=it`;
-          const detailData = await fetchData(detailInfoUrl);
-          const manufactureID = detailData.product.producerCode;
-          const item = {
-            ...product,
-            name: product.name,
-            MPN: manufactureID,
-            price: detailData.product.price
-          };
-          return item;
-        }));
-        
+        const finalData = await Promise.all(
+          arr.map(async (product) => {
+            try {
+              const detailInfoUrl = `https://www.bpm-power.com/api/v2/getProductInfo?idProduct=${product.id}&template=it`;
+              const detailData = await fetchData(detailInfoUrl);
+              const manufactureID = detailData.product.producerCode;
+              const item = {
+                ...product,
+                name: product.name,
+                MPN: manufactureID,
+                price: detailData.product.price
+              };
+              return item;
+            } catch (error) {
+              console.error(
+                `Error fetching data for product ID ${product.id}: ${error}`
+              );
+              return null;
+            }
+          })
+        ).filter((item) => item !== null);
+
         await insertDB(finalData);
         break;
       }
     }
-    
+
     console.log(`Total Bpmpower items: ${arr.length}`);
   } catch (error) {
     console.error(error);
