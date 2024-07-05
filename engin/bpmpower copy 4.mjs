@@ -24,32 +24,32 @@ const insertDB = async (arr) => {
     // Connect to MongoDB
     await mongoose.connect(dbConfig.db);
     for (const product of arr) {
-      let existingProduct = await CPUInfo.findOne({ MPN: product.producerCode });
+      let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
+      if(existingProduct.name.includes("5 7600X"))console.log(existingProduct)
       if (existingProduct) {
-      //   // If product name exists in CPUInfo collection, get id and insert into CPUVendor with vendorname as "a"
+        // If product name exists in CPUInfo collection, get id and insert into CPUVendor with vendorname as "a"
         const cpuid = existingProduct._id;
         let existcpuinfo = await CPUVendor.findOne({
           cpuid: cpuid,
           vendorname: "bmp"
         });
+        if(existcpuinfo.cpuid=='66846c34a8d4bf44029c3f12')console.log(existcpuinfo)
         if (existcpuinfo) {
-          // if(product.name.includes("Ryzen 5 7600X"))console.log(product.price,cpuid)
-      //     //update price
+          //update price
           await CPUVendor.updateOne(
             { cpuid: cpuid },
-            { price: product.price + "€", date: formattedDateTime ,prev:existcpuinfo.price}
+            { price: product.price + "€", date: formattedDateTime }
           );
         } else {
           await CPUVendor.create({
             cpuid: cpuid,
             vendorname: "bmp",
             price: product.price + "€",
-            date: formattedDateTime,
-            prev:"0.0€"
+            date: formattedDateTime
           });
         }
       } else {
-      //   // If product name doesn't exist in CPUInfo collection, insert name and get new id, then insert into CPUVendor with vendorname as "a"
+        // If product name doesn't exist in CPUInfo collection, insert name and get new id, then insert into CPUVendor with vendorname as "a"
         const newProduct = await CPUInfo.create({
           name: product.name,
           MPN: product.MPN,
@@ -64,8 +64,7 @@ const insertDB = async (arr) => {
           cpuid: newProduct._id,
           vendorname: "bmp",
           price: product.price + "€",
-          date: formattedDateTime,
-          prev:"0.0€"
+          date: formattedDateTime
         });
       }
     }
@@ -109,23 +108,23 @@ const bpmpowerData = async () => {
       arr.push(...products);
 
       if (products.length < pagecount) {
-        // const finalData = await Promise.all(
-        //   arr.map(async (product) => {
-        //     // const detailInfoUrl = `https://www.bpm-power.com/api/v2/getProductInfo?idProduct=${product.id}&template=it`;
-        //     // const detailData = await fetchData(detailInfoUrl);
-        //     // const manufactureID = detailData.product.producerCode;
-        //     const item = {
-        //       ...product,
-        //       name: product.name,
-        //       MPN: product.producerCode,
-        //       price: product.price
-        //     };
+        const finalData = await Promise.all(
+          arr.map(async (product) => {
+            const detailInfoUrl = `https://www.bpm-power.com/api/v2/getProductInfo?idProduct=${product.id}&template=it`;
+            const detailData = await fetchData(detailInfoUrl);
+            const manufactureID = detailData.product.producerCode;
+            const item = {
+              ...product,
+              name: product.name,
+              MPN: manufactureID,
+              price: detailData.product.price
+            };
 
-        //     return item;
-        //   })
-        // );
+            return item;
+          })
+        );
 
-        await insertDB(arr);
+        await insertDB(finalData);
         break;
       }
     }

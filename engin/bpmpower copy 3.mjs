@@ -24,48 +24,43 @@ const insertDB = async (arr) => {
     // Connect to MongoDB
     await mongoose.connect(dbConfig.db);
     for (const product of arr) {
-      let existingProduct = await CPUInfo.findOne({ MPN: product.producerCode });
+      let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
+      let cpuid;
+      
       if (existingProduct) {
-      //   // If product name exists in CPUInfo collection, get id and insert into CPUVendor with vendorname as "a"
-        const cpuid = existingProduct._id;
-        let existcpuinfo = await CPUVendor.findOne({
-          cpuid: cpuid,
-          vendorname: "bmp"
-        });
-        if (existcpuinfo) {
-          // if(product.name.includes("Ryzen 5 7600X"))console.log(product.price,cpuid)
-      //     //update price
-          await CPUVendor.updateOne(
-            { cpuid: cpuid },
-            { price: product.price + "€", date: formattedDateTime ,prev:existcpuinfo.price}
-          );
-        } else {
-          await CPUVendor.create({
-            cpuid: cpuid,
-            vendorname: "bmp",
-            price: product.price + "€",
-            date: formattedDateTime,
-            prev:"0.0€"
-          });
-        }
+        existingProduct.Manufacturer = product.producer;
+        existingProduct.imgurl = product.imageUrlSmall;
+        existingProduct.ManufacturerURL = product.producerUrl;
+        await existingProduct.save();
+        cpuid = existingProduct._id;
       } else {
-      //   // If product name doesn't exist in CPUInfo collection, insert name and get new id, then insert into CPUVendor with vendorname as "a"
         const newProduct = await CPUInfo.create({
           name: product.name,
-          MPN: product.MPN,
-          CoreCount: product.cores,
-          CoreClock: product.freq,
-          CoreFamily: product.processfamily,
-          Socket: product.sockets,
-          imgurl: product.imgURL,
-          IncludesCooler: product.cooler
+          Manufacturer: product.producer,
+          imgurl: product.imageUrlSmall,
+          ManufacturerURL: product.producerUrl,
+          MPN: product.MPN
         });
+        cpuid = newProduct._id;
+      }
+
+      let existingVendorProduct = await CPUVendor.findOne({
+        cpuid:existingProduct._id,
+        vendorname: "bmp"
+      });
+      if (existingProduct.name.includes("7950X3D")) console.log(existingProduct._id);
+      if (existingVendorProduct.cpuid==existingProduct._id)console.log(existingVendorProduct);
+
+      if (existingVendorProduct) {
+        existingVendorProduct.price = product.price + "€";
+        existingVendorProduct.date = formattedDateTime;
+        await existingVendorProduct.save();
+      } else {
         await CPUVendor.create({
-          cpuid: newProduct._id,
+          cpuid,
           vendorname: "bmp",
           price: product.price + "€",
-          date: formattedDateTime,
-          prev:"0.0€"
+          date: formattedDateTime
         });
       }
     }
@@ -109,23 +104,23 @@ const bpmpowerData = async () => {
       arr.push(...products);
 
       if (products.length < pagecount) {
-        // const finalData = await Promise.all(
-        //   arr.map(async (product) => {
-        //     // const detailInfoUrl = `https://www.bpm-power.com/api/v2/getProductInfo?idProduct=${product.id}&template=it`;
-        //     // const detailData = await fetchData(detailInfoUrl);
-        //     // const manufactureID = detailData.product.producerCode;
-        //     const item = {
-        //       ...product,
-        //       name: product.name,
-        //       MPN: product.producerCode,
-        //       price: product.price
-        //     };
+        const finalData = await Promise.all(
+          arr.map(async (product) => {
+            const detailInfoUrl = `https://www.bpm-power.com/api/v2/getProductInfo?idProduct=${product.id}&template=it`;
+            const detailData = await fetchData(detailInfoUrl);
+            const manufactureID = detailData.product.producerCode;
+            const item = {
+              ...product,
+              name: product.name,
+              MPN: manufactureID,
+              price: detailData.product.price
+            };
+           
+            return item;
+          })
+        );
 
-        //     return item;
-        //   })
-        // );
-
-        await insertDB(arr);
+        await insertDB(finalData);
         break;
       }
     }
