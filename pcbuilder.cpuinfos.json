@@ -1,0 +1,4368 @@
+[{
+  "_id": {
+    "$oid": "66846c34a8d4bf44029c3f12"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3081982.jpg",
+  "name": "Amd Ryzen 5 7600X 4.7GHz/5.3GHz AM5",
+  "detail": "https://azerty.nl/product/amd-ryzen-5-7600x-processor/4969554",
+  "MPN": "100-100000593WOF",
+  "TDP": "105",
+  "Model": "Ryzen 5 7600x",
+  "CoreCount": "6",
+  "CoreClock": "4.7",
+  "IncludesCooler": "No",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen™ 5",
+  "Threads": "12",
+  "Cache": "32",
+  "CacheType": "L3",
+  "Box": "Yes",
+  "IntegratedGraphics": "Yes",
+  "Maximumfrequency": "5.3",
+  "OperatingMode": "32,64",
+  "InternalMemorysupport": "128",
+  "ClockMemory": "5.2",
+  "MemoryChannel": "Double",
+  "ECC": "Yes",
+  "Non-ECC": "Yes",
+  "Manufacturer": "Amd",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c34a8d4bf44029c3f18"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3131925.jpg",
+  "name": "Amd Ryzen-7800X3D 4.2Ghz 96 Mo L3 120W [100-100000910WOF]",
+  "MPN": "100-100000910WOF",
+  "Manufacturer": "Amd",
+  "Model": "7800X3D",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen™ 7",
+  "CoreCount": "8",
+  "CoreClock": "4.2",
+  "Threads": "16",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f1e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3164179.jpg",
+  "name": "Intel Core i5-12400F 18M Cache 4.40GHz [BX8071512400F 99ATJ7 / 99ARGP]",
+  "MPN": "BX8071512400F",
+  "Model": "Intel Core i5",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel Core i5",
+  "CoreCount": "6",
+  "CoreClock": "4.4",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i5-b1934847",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f24"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3187399.jpg",
+  "name": "Intel Core i9-14900K 3.2GHz/6GHz LGA1700 Box [BX8071514900K]",
+  "MPN": "BX8071514900K",
+  "Model": "i9-14900K",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "8",
+  "CoreClock": "3.2",
+  "Threads": "32",
+  "detail": "https://azerty.nl/product/intel-core-i9-14900k-processor/6283778",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f2a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3144038.jpg",
+  "name": "Cornice di tenuta Aqua Computer per Processore AMD AM5 Nero [21883]",
+  "MPN": "21883",
+  "Manufacturer": "AQUACOMPUTER",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/aquacomputer",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cornice-tenuta-aqua-computer-b2090730",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f30"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/20042.jpg",
+  "name": "AMD Athlon II X3 455 box Am3 [ADX455WFGMBOX]",
+  "MPN": "ADX455WFGMBOX",
+  "Manufacturer": "Amd",
+  "Model": "Ryzen 5 7600x",
+  "Socket": "AM3",
+  "CoreFamily": "AMD Athlon II X3",
+  "CoreCount": "3",
+  "CoreClock": "3.3",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-athlon-ii-b0012783",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f36"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3105515.jpg",
+  "name": "Amd Cpu Ryzen 7 7700 AM5 3.8GHz Nero [CPAMDZY70007700]",
+  "MPN": "CPAMDZY70007700",
+  "Manufacturer": "Amd",
+  "Model": "7700",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 7",
+  "CoreCount": "8",
+  "CoreClock": "3.8",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-cpu-ryzen-b2052200",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f3c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3215559.jpg",
+  "name": "Amd Epyc 7203P SP3 2.8GHz 64MB L3 Box [100-000001287]",
+  "MPN": "100-000001287",
+  "Manufacturer": "Amd",
+  "Model": "7203P",
+  "Socket": "SP3",
+  "CoreFamily": "AMD EPYC",
+  "CoreCount": "8",
+  "CoreClock": "2.8",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-epyc-7203p-b2162308",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f42"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3131618.jpg",
+  "name": "Amd Epyc 9374F 3.85 GHz 256 MB L3 5.0 320w [100-000000792]",
+  "MPN": "100-000000792",
+  "Manufacturer": "Amd",
+  "Model": "9374F",
+  "Socket": "SP5",
+  "CoreFamily": "AMD EPYC",
+  "CoreCount": "64",
+  "CoreClock": "3.85",
+  "Threads": "64",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-epyc-9374f-b2078310",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f48"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3134226.jpg",
+  "name": "Amd Epyc 9474F 48-Core 3.6GHz [100-000000788]",
+  "MPN": "100-000000788",
+  "Manufacturer": "Amd",
+  "Model": "9474F",
+  "Socket": "AM5",
+  "CoreFamily": "AMD EPYC",
+  "CoreCount": "48",
+  "CoreClock": "3.6",
+  "Threads": "96",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-epyc-9474f-b2080918",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f4e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3131619.jpg",
+  "name": "Amd Epyc 9554P 3.1 GHz 256 MB L3 360W [100-000000804]",
+  "MPN": "100-000000804",
+  "Manufacturer": "Amd",
+  "Model": "9554P",
+  "Socket": "SP5",
+  "CoreFamily": "AMD EPYC",
+  "CoreCount": "64",
+  "CoreClock": "3.1",
+  "Threads": "128",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-epyc-9554p-b2078311",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f54"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3112799.jpg",
+  "name": "Amd Epyc Genoa 9004 9454 48core 3.8GHz [100-000000478]",
+  "MPN": "100-000000478",
+  "Manufacturer": "Amd",
+  "Model": "9454",
+  "Socket": "SP5",
+  "CoreFamily": "AMD EPYC",
+  "CoreCount": "48",
+  "CoreClock": "2.75",
+  "Threads": "96",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-epyc-genoa-b2059484",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f5a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2732744.jpg",
+  "name": "Amd Ryzen 3 3100 3,6 AM4 BOX con dissipatore Wraith Stealth [100-100000284BOX]",
+  "MPN": "100-100000284BOX",
+  "Manufacturer": "Amd",
+  "Model": "3100",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 3 3rd Gen",
+  "CoreCount": "4",
+  "CoreClock": "3.6",
+  "Threads": "4",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/amd-ryzen-3-3100-b1678724",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f60"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2589526.jpg",
+  "name": "Amd Ryzen 3 3200G / Ryzen / LGA AM4 / max. 4,0GHz / 4C/4T / 6MB / 65W TDP / RX Vega 8 / BOX [YD3200C5FHBOX]",
+  "MPN": "YD3200C5FHBOX",
+  "Manufacturer": "Amd",
+  "Model": "3200G",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 3",
+  "CoreCount": "4",
+  "CoreClock": "3.6",
+  "Threads": "4",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-3-b1533948",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f66"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3026438.jpg",
+  "name": "Amd Ryzen 3 4100 4.0Ghz 4-core 6MB 65W AM4 con dissipatore Wraith Stealth [100-100000510BOX]",
+  "MPN": "100-100000510BOX",
+  "Manufacturer": "Amd",
+  "Model": "4100",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen? 3",
+  "CoreCount": "4",
+  "CoreClock": "3.8",
+  "Threads": "8",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-3-b1973006",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f6c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3076537.jpg",
+  "name": "Amd Ryzen 3 4300G AM4 (4.100GHz) Box [100-100000144BOX]",
+  "MPN": "100-100000144BOX",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "AM4",
+  "CoreFamily": "Ryzen 3 PRO",
+  "CoreCount": "4",
+  "CoreClock": "3.8",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-3-b2023219",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f72"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2590433.jpg",
+  "name": "Amd Ryzen 5 3400G 3,7GH AM4 YD3400C5FHBOX [CPAMDZY50003400]",
+  "MPN": "YD3400C5FHBOX",
+  "Manufacturer": "Amd",
+  "Model": "3400G",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen 5",
+  "CoreCount": "4",
+  "CoreClock": "3.7",
+  "Threads": "8",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1534855",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f78"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3003242.jpg",
+  "name": "Amd Ryzen 5 3500 Box 3500 Spire Cooler 6 Thread-6 Core [100-000000050BOX]",
+  "MPN": "100-000000050BOX",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1949793",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f7e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2756728.jpg",
+  "name": "Amd Ryzen 5 3500X Box AM4 (3,600GHz) with Wraith Stealth cooler [100-100000158BOX]",
+  "MPN": "100-100000158BOX",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1702709",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f84"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2589527.jpg",
+  "name": "Amd Ryzen 5 3600 / LGA AM4 / max. 4,2GHz Box con dissipatore [100-100000031BOX]",
+  "MPN": "100-100000031BOX",
+  "Manufacturer": "Amd",
+  "Model": "Ryzen 5 7600x",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 5",
+  "CoreCount": "6",
+  "CoreClock": "3.6",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1533949",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f8a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3026439.jpg",
+  "name": "Amd Ryzen 5 4500 Renoir 3.6GHz 6-core 11MB 65W AM4 con dissipatore Wraith Stealth [100-100000644BOX]",
+  "MPN": "100-100000644BOX",
+  "Manufacturer": "Amd",
+  "Model": "4500",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "3.6",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1973007",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f90"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3026440.jpg",
+  "name": "Amd Ryzen 5 4600G Box AM4 (3.700GHz) [100-100000147BOX]",
+  "MPN": "100-100000147BOX",
+  "Manufacturer": "Amd",
+  "Model": "4600G",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "3.7",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1973008",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f96"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3019706.jpg",
+  "name": "Amd Ryzen 5 5500 Box AM4 (3.600GHz) [100-100000457BOX]",
+  "MPN": "100-100000457BOX",
+  "Manufacturer": "Amd",
+  "Model": "5500",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "3.6",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1966266",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3f9c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3213474.jpg",
+  "name": "Amd Ryzen 5 5500GT AM4 3.6GHz 16MB L3 Box",
+  "MPN": "5-5500GT",
+  "Model": "5500GT",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "3.6",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b2160223",
+  "Manufacturer": "Amd",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fa2"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3212978.jpg",
+  "name": "Amd Ryzen 5 5500GT AM4 Zen3 6-core 3.6GHz 16MB L3 Box con dissipatore [100-100001489BOX]",
+  "MPN": "100-100001489BOX",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b2159727",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fa8"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3019315.jpg",
+  "name": "Amd Ryzen 5 5600 3.5GHz 32Mb L3 Box [100-100000927BOX]",
+  "MPN": "100-100000927BOX",
+  "Manufacturer": "Amd",
+  "Model": "5600",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "3.5",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1965875",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fae"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3215563.jpg",
+  "name": "Amd Ryzen 5 5600 AM4 3.5GHz 32MB L3 Box [100-000000927]",
+  "MPN": "100-000000927",
+  "Manufacturer": "Amd",
+  "Model": "5600",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "3.5",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b2162312",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fb4"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2937181.jpg",
+  "name": "Amd Ryzen 5 5600G 3.9GHz (Cezanne) Presa AM4 - con dispositivo di raffreddamento Wraith Stealth [100-100000252BOX]",
+  "MPN": "100000252BOX",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 5",
+  "CoreCount": "6",
+  "CoreClock": "3.9",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1883670",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fba"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3213475.jpg",
+  "name": "Amd Ryzen 5 5600GT AM4 3.6GHz 16MB L3 Box",
+  "MPN": "5-5600GT",
+  "Manufacturer": "Amd",
+  "Model": "5600GT",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "3.6",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b2160224",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fc0"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3212979.jpg",
+  "name": "Amd Ryzen 5 5600GT AM4 Zen3 6-core 3.6GHz 16MB L3 Box con dissipatore [100-100001488BOX]",
+  "MPN": "100-100001488BOX",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b2159728",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fc6"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2764159.jpg",
+  "name": "Amd Ryzen 5 5600X Box [100-100000065BOX]",
+  "MPN": "100-100000065BOX",
+  "Manufacturer": "Amd",
+  "Model": "5600X",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 5",
+  "CoreCount": "6",
+  "CoreClock": "3.7",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b1710140",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fcc"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3102539.jpg",
+  "name": "Amd Ryzen 5 7600 3.8GHz 32Mb [100-100001015BOX]",
+  "MPN": "100-100001015BOX",
+  "Manufacturer": "Amd",
+  "Model": "7600",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "3.8",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/amd-ryzen-5-7600-b2049224",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fd2"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3105514.jpg",
+  "name": "Amd Ryzen 5 7600 AM5 [CPAMDZY50007600]",
+  "MPN": "CPAMDZY50007600",
+  "Manufacturer": "AMD",
+  "Model": "7600",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "3.8",
+  "Threads": "12",
+  "detail": "",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fd8"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3243701.jpg",
+  "name": "Amd Ryzen 5 8400F AM5 Box [100-100001591BOX]",
+  "MPN": "100-100001591BOX",
+  "Manufacturer": "Amd",
+  "Model": "8400F",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 5",
+  "CoreCount": "6",
+  "CoreClock": "4.2",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b2190457",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fde"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3212980.jpg",
+  "name": "Amd Ryzen 5 8500G AM5 Zen4 6-core 3.5GHz 16MB L3 Box con dissipatore [100-100000931BOX]",
+  "MPN": "100-100000931BOX",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b2159729",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fe4"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3212981.jpg",
+  "name": "Amd Ryzen 5 8600G AM5 Zen4 6-core 4.3GHz 16MB L3 Box con dissipatore [100-100001237BOX]",
+  "MPN": "100-100001237BOX",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-5-b2159730",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3fea"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2589968.jpg",
+  "name": "Amd Ryzen 7 3700X AM4 box con dissipatore [100-100000071BOX]",
+  "MPN": "100-100000071BOX",
+  "Manufacturer": "Amd",
+  "Model": "3700X",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 7",
+  "CoreCount": "8",
+  "CoreClock": "3.6",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b1534390",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3ff0"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2753370.jpg",
+  "name": "Amd Ryzen 7 3700X processor 3.6 GHz 32 MB L3 [100-000000071]",
+  "MPN": "100-000000071",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b1699350",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c35a8d4bf44029c3ff6"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3213743.jpg",
+  "name": "Amd Ryzen 7 5700 AM4 3.7GHz 16MB L3 Box Nero [100-100000743BOX]",
+  "MPN": "100-100000743BOX",
+  "Manufacturer": "Amd",
+  "Model": "5700",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 7",
+  "CoreCount": "8",
+  "CoreClock": "3.7",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b2160492",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c3ffc"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3213606.jpg",
+  "name": "Amd Ryzen 7 5700 AM4 4.6GGHz 20MB Box [CPAMDZY70005700]",
+  "MPN": "CPAMDZY70005700",
+  "Manufacturer": "Amd",
+  "Model": "100-100000743",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen™ 5",
+  "CoreCount": "8",
+  "CoreClock": "3.7",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b2160355",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4002"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2935257.jpg",
+  "name": "Amd Ryzen 7 5700G 3200MHz",
+  "MPN": "100-100000263BOX",
+  "Manufacturer": "Amd",
+  "Model": "Ryzen 7 5700G",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen 7",
+  "CoreCount": "8",
+  "CoreClock": "3.8",
+  "Threads": "16",
+  "TDP": "65",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b1881745",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4008"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3019316.jpg",
+  "name": "Amd Ryzen 7 5700X 3.4GHz 32Mb L3 Box [100-100000926WOF]",
+  "MPN": "100-100000926WOF",
+  "Manufacturer": "Amd",
+  "Model": "5700X",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen? 7",
+  "CoreCount": "8",
+  "CoreClock": "3.4",
+  "Threads": "16",
+  "TDP": "65",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b1965876",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c400e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3212982.jpg",
+  "name": "Amd Ryzen 7 5700X3D AM4 Zen3 8-core 3.0GHz 96MB L3 WOF Box senza dissipatore [100-100001503WOF]",
+  "MPN": "100-100001503WOF",
+  "Manufacturer": "Amd",
+  "Model": "5700X3D",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen™ 7",
+  "CoreCount": "8",
+  "CoreClock": "3",
+  "Threads": "16",
+  "TDP": "105",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b2159731",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4014"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2764094.jpg",
+  "name": "Amd Ryzen 7 5800X BOX AM4 4.7GHz WOF 100-100000063WOFX [100-100000063WOF]",
+  "MPN": "100-100000063WOF",
+  "Manufacturer": "Amd",
+  "Model": "5800X",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 7",
+  "CoreCount": "8",
+  "CoreClock": "3.8",
+  "TDP": "105",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b1710075",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c401a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3102540.jpg",
+  "name": "Amd Ryzen 7 7700 3.8GHz 32Mb [100-100000592BOX]",
+  "MPN": "100-100000592BOX",
+  "Manufacturer": "Amd",
+  "Model": "7700",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 7",
+  "CoreCount": "8",
+  "CoreClock": "3.8",
+  "TDP": "65",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/amd-ryzen-7-7700-b2049225",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4020"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3074206.jpg",
+  "name": "Amd Ryzen 7 7700X 4,5GHz AM5 100-100000591WOF [100-100000591WOF]",
+  "MPN": "100-100000591WOF",
+  "Manufacturer": "Amd",
+  "Model": "7700X",
+  "Socket": "AM5",
+  "CoreFamily": "",
+  "CoreCount": "8",
+  "CoreClock": "4.5",
+  "Threads": "16",
+  "TDP": "105",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/amd-ryzen-7-7700x-b2018843",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c402a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3212697.jpg",
+  "name": "Amd Ryzen 7 7800X3D AM5 4.2GHz 96MB L3 [100-000000910]",
+  "MPN": "100-000000910",
+  "Manufacturer": "Amd",
+  "Model": "7800X3D",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 7",
+  "CoreCount": "8",
+  "CoreClock": "4.2",
+  "Threads": "16",
+  "TDP": "120",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b2159446",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4030"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3243999.jpg",
+  "name": "Amd Ryzen 7 8700F AM5 4.1GHz 16MB L3 Box [100-100001590BOX]",
+  "MPN": "100-100001590BOX",
+  "Manufacturer": "Amd",
+  "Model": "8700F",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 7",
+  "CoreCount": "8",
+  "CoreClock": "4.1",
+  "Threads": "16",
+  "TDP": "65",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b2190755",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4036"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3212983.jpg",
+  "name": "Amd Ryzen 7 8700G AM5 8-core 4.2GHz 16MB L3 Box con dissipatore [100-100001236BOX]",
+  "MPN": "100-100001236BOX",
+  "Manufacturer": "Amd",
+  "Model": "8700G",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen™ 7",
+  "CoreCount": "8",
+  "CoreClock": "4.2",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-7-b2159732",
+  "TDP": "65",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c403c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3101587.jpg",
+  "name": "Amd Ryzen 75700G 3.8GHz/AM4/L3/16MB [100-000000263]",
+  "MPN": "100-000000263",
+  "Manufacturer": "Amd",
+  "Model": "5700G",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen™ 7",
+  "CoreCount": "8",
+  "CoreClock": "3.8",
+  "Threads": "16",
+  "TDP": "65",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-75700g-b2048272",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4042"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3201236.jpg",
+  "name": "Amd Ryzen 75800X sTR5 4.7GHz Box [100-100001351WOF]",
+  "MPN": "100-100001351WOF",
+  "Manufacturer": "AMD",
+  "Model": "7970X",
+  "Socket": "STR5",
+  "CoreFamily": "AMD Ryzen? Threadripper?",
+  "CoreCount": "32",
+  "CoreClock": "4",
+  "Threads": "64",
+  "TDP": "350",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-75800x-b2147977",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4048"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3068506.jpg",
+  "name": "Amd Ryzen 9 3900 3.1GHz 64MB L3 TRAY [100-000000070A]",
+  "MPN": "100-000000070A",
+  "Manufacturer": "Amd",
+  "Model": "",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Threads": "",
+  "detail": "",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c404e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2764092.jpg",
+  "name": "Amd Ryzen 9 5900X 4.80 GHz AM4 BOX 100-100000061WOF Box senza dissipatore [100-100000061WOF]",
+  "MPN": "100-100000061WOF",
+  "Manufacturer": "Amd",
+  "Model": "5900X",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 9",
+  "CoreCount": "12",
+  "CoreClock": "3.7",
+  "Threads": "24",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-9-b1710073",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4054"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2764093.jpg",
+  "name": "Amd Ryzen 9 5950X Box AM4 (4,900 GHz) WOF [100-100000059WOF]",
+  "MPN": "100-100000059WOF",
+  "Manufacturer": "Amd",
+  "Model": "5950X",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen 9",
+  "CoreCount": "16",
+  "CoreClock": "3.4",
+  "Threads": "32",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-9-b1710074",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c405a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3102541.jpg",
+  "name": "Amd Ryzen 9 7900 4000 AM5 WOF Wraith Prism RGB Cooler [100-100000590BOX]",
+  "MPN": "100-100000590BOX",
+  "Manufacturer": "Amd",
+  "Model": "7900",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 9",
+  "CoreCount": "12",
+  "CoreClock": "3.7",
+  "Threads": "24",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/amd-ryzen-9-7900-b2049226",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4060"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3108866.jpg",
+  "name": "Amd Ryzen 9 7900 Box 3.7GHz Nero [CPAMDZY90007900]",
+  "MPN": "CPAMDZY90007900",
+  "Manufacturer": "AMD",
+  "Model": "7900",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 9",
+  "CoreCount": "12",
+  "CoreClock": "3.7",
+  "Threads": "24",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-9-b2055551",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4066"
+  },
+  "imgurl": null,
+  "name": "Amd Ryzen 9 7900X 4,7GHz AM5 100-100000589WOF [100-100000589WOF]",
+  "MPN": "100-100000589WOF",
+  "Manufacturer": "Amd",
+  "Model": "7900X",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen™ 9",
+  "CoreCount": "12",
+  "CoreClock": "4.7",
+  "Threads": "24",
+  "detail": "https://azerty.nl/product/amd-ryzen-9-7900x-processor/4969552",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c406c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3117330.jpg",
+  "name": "Amd Ryzen 9 7900X3D 4.4GHz/5.6GHz AM5 [100-100000909WOF]",
+  "MPN": "100-100000909WOF",
+  "Manufacturer": "Amd",
+  "Model": "7900X3D",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen™ 9",
+  "CoreCount": "12",
+  "CoreClock": "4.4",
+  "Threads": "24",
+  "detail": "https://azerty.nl/product/amd-ryzen-9-7900x3d-processor/5257930",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4072"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3072163.jpg",
+  "name": "Amd Ryzen 9 7950X 4,5GHz AM5 100-100000514WOF [100-100000514WOF]",
+  "MPN": "100-100000514WOF",
+  "Manufacturer": "Amd",
+  "Model": "7950X",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen™ 9",
+  "CoreCount": "16",
+  "CoreClock": "4.5",
+  "TDP": "170",
+  "Threads": "32",
+  "detail": "https://azerty.nl/product/amd-ryzen-9-7950x-processor/4969551",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4078"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3129247.jpg",
+  "name": "Amd Ryzen 9 7950X3D 5.7ghz am5 Arancione [100-100000908WOF]",
+  "MPN": "100-100000908WOF",
+  "Manufacturer": "Amd",
+  "Model": "7950X3D",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen™ 9",
+  "CoreCount": "16",
+  "CoreClock": "4.2",
+  "Threads": "32",
+  "detail": "https://azerty.nl/product/amd-ryzen-9-7950x3d-processor/5257861",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c407e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3215565.jpg",
+  "name": "Amd Ryzen AM5 7 7700 3.8GHz 32MB L3 Box [100-000000592]",
+  "MPN": "100-000000592",
+  "Manufacturer": "Amd",
+  "Model": "7700",
+  "Socket": "AM5",
+  "CoreFamily": "AMD Ryzen? 7",
+  "CoreCount": "8",
+  "CoreClock": "3.8",
+  "Threads": "16",
+  "TDP": "65",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-am5-b2162314",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4084"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3057516.jpg",
+  "name": "Amd Ryzen Processore Threadripper PRO 5965WX 2,7 GHz 256 MB L3 Scatola [100-100000446WOF]",
+  "MPN": "100-100000446WOF",
+  "Manufacturer": "Amd",
+  "Model": "5995WX",
+  "Socket": "",
+  "CoreFamily": "AMD Ryzen Threadripper PRO",
+  "CoreCount": "64",
+  "CoreClock": "2.7",
+  "Threads": "128",
+  "TDP": "280",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-processore-b2004193",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c408a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3197895.jpg",
+  "name": "Amd Ryzen Threadripper 7960X /4,2Ghz/128Mb [100-100001352WOF]",
+  "MPN": "100-100001352WOF",
+  "Manufacturer": "Amd",
+  "Model": "7960X",
+  "Socket": "STR5",
+  "CoreFamily": "AMD Ryzen? Threadripper?",
+  "CoreCount": "24",
+  "CoreClock": "4.2",
+  "Threads": "48",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-threadripper-b2144635",
+  "TDP": "350",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4090"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3197896.jpg",
+  "name": "Amd Ryzen Threadripper 7965WX/4.2Ghz/128 Mo [100-100000885WOF]",
+  "MPN": "100-100000885WOF",
+  "Manufacturer": "Amd",
+  "Model": "7965WX",
+  "Socket": "STR5",
+  "CoreFamily": "AMD Ryzen Threadripper PRO",
+  "CoreCount": "24",
+  "CoreClock": "4.2",
+  "Threads": "48",
+  "TDP": "350",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-threadripper-b2144636",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c4096"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3208153.jpg",
+  "name": "Amd Ryzen Threadripper 7980X 3.2GHz 256MB L3 Box",
+  "MPN": "",
+  "Manufacturer": "JONSBO",
+  "Model": "7980X",
+  "Socket": "STR5",
+  "CoreFamily": "AMD Ryzen? Threadripper?",
+  "CoreCount": "64",
+  "CoreClock": "3.2",
+  "Threads": "128",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-threadripper-b2158560",
+  "TDP": "350",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/jonsbo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c409c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3201237.jpg",
+  "name": "Amd Ryzen Threadripper 7980X sTR5 3.2GHz Box [100-100001350WOF]",
+  "MPN": "100-100001350WOF",
+  "Manufacturer": "Amd",
+  "Model": "7980X",
+  "Socket": "STR5",
+  "CoreFamily": "AMD Ryzen? Threadripper?",
+  "CoreCount": "64",
+  "CoreClock": "3.2",
+  "Threads": "128",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-threadripper-b2147978",
+  "TDP": "350",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c40a2"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3197898.jpg",
+  "name": "Amd Ryzen Threadripper 7985WX/3.2GHz/321Mb [100-100000454WOF]",
+  "MPN": "100-100000454WOF",
+  "Manufacturer": "AMD",
+  "Model": "7985WX",
+  "TDP": "350",
+  "Socket": "STR5",
+  "CoreFamily": "AMD Ryzen Threadripper PRO",
+  "CoreCount": "64",
+  "CoreClock": "3.2",
+  "Threads": "128",
+  "detail": "https://azerty.nl/product/amd-ryzen-threadripper-pro-7985wx-processor-3-2-ghz-5-1-ghz/6297459",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c40a8"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3098437.jpg",
+  "name": "Amd Ryzen Threadripper Pro 5955WX 4.0Ghz Base sWRX8.7nm- vassoio [100-000000447]",
+  "MPN": "100-000000447",
+  "Manufacturer": "Amd",
+  "Model": "5955WX",
+  "Socket": "SWRX8",
+  "CoreFamily": "AMD Ryzen Threadripper PRO",
+  "CoreCount": "16",
+  "CoreClock": "4",
+  "Threads": "32",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-threadripper-b2045122",
+  "TDP": "280",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c40ae"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3069278.jpg",
+  "name": "Amd Ryzen Threadripper PRO 5955WX 4GHz 64MB L3 Box [100-100000447WOF]",
+  "MPN": "100-100000447WOF",
+  "Manufacturer": "Amd",
+  "Model": "5955WX",
+  "Socket": "SWRX8",
+  "CoreFamily": "AMD® Ryzen™ Threadripper",
+  "CoreCount": "16",
+  "CoreClock": "4",
+  "Threads": "32",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-amd-ryzen-threadripper-b2015960",
+  "TDP": "280",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c40b4"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3053533.jpg",
+  "name": "Amd Ryzen Threadripper Pro 5975WX 3.6GHz 128MB [100-100000445WOF]",
+  "MPN": "100-100000445WOF",
+  "Manufacturer": "Amd",
+  "Model": "5975WX",
+  "Socket": "SWRX8",
+  "CoreFamily": "AMD Ryzen Threadripper PRO",
+  "CoreCount": "32",
+  "CoreClock": "3.6",
+  "Threads": "64",
+  "TDP": "280",
+  "detail": "https://azerty.nl/product/amd-ryzen-threadripper-pro-5975wx-processor/4757208",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c40ba"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3059983.jpg",
+  "name": "Amd Ryzen Threadripper PRO 5995WX 2700 sWRX80 WOF [100-100000444WOF]",
+  "MPN": "100-100000444WOF",
+  "Manufacturer": "Amd",
+  "Model": "5995WX",
+  "Socket": "SWRX8",
+  "CoreFamily": "AMD Ryzen Threadripper PRO",
+  "CoreCount": "64",
+  "CoreClock": "2.7",
+  "Threads": "128",
+  "detail": "https://azerty.nl/product/amd-ryzen-threadripper-pro-5995wx-processor/4757207",
+  "TDP": "280",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c40c0"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3024103.jpg",
+  "name": "Amd Ryzen7 5800X3D [100-100000651WOF]",
+  "MPN": "100-100000651WOF",
+  "Manufacturer": "Amd",
+  "Socket": "AM4",
+  "CoreFamily": "AMD Ryzen™ 7",
+  "CoreCount": "8",
+  "CoreClock": "3.4",
+  "Model": "5800X3D",
+  "Threads": "16",
+  "detail": "https://azerty.nl/product/amd-ryzen-7-5800x3d-processor/4696564",
+  "TDP": "45",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c40c6"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2735808.jpg",
+  "name": "Hp ML350 GEN10 4208 3.2GHz [P10938-B21]",
+  "MPN": "P10938-B21",
+  "Manufacturer": "Hp",
+  "Model": "4208",
+  "Socket": "LGA3647",
+  "CoreFamily": "Intel® Xeon® Silver",
+  "CoreCount": "8",
+  "CoreClock": "2.1",
+  "Threads": "16",
+  "detail": "https://azerty.nl/product/intel-xeon-silver-4208-2-1-ghz/3906111",
+  "TDP": "85",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/hp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c36a8d4bf44029c40cc"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2988326.jpg",
+  "name": "Intel 12TH Gen Core I3-12100 3.30GHZ LGA1700 12MB CACHE BOXED [BX8071512100]",
+  "MPN": "BX8071512100",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i3",
+  "CoreCount": "4",
+  "CoreClock": "3.3",
+  "Model": "i3-12100",
+  "Threads": "8",
+  "detail": "https://azerty.nl/product/intel-core-i3-12100-processor-3-3-ghz-4-3-ghz/4652097",
+  "TDP": "60",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c40d2"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3206278.jpg",
+  "name": "Intel 300 3 9 GHz 2.5 MB LGA1700 [BX80715300]",
+  "MPN": "BX80715300",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "",
+  "CoreCount": "2",
+  "CoreClock": "3.5",
+  "Model": "",
+  "Threads": "",
+  "detail": "",
+  "TDP": "",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c40d8"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3205969.jpg",
+  "name": "Intel Box Core i3-14100 4.7Ghz 12MB LGA 1700 Raptor Lake-S [BX8071514100]",
+  "MPN": "BX8071514100",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i3",
+  "CoreCount": "4",
+  "CoreClock": "3.4",
+  "Model": "i3-13100F",
+  "Threads": "8",
+  "detail": "https://azerty.nl/product/intel-core-i3-13100f-processor/5071540",
+  "TDP": "58",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c40de"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3205970.jpg",
+  "name": "Intel Box Core i3-14100F 4.7Ghz 12MB LGA 1700 Raptor Lake-S [BX8071514100F]",
+  "MPN": "BX8071514100F",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i3",
+  "CoreCount": "4",
+  "CoreClock": "3.4",
+  "Model": "i3-13100F",
+  "Threads": "8",
+  "detail": "https://azerty.nl/product/intel-core-i3-13100f-processor/5071540",
+  "TDP": "58",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c40e4"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2966740.jpg",
+  "name": "Intel Box Core i5 5-12600KF 3,70Ghz 20M Alder Lake-S [BX8071512600KF]",
+  "MPN": "BX8071512600KF",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i5",
+  "CoreCount": "10",
+  "CoreClock": "3.7",
+  "Model": "i5-12600KF",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-box-core-b1913265",
+  "TDP": "125",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c40ea"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2737064.jpg",
+  "name": "Intel Box Core i5 i5-10400F 2,90Ghz 12M Comet Lake [BX8070110400F]",
+  "MPN": "BX8070110400F",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1200",
+  "CoreFamily": "10th Gen Intel® Core™ i5",
+  "CoreCount": "6",
+  "CoreClock": "2.9",
+  "Model": "i5-10400F",
+  "Threads": "12",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-box-core-b1683044",
+  "TDP": "65",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c40f0"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2965643.jpg",
+  "name": "Intel Box Core i5 Processor i5-12600K 3,70Ghz 20M Alder Lake-S [BX8071512600K]",
+  "MPN": "BX8071512600K",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel Core i5-12xxx",
+  "CoreCount": "10",
+  "CoreClock": "3.7",
+  "Model": "i5-12600K",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-box-core-b1912168",
+  "TDP": "125",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c40f6"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3205971.jpg",
+  "name": "Intel Box Core i5-14400 4.7Ghz 20MB LGA 1700 Raptor Lake-S [BX8071514400]",
+  "MPN": "BX8071514400",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i5",
+  "CoreCount": "10",
+  "CoreClock": "2.5",
+  "Model": "i5-14400",
+  "Threads": "16",
+  "detail": "https://azerty.nl/product/intel-core-i5-14400-processor-2-5-ghz-4-7-ghz/6677767",
+  "TDP": "65",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c40fc"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3205972.jpg",
+  "name": "Intel Box Core i5-14400F 4.7Ghz 20MB LGA 1700 Raptor Lake-S [BX8071514400F]",
+  "MPN": "BX8071514400F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4102"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3205973.jpg",
+  "name": "Intel Box Core i5-14500 5.0Ghz 24MB LGA 1700 Raptor Lake-S [BX8071514500]",
+  "MPN": "BX8071514500",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i5",
+  "CoreCount": "14",
+  "CoreClock": "",
+  "Model": "i5-14500",
+  "Threads": "20",
+  "detail": "",
+  "TDP": "",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4108"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2965645.jpg",
+  "name": "Intel Box Core i7 i7-12700KF 3,60Ghz 25M Alder Lake-S [BX8071512700KF]",
+  "MPN": "BX8071512700KF",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel Core i7-12xxx",
+  "CoreCount": "12",
+  "CoreClock": "5",
+  "Model": "i7-12700KF",
+  "Threads": "20",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/intel-box-core-i7-b1912170",
+  "TDP": "125",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c410e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2965644.jpg",
+  "name": "Intel Box Core i7 Processor i7-12700K 3,60Ghz 25M Alder Lake-S [BX8071512700K]",
+  "MPN": "BX8071512700K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4114"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3205974.jpg",
+  "name": "Intel Box Core i7-14700F 5.4Ghz 33MB LGA 1700 Raptor Lake-S [BX8071514700F]",
+  "MPN": "BX8071514700F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c411a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855402.jpg",
+  "name": "Intel Box Core i9 i9-11900 2,50Ghz 16M 11th Gen Rocket Lake-S [BX8070811900]",
+  "MPN": "BX8070811900",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4120"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855403.jpg",
+  "name": "Intel Box Core i9 i9-11900F 2,50Ghz 16M 11th Gen Rocket Lake-S [BX8070811900F]",
+  "MPN": "BX8070811900F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4126"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2965646.jpg",
+  "name": "Intel Box Core i9 Processor i9-12900K 3,20Ghz 30M Alder Lake-S [BX8071512900K]",
+  "MPN": "BX8071512900K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c412c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3205975.jpg",
+  "name": "Intel Box Core i9-14900F 5.8Ghz 36MB LGA 1700 Raptor Lake-S [BX8071514900F]",
+  "MPN": "BX8071514900F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4132"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2850587.jpg",
+  "name": "Intel Box Pentium Gold Dual-Core G6405 Comet Lake-S [BX80701G6405]",
+  "MPN": "BX80701G6405",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4138"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2760762.jpg",
+  "name": "Intel Box Pentium Gold Dual-Core G6500 4.1Ghz [BX80701G6500]",
+  "MPN": "BX80701G6500",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c413e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2760763.jpg",
+  "name": "Intel Box Pentium Gold Dual-Core G6600 4,2 Ghz 4 MB Comet Lake [BX80701G6600]",
+  "MPN": "BX80701G6600",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4144"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2747144.jpg",
+  "name": "Intel Box Pentium Gold Dual-Core Processor G6400 4,0 Ghz 4M Comet Lake [BX80701G6400]",
+  "MPN": "BX80701G6400",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c414a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/1223583.jpg",
+  "name": "CPU Intel Celeron 6900 3,4 GHz 1170 box [BX80715G6900]",
+  "MPN": "BX80715G6900",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4150"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2761639.jpg",
+  "name": "Intel Core i3 10100F 3.6GHz 1200 Box [BX8070110100F]",
+  "MPN": "BX8070110100F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4156"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2854627.jpg",
+  "name": "Intel Core i3 10105F 3.7GHz 6Mb 1200 Box [BX8070110105F]",
+  "MPN": "BX8070110105F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c415c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2732195.jpg",
+  "name": "Intel Core i3 10300 Box Socket 1200 [BX8070110300]",
+  "MPN": "BX8070110300",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4166"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2738216.jpg",
+  "name": "Intel Core i3-10100 / Comet Lake / 10th / LGA1200 / max. 4,3GHz / 4C/8T / 6MB / 65W TDP / BOX [BX8070110100]",
+  "MPN": "BX8070110100",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c416c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2859806.jpg",
+  "name": "Intel Core i3-10105 3.7Ghz 6 MB Box [BX8070110105]",
+  "MPN": "BX8070110105",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4172"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2926096.jpg",
+  "name": "Intel core i3-10105 3.7GHz [CPINLZ310105000]",
+  "MPN": "CPINLZ310105000",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c417c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3015557.jpg",
+  "name": "Intel core i3-10305 3800 3.7GHz 6MB smart cache [BX8070110305]",
+  "MPN": "BX8070110305",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4182"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2988570.jpg",
+  "name": "Intel Core i3-12100F 3300 1700 [BX8071512100F]",
+  "MPN": "BX8071512100F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4188"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2732196.jpg",
+  "name": "Intel Core i5 10500 Box Socket 1200 [BX8070110500]",
+  "MPN": "BX8070110500",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c418e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2747260.jpg",
+  "name": "Intel Core i5 10600K 4.1GHz 12MB 1200 Box [BX8070110600K]",
+  "MPN": "BX8070110600K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c4194"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2874723.jpg",
+  "name": "Intel Core i5 11600 2.8GHz 12Mb 1200 Box [BX8070811600]",
+  "MPN": "BX8070811600",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c419a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2735793.jpg",
+  "name": "Intel Core i5 Processor i5-10400 2,90Ghz 12M Comet Lake [BX8070110400]",
+  "MPN": "BX8070110400",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c41a0"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3080193.jpg",
+  "name": "Intel Core i5 Processore i5-13600K 3.50Ghz LGA1700 24M Raptor Lake Box [BX8071513600K]",
+  "MPN": "BX8071513600K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c41a6"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3080194.jpg",
+  "name": "Intel Core i5 Processore i5-13600KF 3.50Ghz LGA1700 24M Raptor Lake Box [BX8071513600KF]",
+  "MPN": "BX8071513600KF",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c41ac"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2759608.jpg",
+  "name": "Intel Core I5-10600KF 4.1 GHz Box 12 MB Smart Cache [BX8070110600KF]",
+  "MPN": "BX8070110600KF",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c41b2"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855206.jpg",
+  "name": "Intel Core i5-11400 2600 1200 11th Gen box [BX8070811400]",
+  "MPN": "BX8070811400",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c41b8"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855207.jpg",
+  "name": "Intel Core i5-11400F 2600 1200 11th Gen box [BX8070811400F]",
+  "MPN": "BX8070811400F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c41be"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855208.jpg",
+  "name": "Intel Core i5-11500 2700 1200 11th Gen box [BX8070811500]",
+  "MPN": "BX8070811500",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c41c4"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855209.jpg",
+  "name": "Intel Core i5-11600K  3900 1200 11th Gen box [BX8070811600K]",
+  "MPN": "BX8070811600K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c41ca"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855210.jpg",
+  "name": "Intel Core i5-11600KF 3900 1200 11th Gen box [BX8070811600KF]",
+  "MPN": "BX8070811600KF",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c37a8d4bf44029c41d0"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2988308.jpg",
+  "name": "Intel Core i5-12400 18M Cache 4.40GHz 1700 [BX8071512400]",
+  "MPN": "BX8071512400",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c41da"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2988309.jpg",
+  "name": "Intel Core i5-12500 18M Cache 4.60GHz 1700 [BX8071512500 99ATJA]",
+  "MPN": "BX8071512500 99ATJA",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c41e0"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2988571.jpg",
+  "name": "Intel Core i5-12600 3300 1700 [BX8071512600]",
+  "MPN": "BX8071512600",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c41e6"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3165230.jpg",
+  "name": "Intel Core i5-13500 2.5GHZ LGA 1700 TRAY [CM8071505093101]",
+  "MPN": "CM8071505093101",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c41ec"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3228260.jpg",
+  "name": "Intel Core i5-13600KF 3.50Ghz 24M Raptor Lake TRAY [CM8071504821006]",
+  "MPN": "CM8071504821006",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c41f6"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3187395.jpg",
+  "name": "Intel Core i5-14600K 3.5GHz/5.3GHz LGA1700 Box [BX8071514600K]",
+  "MPN": "BX8071514600K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c41fc"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3228258.jpg",
+  "name": "Intel Core i5-14600KF 3.50Ghz 24M Raptor Lake-S Refresh TRAY [CM8071504821014]",
+  "MPN": "CM8071504821014",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4206"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3187396.jpg",
+  "name": "Intel Core i5-14600KF 3.5GHz/5.3GHz LGA1700 Box [BX8071514600KF]",
+  "MPN": "BX8071514600KF",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c420c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3112682.jpg",
+  "name": "Intel Core i7 12700F 2.1GHz 25MB 1700 Box [BX8071512700F]",
+  "MPN": "BX8071512700F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4212"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2735794.jpg",
+  "name": "Intel Core i7 Processor i7-10700K 3,80Ghz 16M Comet Lake Box [BX8070110700K]",
+  "MPN": "BX8070110700K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4218"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3080195.jpg",
+  "name": "Intel Core i7 Processor i7-13700K 3.40Ghz LGA1700 30M Raptor Lake Box [BX8071513700K]",
+  "MPN": "BX8071513700K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c421e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3080196.jpg",
+  "name": "Intel Core i7 Processore i7-13700KF 3.40Ghz LGA1700 30M Raptor Lake Box [BX8071513700KF]",
+  "MPN": "BX8071513700KF",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4224"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2749243.jpg",
+  "name": "Intel Core i7-10700KF 3,80 Ghz (Comet Lake) Sockel 1200 - boxed",
+  "MPN": "BX8070110700KF",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c422a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855211.jpg",
+  "name": "Intel Core i7-11700   2500 1200 11th Gen box [BX8070811700]",
+  "MPN": "BX8070811700",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4230"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2961436.jpg",
+  "name": "Intel Core i7-11700 2.50Ghz 16 MB [CM8070804491214]",
+  "MPN": "CM8070804491214",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4236"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855679.jpg",
+  "name": "Intel Core i7-11700K 1200 11th Gen BX8070811700K BOX",
+  "MPN": "BX8070811700K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c423c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2855213.jpg",
+  "name": "Intel Core i7-11700KF 3600 1200 11th Gen box [BX8070811700KF]",
+  "MPN": "BX8070811700KF",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4242"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/1746524.jpg",
+  "name": "Intel Core i7-12700 2,10ghz 1700 [BX8071512700]",
+  "MPN": "BX8071512700",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c424c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3228259.jpg",
+  "name": "Intel Core i7-13700KF 3.40Ghz 30M Raptor Lake TRAY [CM8071504820706]",
+  "MPN": "CM8071504820706",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4252"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3205879.jpg",
+  "name": "Intel Core i7-14700 2.10GHz/LGA 1700 Box [BX8071514700]",
+  "MPN": "BX8071514700",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c425c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3187397.jpg",
+  "name": "Intel Core i7-14700K 3.4GHz/5.6GHz LGA1700 Box [BX8071514700K]",
+  "MPN": "BX8071514700K",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4262"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3228261.jpg",
+  "name": "Intel Core i7-14700KF 3.40GHz 33M Raptor Lake-S Refresh TRAY [CM8071504820722]",
+  "MPN": "CM8071504820722",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c426c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3187398.jpg",
+  "name": "Intel Core i7-14700KF 3.4GHz/5.6GHz LGA1700 Box [BX8071514700KF]",
+  "MPN": "BX8071514700KF",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4272"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2751591.jpg",
+  "name": "Intel Core i9 10900KF 3.7GHz 20M 1200 no fan Box [BX8070110900KF]",
+  "MPN": "BX8070110900KF",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4278"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2720893.jpg",
+  "name": "Intel Core i9 10920X 3.5GHz 19.25MB 2066 Box [BX8069510920X]",
+  "MPN": "BX8069510920X",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c427e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2859697.jpg",
+  "name": "Intel Core i9 11900K 3.5GHz 16Mb 11th gen  1200 Box [BX8070811900K]",
+  "MPN": "BX8070811900K",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1200",
+  "CoreFamily": "Intel Core i9-11xxx",
+  "CoreCount": "8",
+  "CoreClock": "3.5",
+  "Model": "i9-11900K",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b1806115",
+  "TDP": "95",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4284"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2858939.jpg",
+  "name": "Intel Core i9 11900KF 3.5GHz 11th Gen 16Mb 1200 Box [BX8070811900KF]",
+  "MPN": "BX8070811900KF",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1200",
+  "CoreFamily": "Intel Core i9-11xxx",
+  "CoreCount": "8",
+  "CoreClock": "3.5",
+  "Model": "i9-11900KF",
+  "Threads": "16",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b1805357",
+  "TDP": "95",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c428a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3000775.jpg",
+  "name": "Intel Core i9 12900 2.4GHz 30MB 1700 Box [BX8071512900]",
+  "MPN": "BX8071512900",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel Core i9-12xxx",
+  "CoreCount": "16",
+  "CoreClock": "2.4",
+  "Model": "i9-12900",
+  "Threads": "24",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b1947326",
+  "TDP": "65",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4290"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2966713.jpg",
+  "name": "Intel Core i9 12900KF 3.2GHz 30MB LGA1700 10nm 125W Box [BXC8071512900KF]",
+  "MPN": "BXC8071512900KF",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "8",
+  "CoreClock": "3.2",
+  "Model": "i9-12900KF",
+  "Threads": "24",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b1944761",
+  "TDP": "125",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c4296"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3102229.jpg",
+  "name": "Intel Core i9 Processore i9 13900 2.0GHz LGA1700 36M Raptor Lake Box [BX8071513900]",
+  "MPN": "BX8071513900",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "8",
+  "CoreClock": "2",
+  "Model": "i9-13900",
+  "Threads": "32",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/intel-core-i9-13900-b2048914",
+  "TDP": "65",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c429c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3080197.jpg",
+  "name": "Intel Core i9 Processore i9-13900K 3.00Ghz LGA1700 36M Raptor Lake Box [BX8071513900K]",
+  "MPN": "BX8071513900K",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "32",
+  "CoreClock": "3",
+  "Model": "i9-13900K",
+  "Threads": "",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b2026879",
+  "TDP": "125",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c42a2"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3103633.jpg",
+  "name": "Intel Core i9 Processore i9-13900KS 3.20Ghz LGA1700 36M Raptor Lake Box [BX8071513900KS]",
+  "MPN": "BX8071513900KS",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "8",
+  "CoreClock": "3.2",
+  "Model": "i9-13900KS",
+  "Threads": "32",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b2050318",
+  "TDP": "150",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c42a8"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2751461.jpg",
+  "name": "Intel Core i9-10900F 5.2GHz [BX8070110900F]",
+  "MPN": "BX8070110900F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "Socket": "LGA1200",
+  "CoreFamily": "10th Generation Intel® Core™ i9 Processors",
+  "CoreCount": "100",
+  "CoreClock": "2.8",
+  "Model": "i9-10900F",
+  "Threads": "20",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b1697441",
+  "TDP": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c42ae"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2674374.jpg",
+  "name": "Intel Core i9-10900X, Deca Core, 3.50GHz, 19.25MB, LGA2066, 14nm, 165W, BOX [BX8069510900X]",
+  "MPN": "BX8069510900X",
+  "Manufacturer": "Intel",
+  "Socket": "LGA2066",
+  "CoreFamily": "Intel® Core? i9 X-Series",
+  "CoreCount": "10",
+  "CoreClock": "3.5",
+  "Model": "i9-10900X",
+  "Threads": "20",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b1618839",
+  "TDP": "",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c42b4"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2988573.jpg",
+  "name": "Intel Core i9-12900F 2400 1700 [BX8071512900F]",
+  "MPN": "BX8071512900F",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "12th Gen Intel® Core™ i9",
+  "CoreCount": "8",
+  "CoreClock": "2.4",
+  "Model": "i9-12900F",
+  "Threads": "24",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b1935114",
+  "TDP": "65",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c42ba"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2998211.jpg",
+  "name": "Intel Core i9-12900KF 3.20Ghz LGA 1700 [BX8071512900KF]",
+  "MPN": "BX8071512900KF",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "8",
+  "CoreClock": "3.2",
+  "Model": "i9-12900KF",
+  "Threads": "24",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b1944761",
+  "TDP": "125",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c38a8d4bf44029c42c0"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3018476.jpg",
+  "name": "Intel Core i9-12900KS 5.5GHz 30MB 1700 Box [BX8071512900KS]",
+  "MPN": "BX8071512900KS",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "16",
+  "CoreClock": "2.4",
+  "Model": "i9-12900KF",
+  "Threads": "24",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b1944761",
+  "TDP": "125",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c42c6"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3080474.jpg",
+  "name": "Intel Core i9-13900KF 5.8GHZ/36MB senza GPU [BX8071513900KF]",
+  "MPN": "BX8071513900KF",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "8",
+  "CoreClock": "2.2",
+  "Model": "i9-13900KF",
+  "Threads": "32",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b2027156",
+  "TDP": "125",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c42cc"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3205880.jpg",
+  "name": "Intel Core i9-14900 Box 5.8GHz 36MB/LGA 1700/219W [BX8071514900]",
+  "MPN": "BX8071514900",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel Core i9-14xxx",
+  "CoreCount": "24",
+  "CoreClock": "2",
+  "Model": "i9-14900",
+  "Threads": "32",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b2152627",
+  "TDP": "",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c42d6"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3187400.jpg",
+  "name": "Intel Core i9-14900KF 3.2GHz/6GHz LGA1700 Box [BX8071514900KF]",
+  "MPN": "BX8071514900KF",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "24",
+  "CoreClock": "2.4",
+  "Model": "i9-14900KF",
+  "Threads": "32",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b2134139",
+  "TDP": "",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c42dc"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3230047.jpg",
+  "name": "Intel Core i9-14900KS 3.2GHz 36MB LGA 1700 Box [BX8071514900KS]",
+  "MPN": "BX8071514900KS",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core? i9",
+  "CoreCount": "8",
+  "CoreClock": "2.4",
+  "Model": "i9-14900KS",
+  "Threads": "32",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i9-b2176801",
+  "TDP": "150",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c42e2"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3014015.jpg",
+  "name": "Intel dual core gold G7400 3.70Ghz SKTLGA1700 6.00MB [BX80715G7400]",
+  "MPN": "BX80715G7400",
+  "Manufacturer": "Intel",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Pentium® Gold",
+  "CoreCount": "2",
+  "CoreClock": "3.7",
+  "Model": "G7400",
+  "Threads": "4",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-dual-core-b1960575",
+  "TDP": "",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c42e8"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2817518.jpg",
+  "name": "Intel i2 Pentium gold G6605 per Pc desktop 4.3Ghz DDR4-SDRAM 64GB Lga 1200 [BX80701G6605]",
+  "MPN": "BX80701G6605",
+  "Socket": "LGA1200",
+  "CoreFamily": "Pentium Gold G6605",
+  "CoreCount": "2",
+  "CoreClock": "4.3",
+  "Model": "6605",
+  "Threads": "4",
+  "detail": "https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-i2-pentium-b1763920",
+  "TDP": "58",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c42ee"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3251617.jpg",
+  "name": "Kit di aggiornamento Cpu Thermal Grizzly Telaio di montaggio per Amd Ryzen 7000 V2 Nero [TG-DDF-R7000-V2]",
+  "MPN": "TG-DDF-R7000-V2",
+  "Manufacturer": "THERMAL GRIZZLY",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Model": "",
+  "Threads": "",
+  "detail": "",
+  "TDP": "",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/thermal-grizzly",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c42f4"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3039899.jpg",
+  "name": "Kit di montaggio cpu Icegiant LGA 1700 Argento/Nero [PE-240-BLA 17 MOUNT]",
+  "MPN": "PE-240-BLA 17 Mount",
+  "Manufacturer": "IceGiant",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Model": "",
+  "Threads": "",
+  "detail": "",
+  "TDP": "",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/icegiant",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c42fe"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3101239.jpg",
+  "name": "Processore Intel Box Core i3-13100 3.40Ghz 12M Raptor Lake [BX8071513100]",
+  "MPN": "BX8071513100",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "Model": "i3-13100",
+  "Threads": "8",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i3",
+  "CoreCount": "4",
+  "CoreClock": "4.5",
+  "detail": "https://azerty.nl/product/intel-core-i3-13100-processor/5071539",
+  "TDP": "60",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c4304"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3101240.jpg",
+  "name": "Processore Intel Box Core i3-13100F 3.40Ghz 12M Raptor Lake *Scatola Aperta [BX8071513100F]",
+  "MPN": "BX8071513100F",
+  "Manufacturer": "Intel",
+  "Model": "i3-13100F",
+  "Threads": "8",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i3",
+  "CoreCount": "4",
+  "CoreClock": "4.5",
+  "detail": "https://azerty.nl/product/intel-core-i3-13100f-processor/5071540",
+  "TDP": "58",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c430e"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3101241.jpg",
+  "name": "Processore Intel Box Core i5-13400 2.50Ghz 20M Raptor Lake [BX8071513400]",
+  "MPN": "BX8071513400",
+  "Manufacturer": "Intel",
+  "Model": "i5-13400",
+  "Threads": "16",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i5",
+  "CoreCount": "10",
+  "CoreClock": "2.5",
+  "detail": "https://azerty.nl/product/intel-core-i5-13400-processor/5076148",
+  "TDP": "65",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c4314"
+  },
+  "imgurl": null,
+  "name": "Processore Intel Box i5-13400F 2.50Ghz 20M Raptor Lake [BX8071513400F]",
+  "MPN": "BX8071513400F",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "Model": "i5-13400F",
+  "Threads": "16",
+  "detail": "https://azerty.nl/product/intel-core-i5-13400f-processor-2-5-ghz-4-6-ghz/5071546",
+  "TDP": "65",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i5",
+  "CoreCount": "10",
+  "CoreClock": "2.5",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c431a"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3101243.jpg",
+  "name": "Processore Intel Box i5-13500 2.50Ghz 24M Raptor Lake [BX8071513500]",
+  "MPN": "BX8071513500",
+  "Manufacturer": "Intel",
+  "Model": "i5-13500",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i5",
+  "CoreCount": "14",
+  "CoreClock": "2.5",
+  "Threads": "20",
+  "detail": "https://azerty.nl/product/intel-core-i5-13500-processor/5071547",
+  "TDP": "65",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c4320"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3101244.jpg",
+  "name": "Processore Intel Box i7-13700 2.10Ghz 30M Raptor Lake [BX8071513700]",
+  "MPN": "BX8071513700",
+  "Manufacturer": "Intel",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "Model": "i7-13700",
+  "Threads": "24",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i7",
+  "CoreCount": "8",
+  "CoreClock": "2.1",
+  "detail": "https://azerty.nl/product/intel-core-i7-13700-processor-2-1-ghz-5-2-ghz/5071548",
+  "TDP": "65",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c4326"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3101245.jpg",
+  "name": "Processore Intel Box i7-13700F 2.10Ghz 30M Raptor Lake [BX8071513700F]",
+  "MPN": "BX8071513700F",
+  "Manufacturer": "Intel",
+  "Model": "i7-13700F",
+  "Threads": "24",
+  "detail": "https://azerty.nl/product/intel-core-i7-13700f-processor-2-1-ghz-5-2-ghz-16-core-8p-8e/5071549",
+  "TDP": "65",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i7",
+  "CoreCount": "16",
+  "CoreClock": "2.1",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846c39a8d4bf44029c432c"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3101246.jpg",
+  "name": "Processore Intel Box i9-13900F 4.20Ghz 30M Raptor Lake [BX8071513900F]",
+  "MPN": "BX8071513900F",
+  "Manufacturer": "Intel",
+  "Model": "i9-13900F",
+  "Threads": "32",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i9",
+  "CoreCount": "24",
+  "CoreClock": "5.6",
+  "detail": "https://azerty.nl/product/intel-core-i9-13900f-processor-2-0-ghz-5-6-ghz/5071551",
+  "TDP": "65",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/intel",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846ddbc730fc5848c919fb"
+  },
+  "imgurl": "https://www.andorrainformatica.com/571596-home_default/10980xeprocesador3ghz2475mbsmartcache.jpg",
+  "name": "10980XE procesador 3 GHz 2475 MB Smart Cache",
+  "MPN": "BX8069510980XE",
+  "Socket": "LGA2066",
+  "CoreFamily": "Intel® Core™ i9 X-series Extreme Edition",
+  "CoreCount": "18",
+  "CoreClock": "3",
+  "Model": "i9-10980XE",
+  "Threads": "36",
+  "detail": "https://azerty.nl/product/intel-core-i9-extreme-edition-10980xe-x-series-3-ghz/4085557",
+  "TDP": "165",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846ddbc730fc5848c91a00"
+  },
+  "imgurl": "https://www.andorrainformatica.com/573159-home_default/cpuamdryzen7am43800x39ghz45ghz8core512kb32mbcache64bit105wsingpubox.jpg",
+  "name": "AMD CPU RYZEN 7 AM4 3800X 3,9GHZ 8CORE 512KB CACHE 64BIT",
+  "MPN": "100-100000025BOX",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Model": "",
+  "Threads": "",
+  "detail": "",
+  "TDP": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66846ddcc730fc5848c91a21"
+  },
+  "imgurl": "https://www.andorrainformatica.com/593194-home_default/intelcorei51250025ghz18mblga1700box.jpg",
+  "name": "Intel Core i5 12500 2.5Ghz 18MB LGA 1700 BOX",
+  "MPN": "BX8071512500",
+  "Socket": "LGA1700",
+  "CoreFamily": "Intel® Core™ i5",
+  "CoreCount": "6",
+  "CoreClock": "4.6",
+  "Model": "i5-12500",
+  "Threads": "12",
+  "detail": "https://azerty.nl/product/intel-core-i5-12500-processor/4652079",
+  "TDP": "65",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d69e1088a3a639b392"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/B/4/B4Mwnm.e240ffba9848927280f7dd603045716c-c45ff4a4.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 11700F - Processor",
+  "MPN": "BX8070811700F",
+  "CoreCount": "8",
+  "Model": "i7-11700F",
+  "Threads": "16",
+  "detail": "https://azerty.nl/product/intel-core-i7-11700f-processor-2-5-ghz-4-9-ghz/4474625",
+  "TDP": "65",
+  "CoreClock": "2.5 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d69e1088a3a639b397"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/7/v/7vtAcc.9f74ced5c4f9ea6905ba4143f647d91b-06aad59d_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 7 2700 MAX - Processor",
+  "MPN": "YD2700BBAFMAX",
+  "CoreCount": "8",
+  "CoreClock": "3.2 GHz",
+  "CoreFamily": "AMD Ryzen™ 7",
+  "Socket": "AM4",
+  "IncludesCooler": "Ja",
+  "Model": "2700",
+  "Threads": "16",
+  "detail": "https://azerty.nl/product/amd-ryzen-7-2700-max-processor/3716528",
+  "TDP": "65",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d69e1088a3a639b3a0"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/8/S/8SiGwH.cb51e37bd005aab4971d778fb75caefb-f2344f59.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 8700T - Processor",
+  "MPN": "CM8068403358413",
+  "CoreCount": "6",
+  "CoreClock": "2.4 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Nee",
+  "Model": "i7-8700T",
+  "Threads": "12",
+  "detail": "https://azerty.nl/product/intel-core-i7-8700t-processor/3502081",
+  "TDP": "35",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d69e1088a3a639b3a5"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/t/1/t1um4l.49cebc85649ed7ebb0f06065c492c999-0eb01963.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3-8100T - Processor",
+  "MPN": "CM8068403377415",
+  "CoreCount": "4",
+  "CoreClock": "3.1 GHz",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Nee",
+  "Model": "i3-8100T",
+  "Threads": "4",
+  "detail": "https://azerty.nl/product/intel-core-i3-8100t-processor/3502087",
+  "TDP": "35",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d69e1088a3a639b3ae"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/J/0/J0jJkl.d301187130ed18879d79618d2bf43052-3ab97b76.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9-7940X - Processor  3.1 GHz",
+  "MPN": "BX80673I97940X",
+  "CoreCount": "14",
+  "Model": "i9-7940X",
+  "Threads": "28",
+  "detail": "https://azerty.nl/product/intel-core-i9-7940x-processor-3-1-ghz/3206347",
+  "TDP": "165",
+  "CoreClock": "3.1 GHz",
+  "CoreFamily": "Intel® Core ™ i9 X-Serie",
+  "Socket": "LGA2066",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d69e1088a3a639b3b3"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/r/F/rFduIE.20f88ded53705c4c3b52adb1dacc9651-5d6de3fc.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen ThreadRipper 2920X - 3.5 GHz",
+  "MPN": "YD292XA8AFWOF",
+  "CoreCount": "12",
+  "CoreClock": "3.5 GHz",
+  "CoreFamily": "AMD Ryzen™ Threadripper™",
+  "Socket": "TR4",
+  "Model": "2920X",
+  "Threads": "24",
+  "detail": "https://azerty.nl/product/amd-ryzen-threadripper-2920x-3-5-ghz/3742468",
+  "TDP": "180",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d69e1088a3a639b3b8"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/z/F/zFje7p.dcedfef73b1cf1b14a3fdd8015223504-d3045e47.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Celeron G5905 - 3.5 GHz",
+  "MPN": "BX80701G5905",
+  "CoreCount": "2",
+  "CoreClock": "3.5 GHz",
+  "CoreFamily": "Intel® Celeron® G",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Ja",
+  "Model": "G5905",
+  "Threads": "2",
+  "detail": "https://azerty.nl/product/intel-celeron-g5905-3-5-ghz/4293326",
+  "TDP": "58",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d79e1088a3a639b3bd"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/g/X/gXIprr.16196cc5c2620a859b20edfc637b52bf-b2217278_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 10850K Avengers Edition - Processor",
+  "MPN": "BX8070110850KA",
+  "CoreCount": "10",
+  "CoreClock": "3.6",
+  "CoreFamily": "Intel® Core™ i9",
+  "Socket": "LGA1200",
+  "Model": "i9-10850K",
+  "Threads": "20",
+  "detail": "https://azerty.nl/product/intel-core-i9-10850k-avengers-edition-processor/4311619",
+  "TDP": "125",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3c2"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/F/o/FoWLIf.8a8fbf9226795b4f452965b239c97bfe-7aff42cd.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 10400 - Processor",
+  "MPN": "CM8070104290715",
+  "CoreCount": "6",
+  "Model": "i5-10400",
+  "Threads": "12",
+  "detail": "https://azerty.nl/product/intel-core-i5-10400-processor/4148396",
+  "TDP": "65",
+  "CoreClock": "2.9 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3c7"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/E/l/ElUxj1.43717ab8edc4c6cf0a1f2c25d181fc5a-db20bd19_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3-10320 - Processor",
+  "MPN": "BX8070110320",
+  "CoreCount": "4",
+  "CoreClock": "3.8 GHz",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Ja",
+  "Model": "i3-10320",
+  "Threads": "8",
+  "detail": "https://azerty.nl/product/intel-core-i3-10320-processor/4199653",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3cc"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/M/2/M2cpVs.8136c16152a33f80a267c5e3f2761e31-b3cad6a9_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5-10600 - Processor",
+  "MPN": "BX8070110600",
+  "CoreCount": "6",
+  "CoreClock": "3.3 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Ja",
+  "Model": "",
+  "Threads": "",
+  "detail": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3d5"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/j/P/jPBTi6.aced05f966ffcba9aeebb1bfc154bfaa-f480c75e.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 11700F - Processor",
+  "MPN": "CM8070804491213",
+  "CoreCount": "8",
+  "CoreClock": "2.5",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "Model": "i7-11700F",
+  "Threads": "16",
+  "detail": "https://azerty.nl/product/intel-core-i7-11700f-processor/6785908",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3da"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/J/X/JXCqXU.b6532031f75ee1edb15259c9661d4f1c-ad11e0de_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 3 PRO 4350G Tray - Processor",
+  "MPN": "100-000000148",
+  "CoreCount": "4",
+  "CoreClock": "3.8 GHz",
+  "CoreFamily": "AMD Ryzen™ 3 PRO",
+  "Socket": "AM4",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3df"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/y/I/yI3H3l.229d41c3d0ae04c727614e381c899032-fcda11ca_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3 9100 - Processor",
+  "MPN": "CM8068403377319",
+  "CoreCount": "4",
+  "CoreClock": "3.6",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Nee",
+  "Model": "i3-9100",
+  "Threads": "4",
+  "detail": "https://azerty.nl/product/intel-core-i3-9100-processor/3922628",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3e4"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/5/e/5eBSXT.870fa7166aed0bcb37daba3d9053e6cb-d1230e5e.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3-10100 - Processor",
+  "MPN": "CM8070104291317",
+  "CoreCount": "4",
+  "CoreClock": "3.6 GHz",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "LGA1200",
+  "IncludesCooler": "No",
+  "Model": "i3-10100",
+  "Threads": "8",
+  "TDP": "65",
+  "detail": "https://azerty.nl/product/intel-core-i3-10100-processor/4148402",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3e9"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/l/O/lOjqrM.56caa6f8199e01e0b7312da08d8ceb5a-86c0966b.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7-10700F - Processor Tray",
+  "MPN": "CM8070104282329",
+  "CoreCount": "8",
+  "CoreClock": "2.9",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "Model": "i7-10700F",
+  "Threads": "16",
+  "detail": "https://azerty.nl/product/intel-core-i7-10700f-processor-tray/4148384",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3ee"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/w/v/wvfFtL.2910012_5da3071c93ea14a4cbc7f53b0f4866c2-45ce8753.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Celeron G4930 - Processor",
+  "MPN": "BX80684G4930",
+  "CoreCount": "2",
+  "CoreClock": "3.2 GHz",
+  "CoreFamily": "Intel® Celeron® G",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Yes",
+  "Model": "G4930",
+  "Threads": "2",
+  "detail": "https://azerty.nl/product/intel-celeron-g4930-processor/3910012",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3f3"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/8/m/8mI8qq.517adceadfe320c21835d3cb091e4535-b1df75db.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 7700T PC1151 8MB Cache 2,9GHz tray",
+  "MPN": "CM8067702868416",
+  "CoreCount": "4",
+  "CoreClock": "2.9",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Nee",
+  "Model": "i7-7700T",
+  "TDP": "35",
+  "Threads": "8",
+  "detail": "https://azerty.nl/product/intel-core-i7-7700t-pc1151-8mb-cache-2-9ghz-tray/2554219",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3f8"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/V/P/VPYcsd.d205c55443596ebf21ef54c4b37a8545-0a8ff701.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Pentium Gold G5620 - Processor",
+  "MPN": "BX80684G5620",
+  "CoreCount": "2",
+  "CoreClock": "4",
+  "CoreFamily": "Intel® Pentium® Gold",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Ja",
+  "Model": "G5620",
+  "Threads": "4",
+  "TDP": "54",
+  "detail": "https://azerty.nl/product/intel-pentium-gold-g5620-processor/3910009",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b3fd"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/O/Q/OQRXVu.fdae507cfcbf7bc317ed3f0af688ec3e-c4fd062d.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3 10300T - 3 GHz",
+  "MPN": "CM8070104291212",
+  "CoreCount": "4",
+  "CoreClock": "3 GHz",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b402"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/3/B/3BlatM.9e4b01756b5117a71d54b088e4373bb4-5136316b_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 10700T - Processor",
+  "MPN": "CM8070104282215",
+  "CoreCount": "8",
+  "CoreClock": "2",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "Model": "i7-10700T",
+  "Threads": "16",
+  "TDP": "35",
+  "detail": "https://azerty.nl/product/intel-core-i7-10700t-2-ghz/4148382",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b407"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/7/p/7pFUzv.924a29b5223ef0d75586cd1000f28925-79a9a84a_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Celeron Processor G5900 - Processor",
+  "MPN": "BX80701G5900",
+  "CoreCount": "2",
+  "CoreClock": "3.4",
+  "CoreFamily": "Intel® Celeron® G",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Yes",
+  "Model": "G5900",
+  "Threads": "2",
+  "detail": "https://azerty.nl/product/intel-celeron-processor-g5900-processor/4211849",
+  "TDP": "58",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b40c"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/H/7/H7IFC9.62d054f4f673870ba3c550d0b887aa91-06bbb6ae.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3 7100E - 2.9 GHz",
+  "MPN": "CL8067702999007",
+  "CoreCount": "2",
+  "CoreClock": "2.9 GHz",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "BGA 1440",
+  "IncludesCooler": "Nee",
+  "Model": "i3-7100E",
+  "Threads": "4",
+  "detail": "https://azerty.nl/product/intel-core-i3-7100e-2-9-ghz/4511696",
+  "TDP": "35",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b411"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/7/6/76ohTw.cc5defa09fc451a292cf896879a0b7b4-92257135_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 10400T - 2 GHz",
+  "MPN": "CM8070104290806",
+  "CoreCount": "6",
+  "CoreClock": "2",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "Model": "i5-10400T",
+  "Threads": "12",
+  "detail": "https://azerty.nl/product/intel-core-i5-10400t-2-ghz/4148398",
+  "TDP": "35",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470d89e1088a3a639b416"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/A/j/AjnpZ4.d0cc16987520cc5ef4664cf3e8a47395-0a0e0b0e.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 10900X X-series - 3.7 GHz",
+  "MPN": "CD8069504382100",
+  "CoreCount": "10",
+  "CoreClock": "3.7 GHz",
+  "CoreFamily": "Intel® Core ™ i9 X-Serie",
+  "Socket": "LGA2066",
+  "IncludesCooler": "Nee",
+  "Model": "i9-10900X",
+  "Threads": "20",
+  "detail": "https://azerty.nl/product/intel-core-i9-10900x-x-series-3-7-ghz/4085554",
+  "TDP": "165",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470dd9e1088a3a639b437"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/m/r/mrxxpn.0c02b5c92e818dc334d7ab4285481319-bdc276bb_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3 10100T - 3 GHz",
+  "MPN": "CM8070104291412",
+  "CoreCount": "4",
+  "CoreClock": "3 GHz",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "Model": "i3-10100T",
+  "Threads": "8",
+  "detail": "https://azerty.nl/product/intel-core-i3-10100t-3-ghz/4148403",
+  "TDP": "35",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470dd9e1088a3a639b458"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/f/e/feZY0L.460aa5d5fbe032a8e2f458e4aef34562-d9ed2295.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 12600KF - Processor",
+  "MPN": "CM8071504555228",
+  "CoreCount": "10",
+  "CoreClock": "",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1700",
+  "IncludesCooler": "",
+  "Model": "i5-12600KF",
+  "Threads": "16",
+  "detail": "https://azerty.nl/product/intel-core-i5-12600kf-processor/4634985",
+  "TDP": "125",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470de9e1088a3a639b461"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/v/q/vqWi4o.c41a43af2f7818049a0e9538b17b2a2b-d6c4ecae.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 5 5600G - Processor",
+  "MPN": "100-100000252BOX",
+  "CoreCount": "6",
+  "CoreClock": "3.9 GHz",
+  "CoreFamily": "AMD Ryzen™ 5",
+  "Socket": "AM4",
+  "IncludesCooler": "Ja",
+  "Model": "5600G",
+  "Threads": "12",
+  "detail": "https://azerty.nl/product/amd-ryzen-5-5600g-processor/4573843",
+  "TDP": "65",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470de9e1088a3a639b46a"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/e/Y/eYMOJh.3502841_608afbceca460bbd523aaf43ca02d0a0-9ed3894e_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 11900K tray - Processor",
+  "MPN": "CM8070804400161",
+  "CoreCount": "8",
+  "CoreClock": "3.5 GHz",
+  "CoreFamily": "Intel® Core™ i9",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "Model": "5600G",
+  "Threads": "12",
+  "detail": "https://azerty.nl/product/amd-ryzen-5-5600g-processor/4573843",
+  "TDP": "65",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e69e1088a3a639b483"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/A/n/Ansi8C.3f44160c5a7febc725562a65b90be133-ec2f12d5_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD A6 3500 - 2.1 GHz",
+  "MPN": "AD3500OJGXBOX",
+  "CoreCount": "3",
+  "CoreClock": "2.1 GHz",
+  "CoreFamily": "AMD A6",
+  "Socket": "Socket FM1 uPGA",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e69e1088a3a639b488"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/4/W/4WyS9q.2ecead68aaeb7c2fe9e8a9a6a118c79c-58e4f63d_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Celeron Processor G5920 - Processor",
+  "MPN": "BX80701G5920",
+  "CoreCount": "2",
+  "CoreClock": "3.5 GHz",
+  "CoreFamily": "Intel® Celeron® G",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Ja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e69e1088a3a639b48d"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/I/2/I2Ysxo.1939c6c951d45cc05cd4ea1736a15be6-97c17647_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3 10105 - 3.7 GHz",
+  "MPN": "CM8070104291321",
+  "CoreCount": "4",
+  "CoreClock": "3.7 GHz",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e79e1088a3a639b492"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/C/D/CDFqsG.ef27f4eb5bbdbde865cb8df22f396752-f5649759.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Celeron G5925 - Processor",
+  "MPN": "BX80701G5925",
+  "CoreCount": "2",
+  "CoreClock": "3.6 GHz",
+  "CoreFamily": "Intel® Celeron® G",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Ja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e79e1088a3a639b497"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/G/D/GDDgsu.cf851a9693a30baa8e5c80deadad2354-316d81bf_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 5 Pro 5650G - 3.9 GHz",
+  "MPN": "100-000000255",
+  "CoreCount": "6",
+  "CoreClock": "3.9 GHz",
+  "CoreFamily": "AMD Ryzen™ 5 PRO",
+  "Socket": "AM4",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e79e1088a3a639b49c"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/p/h/phzNM6.3199616_a50f1dd46ac37c3238c62ad1e34b1312-cc421c21.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7-10700F - Processor",
+  "MPN": "BX8070110700F",
+  "CoreCount": "8",
+  "CoreClock": "2.9 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Ja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e79e1088a3a639b4a1"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/J/q/Jq3B5e.2359071_7fef8d3975a38b99ae7439027eb00a44-e6eb76f2_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Pentium Gold G5500 - Processor",
+  "MPN": "BX80684G5500",
+  "CoreCount": "2",
+  "CoreClock": "3.8 GHz",
+  "CoreFamily": "Intel® Pentium® Gold",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Ja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e79e1088a3a639b4a6"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/T/4/T49ybl.7c967103d3a66f5e34a928d2ecfd9755-3dc39219.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 10500T - 2.3 GHz",
+  "MPN": "CM8070104290606",
+  "CoreCount": "6",
+  "CoreClock": "2.3 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e79e1088a3a639b4ab"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/d/z/dzABlV.6899d65fec37f49ea9a6a365269be1b1-0cd344f1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7-10700 - Processor",
+  "MPN": "CM8070104282327",
+  "CoreCount": "8",
+  "CoreClock": "2.9 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e79e1088a3a639b4b0"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/S/f/Sfbf9R.2359072_7fef8d3975a38b99ae7439027eb00a44-fb13606a_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Pentium Gold G5600 - Processor",
+  "MPN": "BX80684G5600",
+  "CoreCount": "2",
+  "CoreClock": "3.9 GHz",
+  "CoreFamily": "Intel® Pentium® Gold",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Ja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e79e1088a3a639b4b5"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/z/t/ztCvES.d421e039883da6e7defb2328dd1e6985-be08bb36_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Xeon Gold 6226 - 2.7 GHz",
+  "MPN": "4XG7A38021",
+  "CoreCount": "12",
+  "CoreClock": "2.7 GHz",
+  "CoreFamily": "Intel® Xeon® Gold",
+  "Socket": "LGA3647",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e79e1088a3a639b4be"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/j/P/jPtUPa.3694355_155e09975c9e07dcc16a788820796319-8213a95e_5.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 5 4500 - Processor",
+  "MPN": "100-100000644BOX A-keuze",
+  "CoreCount": "6",
+  "CoreClock": "3.6 GHz",
+  "CoreFamily": "AMD Ryzen™ 5",
+  "Socket": "AM4",
+  "IncludesCooler": "Ja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e89e1088a3a639b4df"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/V/d/Vd75Di.620e5e4ef06b624c01ce83186011328e-f23b9baf.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 10700K - 3.8 GHz",
+  "MPN": "CM8070104282436",
+  "CoreCount": "8",
+  "CoreClock": "3.8 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e89e1088a3a639b4e4"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/F/o/FoRZdM.1554218_0fdd1a96fc3d8146905d0369ca7e8eb1-8a7d594c.png?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360&format=jpeg",
+  "name": "Intel Core i7-7700 - Processor",
+  "MPN": "CM8067702868314",
+  "CoreCount": "4",
+  "CoreClock": "3.6 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e89e1088a3a639b4e9"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/V/e/VeEcyr.1c2c0bdcf62f689656153af27d14f3d6-c85a4442_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 11600KF - Processor",
+  "MPN": "CM8070804491415",
+  "CoreCount": "6",
+  "CoreClock": "3.9 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e89e1088a3a639b4ee"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/b/9/b9gtSr.3368017_a5a8a8c2a2bb7a787ff82fd6e50c9e9a-3da1ad96_5.png?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360&format=jpeg",
+  "name": "AMD Ryzen 9 5900X - Processor",
+  "MPN": "100-100000061WOF A-keuze",
+  "CoreCount": "12",
+  "CoreClock": "3.7 GHz",
+  "CoreFamily": "AMD Ryzen™ 9",
+  "Socket": "AM4",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e89e1088a3a639b4f3"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/B/4/B4Mwnm.e240ffba9848927280f7dd603045716c-c45ff4a4_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 11700F - Processor",
+  "MPN": "BX8070811700F A-keuze",
+  "CoreCount": "8",
+  "CoreClock": "2.5 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e89e1088a3a639b514"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/A/X/AXoerZ.3189478_3f49985054c12f058a5c0d01530b96e6-87b40faa_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 10700K - Processor",
+  "MPN": "BX8070110700K A-keuze",
+  "CoreCount": "8",
+  "CoreClock": "3.8 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668470e89e1088a3a639b51d"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/O/q/OqfefH.3969552_2ef804e1d6b742a974195f510b49a2bd-f15039c0_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360&format=jpeg",
+  "name": "AMD Ryzen 9 7900X - Processor",
+  "MPN": "100-100000589WOF A-keuze",
+  "CoreCount": "12",
+  "CoreClock": "4.7 GHz",
+  "Model": "7900X",
+  "Threads": "24",
+  "detail": "https://azerty.nl/product/amd-ryzen-9-7900x-processor/4969552",
+  "TDP": "170",
+  "Manufacturer": "AMD",
+  "CoreFamily": "AMD Ryzen™ 9",
+  "Socket": "AM5",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684739977918825bf62ca5d"
+  },
+  "imgurl": "https://www.andorrainformatica.com/671560-home_default/intelxeongold634631ghz16ncleos32hilos36mbcachlga4189socketoem.jpg",
+  "name": "Intel Xeon Gold 6346 - 3.1 GHz - 16 ncleos - 32 hilos - 36 MB cach - LGA4189 Socket - OEM",
+  "MPN": "CD8068904570201",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684739977918825bf62ca62"
+  },
+  "imgurl": "https://www.andorrainformatica.com/671543-home_default/intelxeongold5318n21ghz24ncleos48hilos36mbcachlga4189socketoem.jpg",
+  "name": "Intel Xeon Gold 5318N - 2.1 GHz - 24 ncleos - 48 hilos - 36 MB cach - LGA4189 Socket - OEM",
+  "MPN": "CD8068904658802",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684739977918825bf62ca67"
+  },
+  "imgurl": "https://www.andorrainformatica.com/671541-home_default/intelxeongold53173ghz12ncleos24hilos18mbcachlga4189socketoem.jpg",
+  "name": "Intel Xeon Gold 5317 - 3 GHz - 12 ncleos - 24 hilos - 18 MB cach - LGA4189 Socket - OEM",
+  "MPN": "CD8068904657302",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684739977918825bf62ca6c"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672565-home_default/intelxeonw323533ghz12ncleos24hilos1925mbcachlga3647socketoem.jpg",
+  "name": "Intel Xeon W-3235 - 3.3GHz - 12 ncleos - 24 hilos - 19.25MB cach - LGA3647 Socket - OEM",
+  "MPN": "CD8069504152802",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684739e77918825bf62ca75"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672629-home_default/intelxeonw324532ghz16ncleos32hilos22mbcachlga3647socketoem.jpg",
+  "name": "Intel Xeon W-3245 - 3.2GHz - 16 ncleos - 32 hilos - 22MB cach - LGA3647 Socket - OEM",
+  "MPN": "CD8069504152900",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a177918825bf62ca7a"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672688-home_default/intelxeonw22953ghz18ncleos36hilos2475mbcachlga2066socket.jpg",
+  "name": "Intel Xeon W-2295 - 3GHz - 18 ncleos - 36 hilos - 24.75MB cach - LGA2066 Socket",
+  "MPN": "CD8069504393000",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a277918825bf62ca7f"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672689-home_default/intelxeonw227533ghz14ncleos28hilos1925mbcachlga2066socket.jpg",
+  "name": "Intel Xeon W-2275 - 3.3GHz - 14 ncleos - 28 hilos - 19.25MB cach - LGA2066 Socket",
+  "MPN": "CD8069504393300",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a277918825bf62ca84"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672690-home_default/intelxeonw226535ghz12ncleos24hilos1925mbcachlga2066socket.jpg",
+  "name": "Intel Xeon W-2265 - 3.5GHz - 12 ncleos - 24 hilos - 19.25MB cach - LGA2066 Socket",
+  "MPN": "CD8069504393400",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a277918825bf62ca89"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672698-home_default/intelxeongold522022ghz18ncleos36hilos2475mbcachlga3647socketcaja.jpg",
+  "name": "Intel Xeon Gold 5220 - 2.2GHz - 18 ncleos - 36 hilos - 24.75MB cach - LGA3647 Socket - Caja",
+  "MPN": "BX806955220R",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a277918825bf62ca90"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672702-home_default/intelxeongold6240r24ghz24ncleos48hilos3575mbcachlga3647socketoem.jpg",
+  "name": "Intel Xeon Gold 6240R - 2.4GHz - 24 ncleos - 48 hilos - 35.75MB cach - LGA3647 Socket - OEM",
+  "MPN": "CD8069504448600",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a277918825bf62ca97"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672737-home_default/intelxeonsilver4410t27ghz10ncleos20hilos2625mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Silver 4410T - 2.7 GHz - 10 ncleos - 20 hilos - 26.25 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8071305121601",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a377918825bf62ca9e"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672740-home_default/intelxeongold643021ghz32ncleos64hilos60mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Gold 6430 - 2.1 GHz - 32 ncleos - 64 hilos - 60 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8071305072902",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a377918825bf62caa6"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672742-home_default/intelxeongold5418y2ghz24ncleos48hilos45mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Gold 5418Y - 2 GHz - 24 ncleos - 48 hilos - 45 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8071305120301",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a377918825bf62caae"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672759-home_default/cpuxeonw7344520core260ghztray.jpg",
+  "name": "CPU/Xeon W7-3445 20 Core 2.60 GHz Tray",
+  "MPN": "PK8071305081900",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a377918825bf62cab7"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672774-home_default/amdryzenthreadripperpro7995wx25ghz96ncleos192hilos384mbcachsocketstr5pibwof.jpg",
+  "name": "AMD Ryzen ThreadRipper PRO 7995WX - 2.5 GHz - 96 ncleos - 192 hilos - 384 MB cach - Socket sTR5 - PIB/WOF",
+  "MPN": "100-100000884WOF",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a377918825bf62cac7"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672777-home_default/amdryzenthreadripperpro7975wx4ghz32ncleos64hilos128mbcachsocketstr5pibwof.jpg",
+  "name": "AMD Ryzen ThreadRipper PRO 7975WX - 4 GHz - 32 ncleos - 64 hilos - 128 MB cach - Socket sTR5 - PIB/WOF",
+  "MPN": "100-100000453WOF",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62cad1"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672795-home_default/intelxeongold551532ghz8ncleos16hilos225mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Gold 5515 - 3.2 GHz - 8 ncleos - 16 hilos - 22.5 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8072205559000",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62cad7"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672796-home_default/intelxeonsilver4516y22ghz24ncleos48hilos45mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Silver 4516Y - 2.2 GHz - 24 ncleos - 48 hilos - 45 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8072205559200",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62cadd"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672797-home_default/intelxeongold552022ghz28ncleos56hilos525mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Gold 5520 - 2.2 GHz - 28 ncleos - 56 hilos - 52.5 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8072205559300",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62cae6"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672811-home_default/intelxeongold5403n2ghz12ncleos24hilos225mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Gold 5403N - 2 GHz - 12 ncleos - 24 hilos - 22.5 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8071305554700",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62caed"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672812-home_default/intelxeonbronze3508u21ghz8ncleos8hilos225mbcachlga3647socketoem.jpg",
+  "name": "Intel Xeon Bronze 3508U - 2.1 GHz - 8 ncleos - 8 hilos - 22.5 MB cach - LGA3647 Socket - OEM",
+  "MPN": "PK8071305554500",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62caf5"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672813-home_default/intelxeonsilver4509y26ghz8ncleos16hilos225mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Silver 4509Y - 2.6 GHz - 8 ncleos - 16 hilos - 22.5 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8071305554400",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62cafd"
+  },
+  "imgurl": "https://www.andorrainformatica.com/674151-home_default/intelxeongold541529ghz8ncleos16hilos225mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Gold 5415 - 2.9 GHz - 8 ncleos - 16 hilos - 22.5 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8071305118701",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62cb05"
+  },
+  "imgurl": "https://www.andorrainformatica.com/674465-home_default/intelxeongold624436ghz8ncleos16hilos2475mbcachlga3647socketoem.jpg",
+  "name": "Intel Xeon Gold 6244 - 3.6GHz - 8 ncleos - 16 hilos - 24.75MB cach - LGA3647 Socket - OEM",
+  "MPN": "CD8069504194202",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62cb0c"
+  },
+  "imgurl": "https://www.andorrainformatica.com/675457-home_default/intelxeonsilver4210t23ghz10ncleos20hilos1375mbcachlga3647socketoem.jpg",
+  "name": "Intel Xeon Silver 4210T - 2.3 GHz - 10 ncleos - 20 hilos - 13.75 MB cach - LGA3647 Socket - OEM",
+  "MPN": "CD8069504444900",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473a477918825bf62cb14"
+  },
+  "imgurl": "https://www.andorrainformatica.com/675712-home_default/intelxeonww52465x31ghz16ncleos32hilos3375mbcachfclga4677socketcaja.jpg",
+  "name": "Intel Xeon W W5-2465X - 3.1 GHz - 16 ncleos - 32 hilos - 33.75 MB cach - FCLGA4677 Socket - Caja",
+  "MPN": "BX807132465X",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cbb0"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/Z/W/ZWcZpy.d2d6f50295ff2772d8e570e81b320613-c9067b9a.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 11400F - Processor",
+  "MPN": "CM8070804497016",
+  "CoreCount": "6",
+  "CoreClock": "2.6 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cbb5"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/d/A/dAJoxj.8e94b53d76b8f87b49ca7dd628940075-56696b97_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 10400F - Processor",
+  "MPN": "CM8070104290716",
+  "CoreCount": "6",
+  "CoreClock": "2.9 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cbba"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/I/2/I2OiC7.a1574cdb5cb78d693a2d6e0865108dce-bcda36ea_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 3 3100 TRAY - Processor",
+  "MPN": "100-000000284",
+  "CoreCount": "4",
+  "CoreClock": "3.6 GHz",
+  "CoreFamily": "AMD Ryzen™ 3",
+  "Socket": "AM4",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cbc7"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/L/8/L8mJQD.3502828_2f4b38546e57822800a1b151d32f88c6-22172e45.png?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360&format=jpeg",
+  "name": "Intel Core i5 11400 Tray - Processor",
+  "MPN": "CM8070804497015",
+  "CoreCount": "6",
+  "CoreClock": "2.6 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cbd8"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/B/8/B8S39C.0e9f99d2624be25b53459936b6632218-2b4568eb_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 11900KF Tray - Processor",
+  "MPN": "CM8070804400164",
+  "CoreCount": "8",
+  "CoreClock": "3.5 GHz",
+  "CoreFamily": "Intel® Core™ i9",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cbed"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/y/w/ywbRti.867e0051d28ca54f7462c32f7b67c86c-fddfbd31_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 11700K - Processor",
+  "MPN": "CM8070804488629",
+  "CoreCount": "8",
+  "CoreClock": "3.6 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cc12"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/3/C/3CLKsQ.3513256_02de58cb1e87e2ad75c7a19e2cf3a0e9-1258cb3d_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3 10105F - Processor",
+  "MPN": "CM8070104291323",
+  "CoreCount": "4",
+  "CoreClock": "3.7 GHz",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cc17"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/T/5/T5irTy.66e6603ee44ef18ff54a86b046bf9965-910bf358.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 5820K - 3.3 GHz",
+  "MPN": "CM8064801548435",
+  "CoreCount": "6",
+  "CoreClock": "3.3 GHz",
+  "CoreFamily": "Intel® Core™ i7 X-Serie",
+  "Socket": "LGA2011",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cc1c"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/D/w/DwkaTF.1d6b4e8e22e2d54851c4741a7101f4d9-fa847ba5.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 12600K - 3.7 GHz",
+  "MPN": "CM8071504555227",
+  "CoreCount": "10",
+  "CoreClock": "",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1700",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cc31"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/7/J/7JxHlM.2591b51c7a2afa66ecb43ffdf889879a-3f6ce6d3_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 12700K - Processor",
+  "MPN": "CM8071504553828",
+  "CoreCount": "12",
+  "CoreClock": "",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1700",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473da77918825bf62cc3e"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/d/F/dFn2Xd.ed64d5cb126e6b84c2d1af4f247ad9f5-0a326148.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 12700KF - Processor",
+  "MPN": "CM8071504553829",
+  "CoreCount": "12",
+  "CoreClock": "",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1700",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cc73"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/h/I/hIu2XX.d97ea644ca23bda69cbfa958844d5f4d-b85d1589.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 10920X X-series - Processor",
+  "MPN": "CD8069504382000",
+  "CoreCount": "12",
+  "CoreClock": "3.5 GHz",
+  "CoreFamily": "Intel® Core ™ i9 X-Serie",
+  "Socket": "LGA2066",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cc78"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/k/d/kdjDKG.86ed652dd4573936fa1b086516666fd1-465b500d_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 10900 - Processor",
+  "MPN": "CM8070104282624",
+  "CoreCount": "10",
+  "CoreClock": "2.8 GHz",
+  "CoreFamily": "Intel® Core™ i9",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cc7d"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/p/U/pUehB1.8629c998f57d319150001a8c0ec12327-6652bc8c_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 10940X X-series - 3.3 GHz",
+  "MPN": "BX8069510940X",
+  "CoreCount": "14",
+  "CoreClock": "3.3 GHz",
+  "CoreFamily": "Intel® Core ™ i9 X-Serie",
+  "Socket": "LGA2066",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cc82"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/a/o/aotFMi.0ed3d5ce0cb227ff44d35446db29886f-f906e1f0.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 10600K - Processor",
+  "MPN": "CM8070104282134",
+  "CoreCount": "6",
+  "CoreClock": "4.1 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cc87"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/W/W/WW40MK.48c28ff2e4b589674bdd212188433890-7b85e8ac_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Celeron G4900 - Processor",
+  "MPN": "CM8068403378112",
+  "CoreCount": "2",
+  "CoreClock": "3.1 GHz",
+  "CoreFamily": "Intel® Celeron® G",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cc8c"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/G/v/Gvws3U.153f4c11d3e9d98dbf3f4bb079721c00-bd542f73.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 10700KF - 3.8 GHz",
+  "MPN": "CM8070104282437",
+  "CoreCount": "8",
+  "CoreClock": "3.8 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cc91"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/X/R/XROXgk.84588610187a2319e5f3e3bb026bd8c5-03631209.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i3 10100F - Processor",
+  "MPN": "CM8070104291318",
+  "CoreCount": "4",
+  "CoreClock": "3.6 GHz",
+  "CoreFamily": "Intel® Core™ i3",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cc9a"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/D/Q/DQo1ZW.477ab346925f6e8f9247595b1411b9e4-d0cd76e8_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Celeron G1820 - Processor",
+  "MPN": "CM8064601483405",
+  "CoreCount": "2",
+  "CoreClock": "2.7 GHz",
+  "CoreFamily": "Intel® Celeron® G",
+  "Socket": "LGA1150",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cca3"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/T/A/TAwxbv.d4988a175f75793f1ca20201a10d1f1e-2d3de5ca_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 12900K - Processor",
+  "MPN": "CM8071504549230",
+  "CoreCount": "16",
+  "CoreClock": "",
+  "CoreFamily": "Intel® Core™ i9",
+  "Socket": "LGA1700",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cca8"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/3/H/3H9hml.6437998978190f8ebe6855b962db248f-73e61f8a_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 11500 - Processor",
+  "MPN": "CM8070804496809",
+  "CoreCount": "6",
+  "CoreClock": "2.7 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62ccc1"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/A/F/AF0IOn.cbc323d415f50beabda60cf074e49671-a76bcc29_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 12900KF - Processor",
+  "MPN": "CM8071504549231",
+  "CoreCount": "16",
+  "CoreClock": "",
+  "CoreFamily": "Intel® Core™ i9",
+  "Socket": "LGA1700",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62ccda"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/P/o/PoKFpg.e769465365f9943935a796c947d2c518-a87598cd_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7 11700KF - Processor",
+  "MPN": "CM8070804488630",
+  "CoreCount": "8",
+  "CoreClock": "3.6 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cce3"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/K/A/KAfmIO.ee9f4a7a86f8caade37ab68db8a63be6-5377f4d0.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen Threadripper 3960X - Processor",
+  "MPN": "100-100000010WOF",
+  "CoreCount": "24",
+  "CoreClock": "3.9 GHz",
+  "CoreFamily": "AMD Ryzen™ Threadripper™",
+  "Socket": "TRX4",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cceb"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/h/r/hrdHoz.d5486136c1f0b48896e5e7bce4be93a3-ad7d3249.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 Extreme Edition 10980XE X-series - 3 GHz",
+  "MPN": "CD8069504381800",
+  "CoreCount": "18",
+  "CoreClock": "3 GHz",
+  "CoreFamily": "Intel® Core™ i9 X-series Extreme Edition",
+  "Socket": "LGA2066",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62ccf3"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/b/Q/bQKVkN.11bdf0d648cf359c8fdcac5a27bb23a1-b832af4f_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 5 5600X - 3.7 GHz",
+  "MPN": "100-000000065A",
+  "CoreCount": "6",
+  "CoreClock": "3.7 GHz",
+  "CoreFamily": "AMD Ryzen™ 5",
+  "Socket": "AM4",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62ccf8"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/0/0/00qmZV.9db6916477905ed80db76cf84956576c-b28eb114_4.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 5 Pro 4650G - 3.7 GHz",
+  "MPN": "100-000000143",
+  "CoreCount": "6",
+  "CoreClock": "3.7 GHz",
+  "CoreFamily": "AMD Ryzen™ 5 PRO",
+  "Socket": "AM4",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473db77918825bf62cd03"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/t/e/tetyxE.cab72221e227a7733c7e90b0531c5a3f-f1ff1623_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 7 Pro 4750G - 3.6 GHz",
+  "MPN": "100-000000145",
+  "CoreCount": "8",
+  "CoreClock": "3.6 GHz",
+  "CoreFamily": "AMD Ryzen™ 7 PRO",
+  "Socket": "AM4",
+  "IncludesCooler": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd08"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/o/d/odBgmY.dc0c91cd06d79a50b803dca77b86dbdc-33823117.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i7-10700 - Processor",
+  "MPN": "BX8070110700",
+  "CoreCount": "8",
+  "CoreClock": "2.9 GHz",
+  "CoreFamily": "Intel® Core™ i7",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Ja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd0d"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/L/G/LGYY2k.fc9858f240ac4c07fdde0cdce6881b91-53b9b4c4_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Celeron G5905 - 3.5 GHz",
+  "MPN": "CM8070104292115",
+  "CoreCount": "2",
+  "CoreClock": "3.5 GHz",
+  "CoreFamily": "Intel® Celeron® G",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd16"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/a/z/azu0hR.180aa6cb25a175f3efe4894d0a63f5c3-f8670723_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 11600K - 6-kern",
+  "MPN": "CM8070804491414",
+  "CoreCount": "6",
+  "CoreClock": "3.9 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd1f"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/b/9/b9G3VK.e6aef66b6c990ff07a3fbf88d59835e1-dfc6bc24_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 10900K - Processor",
+  "MPN": "CM8070104282844",
+  "CoreCount": "10",
+  "CoreClock": "3.7 GHz",
+  "CoreFamily": "Intel® Core™ i9",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd24"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/J/l/Jl4QZ2.f679fbc7150ac1ca3a9a74e7bfb6de53-d4053c19.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 8500 - 3 GHz",
+  "MPN": "CM8068403362607",
+  "CoreCount": "6",
+  "CoreClock": "3 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Nee",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd29"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/m/u/muWbEA.5e14d2b89b72aa5e6cedd2469926ce1e-e117f4f3_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Xeon W-3175X - 3.1 GHz",
+  "MPN": "BX80673W3175X",
+  "CoreCount": "28",
+  "CoreClock": "3.1 GHz",
+  "CoreFamily": "Intel® Xeon®",
+  "Socket": "LGA3647",
+  "IncludesCooler": "Ja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd2e"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/4/S/4SQlF8.408cf0dedb9e67e31c5e33a826e56ff3-7d26e38c.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9-10900 - Processor",
+  "MPN": "BX8070110900",
+  "CoreCount": "10",
+  "CoreClock": "2.8 GHz",
+  "CoreFamily": "Intel® Core™ i9",
+  "Socket": "LGA1200",
+  "IncludesCooler": "Ja",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd33"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/C/m/CmJ9Yg.04c99fa0dd93a5dc4939f637267411b2-b4edd3ba.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5-8500T",
+  "MPN": "CM8068403362509",
+  "CoreCount": "6",
+  "CoreClock": "2.1 GHz",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1151",
+  "IncludesCooler": "No",
+  "Model": "i5-8500T",
+  "Threads": "6",
+  "detail": "https://azerty.nl/product/intel-core-i5-8500t-processor/3502084",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd3b"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/F/J/FJYLNK.4856e702bbcb8e0c0535557ed0e37e71-474d4cc1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i5 7500T PC1151 6MB Cache 2,7GHz tray",
+  "MPN": "CM8067702868115",
+  "CoreCount": "4",
+  "CoreClock": "2.7",
+  "CoreFamily": "Intel® Core™ i5",
+  "Socket": "LGA1151",
+  "IncludesCooler": "Nee",
+  "Model": "i5-7500T",
+  "Threads": "4",
+  "detail": "https://azerty.nl/product/intel-core-i5-7500t-pc1151-6mb-cache-2-7ghz-tray/2554215",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd40"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/B/x/BxVOD8.27ad3709dfd7252920e249c9b6d03445-395a9021.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "Intel Core i9 10900K",
+  "MPN": "BX8070110900K",
+  "CoreCount": "10",
+  "CoreClock": "3.7",
+  "CoreFamily": "Intel® Core™ i9",
+  "Socket": "LGA1200",
+  "IncludesCooler": "No",
+  "Model": "i9-10900K",
+  "Threads": "20",
+  "detail": "https://azerty.nl/product/intel-core-i9-10900k-processor/4176268",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668473dc77918825bf62cd45"
+  },
+  "imgurl": "https://azerty.nl/media/catalog/product/3/7/3740pI.1c43f0595f6455328afb3511171b2d2b-de754ddd_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=360&width=360&canvas=360:360",
+  "name": "AMD Ryzen 9 3950X - Processor",
+  "MPN": "100-100000051WOF",
+  "CoreCount": "16",
+  "CoreClock": "3.5 GHz",
+  "CoreFamily": "AMD Ryzen™ 9",
+  "Socket": "AM4",
+  "IncludesCooler": "No",
+  "Model": "3950X",
+  "Threads": "32",
+  "detail": "https://azerty.nl/product/amd-ryzen-9-3950x-processor/4072744",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66851d371ede9e44eda6787b"
+  },
+  "imgurl": "https://www.andorrainformatica.com/672794-home_default/intelxeongold653439ghz8ncleos16hilos225mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Gold 6534 - 3.9 GHz - 8 ncleos - 16 hilos - 22.5 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8072205558800",
+  "Socket": "AM4",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Model": "",
+  "Threads": "",
+  "detail": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66851d381ede9e44eda678bb"
+  },
+  "imgurl": "https://www.andorrainformatica.com/673173-home_default/intelxeongold6526y28ghz16ncleos32hilos375mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Gold 6526Y - 2.8 GHz - 16 ncleos - 32 hilos - 37.5 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8072205559500",
+  "Socket": "",
+  "CoreFamily": "",
+  "CoreCount": "",
+  "CoreClock": "",
+  "Model": "",
+  "Threads": "",
+  "detail": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66851d381ede9e44eda678c4"
+  },
+  "imgurl": "https://www.andorrainformatica.com/674159-home_default/intelxeongold6542y29ghz24ncleos48hilos60mbcachfclga4677socketoem.jpg",
+  "name": "Intel Xeon Gold 6542Y - 2.9 GHz - 24 ncleos - 48 hilos - 60 MB cach - FCLGA4677 Socket - OEM",
+  "MPN": "PK8072205559600",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66855aebd0e26c498e3aba80"
+  },
+  "imgurl": "https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/3215566.jpg",
+  "name": "Amd Ryzen AM4 7 5700X3D 3.1GHz 96MB L3 Box [100-000001503]",
+  "MPN": "100-000001503",
+  "Manufacturer": "AMD",
+  "ManufacturerURL": "https://www.bpm-power.com/it/marche/amd",
+  "__v": 0
+}]

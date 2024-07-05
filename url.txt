@@ -1,0 +1,122 @@
+---------------------------------------------------------------------------------------------
+https://www.andorrainformatica.com/54-procesadores            
+
+class        products row       thumbnail-container
+pagenation    page-list clearfix text-sm-center          js-search-link 
+
+-----------------------------------------------------------------------------------------------
+https://www.bpm-power.com/it/online/componenti-pc/processori
+
+class          bordoInternoCat imgFixHeightCat d-flex justify-content-center align-items-center    
+pagenation   divPagination  
+
+named:
+sample   Intel Core i3-10320 4-Core 8 Threads 3.8 GHz (4.6 GHz)
+
+Intel Core i7-13700KF 16-Core 24 Threads 3.40Ghz
+
+Cpu Intel Core i7 Processore i7-13700KF 3.40Ghz LGA1700 30M Raptor Lake Box [BX8071513700KF]
+https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-core-i7-b2026878
+Informazioni Prodotto
+Numero di Core:	16
+Numero Threads:	24
+RAM max supportata:	128 GB
+Tipo Socket:	LGA 1700
+Produttore:	Intel
+Visita anche:	Processori Intel
+Condizione:	Nuovo
+EAN:	5032037258715
+Codice produttore:	BX8071513700KF
+Codice BPM:	B2026878
+
+{
+    id: '2965643',
+    code: 'B1912168',
+    producer: 'Intel',
+    producerCode: 'BX8071512600K',
+    producerUrl: 'https://www.bpm-power.com/it/marche/intel',
+    ean: '5032037234108',
+    name: 'Cpu Intel Box Core i5 Processor i5-12600K 3,70Ghz 20M Alder Lake-S [BX8071512600K]',
+    price: 216.8916,
+    barredPrice: null,
+    availability: 'available',
+    imageUrlOrig: 'https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto/var/catalog/orig/2965643.jpg',
+    imageUrlBig: 'https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=540/var/catalog/orig/2965643.jpg',
+    imageUrlLarge: 'https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=250/var/catalog/orig/2965643.jpg',
+    imageUrlMedium: 'https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=150/var/catalog/orig/2965643.jpg',
+    imageUrlSmall: 'https://www.bpm-power.com/cdn-cgi/image/quality=90,fit=scale-down,f=auto,width=100/var/catalog/orig/2965643.jpg',
+    productPageUrl: 'https://www.bpm-power.com/it/online/componenti-pc/processori/cpu-intel-box-core-b1912168',
+    priority: 0,
+    wearingSize: null,
+    ratingScoreAVG: 4.96,
+    ratingScoreCount: 26,
+    faqs: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    videos: [ [Object] ],
+    enable_flixmedia: true,
+    proposalAvailable: false
+  },
+
+{ id: '11056', idProduct: '3072161', title: 'Core', value: '\n 8' },
+  {
+    id: '11057',
+    idProduct: '3072161',
+    title: 'Thread',
+    value: '\n 16'
+  },
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------
+https://www.rueducommerce.fr/rayon/composants-16/processeur-246     
+
+class         item item-0
+
+-------------------------------------------------------------------------------------------------
+https://azerty.nl/componenten/cpu
+
+class
+
+
+
+Processeur 6 Cœurs (6 Cœurs Performant) 12 Threads - Socket 1700 - Cache L3 18 Mo - 0.010 micron (version boîte avec ventilateur - garantie Intel 3 ans)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------
+https://www.megekko.nl/Computer/Componenten/Processoren
+
+class  navblock_v2
+
+----------------------------------------------------------------------------------------------
+https://www.proshop.de/CPU
+alt="CPU - Intel Core i9-14900KF Raptor Lake-S CPU - 24 Kerne - 3.2 GHz - Intel LGA1700 - Intel Boxed (ohne Kühler) - BX8071514900KF"  here  BX8071514900KF is MPN
+class         row toggle       
+pagenation    pagination d-inline-block      
+on vpn
+captcha cloud flare
+-------------------------------------------------------------------------------------------------
+
+https://www.mindfactory.de/Hardware/Prozessoren+(CPU).html
+capcha cloud flare
+class
+
+
+https://www.amd.com/fr/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html#product-specs
