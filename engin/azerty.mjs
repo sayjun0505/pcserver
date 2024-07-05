@@ -9,26 +9,36 @@ let arr=[];
 const insertDB = async () => {
   try {
       await mongoose.connect(dbConfig.db);
+      const currentDate = new Date();
+
+      const year = currentDate.getFullYear();
+      const month = String(currentDate.getMonth() + 1).padStart(2, '0'); // Months are zero-based, so we add 1
+      const day = String(currentDate.getDate()).padStart(2, '0');
+      const hours = String(currentDate.getHours()).padStart(2, '0');
+      const minutes = String(currentDate.getMinutes()).padStart(2, '0');
+      const seconds = String(currentDate.getSeconds()).padStart(2, '0');
+      
+      const formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
 
       // Iterate over each product in the arr and insert into the database
       for (const product of arr) {
           let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
-
+          
           if (existingProduct) {
               // If product name exists in CPUInfo collection, get id and insert into CPUVendor with vendorname as "a"
               const cpuid = existingProduct._id;
               let existcpuinfo=await CPUVendor.findOne({ cpuid: cpuid,vendorname: 'azerty' });
               if(existcpuinfo){
                 //update price
-                await CPUVendor.updateOne({ cpuid: cpuid }, { price: product.price + '€' });
+                await CPUVendor.updateOne({ cpuid: cpuid }, { price: product.price + '€',date: formattedDateTime });
               }
               else {
-                await CPUVendor.create({ cpuid: cpuid, vendorname: 'azerty', price: product.price+'€' });
+                await CPUVendor.create({ cpuid: cpuid, vendorname: 'azerty', price: product.price+'€',date: formattedDateTime });
               }
           } else {
               // If product name doesn't exist in CPUInfo collection, insert name and get new id, then insert into CPUVendor with vendorname as "a"
               const newProduct = await CPUInfo.create({ name: product.name ,MPN:product.MPN,CoreCount:product.cores,CoreClock:product.freq,CoreFamily:product.processfamily,Socket:product.sockets,imgurl:product.imgURL,IncludesCooler:product.cooler});
-              await CPUVendor.create({ cpuid: newProduct._id, vendorname: 'azerty', price: product.price+'€' });
+              await CPUVendor.create({ cpuid: newProduct._id, vendorname: 'azerty', price: product.price+'€',date: formattedDateTime });
           }
       }
 
@@ -38,7 +48,7 @@ const insertDB = async () => {
       console.error(error);
   } finally {
 
-      mongoose.connection.close();
+      // mongoose.connection.close();
   }
 };
 const parseProductDetails = async (url) => {

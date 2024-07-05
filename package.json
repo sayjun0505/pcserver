@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --experimental-modules server.mjs"
+    "start:server": "node --experimental-modules server.mjs",
+    "start:profit": "node --experimental-modules profit.mjs",
+    "start": "npm run start:server & npm run start:profit"
   },
   "keywords": [],
   "author": "",

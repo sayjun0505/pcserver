@@ -23,7 +23,16 @@ const parseProductDetails = async (url) => {
 const insertDB = async () => {
   try {
     await mongoose.connect(dbConfig.db);
+    const currentDate = new Date();
 
+    const year = currentDate.getFullYear();
+    const month = String(currentDate.getMonth() + 1).padStart(2, '0'); // Months are zero-based, so we add 1
+    const day = String(currentDate.getDate()).padStart(2, '0');
+    const hours = String(currentDate.getHours()).padStart(2, '0');
+    const minutes = String(currentDate.getMinutes()).padStart(2, '0');
+    const seconds = String(currentDate.getSeconds()).padStart(2, '0');
+    
+    const formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
     // Iterate over each product in the arr and insert into the database
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
@@ -32,13 +41,13 @@ const insertDB = async () => {
         const cpuid = existingProduct._id;
         let existcpuinfo = await CPUVendor.findOne({ cpuid: cpuid, vendorname: 'andorr' });
         if (existcpuinfo) {
-          await CPUVendor.updateOne({ cpuid: cpuid }, { price: product.price.replace(/\s/g, "") });
+          await CPUVendor.updateOne({ cpuid: cpuid }, { price: product.price.replace(/\s/g, ""),date: formattedDateTime });
         } else {
-          await CPUVendor.create({ cpuid: cpuid, vendorname: 'andorr', price: product.price.replace(/\s/g, "") });
+          await CPUVendor.create({ cpuid: cpuid, vendorname: 'andorr', price: product.price.replace(/\s/g, "") ,date: formattedDateTime});
         }
       } else {
         const newProduct = await CPUInfo.create({ name: product.name, MPN: product.MPN, imgurl: product.imgurl, detail: product.url });
-        await CPUVendor.create({ cpuid: newProduct._id, vendorname: 'azerty', price: product.price.replace(/\s/g, "") });
+        await CPUVendor.create({ cpuid: newProduct._id, vendorname: 'azerty', price: product.price.replace(/\s/g, "") ,date: formattedDateTime});
       }
     }
 

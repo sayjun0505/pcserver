@@ -11,6 +11,12 @@ const cpuvendorSchema = new Schema({
     price:{
         type:String
     },
+    date:{
+        type:String
+    },    
+    prev:{
+        type:String
+    },
 })
 
 module.exports = mongoose.model('cpuvendor', cpuvendorSchema)

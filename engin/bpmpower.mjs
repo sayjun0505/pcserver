@@ -10,6 +10,17 @@ let arr = [];
 
 const insertDB = async (arr) => {
   try {
+    const currentDate = new Date();
+
+          const year = currentDate.getFullYear();
+          const month = String(currentDate.getMonth() + 1).padStart(2, '0'); // Months are zero-based, so we add 1
+          const day = String(currentDate.getDate()).padStart(2, '0');
+          const hours = String(currentDate.getHours()).padStart(2, '0');
+          const minutes = String(currentDate.getMinutes()).padStart(2, '0');
+          const seconds = String(currentDate.getSeconds()).padStart(2, '0');
+          
+          const formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
+
     // Connect to MongoDB
     await mongoose.connect(dbConfig.db);
     for (const product of arr) {
@@ -40,12 +51,13 @@ const insertDB = async (arr) => {
 
       if (existingVendorProduct) {
         existingVendorProduct.price = product.price + "€";
+        existingVendorProduct.date=formattedDateTime;
         await existingVendorProduct.save();
       } else {
         await CPUVendor.create({
           cpuid,
           vendorname: "bmp",
-          price: product.price + "€"
+          price: product.price + "€",date: formattedDateTime
         });
       }
     }

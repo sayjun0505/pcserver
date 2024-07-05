@@ -35,21 +35,21 @@ mongoose
   .catch((error) => {
     console.log("Could not connect to database: " + error);
   });
-let  busy=false;
-const fetchDataFromWebshop =async  () => {
-  busy=true;
-  // databaseRefactoring();
-  await rueducommerceData();
-  await azertyData();
-  await bpmpowerData();  
-  await andorrainformaticaData();
-  busy=false;
-};
+// let  busy=false;
+// const fetchDataFromWebshop =async  () => {
+//   busy=true;
+//   // databaseRefactoring();
+//   await rueducommerceData();
+//   await azertyData();
+//   await bpmpowerData();  
+//   await andorrainformaticaData();
+//   busy=false;
+// };
 
-// Define the interval task
-setInterval(() => {
-  if(!busy)fetchDataFromWebshop();
-}, interval);
+// // Define the interval task
+// setInterval(() => {
+//   if(!busy)fetchDataFromWebshop();
+// }, interval);
 
 app.get("/", (req, res) => {
   res.send("Hello from Express!");
