@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import { dbConfig } from "./db/pcbuilderdb.mjs";
+import { databaseRefactoring } from "./engin/databaseRefactoring.mjs";
 import { andorrainformaticaData } from "./engin/andorrainformatica.mjs";
 import { rueducommerceData } from "./engin/rueducommerce.mjs";
 import { bpmpowerData } from "./engin/bpmpower.mjs";
@@ -11,7 +12,7 @@ mongoose.Promise = global.Promise;
 mongoose
   .connect(dbConfig.db)
   .then(() => {
-    console.log("Database successfully connected!");
+    console.log("Database successfully connected in profit!");
   })
   .catch((error) => {
     console.log("Could not connect to database: " + error);
@@ -19,14 +20,13 @@ mongoose
 let  busy=false;
 const fetchDataFromWebshop =async  () => {
   busy=true;
-  databaseRefactoring();
+  // databaseRefactoring();
   // await rueducommerceData();
-  // await azertyData();
-  // await bpmpowerData();  
-  // await andorrainformaticaData();
+  await azertyData();
+  await bpmpowerData();  
+  await andorrainformaticaData();
   busy=false;
 };
-// Define the interval task
 setInterval(() => {
   if(!busy)fetchDataFromWebshop();
 }, interval);

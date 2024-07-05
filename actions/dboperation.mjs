@@ -20,14 +20,14 @@ operRouter.get("/api/alldata", async (req, res) => {
 operRouter.get("/api/spec", async (req, res) => {
   try {
     const id = req.query.id; // Get the value of the 'id' parameter from the query
-    console.log(id);
+    // console.log(id);
     if (id) {
       // Handle the case when 'id' is provided in the query
       // Perform any operations based on the ID value
       const allData = await CPUInfo.findOne({ _id: id });
       const vendorData = await CPUVendor.find({ cpuid: id });
       const ret = { data: allData, vendor: vendorData };
-      console.log(ret);
+      // console.log(ret);
       res.json(ret);
     } else {
       // Handle the case when 'id' is not provided in the query

@@ -20,8 +20,8 @@ const databaseRefactoring = async () => {
   await mongoose.connect(dbConfig.db);
   let alll = await CPUVendor.find({});
   for (let product of alll) {
-    all.date=formattedDateTime;
-    all.prev="0.0"
+    product.date=formattedDateTime;
+    product.prev="0.0"
     await product.save();
   }
   console.log("all done");
@@ -170,8 +170,8 @@ const databaseRefactoring = async () => {
   // JONSBO;
   // Hp;
   // console.log("all done");
-  let all = await CPUInfo.find({ name: { $regex: "7 5700", $options: "i" } });//Intel Core i5-13500 - Processor
-  console.log(all)
+  // let all = await CPUInfo.find({ name: { $regex: "7 5700", $options: "i" } });//Intel Core i5-13500 - Processor
+  // console.log(all)
 };
 
 export { databaseRefactoring };
