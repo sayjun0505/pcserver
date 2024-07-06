@@ -91,7 +91,7 @@ const fetchData = async (url, timeout = 10000) => {
     clearTimeout(timeoutId);
   }
 };
-const bpmpowerData = async (io) => {
+const bpmpowerData = async () => {
   try {
     let currentDate = new Date();
     let year = currentDate.getFullYear();
@@ -109,9 +109,7 @@ const bpmpowerData = async (io) => {
       total += products.length;
       arr.push(...products);
       if (products.length < pagecount) {
-        insertDB(arr, formattedDateTime).then((res) => {
-          io.emit("pcbuilder_bpm", formattedDateTime);
-        });
+        insertDB(arr, formattedDateTime);
         break;
       }
     }
