@@ -109,11 +109,9 @@ const parseProductDetails = async (url) => {
         MPN=fabrikantcodeValue;
       }
     });
-
     let x = { name: nameVal, price: priceVal,MPN:MPN ,freq:freq,sockets:sockets,cores:cores,cooler:cooler,prcmodel:prcmodel,processfamily:processfamily,imgURL:imgURL};
     arr.push(x);
   });
-
   return liCount;
 };
 const azertyData = async () => {
