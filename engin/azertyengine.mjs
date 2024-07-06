@@ -141,7 +141,7 @@ const parseProductDetails = async (url) => {
       processfamily: processfamily,
       imgURL: imgURL
     };
-    console.log(x)
+    // console.log(x)
     arr.push(x);
   });
   return liCount;
