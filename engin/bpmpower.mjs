@@ -3,8 +3,8 @@ import { dbConfig } from "../db/pcbuilderdb.mjs";
 import CPUVendor from "../model/cpuvendor.js";
 import CPUInfo from "../model/cpuinfo.js";
 import mongoose from "mongoose";
-import http from 'http';
-import { Server  } from "socket.io";
+import http from "http";
+import { Server } from "socket.io";
 import express from "express";
 
 const app = express();
@@ -107,13 +107,14 @@ const bpmpowerData = async (io) => {
       total += products.length;
       arr.push(...products);
       if (products.length < pagecount) {
-        await insertDB(arr);
-        io.emit("pcbuilder_bpm", formattedDateTime);
+        insertDB(arr).then((res) => {
+          console.log("start broadcast")
+          io.emit("pcbuilder_bpm", formattedDateTime);
+          console.log("end broadcast")
+        });
         break;
       }
     }
-
-    
 
     console.log(`Total Bpmpower items: ${arr.length}`);
   } catch (error) {
