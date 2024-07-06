@@ -3,7 +3,7 @@ import { dbConfig } from "./db/pcbuilderdb.mjs";
 import { bpmpowerData } from "./engin/bpmpower.mjs";
 import { initSocketServer } from "./socketServer.mjs";
 import http from "http";
-const socketport=8000;
+const socketport=5000;
 const interval = 20000;
 mongoose.Promise = global.Promise;
 

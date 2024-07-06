@@ -20,6 +20,7 @@ mongoose.Promise = global.Promise;
 mongoose
   .connect(dbConfig.db)
   .then(() => {
+    initSocketServer(app);
     console.log("Database successfully connected in server!");
   })
   .catch((error) => {

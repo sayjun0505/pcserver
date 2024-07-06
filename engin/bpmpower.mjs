@@ -4,7 +4,7 @@ import CPUVendor from "../model/cpuvendor.js";
 import CPUInfo from "../model/cpuinfo.js";
 import mongoose from "mongoose";
 import http from "http";
-import { Server } from "socket.io";
+// import { Server } from "socket.io";
 import express from "express";
 
 const app = express();
@@ -31,7 +31,7 @@ const insertDB = async (arr, formattedDateTime) => {
           await CPUVendor.updateOne(
             { cpuid: cpuid },
             {
-              price: product.price,
+              price: product.price.toFixed(2),
               date: formattedDateTime,
               prev: existcpuinfo.price
             }
@@ -40,7 +40,7 @@ const insertDB = async (arr, formattedDateTime) => {
           await CPUVendor.create({
             cpuid: cpuid,
             vendorname: "bpm",
-            price: product.price,
+            price: product.price.toFixed(2),
             date: formattedDateTime,
             prev: 0.0
           });
@@ -59,7 +59,7 @@ const insertDB = async (arr, formattedDateTime) => {
         await CPUVendor.create({
           cpuid: newProduct._id,
           vendorname: "bpm",
-          price: product.price,
+          price: product.price.toFixed(2),
           date: formattedDateTime,
           prev: 0.0
         });

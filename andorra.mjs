@@ -1,11 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import { dbConfig } from "./db/pcbuilderdb.mjs";
-import { databaseRefactoring } from "./engin/databaseRefactoring.mjs";
 import { andorrainformaticaData } from "./engin/andorrainformatica.mjs";
-import { rueducommerceData } from "./engin/rueducommerce.mjs";
-import { bpmpowerData } from "./engin/bpmpower.mjs";
-import { azertyData } from "./engin/azerty.mjs";
 
 const interval = 20000; // 10 seconds interval
 mongoose.Promise = global.Promise;
