@@ -89,46 +89,42 @@ const parseProductDetails = async (url) => {
     let sockets = "";
     let cores = "";
     let cooler = "";
-    $('tbody').each((index, tbody) => {
-      $(tbody).find('tr').each((index, row) => {
-        const key = $(row).find('th').text().trim();
-        const value = $(row).find('td').text().trim();
-        console.log(`${key}: ${value}`);
-      });
-        // const thText = $inner(element).find("th").text();
-        // const tdText = $inner(element).find("td").text();
-        // if (thText.includes("Fabrikantcode")) {
-        //   const fabrikantcodeValue = tdText.trim();
-        //   MPN = fabrikantcodeValue;
-        // }
-        // if (thText.includes("Processorfamilie")) {
-        //   const processfamilys = tdText.trim();
-        //   processfamily = processfamilys;
-        // }
-        // if (thText.includes("Processormodel")) {
-        //   const fabrikantcodeValues = tdText.trim();
-        //   prcmodel = fabrikantcodeValues;
-        // }
-        // if (thText.includes("Basisfrequentie processor")) {
-        //   const fabrikantcodeValuew = tdText.trim();
-        //   freq = fabrikantcodeValuew;
-        // }
-        // if (thText.includes("Aantal processorkernen")) {
-        //   const fabrikantcodeValueff = tdText.trim();
-        //   cores = fabrikantcodeValueff;
-        // }
-        // if (thText.includes("Processor socket")) {
-        //   const fabrikantcodeValuef = tdText.trim();
-        //   sockets = fabrikantcodeValuef;
-        // }
-        // if (thText.includes("Inclusief koeler")) {
-        //   const fabrikantcodeValuedd = tdText.trim();
-        //   cooler = fabrikantcodeValuedd;
-        // }
-        // if (thText.includes("Fabrikantcode")) {
-        //   const fabrikantcodeValue = tdText.trim();
-        //   MPN = fabrikantcodeValue;
-        // }
+    $inner("#product-highlighted-attribute-specs-table tr").each(
+      (index, element) => {
+        const thText = $inner(element).find("th").text();
+        const tdText = $inner(element).find("td").text();
+        if (thText.includes("Fabrikantcode")) {
+          const fabrikantcodeValue = tdText.trim();
+          MPN = fabrikantcodeValue;
+        }
+        if (thText.includes("Processorfamilie")) {
+          const processfamilys = tdText.trim();
+          processfamily = processfamilys;
+        }
+        if (thText.includes("Processormodel")) {
+          const fabrikantcodeValues = tdText.trim();
+          prcmodel = fabrikantcodeValues;
+        }
+        if (thText.includes("Basisfrequentie processor")) {
+          const fabrikantcodeValuew = tdText.trim();
+          freq = fabrikantcodeValuew;
+        }
+        if (thText.includes("Aantal processorkernen")) {
+          const fabrikantcodeValueff = tdText.trim();
+          cores = fabrikantcodeValueff;
+        }
+        if (thText.includes("Processor socket")) {
+          const fabrikantcodeValuef = tdText.trim();
+          sockets = fabrikantcodeValuef;
+        }
+        if (thText.includes("Inclusief koeler")) {
+          const fabrikantcodeValuedd = tdText.trim();
+          cooler = fabrikantcodeValuedd;
+        }
+        if (thText.includes("Fabrikantcode")) {
+          const fabrikantcodeValue = tdText.trim();
+          MPN = fabrikantcodeValue;
+        }
       }
     );
     let x = {
