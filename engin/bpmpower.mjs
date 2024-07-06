@@ -108,7 +108,7 @@ const bpmpowerData = async (io) => {
       arr.push(...products);
       if (products.length < pagecount) {
         await insertDB(arr);
-        io.emit("pcbuilder", formattedDateTime);
+        io.emit("pcbuilder_bpm", formattedDateTime);
         break;
       }
     }
