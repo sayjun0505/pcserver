@@ -25,13 +25,13 @@ const insertDB = async (arr, formattedDateTime) => {
         const cpuid = existingProduct._id;
         let existcpuinfo = await CPUVendor.findOne({
           cpuid: cpuid,
-          vendorname: "bmp"
+          vendorname: "bpm"
         });
         if (existcpuinfo) {
           await CPUVendor.updateOne(
             { cpuid: cpuid },
             {
-              price: parseFloat(product.price.replace("€","").replace(",",".")),
+              price: product.price,
               date: formattedDateTime,
               prev: existcpuinfo.price
             }
@@ -39,8 +39,8 @@ const insertDB = async (arr, formattedDateTime) => {
         } else {
           await CPUVendor.create({
             cpuid: cpuid,
-            vendorname: "bmp",
-            price: parseFloat(product.price.trim().replace("€","").replace(",",".")),
+            vendorname: "bpm",
+            price: product.price,
             date: formattedDateTime,
             prev: 0.0
           });
@@ -59,7 +59,7 @@ const insertDB = async (arr, formattedDateTime) => {
         await CPUVendor.create({
           cpuid: newProduct._id,
           vendorname: "bpm",
-          price: parseFloat(product.price.trim().replace("€","").replace(",",".")),
+          price: product.price,
           date: formattedDateTime,
           prev: 0.0
         });
