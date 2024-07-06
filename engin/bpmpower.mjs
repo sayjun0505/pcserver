@@ -100,19 +100,20 @@ const bpmpowerData = async (io) => {
       total += products.length;
       arr.push(...products);
       if (products.length < pagecount) {
-        let currentDate = new Date();
-        const year = currentDate.getFullYear();
-        let month = String(currentDate.getMonth() + 1).padStart(2, "0");
-        let day = String(currentDate.getDate()).padStart(2, "0");
-        let hours = String(currentDate.getHours()).padStart(2, "0");
-        let minutes = String(currentDate.getMinutes()).padStart(2, "0");
-        let seconds = String(currentDate.getSeconds()).padStart(2, "0");
-        let formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
-        insertDB(arr, formattedDateTime).then((res) => {
+        for (const product of arr) {
+          let currentDate = new Date();
+          const year = currentDate.getFullYear();
+          let month = String(currentDate.getMonth() + 1).padStart(2, "0");
+          let day = String(currentDate.getDate()).padStart(2, "0");
+          let hours = String(currentDate.getHours()).padStart(2, "0");
+          let minutes = String(currentDate.getMinutes()).padStart(2, "0");
+          let seconds = String(currentDate.getSeconds()).padStart(2, "0");
+          let formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
+          await insertDB([product], formattedDateTime);
           console.log("start broadcast");
           io.emit("pcbuilder_bpm", formattedDateTime);
           console.log("end broadcast");
-        });
+        }
         break;
       }
     }
