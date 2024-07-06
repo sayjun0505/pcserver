@@ -16,6 +16,7 @@ let arr = [];
 
 const insertDB = async (arr, formattedDateTime) => {
   try {
+    console.log("formattedDateTime:",formattedDateTime)
     await mongoose.connect(dbConfig.db);
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({
@@ -110,14 +111,11 @@ const bpmpowerData = async (io) => {
           let seconds = String(currentDate.getSeconds()).padStart(2, "0");
           let formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
           await insertDB([product], formattedDateTime);
-          console.log("start broadcast",formattedDateTime);
           io.emit("pcbuilder_bpm", formattedDateTime);
-          console.log("end broadcast");
         }
         break;
       }
     }
-
     console.log(`Total Bpmpower items: ${arr.length}`);
   } catch (error) {
     console.error(error);
