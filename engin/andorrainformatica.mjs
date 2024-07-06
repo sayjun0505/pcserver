@@ -20,7 +20,7 @@ const parseProductDetails = async (url,formattedDateTime) => {
   return html.length;
 };
 
-const insertDB = async () => {
+const insertDB = async (formattedDateTime) => {
   try {
     await mongoose.connect(dbConfig.db);       
     // Iterate over each product in the arr and insert into the database
