@@ -37,14 +37,14 @@ const insertDB = async (formattedDateTime) => {
           await CPUVendor.updateOne(
             { cpuid: cpuid }, 
             { 
-              price: parseFloat(product.price.toFixed(2)),date: formattedDateTime ,
+              price: parseFloat(product.price),date: formattedDateTime ,
               prev:existcpuinfo.price
             });
         } else {
           await CPUVendor.create({ 
             cpuid: cpuid, 
             vendorname: 'andorr', 
-            price: parseFloat(product.price.toFixed(2)) ,date: formattedDateTime,
+            price: parseFloat(product.price) ,date: formattedDateTime,
             prev: 0.0
           });
         }
@@ -58,7 +58,7 @@ const insertDB = async (formattedDateTime) => {
         await CPUVendor.create({ 
           cpuid: newProduct._id, 
           vendorname: 'andorr', 
-          price: parseFloat(product.price.toFixed(2)),date: formattedDateTime,
+          price: parseFloat(product.price),date: formattedDateTime,
           prev: 0.0
         });
       }
