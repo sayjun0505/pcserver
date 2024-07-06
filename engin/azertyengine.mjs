@@ -89,12 +89,12 @@ const parseProductDetails = async (url) => {
     let sockets = "";
     let cores = "";
     let cooler = "";
-    $('tbody').each((index, tbody) => {
-      $(tbody).find('tr').each((index, row) => {
-        const key = $(row).find('th').text().trim();
-        const value = $(row).find('td').text().trim();
-        console.log(`${key}: ${value}`);
-      });
+    const firstTbody = $('tbody').first();
+    firstTbody.find('tr').each((index, row) => {
+      const key = $(row).find('th').text().trim();
+      const value = $(row).find('td').text().trim();
+      console.log(`${key}: ${value}`);
+    });
         // const thText = $inner(element).find("th").text();
         // const tdText = $inner(element).find("td").text();
         // if (thText.includes("Fabrikantcode")) {
@@ -129,8 +129,8 @@ const parseProductDetails = async (url) => {
         //   const fabrikantcodeValue = tdText.trim();
         //   MPN = fabrikantcodeValue;
         // }
-      }
-    );
+    //   }
+    // );
     let x = {
       name: nameVal,
       price: parseFloat(
