@@ -13,16 +13,15 @@ const insertDB = async (formattedDateTime) => {
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
 
-      if (existingProduct) {
-        
-        // if(existingProduct.MPN=="100-100000910WOF")console.log(existingProduct)
+      if (existingProduct) {        
+        let s="";
+        if(existingProduct.MPN=="100-100000910WOF")s=existingProduct._id;
         // If product name exists in CPUInfo collection, get id and insert into CPUVendor with vendorname as "a"
         const cpuid = existingProduct._id;
         let existcpuinfo = await CPUVendor.findOne({
           cpuid: cpuid,
           vendorname: "azerty"
         });
-        console.log(existcpuinfo)
         if (existcpuinfo) {
           //update price
           await CPUVendor.updateOne(
@@ -30,6 +29,7 @@ const insertDB = async (formattedDateTime) => {
             { price: product.price, date: formattedDateTime }
           );
         } else {
+          if(product.MPN=="100-100000910WOF")console.log(product.price)
           await CPUVendor.create({
             cpuid: cpuid,
             vendorname: "azerty",
