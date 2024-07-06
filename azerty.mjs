@@ -20,13 +20,9 @@ mongoose
 let  busy=false;
 const fetchDataFromWebshop =async  () => {
   busy=true;
-  // databaseRefactoring();
-  // await rueducommerceData();
   await azertyData();
-  // await bpmpowerData();  
-  // await andorrainformaticaData();
   busy=false;
 };
 setInterval(() => {
-  if(!busy)fetchDataFromWebshop();
+  // if(!busy)fetchDataFromWebshop();
 }, interval);
