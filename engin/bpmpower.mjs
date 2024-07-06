@@ -117,7 +117,7 @@ const bpmpowerData = async (io) => {
         break;
       }
     }
-    console.log(`Total Bpmpower items: ${arr.length}`);
+    console.log(`Bpmpower ${arr.length} items at ${formattedDateTime}`);
   } catch (error) {
     console.error(error);
   }
