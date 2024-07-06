@@ -5,6 +5,9 @@ import path from "path";
 import bodyParser from "body-parser";
 import operRoutes from "./actions/dboperation.mjs";
 import { dbConfig } from "./db/pcbuilderdb.mjs";
+import { initSocketServer } from "./socketServer.mjs";
+
+
 const app = express();
 const port = 5000;
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
@@ -26,6 +29,7 @@ app.get("/", (req, res) => {
   res.send("Hello from Express!");
 });
 app.use("/", operRoutes);
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });

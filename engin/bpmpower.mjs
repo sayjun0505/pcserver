@@ -98,7 +98,7 @@ const fetchData = async (url, timeout = 10000) => {
     clearTimeout(timeoutId);
   }
 };
-const bpmpowerData = async () => {
+const bpmpowerData = async (io) => {
   try {
     while (true) {
       const url = `${url_base}?limit=${pagecount}&offset=${total}&template=it&idDepartment=214&orderBy=1&sortBy=0`;
@@ -108,23 +108,12 @@ const bpmpowerData = async () => {
       arr.push(...products);
       if (products.length < pagecount) {
         await insertDB(arr);
+        io.emit("pcbuilder", formattedDateTime);
         break;
       }
     }
 
-    const io = new Server(server, {
-      cors: {
-        origin: "*"
-      }
-    });
-    io.on("connection", (socket) => {
-      console.log("A user connected");
-      io.emit("pcbuilder", formattedDateTime);
-      // Disconnect event
-      socket.on("disconnect", () => {
-        console.log("A client disconnected");
-      });
-    });
+    
 
     console.log(`Total Bpmpower items: ${arr.length}`);
   } catch (error) {
