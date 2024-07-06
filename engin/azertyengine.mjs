@@ -26,7 +26,7 @@ const insertDB = async (formattedDateTime) => {
           //update price
           await CPUVendor.updateOne(
             { cpuid: cpuid },
-            { price: product.price, date: formattedDateTime }
+            { price: product.price, date: formattedDateTime,prev: existcpuinfo.price }
           );
         } else {
           if(product.MPN=="100-100000910WOF")console.log(product.price)
@@ -34,7 +34,8 @@ const insertDB = async (formattedDateTime) => {
             cpuid: cpuid,
             vendorname: "azerty",
             price: product.price,
-            date: formattedDateTime
+            date: formattedDateTime,
+            prev: 0.0
           });
         }
       } else {
