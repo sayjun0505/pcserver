@@ -134,8 +134,8 @@ const parseProductDetails = async (url) => {
     let x = {
       name: nameVal,
       price: parseFloat(
-        priceVal.trim().replace("€", "").replace(",", ".")
-      ).toFixed(2),
+        priceVal.trim().replace("€", "")
+      ),
       MPN: MPN,
       freq: freq,
       sockets: sockets,
