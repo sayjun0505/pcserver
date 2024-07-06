@@ -16,7 +16,6 @@ let arr = [];
 
 const insertDB = async (arr, formattedDateTime) => {
   try {
-    console.log("indexDB:", formattedDateTime);
     await mongoose.connect(dbConfig.db);
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({
@@ -32,7 +31,7 @@ const insertDB = async (arr, formattedDateTime) => {
           await CPUVendor.updateOne(
             { cpuid: cpuid },
             {
-              price: product.price + "€",
+              price: parseFloat(product.price.trim().replace("€","").replace(",",".")),
               date: formattedDateTime,
               prev: existcpuinfo.price
             }
@@ -41,9 +40,9 @@ const insertDB = async (arr, formattedDateTime) => {
           await CPUVendor.create({
             cpuid: cpuid,
             vendorname: "bmp",
-            price: product.price + "€",
+            price: parseFloat(product.price.trim().replace("€","").replace(",",".")),
             date: formattedDateTime,
-            prev: "0.0€"
+            prev: 0.0
           });
         }
       } else {
@@ -59,10 +58,10 @@ const insertDB = async (arr, formattedDateTime) => {
         });
         await CPUVendor.create({
           cpuid: newProduct._id,
-          vendorname: "bmp",
-          price: product.price + "€",
+          vendorname: "bpm",
+          price: parseFloat(product.price.trim().replace("€","").replace(",",".")),
           date: formattedDateTime,
-          prev: "0.0€"
+          prev: 0.0
         });
       }
     }
@@ -112,7 +111,6 @@ const bpmpowerData = async (io) => {
       if (products.length < pagecount) {
         insertDB(arr, formattedDateTime).then((res) => {
           io.emit("pcbuilder_bpm", formattedDateTime);
-          console.log("socket:", formattedDateTime);
         });
         break;
       }

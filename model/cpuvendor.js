@@ -2,21 +2,21 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const cpuvendorSchema = new Schema({
-    cpuid:{
-        type:String
+    cpuid: {
+        type: String
     },
-    vendorname:{
-        type:String
+    vendorname: {
+        type: String
     },
-    price:{
-        type:String
+    price: {
+        type: Number
     },
-    date:{
-        type:String
-    },    
-    prev:{
-        type:String
+    date: {
+        type: String
     },
-})
+    prev: {
+        type: Number 
+    }
+});
 
-module.exports = mongoose.model('cpuvendor', cpuvendorSchema)
+module.exports = mongoose.model('cpuvendor', cpuvendorSchema);
