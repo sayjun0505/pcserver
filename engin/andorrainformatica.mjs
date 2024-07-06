@@ -6,7 +6,7 @@ import CPUInfo from '../model/cpuinfo.js';
 
 let arr = [];
 
-const parseProductDetails = async (url) => {
+const parseProductDetails = async (url,formattedDateTime) => {
   const response = await axios.get(url);
   const html = response.data.products;
 
@@ -22,17 +22,7 @@ const parseProductDetails = async (url) => {
 
 const insertDB = async () => {
   try {
-    await mongoose.connect(dbConfig.db);
-    const currentDate = new Date();
-
-    const year = currentDate.getFullYear();
-    const month = String(currentDate.getMonth() + 1).padStart(2, '0'); // Months are zero-based, so we add 1
-    const day = String(currentDate.getDate()).padStart(2, '0');
-    const hours = String(currentDate.getHours()).padStart(2, '0');
-    const minutes = String(currentDate.getMinutes()).padStart(2, '0');
-    const seconds = String(currentDate.getSeconds()).padStart(2, '0');
-    
-    const formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
+    await mongoose.connect(dbConfig.db);       
     // Iterate over each product in the arr and insert into the database
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
@@ -87,15 +77,25 @@ const andorrainformaticaData = async () => {
   try {
     let i = 1;
     arr = [];
+    let currentDate = new Date();
+
+    let year = currentDate.getFullYear();
+    let month = String(currentDate.getMonth() + 1).padStart(2, '0'); // Months are zero-based, so we add 1
+    let day = String(currentDate.getDate()).padStart(2, '0');
+    let hours = String(currentDate.getHours()).padStart(2, '0');
+    let minutes = String(currentDate.getMinutes()).padStart(2, '0');
+    let seconds = String(currentDate.getSeconds()).padStart(2, '0');
+    let formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
+    
     while (true) {
       const newUrl = `https://www.andorrainformatica.com/54-procesadores?page=${i}`;
-      let newcount = await parseProductDetails(newUrl);
+      let newcount = await parseProductDetails(newUrl,formattedDateTime);
       if (newcount == 0) break;
       else i += 1;
     }
 
-    console.log(`Total Andorrainformatica items: ${arr.length}`);
-    await insertDB(); // Ensure to await the insertDB function
+    console.log(`Andorrainformatica items: ${arr.length} at ${formattedDateTime}`);
+    await insertDB(formattedDateTime); // Ensure to await the insertDB function
 
   } catch (error) {
     console.error('An error occurred:', error.message);

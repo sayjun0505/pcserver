@@ -11,18 +11,9 @@ import express from "express";
 let arr = [];
 const app = express();
 const server = http.createServer(app);
-const insertDB = async () => {
+const insertDB = async (formattedDateTime) => {
   try {
-    await mongoose.connect(dbConfig.db);
-    let currentDate = new Date();
-    let year = currentDate.getFullYear();
-    let month = String(currentDate.getMonth() + 1).padStart(2, "0");
-    let day = String(currentDate.getDate()).padStart(2, "0");
-    let hours = String(currentDate.getHours()).padStart(2, "0");
-    let minutes = String(currentDate.getMinutes()).padStart(2, "0");
-    let seconds = String(currentDate.getSeconds()).padStart(2, "0");
-    let formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
-
+    await mongoose.connect(dbConfig.db);    
     // Iterate over each product in the arr and insert into the database
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
@@ -175,7 +166,7 @@ const azertyData = async () => {
       const newUrl = `https://azerty.nl/componenten/cpu?p=${i}`;
       let newcount = await parseProductDetails(newUrl);
       if (newcount < 24) {
-        await insertDB();
+        await insertDB(formattedDateTime);
         break;
       }
       i++;
