@@ -16,7 +16,7 @@ let arr = [];
 
 const insertDB = async (arr, formattedDateTime) => {
   try {
-    console.log("formattedDateTime:",formattedDateTime)
+    console.log("indexDB:", formattedDateTime);
     await mongoose.connect(dbConfig.db);
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({
@@ -94,6 +94,15 @@ const fetchData = async (url, timeout = 10000) => {
 };
 const bpmpowerData = async (io) => {
   try {
+    let currentDate = new Date();
+    const year = currentDate.getFullYear();
+    let month = String(currentDate.getMonth() + 1).padStart(2, "0");
+    let day = String(currentDate.getDate()).padStart(2, "0");
+    let hours = String(currentDate.getHours()).padStart(2, "0");
+    let minutes = String(currentDate.getMinutes()).padStart(2, "0");
+    let seconds = String(currentDate.getSeconds()).padStart(2, "0");
+    let formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
+
     while (true) {
       const url = `${url_base}?limit=${pagecount}&offset=${total}&template=it&idDepartment=214&orderBy=1&sortBy=0`;
       const data = await fetchData(url);
@@ -101,18 +110,10 @@ const bpmpowerData = async (io) => {
       total += products.length;
       arr.push(...products);
       if (products.length < pagecount) {
-        for (const product of arr) {
-          let currentDate = new Date();
-          const year = currentDate.getFullYear();
-          let month = String(currentDate.getMonth() + 1).padStart(2, "0");
-          let day = String(currentDate.getDate()).padStart(2, "0");
-          let hours = String(currentDate.getHours()).padStart(2, "0");
-          let minutes = String(currentDate.getMinutes()).padStart(2, "0");
-          let seconds = String(currentDate.getSeconds()).padStart(2, "0");
-          let formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
-          await insertDB([product], formattedDateTime);
+        insertDB(arr, formattedDateTime).then((res) => {
           io.emit("pcbuilder_bpm", formattedDateTime);
-        }
+          console.log("socket:", formattedDateTime);
+        });
         break;
       }
     }
