@@ -4,13 +4,8 @@ import CPUVendor from "../model/cpuvendor.js";
 import CPUInfo from "../model/cpuinfo.js";
 import mongoose from "mongoose";
 import { dbConfig } from "../db/pcbuilderdb.mjs";
-import http from "http";
-// import { Server } from "socket.io";
-import express from "express";
 
 let arr = [];
-const app = express();
-const server = http.createServer(app);
 const insertDB = async (formattedDateTime) => {
   try {
     await mongoose.connect(dbConfig.db);    

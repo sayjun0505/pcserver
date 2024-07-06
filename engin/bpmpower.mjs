@@ -3,12 +3,7 @@ import { dbConfig } from "../db/pcbuilderdb.mjs";
 import CPUVendor from "../model/cpuvendor.js";
 import CPUInfo from "../model/cpuinfo.js";
 import mongoose from "mongoose";
-import http from "http";
-// import { Server } from "socket.io";
-import express from "express";
 
-const app = express();
-const server = http.createServer(app);
 const pagecount = 28;
 let total = 0;
 const url_base = "https://www.bpm-power.com/api/v2/getProductsByDepartment";
@@ -31,7 +26,7 @@ const insertDB = async (arr, formattedDateTime) => {
           await CPUVendor.updateOne(
             { cpuid: cpuid },
             {
-              price: product.price.toFixed(2),
+              price: product.price,
               date: formattedDateTime,
               prev: existcpuinfo.price
             }
@@ -40,7 +35,7 @@ const insertDB = async (arr, formattedDateTime) => {
           await CPUVendor.create({
             cpuid: cpuid,
             vendorname: "bpm",
-            price: product.price.toFixed(2),
+            price: product.price,
             date: formattedDateTime,
             prev: 0.0
           });
@@ -59,7 +54,7 @@ const insertDB = async (arr, formattedDateTime) => {
         await CPUVendor.create({
           cpuid: newProduct._id,
           vendorname: "bpm",
-          price: product.price.toFixed(2),
+          price: product.price,
           date: formattedDateTime,
           prev: 0.0
         });
