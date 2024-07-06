@@ -31,7 +31,7 @@ const insertDB = async (arr, formattedDateTime) => {
           await CPUVendor.updateOne(
             { cpuid: cpuid },
             {
-              price: parseFloat(product.price.trim().replace("€","").replace(",",".")),
+              price: parseFloat(product.price.replace("€","").replace(",",".")),
               date: formattedDateTime,
               prev: existcpuinfo.price
             }
