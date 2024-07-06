@@ -13,15 +13,8 @@ const pagecount = 28;
 let total = 0;
 const url_base = "https://www.bpm-power.com/api/v2/getProductsByDepartment";
 let arr = [];
-const currentDate = new Date();
-const year = currentDate.getFullYear();
-const month = String(currentDate.getMonth() + 1).padStart(2, "0");
-const day = String(currentDate.getDate()).padStart(2, "0");
-const hours = String(currentDate.getHours()).padStart(2, "0");
-const minutes = String(currentDate.getMinutes()).padStart(2, "0");
-const seconds = String(currentDate.getSeconds()).padStart(2, "0");
-const formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
-const insertDB = async (arr) => {
+
+const insertDB = async (arr, formattedDateTime) => {
   try {
     await mongoose.connect(dbConfig.db);
     for (const product of arr) {
@@ -107,10 +100,18 @@ const bpmpowerData = async (io) => {
       total += products.length;
       arr.push(...products);
       if (products.length < pagecount) {
-        insertDB(arr).then((res) => {
-          console.log("start broadcast")
+        const currentDate = new Date();
+        const year = currentDate.getFullYear();
+        const month = String(currentDate.getMonth() + 1).padStart(2, "0");
+        const day = String(currentDate.getDate()).padStart(2, "0");
+        const hours = String(currentDate.getHours()).padStart(2, "0");
+        const minutes = String(currentDate.getMinutes()).padStart(2, "0");
+        const seconds = String(currentDate.getSeconds()).padStart(2, "0");
+        const formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
+        insertDB(arr, formattedDateTime).then((res) => {
+          console.log("start broadcast");
           io.emit("pcbuilder_bpm", formattedDateTime);
-          console.log("end broadcast")
+          console.log("end broadcast");
         });
         break;
       }
