@@ -20,5 +20,5 @@ const fetchDataFromWebshop =async  () => {
   busy=false;
 };
 setInterval(() => {
-  // if(!busy)fetchDataFromWebshop();
+  if(!busy)fetchDataFromWebshop();
 }, interval);

@@ -39,15 +39,38 @@ const insertDB = async () => {
 
       if (existingProduct) {
         const cpuid = existingProduct._id;
-        let existcpuinfo = await CPUVendor.findOne({ cpuid: cpuid, vendorname: 'andorr' });
+        let existcpuinfo = await CPUVendor.findOne({ 
+          cpuid: cpuid, 
+          vendorname: 'andorr' 
+        });
         if (existcpuinfo) {
-          await CPUVendor.updateOne({ cpuid: cpuid }, { price: product.price.replace(/\s/g, ""),date: formattedDateTime });
+          await CPUVendor.updateOne(
+            { cpuid: cpuid }, 
+            { 
+              price: parseFloat(product.price.trim().replace("€", "").replace(",", ".")).toFixed(2),date: formattedDateTime ,
+              prev:existcpuinfo.price
+            });
         } else {
-          await CPUVendor.create({ cpuid: cpuid, vendorname: 'andorr', price: product.price.replace(/\s/g, "") ,date: formattedDateTime});
+          await CPUVendor.create({ 
+            cpuid: cpuid, 
+            vendorname: 'andorr', 
+            price: parseFloat(product.price.trim().replace("€", "").replace(",", ".")).toFixed(2) ,date: formattedDateTime,
+            prev: 0.0
+          });
         }
       } else {
-        const newProduct = await CPUInfo.create({ name: product.name, MPN: product.MPN, imgurl: product.imgurl, detail: product.url });
-        await CPUVendor.create({ cpuid: newProduct._id, vendorname: 'azerty', price: product.price.replace(/\s/g, "") ,date: formattedDateTime});
+        const newProduct = await CPUInfo.create({ 
+          name: product.name, 
+          MPN: product.MPN, 
+          imgurl: product.imgurl, 
+          detail: product.url 
+        });
+        await CPUVendor.create({ 
+          cpuid: newProduct._id, 
+          vendorname: 'andorr', 
+          price: parseFloat(product.price.trim().replace("€", "").replace(",", ".")).toFixed(2),date: formattedDateTime,
+          prev: 0.0
+        });
       }
     }
 
