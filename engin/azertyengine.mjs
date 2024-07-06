@@ -61,7 +61,7 @@ const insertDB = async (formattedDateTime) => {
     }
 
     console.log(
-      `${arr.length} products inserted into the cpuvendor collection`
+      Azerty`${arr.length} items at ${formattedDateTime}`
     );
   } catch (error) {
     console.error(error);
