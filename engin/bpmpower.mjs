@@ -110,7 +110,7 @@ const bpmpowerData = async (io) => {
           let seconds = String(currentDate.getSeconds()).padStart(2, "0");
           let formattedDateTime = `${year}/${month}/${day} - ${hours}:${minutes}:${seconds}`;
           await insertDB([product], formattedDateTime);
-          console.log("start broadcast");
+          console.log("start broadcast",formattedDateTime);
           io.emit("pcbuilder_bpm", formattedDateTime);
           console.log("end broadcast");
         }
