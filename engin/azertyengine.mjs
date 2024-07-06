@@ -14,7 +14,8 @@ const insertDB = async (formattedDateTime) => {
       let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
 
       if (existingProduct) {
-        if(existingProduct.MPN=="100-100000910WOF")console.log(existingProduct)
+        console.log(existingProduct)
+        // if(existingProduct.MPN=="100-100000910WOF")console.log(existingProduct)
         // If product name exists in CPUInfo collection, get id and insert into CPUVendor with vendorname as "a"
         const cpuid = existingProduct._id;
         let existcpuinfo = await CPUVendor.findOne({
