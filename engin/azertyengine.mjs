@@ -61,7 +61,7 @@ const insertDB = async (formattedDateTime) => {
     }
 
     console.log(
-      Azerty`${arr.length} items at ${formattedDateTime}`
+      `Azerty ${arr.length} items at ${formattedDateTime}`
     );
   } catch (error) {
     console.error(error);
