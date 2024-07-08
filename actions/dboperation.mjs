@@ -10,7 +10,6 @@ const operRouter = express.Router();
 operRouter.get("/api/alldata", async (req, res) => {
   try {
     const allData = await CPUList.find({});
-    // const vendorData = await CPUVendor.find({});
     const ret = { data: allData };
     res.json(ret);
   } catch (error) {
