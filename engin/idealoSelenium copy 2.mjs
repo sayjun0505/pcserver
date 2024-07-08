@@ -44,6 +44,7 @@ async function fetchPageTitle() {
           const linkElement = await element.findElement(By.css("a"));
           const href = await linkElement.getAttribute("href");
 
+          
           const imgElements = await parentElement.findElement(
             By.className("sr-resultItemTile__image_ivkex")
           );
@@ -72,7 +73,7 @@ async function fetchPageTitle() {
             cpuid = createdProduct._id;
           }
           await CPUVendorList.deleteMany({ cpuid: cpuid });
-          //   await new Promise(resolve => setTimeout(resolve, 200));
+        //   await new Promise(resolve => setTimeout(resolve, 200));
           const detail = await new Builder().forBrowser("chrome").build();
           await detail.get(href);
           const listinfo = await detail.findElements(
@@ -101,24 +102,21 @@ async function fetchPageTitle() {
                 By.className("productOffers-listItemOfferShopV2LogoImage")
               );
               const subimgurl = await vendorinfo.getAttribute("src");
-              let item = {
+              let item={
                 cpuid: cpuid,
                 displayname: nameContent,
                 vendorimgurl: subimgurl,
-                price: parseFloat(
-                  prcContent.replace("€", "").trim().replace(",", ".").trim()
-                ),
+                price: parseFloat(prcContent.replace("€", "").trim().replace(",", ".").trim()),
                 directlink: detailContent
-              };
+              }
               await CPUVendorList.create(item);
             } catch (err) {
               console.error("Error processing element:", err.message);
             }
           }
 
-          //   arr.push(x);
-          await driver.manage().deleteAllCookies();
-          await detail.quit();
+        //   arr.push(x);
+            await detail.quit();
         } catch (err) {
           console.error("Error processing element:", err.message);
         }

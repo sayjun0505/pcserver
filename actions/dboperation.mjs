@@ -2,14 +2,16 @@ import express from "express";
 import { dbConfig } from "../db/pcbuilderdb.mjs";
 import CPUVendor from "../model/cpuvendor.js";
 import CPUInfo from "../model/cpuinfo.js";
+import CPUVendorList from "../model/cpuvendorlist.js";
 import mongoose from "mongoose";
+import CPUList from "../model/cpulist.js";
 const operRouter = express.Router();
 
 operRouter.get("/api/alldata", async (req, res) => {
   try {
-    const allData = await CPUInfo.find({});
-    const vendorData = await CPUVendor.find({});
-    const ret = { data: allData, vendor: vendorData };
+    const allData = await CPUList.find({});
+    // const vendorData = await CPUVendor.find({});
+    const ret = { data: allData };
     res.json(ret);
   } catch (error) {
     console.error("Error fetching all data from MongoDB:", error);
@@ -24,8 +26,8 @@ operRouter.get("/api/spec", async (req, res) => {
     if (id) {
       // Handle the case when 'id' is provided in the query
       // Perform any operations based on the ID value
-      const allData = await CPUInfo.findOne({ _id: id });
-      const vendorData = await CPUVendor.find({ cpuid: id });
+      const allData = await CPUList.findOne({ _id: id });
+      const vendorData = await CPUVendorList.find({ cpuid: id });
       const ret = { data: allData, vendor: vendorData };
       // console.log(ret);
       res.json(ret);
