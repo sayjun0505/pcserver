@@ -107,7 +107,6 @@ async function fetchPageTitle() {
                 price: parseFloat(prcContent.replace("€", "").trim().replace(",", ".").trim()),
                 directlink: detailContent
               }
-              console.log(item)
               await CPUVendorList.create(item);
             } catch (err) {
               console.error("Error processing element:", err.message);
