@@ -114,7 +114,7 @@ async function fetchPageTitle() {
           }
 
         //   arr.push(x);
-          //   await detail.quit();
+            await detail.quit();
         } catch (err) {
           console.error("Error processing element:", err.message);
         }
