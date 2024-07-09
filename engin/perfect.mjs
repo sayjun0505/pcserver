@@ -134,6 +134,8 @@ async function fetchPageTitle() {
               await actions.move({ origin: button }).perform();
               await driver.executeScript("arguments[0].click();", button);
               const href = await driver.getCurrentUrl();
+
+              console.log("Current URL:", href);
               const pr = await driver.findElement(
                 By.css(".pageContent-wrapper")
               );
@@ -148,10 +150,12 @@ async function fetchPageTitle() {
                   By.className("simple-carousel-item")
                 );
                 if (divElement) {
+                  console.log("div");
                   const imgElement = await divElement.findElement(
                     By.tagName("img")
                   );
                   if (imgElement) {
+                    console.log("img");
                     const src = await imgElement.getAttribute("src");
                     imgurl = "https:" + src;
                   } else {

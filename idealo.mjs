@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import { dbConfig } from "./db/pcbuilderdb.mjs";
 import { fetchPageTitle } from "./engin/idealoSelenium.mjs";
+// import { fetchPageTitle } from "./engin/perfect.mjs";
 const interval = 20000;
 mongoose.Promise = global.Promise;
 
