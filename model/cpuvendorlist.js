@@ -14,6 +14,9 @@ const cpuvendorlistSchema = new Schema({
     price: {
         type: Number
     },
+    payment: {
+        type: String
+    },
     directlink: {
         type: String
     }
