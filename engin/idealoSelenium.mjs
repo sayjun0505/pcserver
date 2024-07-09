@@ -12,7 +12,7 @@ async function fetchPageTitle() {
 
   const driver = await new Builder().forBrowser("chrome").build();
   let arr = [];
-  let pages = 35;
+  let pages = 0;
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {
@@ -76,9 +76,10 @@ async function fetchPageTitle() {
             //   await new Promise(resolve => setTimeout(resolve, 200));
             const detail = await new Builder().forBrowser("chrome").build();
             await detail.get(href);
-
+            console.log("Acurrent url:", href);
             const nationality = await detail.findElement(By.id("i18nPrices"));
             const ulElement = await nationality.findElement(By.tagName("ul"));
+
             const htmlString = ulElement.getAttribute("outerHTML");
             await saveToDatabase(cpuid, htmlString);
 
@@ -89,6 +90,7 @@ async function fetchPageTitle() {
               ),
               timeout
             );
+            let count = 0;
             for (const info of listinfo) {
               try {
                 const nameinfo = await info.findElement(
@@ -104,7 +106,6 @@ async function fetchPageTitle() {
                 const paymentContent = await paymentinfo.getAttribute(
                   "outerHTML"
                 );
-               
 
                 const detailinfo = await info.findElement(
                   By.className("productOffers-listItemTitle")
@@ -135,8 +136,11 @@ async function fetchPageTitle() {
               } catch (err) {
                 console.error("Error processing element:", err.message);
               }
+              if (count >= 3) break;
+              count++;
             }
             await driver.manage().deleteAllCookies();
+
             await detail.quit();
           } catch (err) {
             if (err.name === "NoSuchElementError") {
@@ -209,6 +213,8 @@ async function fetchPageTitle() {
               await CPUVendorList.deleteMany({ cpuid: cpuid });
               const detail = await new Builder().forBrowser("chrome").build();
               await detail.get(href);
+              console.log("Bcurrent url:", href);
+
               const timeout = 10000;
               const listinfo = await detail.wait(
                 until.elementsLocated(
@@ -220,7 +226,7 @@ async function fetchPageTitle() {
               const ulElement = await nationality.findElement(By.tagName("ul"));
               const htmlString = ulElement.getAttribute("outerHTML");
               await saveToDatabase(cpuid, htmlString);
-
+              let count = 0;
               for (const info of listinfo) {
                 try {
                   const nameinfo = await info.findElement(
@@ -236,7 +242,7 @@ async function fetchPageTitle() {
                   const paymentContent = await paymentinfo.getAttribute(
                     "outerHTML"
                   );
-                  
+
                   const detailinfo = await info.findElement(
                     By.className("productOffers-listItemTitle")
                   );
@@ -270,6 +276,8 @@ async function fetchPageTitle() {
                 } catch (err) {
                   console.error("Error processing element:", err.message);
                 }
+                if (count >= 3) break;
+                count++;
               }
               await driver.manage().deleteAllCookies();
               await detail.quit();
@@ -280,7 +288,7 @@ async function fetchPageTitle() {
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
     }
-    console.log(arr.length);
+    console.log("All data were just processed");
   } catch (err) {
     console.error("An error occurred:", err.message);
   } finally {
@@ -289,15 +297,82 @@ async function fetchPageTitle() {
     }
   }
 }
+async function getdatafromLink(cpuid, link) {
+  const countrywebshop = await new Builder().forBrowser("chrome").build();
+  await countrywebshop.get(link);
+
+  const timeout = 10000;
+  const listinfo = await countrywebshop.wait(
+    until.elementsLocated(
+      By.className("product-offers-items-soop-4576-fallback")
+    ),
+    timeout
+  );
+  let count = 0;
+  for (const info of listinfo) {
+    try {
+      const nameinfo = await info.findElement(
+        By.className("productOffers-listItemTitleWrapper")
+      );
+      const nameContent = await nameinfo.getText();
+
+      const paymentinfo = await info.findElement(
+        By.className("productOffers-listItemOfferShippingDetailsRight")
+      );
+      const paymentContent = await paymentinfo.getAttribute("outerHTML");
+
+      const detailinfo = await info.findElement(
+        By.className("productOffers-listItemTitle")
+      );
+      const detailContent =
+        "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
+      const prcinfo = await info.findElement(
+        By.className("productOffers-listItemOfferPrice")
+      );
+      const prcContent = await prcinfo.getText();
+
+      const vendorinfo = await info.findElement(
+        By.className("productOffers-listItemOfferShopV2LogoImage")
+      );
+      const subimgurl = await vendorinfo.getAttribute("src");
+      let item = {
+        cpuid: cpuid,
+        displayname: nameContent,
+        payment: paymentContent,
+        vendorimgurl: subimgurl,
+        price: parseFloat(
+          prcContent
+            .replace("€", "")
+            .replace("£", "")
+            .trim()
+            .replace(",", ".")
+            .trim()
+        ),
+        directlink: detailContent
+      };
+      await CPUVendorList.create(item);
+      if (count >= 3) {
+        break;
+      }
+      count++;
+    } catch (err) {
+      console.error("Error processing element:", err.message);
+    }
+  }
+  await countrywebshop.quit();
+}
 async function saveToDatabase(cpuid, htmlString) {
-  // Simulating a database operation with a delay
   try {
     await mongoose.connect(dbConfig.db);
     await new Promise((resolve) => setTimeout(resolve, 1000));
-
-    // Ensure that the htmlString is resolved before saving
     const html = await htmlString;
-
+    const hrefRegex = /href="([^"]*)"/g;
+    let hrefLinks = [];
+    let match;
+    while ((match = hrefRegex.exec(html)) !== null) {
+      hrefLinks.push(match[1]);
+      await getdatafromLink(cpuid, match[1]);
+    }
     await CPUNat.deleteMany({ cpuid: cpuid });
     await CPUNat.create({
       cpuid: cpuid,
