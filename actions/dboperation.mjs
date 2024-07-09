@@ -25,7 +25,7 @@ operRouter.get("/api/spec", async (req, res) => {
     if (id) {
       const allData = await CPUList.findOne({ _id: id });
       const vendorData = await CPUVendorList.find({ cpuid: id });
-      const cpunatData = await CPUNat.find({ cpuid: id });
+      const cpunatData = await CPUNat.findOne({ cpuid: id });
       const ret = { data: allData, vendor: vendorData,nat:cpunatData };
       res.json(ret);
     } else {
