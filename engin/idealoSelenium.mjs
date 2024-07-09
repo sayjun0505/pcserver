@@ -3,6 +3,7 @@ import chrome from "selenium-webdriver/chrome.js";
 import { dbConfig } from "../db/pcbuilderdb.mjs";
 import CPUList from "../model/cpulist.js";
 import CPUVendorList from "../model/cpuvendorlist.js";
+import CPUNat from "../model/cpunat.js";
 import mongoose from "mongoose";
 
 async function fetchPageTitle() {
@@ -75,6 +76,12 @@ async function fetchPageTitle() {
             //   await new Promise(resolve => setTimeout(resolve, 200));
             const detail = await new Builder().forBrowser("chrome").build();
             await detail.get(href);
+
+            const nationality = await detail.findElement(By.id("i18nPrices"));
+            const ulElement = await nationality.findElement(By.tagName("ul"));
+            const htmlString = ulElement.getAttribute("outerHTML");
+            await saveToDatabase(cpuid, htmlString);
+
             const timeout = 10000;
             const listinfo = await detail.wait(
               until.elementsLocated(
@@ -197,6 +204,11 @@ async function fetchPageTitle() {
                 ),
                 timeout
               );
+              const nationality = await detail.findElement(By.id("i18nPrices"));
+              const ulElement = await nationality.findElement(By.tagName("ul"));
+              const htmlString = ulElement.getAttribute("outerHTML");
+              await saveToDatabase(cpuid, htmlString);
+
               for (const info of listinfo) {
                 try {
                   const nameinfo = await info.findElement(
@@ -238,7 +250,7 @@ async function fetchPageTitle() {
               }
               await driver.manage().deleteAllCookies();
               await detail.quit();
-            } 
+            }
           }
         } catch (err) {}
       }
@@ -254,5 +266,23 @@ async function fetchPageTitle() {
     }
   }
 }
+async function saveToDatabase(cpuid, htmlString) {
+    // Simulating a database operation with a delay
+    try {
+      await mongoose.connect(dbConfig.db);
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+  
+      // Ensure that the htmlString is resolved before saving
+      const html = await htmlString;
+  
+      await CPUNat.deleteMany({ cpuid: cpuid });
+      await CPUNat.create({
+        cpuid: cpuid,
+        html: html
+      });
+    } catch (error) {
+      console.error(error);
+    }
+  }
 
 export { fetchPageTitle };
