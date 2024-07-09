@@ -95,6 +95,17 @@ async function fetchPageTitle() {
                   By.className("productOffers-listItemTitleWrapper")
                 );
                 const nameContent = await nameinfo.getText();
+
+                const paymentinfo = await info.findElement(
+                  By.className(
+                    "productOffers-listItemOfferShippingDetailsRight"
+                  )
+                );
+                const paymentContent = await paymentinfo.getAttribute(
+                  "outerHTML"
+                );
+               
+
                 const detailinfo = await info.findElement(
                   By.className("productOffers-listItemTitle")
                 );
@@ -113,6 +124,7 @@ async function fetchPageTitle() {
                 let item = {
                   cpuid: cpuid,
                   displayname: nameContent,
+                  payment: paymentContent,
                   vendorimgurl: subimgurl,
                   price: parseFloat(
                     prcContent.replace("€", "").trim().replace(",", ".").trim()
@@ -215,6 +227,16 @@ async function fetchPageTitle() {
                     By.className("productOffers-listItemTitleWrapper")
                   );
                   const nameContent = await nameinfo.getText();
+
+                  const paymentinfo = await info.findElement(
+                    By.className(
+                      "productOffers-listItemOfferShippingDetailsRight"
+                    )
+                  );
+                  const paymentContent = await paymentinfo.getAttribute(
+                    "outerHTML"
+                  );
+                  
                   const detailinfo = await info.findElement(
                     By.className("productOffers-listItemTitle")
                   );
@@ -233,6 +255,7 @@ async function fetchPageTitle() {
                   let item = {
                     cpuid: cpuid,
                     displayname: nameContent,
+                    payment: paymentContent,
                     vendorimgurl: subimgurl,
                     price: parseFloat(
                       prcContent
@@ -267,22 +290,22 @@ async function fetchPageTitle() {
   }
 }
 async function saveToDatabase(cpuid, htmlString) {
-    // Simulating a database operation with a delay
-    try {
-      await mongoose.connect(dbConfig.db);
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-  
-      // Ensure that the htmlString is resolved before saving
-      const html = await htmlString;
-  
-      await CPUNat.deleteMany({ cpuid: cpuid });
-      await CPUNat.create({
-        cpuid: cpuid,
-        html: html
-      });
-    } catch (error) {
-      console.error(error);
-    }
+  // Simulating a database operation with a delay
+  try {
+    await mongoose.connect(dbConfig.db);
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+
+    // Ensure that the htmlString is resolved before saving
+    const html = await htmlString;
+
+    await CPUNat.deleteMany({ cpuid: cpuid });
+    await CPUNat.create({
+      cpuid: cpuid,
+      html: html
+    });
+  } catch (error) {
+    console.error(error);
   }
+}
 
 export { fetchPageTitle };
