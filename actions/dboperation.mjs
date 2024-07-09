@@ -3,6 +3,7 @@ import { dbConfig } from "../db/pcbuilderdb.mjs";
 import CPUVendor from "../model/cpuvendor.js";
 import CPUInfo from "../model/cpuinfo.js";
 import CPUVendorList from "../model/cpuvendorlist.js";
+import CPUNat from "../model/cpunat.js";
 import mongoose from "mongoose";
 import CPUList from "../model/cpulist.js";
 const operRouter = express.Router();
@@ -20,22 +21,18 @@ operRouter.get("/api/alldata", async (req, res) => {
 
 operRouter.get("/api/spec", async (req, res) => {
   try {
-    const id = req.query.id; // Get the value of the 'id' parameter from the query
-    // console.log(id);
+    const id = req.query.id; 
     if (id) {
-      // Handle the case when 'id' is provided in the query
-      // Perform any operations based on the ID value
       const allData = await CPUList.findOne({ _id: id });
       const vendorData = await CPUVendorList.find({ cpuid: id });
-      const ret = { data: allData, vendor: vendorData };
-      // console.log(ret);
+      const cpunatData = await CPUNat.find({ cpuid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
       res.json(ret);
     } else {
-      // Handle the case when 'id' is not provided in the query
-      // Fetch all data if 'id' is not specified
       const allData = await CPUInfo.find({});
       const vendorData = await CPUVendor.find({});
-      const ret = { data: [], vendor: [] };
+      const cpunatData = await CPUNat.find({ cpuid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
       res.json(ret);
     }
   } catch (error) {
