@@ -132,7 +132,7 @@ async function fetchPageTitle() {
                   price: parseFloat(
                     prcContent.replace("€", "").trim().replace(",", ".").trim().replace(" ", "")
                   ),
-                  directlink: updatedUrl
+                  directlink: detailContent
                 };
                 await CPUVendorList.create(item);
               } catch (err) {
@@ -252,11 +252,11 @@ async function fetchPageTitle() {
                     "https://www.idealo.it" +
                     (await detailinfo.getAttribute("href"));
 
-                  const driverURL = await new Builder().forBrowser('chrome').build(); 
-                  await driverURL.get(detailContent);
-                  let currentUrl = await driver.getCurrentUrl();
-                  console.log("AAA----------------currentUrl:",currentUrl)
-                  await driverURL.quit();
+                  // const driverURL = await new Builder().forBrowser('chrome').build(); 
+                  // await driverURL.get(detailContent);
+                  // let currentUrl = await driver.getCurrentUrl();
+                  // console.log("AAA----------------currentUrl:",currentUrl)
+                  // await driverURL.quit();
 
 
 
@@ -281,7 +281,7 @@ async function fetchPageTitle() {
                         .replace(",", ".")
                         .trim()
                     ),
-                    directlink: currentUrl
+                    directlink: detailContent
                   };
                   await CPUVendorList.create(item);
                 } catch (err) {
