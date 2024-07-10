@@ -21,6 +21,7 @@ async function fetchPageTitle() {
         count * pages
       }/processori-cpu.html`;
       await driver.get(url);
+      console.log(url)
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
       );
