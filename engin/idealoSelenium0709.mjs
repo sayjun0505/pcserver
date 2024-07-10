@@ -16,7 +16,7 @@ async function fetchPageTitle() {
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {
-    // while (true) {
+    while (true) {
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
@@ -286,9 +286,9 @@ async function fetchPageTitle() {
           }
         } catch (err) {}
       }
-      // if (priceElements.length < 36) break; // Exit while loop if no price elements found
+      if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
-    // }
+    }
     console.log("All data were just processed");
   } catch (err) {
     console.error("An error occurred:", err.message);
