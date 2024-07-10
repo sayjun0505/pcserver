@@ -12,7 +12,7 @@ async function fetchPageTitle() {
 
   const driver = await new Builder().forBrowser("chrome").build();
   let arr = [];
-  let pages = 0;
+  let pages = 30;
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {
