@@ -12,7 +12,7 @@ async function fetchPageTitle() {
 
   const driver = await new Builder().forBrowser("chrome").build();
   let arr = [];
-  let pages = 30;
+  let pages = 0;
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {
@@ -114,6 +114,7 @@ async function fetchPageTitle() {
                 const detailContent =
                   "https://www.idealo.it" +
                   (await detailinfo.getAttribute("href"));
+
                 const prcinfo = await info.findElement(
                   By.className("productOffers-listItemOfferPrice")
                 );
@@ -122,16 +123,16 @@ async function fetchPageTitle() {
                 const vendorinfo = await info.findElement(
                   By.className("productOffers-listItemOfferShopV2LogoImage")
                 );
-                const subimgurl = await vendorinfo.getAttribute("src");
+                const subimgurl = await vendorinfo.getAttribute("src");                
                 let item = {
                   cpuid: cpuid,
                   displayname: nameContent,
                   payment: paymentContent,
                   vendorimgurl: subimgurl,
                   price: parseFloat(
-                    prcContent.replace("€", "").trim().replace(",", ".").trim()
+                    prcContent.replace("€", "").trim().replace(",", ".").trim().replace(" ", "")
                   ),
-                  directlink: detailContent
+                  directlink: updatedUrl
                 };
                 await CPUVendorList.create(item);
               } catch (err) {
@@ -250,6 +251,15 @@ async function fetchPageTitle() {
                   const detailContent =
                     "https://www.idealo.it" +
                     (await detailinfo.getAttribute("href"));
+
+                  const driverURL = await new Builder().forBrowser('chrome').build(); 
+                  await driverURL.get(detailContent);
+                  let currentUrl = await driver.getCurrentUrl();
+                  console.log("AAA----------------currentUrl:",currentUrl)
+                  await driverURL.quit();
+
+
+
                   const prcinfo = await info.findElement(
                     By.className("productOffers-listItemOfferPrice")
                   );
@@ -271,7 +281,7 @@ async function fetchPageTitle() {
                         .replace(",", ".")
                         .trim()
                     ),
-                    directlink: detailContent
+                    directlink: currentUrl
                   };
                   await CPUVendorList.create(item);
                 } catch (err) {
