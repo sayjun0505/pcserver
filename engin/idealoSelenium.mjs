@@ -274,13 +274,14 @@ async function fetchPageTitle() {
                     displayname: nameContent,
                     payment: paymentContent,
                     vendorimgurl: subimgurl,
-                    price: parseFloat(
-                      prcContent
-                        .replace("€", "")
-                        .trim()
-                        .replace(",", ".")
-                        .trim()
-                    ),
+                    // price: parseFloat(
+                    //   prcContent
+                    //     .replace("€", "")
+                    //     .trim()
+                    //     .replace(",", ".")
+                    //     .trim()
+                    // ),
+                    price:prcContent,
                     directlink: detailContent
                   };
                   await CPUVendorList.create(item);
@@ -351,14 +352,15 @@ async function getdatafromLink(cpuid, link) {
         displayname: nameContent,
         payment: paymentContent,
         vendorimgurl: subimgurl,
-        price: parseFloat(
-          prcContent
-            .replace("€", "")
-            .replace("£", "")
-            .trim()
-            .replace(",", ".")
-            .trim()
-        ),
+        // price: parseFloat(
+        //   prcContent
+        //     .replace("€", "")
+        //     .replace("£", "")
+        //     .trim()
+        //     .replace(",", ".")
+        //     .trim()
+        // ),
+        price:prcContent,
         directlink: detailContent
       };
       await CPUVendorList.create(item);

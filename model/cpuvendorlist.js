@@ -12,7 +12,7 @@ const cpuvendorlistSchema = new Schema({
         type: String
     },
     price: {
-        type: Number
+        type: String
     },
     payment: {
         type: String
