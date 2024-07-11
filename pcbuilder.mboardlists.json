@@ -2439,4 +2439,301 @@
   "link": "https://www.idealo.it/confronta-prezzi/201829030/msi-mag-h670-tomahawk-wifi-ddr4.html",
   "price": "188,42",
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690338eb42edbdf495f052a"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte B660 Aorus Master DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201803161/gigabyte-b660-aorus-master-ddr4.html",
+  "price": "228,29",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669033f4b42edbdf495f055b"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock B650M PG Lightning WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203296952/asrock-b650m-pg-lightning-wifi.html",
+  "price": "142,50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903460b42edbdf495f0592"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus TUF Gaming B660M-Plus WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201790118/asus-tuf-gaming-b660m-plus-wifi.html",
+  "price": "177,31",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669034cdb42edbdf495f05c9"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "MSI MAG B660M Bazooka DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201829011/msi-mag-b660m-bazooka-ddr4.html",
+  "price": "165,81",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903534b42edbdf495f05fa"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte B760I Aorus Pro",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202804906/gigabyte-b760i-aorus-pro.html",
+  "price": "190,70",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669035a4b42edbdf495f0631"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock X570 Pro4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/6643774/asrock-x570-pro4.html",
+  "price": "180,10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903611b42edbdf495f0662"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus Prime H610M-E D4-CSM",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201792456/asus-prime-h610m-e-d4-csm.html",
+  "price": "90,73",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903678b42edbdf495f0699"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte B760M Gaming X AX DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202268792/gigabyte-b760m-gaming-x-ax-ddr4.html",
+  "price": "140,21",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669036deb42edbdf495f06d0"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock B760M-H/M.2",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203066975/asrock-b760m-h-m-2.html",
+  "price": "101,27",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690374db42edbdf495f0707"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus Prime H610M-A D4-CSM",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201803183/asus-prime-h610m-a-d4-csm.html",
+  "price": "91,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669037bbb42edbdf495f073e"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte H610M S2H V2 DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202805009/gigabyte-h610m-s2h-v2-ddr4.html",
+  "price": "81,11",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903828b42edbdf495f0775"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock TRX50 WS",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203594528/asrock-trx50-ws.html",
+  "price": "791,80",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903882b42edbdf495f0799"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus ROG Maximus Z790 Apex Encore",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203415328/asus-rog-maximus-z790-apex-encore.html",
+  "price": "644,77",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669038f3b42edbdf495f07d0"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte Z790 Aorus Elite AX-W",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202806257/gigabyte-z790-aorus-elite-ax-w.html",
+  "price": "251,50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903965b42edbdf495f0807"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock B760M-HDV/M.2",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203374368/asrock-b760m-hdv-m-2.html",
+  "price": "92,84",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669039c6b42edbdf495f083e"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus TUF Gaming B550-Plus WiFi II",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201799808/asus-tuf-gaming-b550-plus-wifi-ii.html",
+  "price": "136,74",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903a27b42edbdf495f0875"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte Z790 S DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/204374318/gigabyte-z790-s-ddr4.html",
+  "price": "153,27",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903aebb42edbdf495f08d7"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "Asus Pro WS W790-Ace",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202581549/asus-pro-ws-w790-ace.html",
+  "price": "777,21",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903c37b42edbdf495f0978"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "Asus WS C422 Pro/SE",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/5935291/asus-ws-c422-pro-se.html",
+  "price": "381,89",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903cfbb42edbdf495f09e2"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "ASRock Q270 Pro BTC+",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201780495/asrock-q270-pro-btc.html",
+  "price": "180,49",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903d5db42edbdf495f0a15"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "Asus Prime B660-Plus D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201789736/asus-prime-b660-plus-d4.html",
+  "price": "130,49",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903e1eb42edbdf495f0a81"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "ASRock Z790 Taichi Carrara",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202191242/asrock-z790-taichi-carrara.html",
+  "price": "480,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903e87b42edbdf495f0ab6"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "Asus Prime B550M-A",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200403860/asus-prime-b550m-a.html",
+  "price": "93,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903f40b42edbdf495f0b20"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "ASRock B450M-HDV R4.0",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/6566784/asrock-b450m-hdv-r4-0.html",
+  "price": "51,91",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903fa8b42edbdf495f0b57"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "Asus ProArt B650-Creator",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202290220/asus-proart-b650-creator.html",
+  "price": "259,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66904022b42edbdf495f0b8e"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "GigaByte B760M Gaming DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202271875/gigabyte-b760m-gaming-ddr4.html",
+  "price": "96,60",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690408db42edbdf495f0bc5"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203594/5/203594528/s10_produktbild_mittelgross/asrock-trx50-ws.jpg",
+  "name": "ASRock B760 Pro RS/D4 WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203374605/asrock-b760-pro-rs-d4-wifi.html",
+  "price": "149,58",
+  "__v": 0
 }]
