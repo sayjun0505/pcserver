@@ -1240,4 +1240,290 @@
   "link": "https://www.idealo.it/confronta-prezzi/203796302/asus-prime-b650m-r.html",
   "price": "109,40",
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668ffe2d8644a87df31af58e"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus Pro WS W680-Ace IPMI",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202446970/asus-pro-ws-w680-ace-ipmi.html",
+  "price": "588,80",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668ffe958644a87df31af5c5"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus ROG Strix B650E-I Gaming WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202140254/asus-rog-strix-b650e-i-gaming-wifi.html",
+  "price": "288,80",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668ffef38644a87df31af5fc"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus TUF Gaming B650M-E WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202915776/asus-tuf-gaming-b650m-e-wifi.html",
+  "price": "169,91",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668fff548644a87df31af633"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus ROG Strix B550-A Gaming",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200784016/asus-rog-strix-b550-a-gaming.html",
+  "price": "133,14",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668fffaf8644a87df31af66a"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus ROG Strix Z690-E Gaming WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201657526/asus-rog-strix-z690-e-gaming-wifi.html",
+  "price": "289,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690000e8644a87df31af6a1"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus Prime B650M-A",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202138094/asus-prime-b650m-a.html",
+  "price": "159,41",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690006a8644a87df31af6d4"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus Prime X670-P WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202119738/asus-prime-x670-p-wifi.html",
+  "price": "244,49",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669000d28644a87df31af70b"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus ROG Strix B550-F Gaming WiFi II",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201718783/asus-rog-strix-b550-f-gaming-wifi-ii.html",
+  "price": "157,88",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669001358644a87df31af742"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus ROG Strix Z690-F Gaming WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201657554/asus-rog-strix-z690-f-gaming-wifi.html",
+  "price": "229,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669001a88644a87df31af779"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus TUF Gaming B760M-Plus WiFi II",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203808990/asus-tuf-gaming-b760m-plus-wifi-ii.html",
+  "price": "177,10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669002128644a87df31af7b0"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus ROG Strix Z790-F Gaming WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202121698/asus-rog-strix-z790-f-gaming-wifi.html",
+  "price": "390,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669002788644a87df31af7e7"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus TUF Gaming B550M-Plus WiFi II",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201768146/asus-tuf-gaming-b550m-plus-wifi-ii.html",
+  "price": "126,77",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669002b98644a87df31af803"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus ROG Strix B760-G Gaming WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202663235/asus-rog-strix-b760-g-gaming-wifi.html",
+  "price": "208,69",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690043d8644a87df31af82f"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus Pro WS WRX90E-Sage SE",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203696139/asus-pro-ws-wrx90e-sage-se.html",
+  "price": "1.173,38",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690044a8644a87df31af833"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus Prime Z790M-Plus",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202316388/asus-prime-z790m-plus.html",
+  "price": "200,56",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690044a8644a87df31af837"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus TUF Gaming H670-Pro WiFi D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201792638/asus-tuf-gaming-h670-pro-wifi-d4.html",
+  "price": "192,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690044a8644a87df31af83b"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "Asus Prime B550-Plus",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200407792/asus-prime-b550-plus.html",
+  "price": "101,09",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690044a8644a87df31af83f"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "MSI Pro B760M-P DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202274055/msi-pro-b760m-p-ddr4.html",
+  "price": "90,52",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690044a8644a87df31af843"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "ASRock B650E PG Riptide WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202140639/asrock-b650e-pg-riptide-wifi.html",
+  "price": "205,31",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690044a8644a87df31af847"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202002/1/202002187/s10_produktbild_mittelgross/asus-rog-maximus-z690-hero-eva-edition.jpg",
+  "name": "GigaByte B760M Gaming X DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202271811/gigabyte-b760m-gaming-x-ddr4.html",
+  "price": "124,15",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690060abbcd4c53e3b9ce09"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/200299/9/200299930/s10_produktbild_gross/gigabyte-z490-aorus-elite-ac.jpg",
+  "name": "GigaByte Z490 Aorus Elite AC",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200299930/gigabyte-z490-aorus-elite-ac.html",
+  "price": "479,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66900694bbcd4c53e3b9ce20"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/6429/5/6429593/s10_produktbild_gross/supermicro-x11srm-f.jpg",
+  "name": "SuperMicro X11SRM-F",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/6429593/supermicro-x11srm-f.html",
+  "price": "504,77",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669006edbbcd4c53e3b9ce43"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/200391/0/200391029/s10_produktbild_gross/asus-prime-b550m-a-wi-fi.jpg",
+  "name": "Asus Prime B550M-A (WI-FI)",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200391029/asus-prime-b550m-a-wi-fi.html",
+  "price": "169,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690074abbcd4c53e3b9ce5a"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/202731/3/202731316/s10_produktbild_gross/asus-p12r-e-10g-2t-asmb10.jpg",
+  "name": "Asus P12R-E-10G-2T/ASMB10",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202731316/asus-p12r-e-10g-2t-asmb10.html",
+  "price": "1.104,85",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66900794bbcd4c53e3b9ce6f"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/562/4/562424/s10_produktbild_gross/gigabyte-965p-dq6.jpg",
+  "name": "GigaByte 965P-DQ6",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/562424/gigabyte-965p-dq6.html",
+  "price": "348,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66900808bbcd4c53e3b9ce7e"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5412/9/5412949/s10_produktbild_gross/gigabyte-ga-ax370-gaming-k7.jpg",
+  "name": "GigaByte GA-AX370-Gaming K7",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/5412949/gigabyte-ga-ax370-gaming-k7.html",
+  "price": "216,39",
+  "__v": 0
 }]
