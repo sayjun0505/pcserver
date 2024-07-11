@@ -60,8 +60,8 @@ operRouter.get("/api/mspec", async (req, res) => {
     const id = req.query.id; 
     if (id) {
       const allData = await MboardList.findOne({ _id: id });
-      const vendorData = await MboardvendorList.find({ cpuid: id });
-      const cpunatData = await MboardNat.findOne({ cpuid: id });
+      const vendorData = await MboardvendorList.find({ mboardid: id });
+      const cpunatData = await MboardNat.findOne({ mboardid: id });
       const ret = { data: allData, vendor: vendorData,nat:cpunatData };
       res.json(ret);
     } else {
