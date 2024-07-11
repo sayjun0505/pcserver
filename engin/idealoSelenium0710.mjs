@@ -16,7 +16,7 @@ async function fetchPageTitle() {
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {
-    // while (true) {
+    while (true) {
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
@@ -45,8 +45,7 @@ async function fetchPageTitle() {
           var linkElement;
           try {
             linkElement = await element.findElement(By.css("a"));
-            // const href = await linkElement.getAttribute("href");
-            const href="https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html"
+            const href = await linkElement.getAttribute("href");
             const imgElements = await parentElement.findElement(
               By.className("sr-resultItemTile__image_ivkex")
             );
@@ -135,7 +134,6 @@ async function fetchPageTitle() {
                   ),
                   directlink: detailContent
                 };
-                console.log('item:',item);
                 await CPUVendorList.create(item);
               } catch (err) {
                 console.error("Error processing element:", err.message);
@@ -299,9 +297,9 @@ async function fetchPageTitle() {
           }
         } catch (err) {}
       }
-      // if (priceElements.length < 36) break; // Exit while loop if no price elements found
+      if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
-    // }
+    }
     console.log("All data were just processed");
   } catch (err) {
     console.error("An error occurred:", err.message);
