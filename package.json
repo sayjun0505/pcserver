@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:server": "node --experimental-modules server.mjs",
-    "start:idealo": "node --experimental-modules idealo.mjs",
+    "start:cpu": "node --experimental-modules cpu.mjs",
+    "start:mboard": "node --experimental-modules mboard.mjs",
     "start": "concurrently \"npm run start:server\" \"npm run start:idealo\" "
   },
   "keywords": [],
