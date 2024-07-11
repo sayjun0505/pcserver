@@ -12,7 +12,7 @@ async function fetchMboard() {
 
   const driver = await new Builder().forBrowser("chrome").build();
   let arr = [];
-  let pages = 25;
+  let pages = 5;
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {

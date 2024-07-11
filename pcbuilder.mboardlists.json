@@ -1526,4 +1526,917 @@
   "link": "https://www.idealo.it/confronta-prezzi/5412949/gigabyte-ga-ax370-gaming-k7.html",
   "price": "216,39",
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66900ae9b42edbdf495eef74"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202278/1/202278164/s10_produktbild_mittelgross/asus-tuf-gaming-h770-pro-wifi.jpg",
+  "name": "Asus TUF Gaming H770-Pro WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202278164/asus-tuf-gaming-h770-pro-wifi.html",
+  "price": "205,31",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66900df4b42edbdf495ef11a"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202278/1/202278164/s10_produktbild_mittelgross/asus-tuf-gaming-h770-pro-wifi.jpg",
+  "name": "Asus ROG Strix Z790-A Gaming WiFi D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202123486/asus-rog-strix-z790-a-gaming-wifi-d4.html",
+  "price": "341,30",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669011a9b42edbdf495ef32a"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202278/1/202278164/s10_produktbild_mittelgross/asus-tuf-gaming-h770-pro-wifi.jpg",
+  "name": "-16%",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201792385/asus-prime-h610m-d-d4.html",
+  "price": "78,10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901332b42edbdf495ef400"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202278/1/202278164/s10_produktbild_mittelgross/asus-tuf-gaming-h770-pro-wifi.jpg",
+  "name": "GigaByte Z790 UD",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202261717/gigabyte-z790-ud.html",
+  "price": "191,90",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901416b42edbdf495ef466"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/202284/7/202284785/s10_produktbild_gross/nzxt-n7-b650e-white.jpg",
+  "name": "NZXT N7 B650E White",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202284785/nzxt-n7-b650e-white.html",
+  "price": "296,30",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901481b42edbdf495ef49b"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "MSI A520M-A Pro",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200625530/msi-a520m-a-pro.html",
+  "price": "53,39",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669014dfb42edbdf495ef4d2"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Asus WS C621E Sage",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/5935042/asus-ws-c621e-sage.html",
+  "price": "632,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690153ab42edbdf495ef505"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "GigaByte B550M K",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202374302/gigabyte-b550m-k.html",
+  "price": "66,80",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901599b42edbdf495ef53c"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "ASRock X670E Pro RS",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202120657/asrock-x670e-pro-rs.html",
+  "price": "261,46",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669015fcb42edbdf495ef573"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Biostar H610MT-E",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/204248242/biostar-h610mt-e.html",
+  "price": "83,49",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690165db42edbdf495ef5aa"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "MSI MAG Z790 Tomahawk WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202124744/msi-mag-z790-tomahawk-wifi.html",
+  "price": "229,26",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669016bfb42edbdf495ef5e1"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Asus ROG Strix Z790-I Gaming WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202123483/asus-rog-strix-z790-i-gaming-wifi.html",
+  "price": "368,04",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901721b42edbdf495ef618"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "GigaByte B550 Aorus Elite AX V2",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200839241/gigabyte-b550-aorus-elite-ax-v2.html",
+  "price": "142,24",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901787b42edbdf495ef64f"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "ASRock B760 Pro RS/D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202277509/asrock-b760-pro-rs-d4.html",
+  "price": "119,65",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669017e5b42edbdf495ef686"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Biostar H610MHP",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202111868/biostar-h610mhp.html",
+  "price": "65,20",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901846b42edbdf495ef6bb"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "MSI Pro B760M-P",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202693081/msi-pro-b760m-p.html",
+  "price": "102,11",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669018aab42edbdf495ef6f2"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Asus TUF Gaming B760-Plus WiFi D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202276201/asus-tuf-gaming-b760-plus-wifi-d4.html",
+  "price": "160,84",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690190bb42edbdf495ef729"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "GigaByte B760M Aorus Elite AX",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202268836/gigabyte-b760m-aorus-elite-ax.html",
+  "price": "183,90",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690196db42edbdf495ef760"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "ASRock B650E Steel Legend WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202140531/asrock-b650e-steel-legend-wifi.html",
+  "price": "262,30",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669019d0b42edbdf495ef797"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Biostar A620MP-E Pro",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203065631/biostar-a620mp-e-pro.html",
+  "price": "104,81",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901a2db42edbdf495ef7c6"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "MSI Pro B650M-A WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202139953/msi-pro-b650m-a-wifi.html",
+  "price": "163,98",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901a8bb42edbdf495ef7fd"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Asus TUF Gaming B760M-Plus WiFi D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202275438/asus-tuf-gaming-b760m-plus-wifi-d4.html",
+  "price": "156,27",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901aeeb42edbdf495ef834"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "GigaByte B760 DS3H",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202569741/gigabyte-b760-ds3h.html",
+  "price": "129,20",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901b4db42edbdf495ef86b"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "ASRock A620M-HDV/M.2",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202671313/asrock-a620m-hdv-m-2.html",
+  "price": "75,67",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901babb42edbdf495ef8a2"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "-30%",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/6323591/biostar-b450mh.html",
+  "price": "52,90",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901c09b42edbdf495ef8d7"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "MSI Pro H610M-G",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203415335/msi-pro-h610m-g.html",
+  "price": "87,05",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901c6eb42edbdf495ef90e"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Asus TUF Gaming B550M-E",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201246795/asus-tuf-gaming-b550m-e.html",
+  "price": "117,90",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901cd6b42edbdf495ef943"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "GigaByte B550I Aorus Pro AX",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200411525/gigabyte-b550i-aorus-pro-ax.html",
+  "price": "167,54",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901d33b42edbdf495ef97a"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "ASRock Z790 Steel Legend WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202152031/asrock-z790-steel-legend-wifi.html",
+  "price": "227,58",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901d91b42edbdf495ef9b1"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Biostar H610MH D5",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203126291/biostar-h610mh-d5.html",
+  "price": "72,65",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901deeb42edbdf495ef9e4"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "MSI Pro H610M-G DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201831472/msi-pro-h610m-g-ddr4.html",
+  "price": "72,90",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901e4fb42edbdf495efa1b"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Asus TUF Gaming B550M-Plus",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200374214/asus-tuf-gaming-b550m-plus.html",
+  "price": "120,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901eb3b42edbdf495efa52"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "GigaByte Z790 Aorus Elite AX DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202217550/gigabyte-z790-aorus-elite-ax-ddr4.html",
+  "price": "197,21",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901f16b42edbdf495efa89"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "ASRock B550 Phantom Gaming 4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200407944/asrock-b550-phantom-gaming-4.html",
+  "price": "89,57",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901f76b42edbdf495efac0"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Biostar B450MX-S",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203065297/biostar-b450mx-s.html",
+  "price": "61,10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66901fd5b42edbdf495efaed"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "MSI B450 Gaming Plus Max",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200197055/msi-b450-gaming-plus-max.html",
+  "price": "73,28",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902033b42edbdf495efb24"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Asus Prime Z790-A WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202123572/asus-prime-z790-a-wifi.html",
+  "price": "258,80",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902096b42edbdf495efb5b"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "GigaByte B550M DS3H",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200409192/gigabyte-b550m-ds3h.html",
+  "price": "87,72",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669020fdb42edbdf495efb92"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "ASRock Z790 PG Lightning/D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202160015/asrock-z790-pg-lightning-d4.html",
+  "price": "158,43",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902146b42edbdf495efbae"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "Biostar B550MX/E Pro",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201647199/biostar-b550mx-e-pro.html",
+  "price": "81,09",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669021a7b42edbdf495efbdb"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/200625/5/200625530/s10_produktbild_mittelgross/msi-a520m-a-pro.jpg",
+  "name": "MSI Pro B760-P DDR4 II",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203272299/msi-pro-b760-p-ddr4-ii.html",
+  "price": "128,40",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690227fb42edbdf495efc47"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "GigaByte H610M Gaming WiFi DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/204371580/gigabyte-h610m-gaming-wifi-ddr4.html",
+  "price": "94,46",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669022cfb42edbdf495efc70"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "ASRock B650 PG Lightning",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202138622/asrock-b650-pg-lightning.html",
+  "price": "159,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902394b42edbdf495efcd2"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "Asus Prime H770-Plus D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202278194/asus-prime-h770-plus-d4.html",
+  "price": "166,41",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669023f3b42edbdf495efd09"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "MSI A520M Pro",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/200625540/msi-a520m-pro.html",
+  "price": "56,33",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902459b42edbdf495efd40"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "GigaByte H510M H V2",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202915748/gigabyte-h510m-h-v2.html",
+  "price": "59,70",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669024beb42edbdf495efd77"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "ASRock Z790M PG Lightning/D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202152023/asrock-z790m-pg-lightning-d4.html",
+  "price": "153,72",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690252bb42edbdf495efdae"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "Biostar Z790A-Silver",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202216312/biostar-z790a-silver.html",
+  "price": "225,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690258fb42edbdf495efddf"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "Asus Prime B760M-K D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202274746/asus-prime-b760m-k-d4.html",
+  "price": "103,13",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669025f3b42edbdf495efe16"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "MSI MAG B760 Tomahawk WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202274003/msi-mag-b760-tomahawk-wifi.html",
+  "price": "188,60",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902661b42edbdf495efe4d"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "GigaByte A520M DS3H V2",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203296923/gigabyte-a520m-ds3h-v2.html",
+  "price": "61,10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669026c4b42edbdf495efe84"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "ASRock B660M-HDV",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201793326/asrock-b660m-hdv.html",
+  "price": "83,05",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902727b42edbdf495efebb"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "Asus Prime H770-Plus",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203065299/asus-prime-h770-plus.html",
+  "price": "176,09",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902790b42edbdf495efef2"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "MSI B550 Gaming Gen3",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202089590/msi-b550-gaming-gen3.html",
+  "price": "96,27",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669027f6b42edbdf495eff29"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "GigaByte B760M Gaming AC DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203688840/gigabyte-b760m-gaming-ac-ddr4.html",
+  "price": "114,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902854b42edbdf495eff56"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "ASRock H670M Pro RS",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201882308/asrock-h670m-pro-rs.html",
+  "price": "113,57",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669028bfb42edbdf495eff89"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "Asus TUF Gaming B650M-Plus",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202137778/asus-tuf-gaming-b650m-plus.html",
+  "price": "164,25",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902929b42edbdf495effc0"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "-14%",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202121647/msi-mpg-z790-carbon-wifi.html",
+  "price": "307,40",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690298eb42edbdf495efff7"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "GigaByte Z790 Aorus Tachyon X",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203689642/gigabyte-z790-aorus-tachyon-x.html",
+  "price": "654,90",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669029f4b42edbdf495f002a"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "ASRock H610M-HDV",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201852320/asrock-h610m-hdv.html",
+  "price": "60,06",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902a51b42edbdf495f005d"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "Asus ProArt B550-Creator",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201358898/asus-proart-b550-creator.html",
+  "price": "167,79",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902ab0b42edbdf495f0094"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "MSI Pro B650-S WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203290330/msi-pro-b650-s-wifi.html",
+  "price": "159,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902b12b42edbdf495f00cb"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203272/2/203272299/s10_produktbild_mittelgross/msi-pro-b760-p-ddr4-ii.jpg",
+  "name": "GigaByte H610M H V2 DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202804919/gigabyte-h610m-h-v2-ddr4.html",
+  "price": "66,80",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902b91b42edbdf495f0102"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/202148/4/202148482/s10_produktbild_gross/asrock-z790m-itx-wifi.jpg",
+  "name": "ASRock Z790M-ITX WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202148482/asrock-z790m-itx-wifi.html",
+  "price": "212,10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902c01b42edbdf495f0139"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock N100DC-ITX",
+  "detail": "Scheda madre con CPU, Numero di slot RAM 1, Tipo di RAM DDR4, Connettori disco 1 x M.2, Mini-ITX",
+  "link": "https://www.idealo.it/confronta-prezzi/203008688/asrock-n100dc-itx.html",
+  "price": "125,38",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902c5eb42edbdf495f016c"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus Prime B650M-A WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202138104/asus-prime-b650m-a-wifi.html",
+  "price": "210,37",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902cc3b42edbdf495f01a3"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "MSI Pro H610M-E",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203415920/msi-pro-h610m-e.html",
+  "price": "84,20",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902d24b42edbdf495f01da"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte B760M DS3H AX",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202915729/gigabyte-b760m-ds3h-ax.html",
+  "price": "131,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902d8ab42edbdf495f0211"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock B760M Pro RS",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202814407/asrock-b760m-pro-rs.html",
+  "price": "133,18",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902df2b42edbdf495f0246"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus Prime Z690-A",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201659517/asus-prime-z690-a.html",
+  "price": "217,55",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902e55b42edbdf495f0277"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "MSI MEG Z790 Godlike",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202160042/msi-meg-z790-godlike.html",
+  "price": "883,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902ebab42edbdf495f02ae"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte A620M S2H",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202915999/gigabyte-a620m-s2h.html",
+  "price": "86,12",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902f1ab42edbdf495f02db"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock H610M-ITX/eDP",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202216380/asrock-h610m-itx-edp.html",
+  "price": "120,92",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902f7db42edbdf495f030a"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus Prime B450-Plus",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/6267410/asus-prime-b450-plus.html",
+  "price": "79,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66902fdfb42edbdf495f0341"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "MSI Pro H510M-B",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202731366/msi-pro-h510m-b.html",
+  "price": "54,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690304bb42edbdf495f0378"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte Z790 Aorus Master X",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203290723/gigabyte-z790-aorus-master-x.html",
+  "price": "491,10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669030b4b42edbdf495f03af"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock H510M-HDV/M.2 SE",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203066006/asrock-h510m-hdv-m-2-se.html",
+  "price": "54,59",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903121b42edbdf495f03e6"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus ROG Maximus Z790 Hero BTF",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/204009331/asus-rog-maximus-z790-hero-btf.html",
+  "price": "658,48",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903184b42edbdf495f041d"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "MSI MEG X670E Ace",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202120442/msi-meg-x670e-ace.html",
+  "price": "741,91",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669031e7b42edbdf495f0454"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "GigaByte B650M S2H",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/203272317/gigabyte-b650m-s2h.html",
+  "price": "92,61",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903251b42edbdf495f048b"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "ASRock B760M Steel Legend WiFi",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/202272121/asrock-b760m-steel-legend-wifi.html",
+  "price": "148,24",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669032b4b42edbdf495f04c2"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "Asus ROG Strix B660-A Gaming WiFi D4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201791629/asus-rog-strix-b660-a-gaming-wifi-d4.html",
+  "price": "208,12",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66903321b42edbdf495f04f9"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/203008/6/203008688/s10_produktbild_mittelgross/asrock-n100dc-itx.jpg",
+  "name": "MSI MAG H670 Tomahawk WiFi DDR4",
+  "detail": "",
+  "link": "https://www.idealo.it/confronta-prezzi/201829030/msi-mag-h670-tomahawk-wifi-ddr4.html",
+  "price": "188,42",
+  "__v": 0
 }]
