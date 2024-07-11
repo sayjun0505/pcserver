@@ -53,7 +53,7 @@ async function fetchPageTitle() {
             let x = {
               name: a[0],
               details: details,
-              price: parseFloat(val.replace(",", ".")),
+              price: val,
               link: href,
               imgurl: imgurl
             };
