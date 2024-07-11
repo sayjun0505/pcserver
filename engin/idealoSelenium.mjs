@@ -129,9 +129,10 @@ async function fetchPageTitle() {
                   displayname: nameContent,
                   payment: paymentContent,
                   vendorimgurl: subimgurl,
-                  price: parseFloat(
-                    prcContent.replace("€", "").trim().replace(",", ".").trim().replace(" ", "")
-                  ),
+                  // price: parseFloat(
+                  //   prcContent.replace("€", "").trim().replace(",", ".").trim().replace(" ", "")
+                  // ),
+                  price:prcContent,
                   directlink: detailContent
                 };
                 await CPUVendorList.create(item);
@@ -191,7 +192,8 @@ async function fetchPageTitle() {
               let x = {
                 name: a[0],
                 details: details,
-                price: parseFloat(val.replace(",", ".")),
+                // price: parseFloat(val.replace(",", ".")),
+                price: val,
                 link: href,
                 imgurl: imgurl
               };
