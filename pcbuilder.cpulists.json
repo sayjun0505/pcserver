@@ -1,855 +1,459 @@
 [{
   "_id": {
-    "$oid": "668fe225d529241ffd07133c"
+    "$oid": "668e0f0be76ec238cacb5ad4"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 7 7700 Tray",
-  "detail": "CPU 8 Core, Socket AM5, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,8 GHz, Frequenza turbo massima 5,3 GHz, Raphael, TDP 65 Watt, Scheda video AMD Radeon Graphics, L3 Cache 32 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202275748/amd-ryzen-7-7700-tray.html",
-  "price": "235,70",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 7 7800X3D",
+  "detail": "CPU 8 Core, Socket AM5, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 4,2 GHz, Frequenza turbo massima 5 GHz, Raphael, TDP 120 Watt, Scheda video AMD Radeon Graphics, L3 Cache 96 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202722732/amd-ryzen-7-7800x3d.html",
+  "price": 344.38,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668fe2b5d529241ffd07136f"
+    "$oid": "668e0f73e76ec238cacb5b0b"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i7-12700KF",
-  "detail": "CPU 12 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 3,6 GHz, Frequenza turbo massima 5 GHz, Alder Lake, TDP 125 Watt, L3 Cache 25 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201660548/intel-core-i7-12700kf.html",
-  "price": "204,57",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 7 7800X3D Boxed",
+  "detail": "CPU 8 Core, Socket AM5, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 4,2 GHz, Frequenza turbo massima 5 GHz, Raphael, TDP 120 Watt, Scheda video AMD Radeon Graphics, L3 Cache 96 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202372853/amd-ryzen-7-7800x3d-boxed.html",
+  "price": 344.38,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668fe33bd529241ffd0713a6"
+    "$oid": "668e0fcee76ec238cacb5b42"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 7 5700X3D Boxed WOF",
-  "detail": "CPU 8 Core, Socket AM4, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3 GHz, Frequenza turbo massima 4,1 GHz, Vermeer, TDP 105 Watt, L3 Cache 96 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203712677/amd-ryzen-7-5700x3d-boxed-wof.html",
-  "price": "203,50",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 5 7600X",
+  "detail": "CPU 6 Core, Socket AM5, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 4,7 GHz, Frequenza turbo massima 5,3 GHz, Raphael, TDP 105 Watt, Scheda video AMD Radeon Graphics, L3 Cache 32 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202114973/amd-ryzen-5-7600x.html",
+  "price": 189,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668fe3e4d529241ffd0713dd"
+    "$oid": "668e1031e76ec238cacb5b79"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i5-14600K",
-  "detail": "CPU 14 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 3,5 GHz, Frequenza turbo massima 5,3 GHz, Raptor Lake Refresh, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 24 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203357244/intel-core-i5-14600k.html",
-  "price": "290,42",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 9 7950X3D",
+  "detail": "CPU 16 Core, Socket AM5, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 4,2 GHz, Frequenza turbo massima 5,7 GHz, Raphael, TDP 120 Watt, Scheda video AMD Radeon Graphics, L3 Cache 128 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202765320/amd-ryzen-9-7950x3d.html",
+  "price": 509.46,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668fe463d529241ffd071414"
+    "$oid": "668e109ae76ec238cacb5bb0"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 9 5950X",
-  "detail": "CPU 16 Core, Socket AM4, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 3,4 GHz, Frequenza turbo massima 4,9 GHz, Vermeer, TDP 105 Watt, L3 Cache 64 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/200732946/amd-ryzen-9-5950x.html",
-  "price": "327,94",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fe516d529241ffd07144b"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i9-14900KF",
-  "detail": "CPU 24 Core, Socket 1700, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 3,2 GHz, Frequenza turbo massima 6 GHz, Raptor Lake Refresh, TDP 125 Watt, L3 Cache 36 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203357235/intel-core-i9-14900kf.html",
-  "price": "530,96",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fe5abd529241ffd071482"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 9 7900 Boxed",
-  "detail": "CPU 12 Core, Socket AM5, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 3,7 GHz, Frequenza turbo massima 5,4 GHz, Raphael, TDP 65 Watt, Scheda video AMD Radeon Graphics, L3 Cache 64 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202275773/amd-ryzen-9-7900-boxed.html",
-  "price": "325,74",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fe62fd529241ffd0714b9"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i7-13700K Boxed",
-  "detail": "CPU 16 Core, Socket 1700, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 3,4 GHz, Frequenza turbo massima 5,4 GHz, Raptor Lake, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 30 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202122830/intel-core-i7-13700k-boxed.html",
-  "price": "316,91",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fe6f2d529241ffd0714f0"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 5 5600X Boxed",
-  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,6 GHz, Vermeer, TDP 65 Watt, L3 Cache 32 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/200733050/amd-ryzen-5-5600x-boxed.html",
-  "price": "122,50",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fe787d529241ffd071527"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i3-12100F",
-  "detail": "CPU Quad-Core, Socket 1700, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,3 GHz, Frequenza turbo massima 4,3 GHz, Alder Lake, TDP 58 Watt, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201785485/intel-core-i3-12100f.html",
-  "price": "73,99",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fe80dd529241ffd07155e"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 5 5600G",
-  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,9 GHz, Frequenza turbo massima 4,4 GHz, Cezanne, TDP 65 Watt, Scheda video AMD Radeon Vega 7, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201496128/amd-ryzen-5-5600g.html",
-  "price": "116,28",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fe8c9d529241ffd07158a"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i9-14900K",
-  "detail": "CPU 24 Core, Socket 1700, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 3,2 GHz, Frequenza turbo massima 6 GHz, Raptor Lake Refresh, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 36 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203356213/intel-core-i9-14900k.html",
-  "price": "548,51",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fe96dd529241ffd0715c1"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 5 7500F Tray",
-  "detail": "CPU 6 Core, Socket AM5, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,7 GHz, Frequenza turbo massima 5 GHz, Raphael, TDP 65 Watt, L3 Cache 32 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203210498/amd-ryzen-5-7500f-tray.html",
-  "price": "161,88",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fea16d529241ffd0715ee"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i7-12700K Boxed (BX8071512700K)",
-  "detail": "CPU 12 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 3,6 GHz, Frequenza turbo massima 5 GHz, Alder Lake, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 25 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201654902/intel-core-i7-12700k-boxed-bx8071512700k.html",
-  "price": "224,43",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668feac8d529241ffd071625"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 5 5600G Boxed",
-  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,9 GHz, Frequenza turbo massima 4,4 GHz, Cezanne, TDP 65 Watt, Scheda video AMD Radeon Vega 7, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201496123/amd-ryzen-5-5600g-boxed.html",
-  "price": "121,22",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668feb67d529241ffd07165c"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i5-11400F",
-  "detail": "CPU 6 Core, Socket 1200, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 2,6 GHz, Frequenza turbo massima 4,4 GHz, Rocket Lake-S, TDP 65 Watt, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201391250/intel-core-i5-11400f.html",
-  "price": "80,43",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fec00d529241ffd071693"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 7 5700X Boxed",
-  "detail": "CPU 8 Core, Socket AM4, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,4 GHz, Frequenza turbo massima 4,6 GHz, Vermeer, TDP 65 Watt, L3 Cache 32 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201899212/amd-ryzen-7-5700x-boxed.html",
-  "price": "151,83",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fec8dd529241ffd0716ca"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 5 8500G",
-  "detail": "CPU 6 Core, Socket AM5, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,5 GHz, Frequenza turbo massima 5 GHz, Phoenix, TDP 65 Watt, Scheda video AMD Radeon 740M, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203819481/amd-ryzen-5-8500g.html",
-  "price": "144,09",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668fed22d529241ffd071701"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 9 7900X3D Boxed",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 9 7900X3D",
   "detail": "CPU 12 Core, Socket AM5, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 4,4 GHz, Frequenza turbo massima 5,6 GHz, Raphael, TDP 120 Watt, Scheda video AMD Radeon Graphics, L3 Cache 128 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203116471/amd-ryzen-9-7900x3d-boxed.html",
-  "price": "359,83",
+  "link": "https://www.idealo.it/confronta-prezzi/202345150/amd-ryzen-9-7900x3d.html",
+  "price": 386.95,
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668fed99d529241ffd071738"
+    "$oid": "668e10fae76ec238cacb5be7"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 5 5600 Tray",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i7-13700KF",
+  "detail": "CPU 16 Core, Socket 1700, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 3,4 GHz, Frequenza turbo massima 5,4 GHz, Raptor Lake, TDP 125 Watt, L3 Cache 30 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": 289.32,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668e1160e76ec238cacb5c1e"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 7 5700X3D",
+  "detail": "CPU 8 Core, Socket AM4, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3 GHz, Frequenza turbo massima 4,1 GHz, Vermeer, TDP 105 Watt, L3 Cache 96 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/203712845/amd-ryzen-7-5700x3d.html",
+  "price": 203.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668f3cee0a5bd0f41f1ec5f4"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i5-13600KF",
+  "detail": "CPU 14 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 3,5 GHz, Frequenza turbo massima 5,1 GHz, Raptor Lake, TDP 125 Watt, L3 Cache 24 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "233,28",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668f3d4a0a5bd0f41f1ec62b"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 5 5600X",
+  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,6 GHz, Vermeer, TDP 65 Watt, L3 Cache 32 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "121,90",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668f3dad0a5bd0f41f1ec662"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 5 5600",
   "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,5 GHz, Frequenza turbo massima 4,4 GHz, Vermeer, TDP 65 Watt, L3 Cache 32 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201899381/amd-ryzen-5-5600-tray.html",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
   "price": "100,37",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668fee4dd529241ffd071767"
+    "$oid": "668f3e0c0a5bd0f41f1ec699"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 7 8700G Boxed",
-  "detail": "CPU 8 Core, Socket AM5, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 4,2 GHz, Frequenza turbo massima 5,1 GHz, Phoenix, TDP 65 Watt, Scheda video AMD Radeon 780M, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203819259/amd-ryzen-7-8700g-boxed.html",
-  "price": "261,84",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 5 7600",
+  "detail": "CPU 6 Core, Socket AM5, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,8 GHz, Frequenza turbo massima 5,1 GHz, Raphael, TDP 65 Watt, Scheda video AMD Radeon Graphics, L3 Cache 32 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "179,29",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668feeeed529241ffd07179e"
+    "$oid": "668f3e730a5bd0f41f1ec6d0"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i7-10700KF",
-  "detail": "CPU 8 Core, Socket 1200, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,8 GHz, Frequenza turbo massima 5,1 GHz, Comet Lake, TDP 125 Watt, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/200331986/intel-core-i7-10700kf.html",
-  "price": "227,92",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 9 7950X3D Boxed",
+  "detail": "CPU 16 Core, Socket AM5, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 4,2 GHz, Frequenza turbo massima 5,7 GHz, Raphael, TDP 120 Watt, Scheda video AMD Radeon Graphics, L3 Cache 128 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "489,26",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668fef87d529241ffd0717d5"
+    "$oid": "668f3ed00a5bd0f41f1ec707"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 5 8600G",
-  "detail": "CPU 6 Core, Socket AM5, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 4,3 GHz, Frequenza turbo massima 5 GHz, Phoenix, TDP 65 Watt, Scheda video AMD Radeon 760M, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203819479/amd-ryzen-5-8600g.html",
-  "price": "181,01",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 7 5800X",
+  "detail": "CPU 8 Core, Socket AM4, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,8 GHz, Frequenza turbo massima 4,7 GHz, Vermeer, TDP 105 Watt, L3 Cache 32 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "154,13",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668ff018d529241ffd07180c"
+    "$oid": "668f3f310a5bd0f41f1ec73e"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i5-14500 Boxed",
-  "detail": "CPU 14 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 2,6 GHz, Frequenza turbo massima 5 GHz, Raptor Lake Refresh, TDP 65 Watt, Scheda video Intel UHD 770, L3 Cache 24 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203712559/intel-core-i5-14500-boxed.html",
-  "price": "237,13",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 7 7700",
+  "detail": "CPU 8 Core, Socket AM5, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,8 GHz, Frequenza turbo massima 5,3 GHz, Raphael, TDP 65 Watt, Scheda video AMD Radeon Graphics, L3 Cache 32 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "235,70",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668ff0afd529241ffd071843"
+    "$oid": "668f3fa80a5bd0f41f1ec775"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 9 5950X Boxed",
-  "detail": "CPU 16 Core, Socket AM4, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 3,4 GHz, Frequenza turbo massima 4,9 GHz, Vermeer, TDP 105 Watt, L3 Cache 64 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/200732962/amd-ryzen-9-5950x-boxed.html",
-  "price": "327,94",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i7-14700K",
+  "detail": "CPU 20 Core, Socket 1700, Tipo processore desktop, Numero di Threads 28, Frequenza di clock 3,4 GHz, Frequenza turbo massima 5,6 GHz, Raptor Lake Refresh, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 33 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "389,44",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668ff150d529241ffd07187a"
+    "$oid": "668f40130a5bd0f41f1ec7ac"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i5-12600KF",
-  "detail": "CPU 10 Core, Socket 1700, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,9 GHz, Alder Lake, TDP 125 Watt, L3 Cache 20 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201660869/intel-core-i5-12600kf.html",
-  "price": "158,34",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 5 7600X Boxed",
+  "detail": "CPU 6 Core, Socket AM5, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 4,7 GHz, Frequenza turbo massima 5,3 GHz, Raphael, TDP 105 Watt, Scheda video AMD Radeon Graphics, L3 Cache 32 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "189,00",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668ff1dbd529241ffd0718b1"
+    "$oid": "668f407f0a5bd0f41f1ec7e3"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen Threadripper 7960X Boxed WOF",
-  "detail": "CPU 24 Core, Socket sTR5, Tipo processore desktop, Numero di Threads 48, Frequenza di clock 4,2 GHz, Frequenza turbo massima 5,3 GHz, Storm Peak, TDP 350 Watt, L3 Cache 128 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203418625/amd-ryzen-threadripper-7960x-boxed-wof.html",
-  "price": "1.519,47",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i7-14700KF",
+  "detail": "CPU 20 Core, Socket 1700, Tipo processore desktop, Numero di Threads 28, Frequenza di clock 3,4 GHz, Frequenza turbo massima 5,6 GHz, Raptor Lake Refresh, TDP 125 Watt, L3 Cache 33 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "360,94",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668ff256d529241ffd0718e8"
+    "$oid": "668f40e10a5bd0f41f1ec81a"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i7-13700KF Boxed",
-  "detail": "CPU 16 Core, Socket 1700, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 3,4 GHz, Frequenza turbo massima 5,4 GHz, Raptor Lake, TDP 125 Watt, L3 Cache 30 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202122850/intel-core-i7-13700kf-boxed.html",
-  "price": "300,58",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff32fd529241ffd07191f"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen Threadripper 7960X",
-  "detail": "CPU 24 Core, Socket sTR5, Tipo processore desktop, Numero di Threads 48, Frequenza di clock 4,2 GHz, Frequenza turbo massima 5,3 GHz, Storm Peak, TDP 350 Watt, L3 Cache 128 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203418692/amd-ryzen-threadripper-7960x.html",
-  "price": "1.519,47",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff3a7d529241ffd071956"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i7-12700F",
-  "detail": "CPU 12 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 2,1 GHz, Frequenza turbo massima 4,9 GHz, Alder Lake, TDP 65 Watt, L3 Cache 25 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201786708/intel-core-i7-12700f.html",
-  "price": "229,29",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff440d529241ffd07198d"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen Threadripper PRO 7995WX WOF",
-  "detail": "CPU 96 Core, Socket sTR5, Tipo processore workstation, Numero di Threads 192, Frequenza di clock 2,5 GHz, Frequenza turbo massima 5,1 GHz, Storm Peak, TDP 350 Watt, L3 Cache 384 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203560578/amd-ryzen-threadripper-pro-7995wx-wof.html",
-  "price": "10.469,72",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff4cad529241ffd0719c2"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i7-14700",
-  "detail": "CPU 20 Core, Socket 1700, Tipo processore desktop, Numero di Threads 28, Frequenza di clock 2,1 GHz, Frequenza turbo massima 5,4 GHz, Raptor Lake Refresh, TDP 65 Watt, Scheda video Intel UHD 770, L3 Cache 33 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203712147/intel-core-i7-14700.html",
-  "price": "382,90",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff55bd529241ffd0719f9"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 5 3600",
-  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,6 GHz, Frequenza turbo massima 4,2 GHz, Matisse, TDP 65 Watt, L3 Cache 32 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6642292/amd-ryzen-5-3600.html",
-  "price": "89,98",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff5d4d529241ffd071a30"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i5-11400",
-  "detail": "CPU 6 Core, Socket 1200, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 2,6 GHz, Frequenza turbo massima 4,4 GHz, Rocket Lake-S, TDP 65 Watt, Scheda video Intel UHD 730, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201205833/intel-core-i5-11400.html",
-  "price": "88,12",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff64dd529241ffd071a67"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "AMD Ryzen 7 7700X Boxed",
-  "detail": "CPU 8 Core, Socket AM5, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 4,5 GHz, Frequenza turbo massima 5,4 GHz, Raphael, TDP 105 Watt, Scheda video AMD Radeon Graphics, L3 Cache 32 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202114945/amd-ryzen-7-7700x-boxed.html",
-  "price": "278,10",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff6c5d529241ffd071a9e"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/202275/7/202275748/s10_produktbild_mittelgross/amd-ryzen-7-7700-tray.jpg",
-  "name": "Intel Core i5-13400 Boxed",
-  "detail": "CPU 10 Core, Socket 1700, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,6 GHz, Raptor Lake, TDP 65 Watt, Scheda video Intel UHD 730, L3 Cache 20 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202265326/intel-core-i5-13400-boxed.html",
-  "price": "199,17",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff751d529241ffd071ad5"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/203819/3/203819307/s10_produktbild_mittelgross/amd-ryzen-5-8600g-boxed.jpg",
-  "name": "AMD Ryzen 5 8600G Boxed",
-  "detail": "CPU 6 Core, Socket AM5, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 4,3 GHz, Frequenza turbo massima 5 GHz, Phoenix, TDP 65 Watt, Scheda video AMD Radeon 760M, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203819307/amd-ryzen-5-8600g-boxed.html",
-  "price": "181,01",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff796d529241ffd071ad9"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/203819/3/203819307/s10_produktbild_mittelgross/amd-ryzen-5-8600g-boxed.jpg",
-  "name": "Intel Core i5-12600K",
-  "detail": "CPU 10 Core, Socket 1700, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,9 GHz, Alder Lake, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 20 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201660777/intel-core-i5-12600k.html",
-  "price": "181,01",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ff82ad529241ffd071b10"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/203819/3/203819307/s10_produktbild_mittelgross/amd-ryzen-5-8600g-boxed.jpg",
-  "name": "AMD Ryzen 9 5900X Boxed",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 9 5900X",
   "detail": "CPU 12 Core, Socket AM4, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,8 GHz, Vermeer, TDP 105 Watt, L3 Cache 64 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/200733015/amd-ryzen-9-5900x-boxed.html",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
   "price": "223,33",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668ff8cad529241ffd071b47"
+    "$oid": "668f41470a5bd0f41f1ec851"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/201786/7/201786705/s10_produktbild_gross/intel-core-i7-12700f-boxed-bx8071512700f.jpg",
-  "name": "Intel Core i7-12700F Boxed (BX8071512700F)",
-  "detail": "CPU 12 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 2,1 GHz, Frequenza turbo massima 4,9 GHz, Alder Lake, TDP 65 Watt, L3 Cache 25 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201786705/intel-core-i7-12700f-boxed-bx8071512700f.html",
-  "price": "229,29",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i7-12700K",
+  "detail": "CPU 12 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 3,6 GHz, Frequenza turbo massima 5 GHz, Alder Lake, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 25 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "224,43",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668ff969d529241ffd071b7e"
+    "$oid": "668f41ba0a5bd0f41f1ec888"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201497/6/201497621/s10_produktbild_mittelgross/amd-ryzen-7-5700g.jpg",
-  "name": "AMD Ryzen 7 5700G",
-  "detail": "CPU 8 Core, Socket AM4, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,8 GHz, Frequenza turbo massima 4,6 GHz, Cezanne, TDP 65 Watt, Scheda video AMD Radeon Vega 8, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201497621/amd-ryzen-7-5700g.html",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i7-13700K",
+  "detail": "CPU 16 Core, Socket 1700, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 3,4 GHz, Frequenza turbo massima 5,4 GHz, Raptor Lake, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 30 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "316,91",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668f42210a5bd0f41f1ec8bf"
+  },
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 5 7500F",
+  "detail": "CPU 6 Core, Socket AM5, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,7 GHz, Frequenza turbo massima 5 GHz, Raphael, TDP 65 Watt, L3 Cache 32 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
   "price": "161,88",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668ff9f3d529241ffd071bb5"
+    "$oid": "668f428b0a5bd0f41f1ec8f6"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201497/6/201497621/s10_produktbild_mittelgross/amd-ryzen-7-5700g.jpg",
-  "name": "Intel Core i5-11400 Box",
-  "detail": "CPU 6 Core, Socket 1200, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 2,6 GHz, Frequenza turbo massima 4,4 GHz, Rocket Lake-S, TDP 65 Watt, Scheda video Intel UHD 730, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201173864/intel-core-i5-11400-box.html",
-  "price": "104,77",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ffa6ed529241ffd071bec"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201497/6/201497621/s10_produktbild_mittelgross/amd-ryzen-7-5700g.jpg",
-  "name": "AMD Ryzen 5 5600GT Boxed",
-  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,6 GHz, Frequenza turbo massima 4,6 GHz, Cezanne, TDP 65 Watt, Scheda video AMD Radeon Graphics, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203906345/amd-ryzen-5-5600gt-boxed.html",
-  "price": "120,38",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ffaebd529241ffd071c23"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201497/6/201497621/s10_produktbild_mittelgross/amd-ryzen-7-5700g.jpg",
-  "name": "Intel Core i5-14600K Boxed",
-  "detail": "CPU 14 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 3,5 GHz, Frequenza turbo massima 5,3 GHz, Raptor Lake Refresh, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 24 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203357224/intel-core-i5-14600k-boxed.html",
-  "price": "290,42",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ffb3cd529241ffd071c27"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/202052/5/202052512/s10_produktbild_gross/amd-ryzen-threadripper-pro-5995wx-boxed-wof.jpg",
-  "name": "AMD Ryzen Threadripper PRO 5995WX Boxed WOF",
-  "detail": "CPU 64 Core, Socket sWRX8, Tipo processore desktop, Numero di Threads 128, Frequenza di clock 2,7 GHz, Frequenza turbo massima 4,5 GHz, Chagall PRO, TDP 280 Watt, L3 Cache 256 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202052512/amd-ryzen-threadripper-pro-5995wx-boxed-wof.html",
-  "price": "6.156,70",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ffbd0d529241ffd071c5a"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201949/8/201949890/s10_produktbild_mittelgross/amd-ryzen-5-4600g-boxed.jpg",
-  "name": "AMD Ryzen 5 4600G Boxed",
-  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,2 GHz, Renoir, TDP 65 Watt, Scheda video AMD Radeon Graphics, L3 Cache 8 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201949890/amd-ryzen-5-4600g-boxed.html",
-  "price": "91,14",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ffc5ed529241ffd071c91"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201949/8/201949890/s10_produktbild_mittelgross/amd-ryzen-5-4600g-boxed.jpg",
-  "name": "Intel Core i7-11700F",
-  "detail": "CPU 8 Core, Socket 1200, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,9 GHz, Rocket Lake-S, TDP 65 Watt, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201173935/intel-core-i7-11700f.html",
-  "price": "209,53",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ffd15d529241ffd071cc8"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/6642/2/6642291/s10_produktbild_gross/amd-ryzen-5-3600-boxed.jpg",
-  "name": "AMD Ryzen 5 3600 Boxed",
-  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,6 GHz, Frequenza turbo massima 4,2 GHz, Matisse, TDP 65 Watt, L3 Cache 32 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6642291/amd-ryzen-5-3600-boxed.html",
-  "price": "89,98",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "668ffd9ed529241ffd071cff"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i9-11900KF Box",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i9-11900KF",
   "detail": "CPU 8 Core, Socket 1200, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,5 GHz, Frequenza turbo massima 5,3 GHz, Rocket Lake-S, TDP 125 Watt, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201172798/intel-core-i9-11900kf-box.html",
-  "price": "220,50",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "215,19",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668ffe86d529241ffd071d36"
+    "$oid": "668f42fe0a5bd0f41f1ec92d"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i3-14100",
-  "detail": "CPU Quad-Core, Socket 1700, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,5 GHz, Frequenza turbo massima 4,7 GHz, Raptor Lake Refresh, TDP 60 Watt, Scheda video Intel UHD 730, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203710177/intel-core-i3-14100.html",
-  "price": "141,89",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 7 8700G",
+  "detail": "CPU 8 Core, Socket AM5, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 4,2 GHz, Frequenza turbo massima 5,1 GHz, Phoenix, TDP 65 Watt, Scheda video AMD Radeon 780M, L3 Cache 16 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "261,84",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668fff1cd529241ffd071d6d"
+    "$oid": "668f43660a5bd0f41f1ec964"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i5-11600K",
-  "detail": "CPU 6 Core, Socket 1200, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,9 GHz, Frequenza turbo massima 4,9 GHz, Rocket Lake-S, TDP 125 Watt, Scheda video Intel UHD 750, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201170700/intel-core-i5-11600k.html",
-  "price": "116,77",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i9-14900F",
+  "detail": "CPU 24 Core, Socket 1700, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 2 GHz, Frequenza turbo massima 5,8 GHz, Raptor Lake Refresh, TDP 65 Watt, L3 Cache 36 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "584,27",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "668fffc6d529241ffd071da4"
+    "$oid": "668f43df0a5bd0f41f1ec99b"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i5-14400",
-  "detail": "CPU 10 Core, Socket 1700, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,7 GHz, Raptor Lake Refresh, TDP 65 Watt, Scheda video Intel UHD 730, L3 Cache 20 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203711131/intel-core-i5-14400.html",
-  "price": "225,54",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "-14%",
+  "detail": "CPU 8 Core, Socket AM4, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,8 GHz, Frequenza turbo massima 4,7 GHz, Vermeer, TDP 105 Watt, L3 Cache 32 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "154,13",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6690003bd529241ffd071ddb"
+    "$oid": "668f44480a5bd0f41f1ec9d2"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i3-14100 Boxed",
-  "detail": "CPU Quad-Core, Socket 1700, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,5 GHz, Frequenza turbo massima 4,7 GHz, Raptor Lake Refresh, TDP 60 Watt, Scheda video Intel UHD 730, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203710143/intel-core-i3-14100-boxed.html",
-  "price": "141,89",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i5-12400F",
+  "detail": "CPU 6 Core, Socket 1700, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,4 GHz, Alder Lake, TDP 65 Watt, L3 Cache 18 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "100,72",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669000b1d529241ffd071e12"
+    "$oid": "668f44b70a5bd0f41f1eca09"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i9-12900KF",
-  "detail": "CPU 16 Core, Socket 1700, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 3,2 GHz, Frequenza turbo massima 5,2 GHz, Alder Lake, TDP 125 Watt, L3 Cache 30 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201660715/intel-core-i9-12900kf.html",
-  "price": "299,25",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 9 7950X",
+  "detail": "CPU 16 Core, Socket AM5, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 4,5 GHz, Frequenza turbo massima 5,7 GHz, Raphael, TDP 170 Watt, Scheda video AMD Radeon Graphics, L3 Cache 64 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "463,23",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6690015dd529241ffd071e49"
+    "$oid": "668f45230a5bd0f41f1eca40"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i9-13900KF Boxed",
-  "detail": "CPU 24 Core, Socket 1700, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 3 GHz, Frequenza turbo massima 5,8 GHz, Raptor Lake, TDP 125 Watt, L3 Cache 36 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202122791/intel-core-i9-13900kf-boxed.html",
-  "price": "437,97",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "Intel Core i5-14500",
+  "detail": "CPU 14 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 2,6 GHz, Frequenza turbo massima 5 GHz, Raptor Lake Refresh, TDP 65 Watt, Scheda video Intel UHD 770, L3 Cache 24 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "237,13",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900201d529241ffd071e80"
+    "$oid": "668f45970a5bd0f41f1eca77"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i3-13100",
-  "detail": "CPU Quad-Core, Socket 1700, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,4 GHz, Frequenza turbo massima 4,5 GHz, Raptor Lake, TDP 60 Watt, Scheda video Intel UHD 730, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202266413/intel-core-i3-13100.html",
-  "price": "143,43",
+  "imgurl": "https://cdn.idealo.com/folder/Product/202722/7/202722732/s10_produktbild_mittelgross/amd-ryzen-7-7800x3d.jpg",
+  "name": "AMD Ryzen 5 7600 Boxed",
+  "detail": "CPU 6 Core, Socket AM5, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,8 GHz, Frequenza turbo massima 5,1 GHz, Raphael, TDP 65 Watt, Scheda video AMD Radeon Graphics, L3 Cache 32 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202122943/intel-core-i7-13700kf.html",
+  "price": "179,29",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6690028bd529241ffd071eb7"
+    "$oid": "668f46100a5bd0f41f1ecaae"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i3-14100F",
-  "detail": "CPU Quad-Core, Socket 1700, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,5 GHz, Frequenza turbo massima 4,7 GHz, Raptor Lake Refresh, TDP 58 Watt, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203710183/intel-core-i3-14100f.html",
-  "price": "110,78",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/201172/8/201172805/s10_produktbild_gross/intel-core-i9-11900kf-tray.jpg",
+  "name": "Intel Core i9-11900KF Tray",
+  "detail": "CPU 8 Core, Socket 1200, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,5 GHz, Frequenza turbo massima 5,3 GHz, Rocket Lake-S, TDP 125 Watt, L3 Cache 16 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201172805/intel-core-i9-11900kf-tray.html",
+  "price": "215.19",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900333d529241ffd071eee"
+    "$oid": "66905bb94e3654bf34edf5d4"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i5-13500 Boxed",
-  "detail": "CPU 14 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,8 GHz, Raptor Lake, TDP 65 Watt, Scheda video Intel UHD 770, L3 Cache 24 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202265490/intel-core-i5-13500-boxed.html",
-  "price": "240,24",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/201391/4/201391487/s10_produktbild_gross/intel-xeon-gold-6348-tray-cd8068904572204.jpg",
+  "name": "Intel Xeon Gold 6348 Tray (CD8068904572204)",
+  "detail": "CPU 28 Core, Socket 4189, Tipo processore server, Numero di Threads 56, Frequenza di clock 2,6 GHz, Frequenza turbo massima 3,5 GHz, Ice Lake-SP, TDP 235 Watt, L3 Cache 42 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201391487/intel-xeon-gold-6348-tray-cd8068904572204.html",
+  "price": "2.333,37",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669003d5d529241ffd071f25"
+    "$oid": "66905c5f4e3654bf34edf605"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/201172/7/201172798/s10_produktbild_mittelgross/intel-core-i9-11900kf-box.jpg",
-  "name": "Intel Core i3-12100F Boxed (BX8071512100F)",
-  "detail": "CPU Quad-Core, Socket 1700, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,3 GHz, Frequenza turbo massima 4,3 GHz, Alder Lake, TDP 58 Watt, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201785465/intel-core-i3-12100f-boxed-bx8071512100f.html",
-  "price": "73,99",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/200344/4/200344442/s10_produktbild_gross/intel-xeon-gold-6248r-tray-socket-3647-14nm-cd8069504449401.jpg",
+  "name": "Intel Xeon Gold 6248R Tray (Socket 3647, 14nm, CD8069504449401)",
+  "detail": "CPU 24 Core, Socket 3647, Tipo processore server, Numero di Threads 48, Frequenza di clock 3 GHz, Frequenza turbo massima 4 GHz, Cascade Lake, TDP 205 Watt, L3 Cache 35 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/200344442/intel-xeon-gold-6248r-tray-socket-3647-14nm-cd8069504449401.html",
+  "price": "2.156,99",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900456d529241ffd071f5c"
+    "$oid": "66905cca4e3654bf34edf63c"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/201660/1/201660135/s10_produktbild_gross/intel-core-i7-12700k-tray-cm8071504553828.jpg",
-  "name": "Intel Core i7-12700K Tray (CM8071504553828)",
-  "detail": "CPU 12 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 3,6 GHz, Frequenza turbo massima 5 GHz, Alder Lake, TDP 125 Watt, Scheda video Intel UHD 770, L3 Cache 25 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201660135/intel-core-i7-12700k-tray-cm8071504553828.html",
-  "price": "258,30",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/6569/5/6569516/s10_produktbild_gross/intel-xeon-silver-4208-hpe-upgrade-socket-3647-14nm-p02571-b21.jpg",
+  "name": "Intel Xeon Silver 4208 (HPE Upgrade, Socket 3647, 14nm, P02571-B21)",
+  "detail": "CPU 8 Core, Socket 3647, Tipo processore server, Numero di Threads 16, Frequenza di clock 2,1 GHz, Frequenza turbo massima 3,2 GHz, Cascade Lake, TDP 85 Watt, L3 Cache 11 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/6569516/intel-xeon-silver-4208-hpe-upgrade-socket-3647-14nm-p02571-b21.html",
+  "price": "580,72",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900504d529241ffd071f8f"
+    "$oid": "66905d2f4e3654bf34edf66f"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/200386/6/200386631/s10_produktbild_gross/intel-pentium-gold-g6400-box-socket-1200-14nm-bx80701g6400.jpg",
-  "name": "Intel Pentium Gold G6400 Box (Socket 1200, 14nm, BX80701G6400)",
-  "detail": "CPU Dual-Core, Socket 1200, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 4 GHz, Comet Lake, TDP 58 Watt, Scheda video Intel UHD 610, L3 Cache 4 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/200386631/intel-pentium-gold-g6400-box-socket-1200-14nm-bx80701g6400.html",
-  "price": "64,28",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5011/0/5011096/s10_produktbild_gross/intel-xeon-e5-2620v4-tray-socket-2011-3-14nm-cm8066002032201.jpg",
+  "name": "Intel Xeon E5-2620V4 Tray (Socket 2011-3, 14nm, CM8066002032201)",
+  "detail": "CPU 8 Core, Socket 2011-3, Numero di Threads 16, Frequenza di clock 2,1 GHz, Frequenza turbo massima 3 GHz, Broadwell, TDP 85 Watt, L3 Cache 20 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/5011096/intel-xeon-e5-2620v4-tray-socket-2011-3-14nm-cm8066002032201.html",
+  "price": "175,47",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900598d529241ffd071fc6"
+    "$oid": "66905d8f4e3654bf34edf6a4"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/203980/7/203980744/s10_produktbild_mittelgross/intel-xeon-e-2434-tray.jpg",
-  "name": "Intel Xeon E-2434 Tray",
-  "detail": "CPU Quad-Core, Socket 1700, Tipo processore server, Numero di Threads 8, Frequenza di clock 3,4 GHz, Frequenza turbo massima 5 GHz, Raptor Lake, TDP 55 Watt, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203980744/intel-xeon-e-2434-tray.html",
-  "price": "325,61",
+  "imgurl": "https://cdn.idealo.com/folder/Product/201785/4/201785496/s10_produktbild_mittelgross/intel-core-i3-12100t-tray-cm8071504651106.jpg",
+  "name": "Intel Core i3-12100T Tray (CM8071504651106)",
+  "detail": "CPU Quad-Core, Socket 1700, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 2,2 GHz, Frequenza turbo massima 4,1 GHz, Alder Lake, TDP 35 Watt, Scheda video Intel UHD 730, L3 Cache 12 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201785496/intel-core-i3-12100t-tray-cm8071504651106.html",
+  "price": "116,71",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900672d529241ffd071ff5"
+    "$oid": "66905dca4e3654bf34edf6c3"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/202052/5/202052537/s10_produktbild_gross/amd-ryzen-threadripper-pro-5975wx-boxed-wof.jpg",
-  "name": "AMD Ryzen Threadripper PRO 5975WX Boxed WOF",
-  "detail": "CPU 32 Core, Socket sWRX8, Tipo processore desktop, Numero di Threads 64, Frequenza di clock 3,6 GHz, Frequenza turbo massima 4,5 GHz, Chagall PRO, TDP 280 Watt, L3 Cache 128 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202052537/amd-ryzen-threadripper-pro-5975wx-boxed-wof.html",
-  "price": "3.053,61",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66900726d529241ffd07202c"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/200335/8/200335801/s10_produktbild_mittelgross/intel-core-i7-10700f.jpg",
-  "name": "Intel Core i7-10700F",
-  "detail": "CPU 8 Core, Socket 1200, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 2,9 GHz, Frequenza turbo massima 4,8 GHz, Comet Lake, TDP 65 Watt, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/200335801/intel-core-i7-10700f.html",
-  "price": "256,88",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669007e1d529241ffd072063"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/202123/0/202123043/s10_produktbild_gross/amd-ryzen-threadripper-pro-5965wx-tray.jpg",
-  "name": "AMD Ryzen Threadripper PRO 5965WX Tray",
-  "detail": "CPU 24 Core, Socket sWRX8, Tipo processore desktop, Numero di Threads 48, Frequenza di clock 3,8 GHz, Frequenza turbo massima 4,5 GHz, Chagall PRO, TDP 280 Watt, L3 Cache 128 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202123043/amd-ryzen-threadripper-pro-5965wx-tray.html",
-  "price": "1.909,58",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690085ed529241ffd072096"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/201920/5/201920526/s10_produktbild_gross/intel-xeon-e-2378-tray-cm8070804495612.jpg",
-  "name": "Intel Xeon E-2378 Tray (CM8070804495612)",
-  "detail": "CPU 8 Core, Socket 1200, Tipo processore server, Numero di Threads 16, Frequenza di clock 2,6 GHz, Frequenza turbo massima 4,8 GHz, Rocket Lake-E, TDP 65 Watt, L3 Cache 4 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201920526/intel-xeon-e-2378-tray-cm8070804495612.html",
-  "price": "468,10",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66900903d529241ffd0720c5"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/202000/7/202000755/s10_produktbild_gross/intel-xeon-gold-6326-tray-4xg7a63446.jpg",
-  "name": "Intel Xeon Gold 6326 Tray (4XG7A63446)",
-  "detail": "CPU 16 Core, Socket 4189, Tipo processore server, Numero di Threads 32, Frequenza di clock 2,9 GHz, Frequenza turbo massima 3,5 GHz, Ice Lake-SP, TDP 185 Watt, L3 Cache 24 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202000755/intel-xeon-gold-6326-tray-4xg7a63446.html",
-  "price": "2.163,61",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66900981d529241ffd0720f2"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/200335/9/200335984/s10_produktbild_gross/intel-core-i5-10600-box-socket-1200-14nm-bx8070110600.jpg",
-  "name": "Intel Core i5-10600 Box (Socket 1200, 14nm, BX8070110600)",
-  "detail": "CPU 6 Core, Socket 1200, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,3 GHz, Frequenza turbo massima 4,8 GHz, Comet Lake, TDP 65 Watt, Scheda video Intel UHD 630, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/200335984/intel-core-i5-10600-box-socket-1200-14nm-bx8070110600.html",
-  "price": "208,99",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66900a44d529241ffd072123"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/6751/9/6751918/s10_produktbild_mittelgross/amd-epyc-7252.jpg",
-  "name": "AMD EPYC 7252",
-  "detail": "CPU 8 Core, Socket SP3, Tipo processore server, Numero di Threads 16, Frequenza di clock 3,1 GHz, Frequenza turbo massima 3,2 GHz, TDP 120 Watt, L3 Cache 64 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6751918/amd-epyc-7252.html",
-  "price": "394,50",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66900aded529241ffd07215a"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/202728/4/202728455/s10_produktbild_gross/intel-xeon-silver-4410y-tray.jpg",
-  "name": "Intel Xeon Silver 4410Y Tray",
-  "detail": "CPU 12 Core, Socket 4677, Tipo processore server, Numero di Threads 24, Frequenza di clock 2 GHz, Frequenza turbo massima 3,9 GHz, Sapphire Rapids, TDP 150 Watt, L3 Cache 30 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202728455/intel-xeon-silver-4410y-tray.html",
-  "price": "594,71",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66900ba0d529241ffd072191"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/201211/8/201211823/s10_produktbild_gross/amd-ryzen-threadripper-pro-3995wx-tray.jpg",
-  "name": "AMD Ryzen Threadripper PRO 3995WX Tray",
-  "detail": "CPU 64 Core, Socket sWRX8, Tipo processore desktop, Numero di Threads 128, Frequenza di clock 2,7 GHz, Frequenza turbo massima 4,2 GHz, Castle Peak, TDP 280 Watt, L3 Cache 128 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201211823/amd-ryzen-threadripper-pro-3995wx-tray.html",
-  "price": "1.001,01",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66900c1fd529241ffd0721b4"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/6745/7/6745799/s10_produktbild_gross/amd-epyc-7702p-tray-100-100000047.jpg",
-  "name": "AMD EPYC 7702P Tray (100-100000047)",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/6745/7/6745799/s10_produktbild_mittelgross/amd-epyc-7702p-tray-100-100000047.jpg",
+  "name": "AMD EPYC 7702P",
   "detail": "CPU 64 Core, Socket SP3, Tipo processore server, Numero di Threads 128, Frequenza di clock 2 GHz, Frequenza turbo massima 3,35 GHz, TDP 200 Watt, L3 Cache 256 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6745799/amd-epyc-7702p-tray-100-100000047.html",
+  "link": "https://www.idealo.it/confronta-prezzi/6745797/amd-epyc-7702p.html",
   "price": "3.894,78",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900cbcd529241ffd0721df"
+    "$oid": "66905e344e3654bf34edf6ee"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/201720/2/201720279/s10_produktbild_gross/intel-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p21198-b21.jpg",
-  "name": "Intel Xeon Silver 4210R (HPE Upgrade, Socket 3647, 14nm, P21198-B21)",
-  "detail": "CPU 10 Core, Socket 3647, Tipo processore server, Numero di Threads 20, Frequenza di clock 2,4 GHz, Frequenza turbo massima 3,2 GHz, Cascade Lake, TDP 100 Watt, L3 Cache 13 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201720279/intel-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p21198-b21.html",
-  "price": "804,49",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/201205/3/201205344/s10_produktbild_gross/intel-core-i3-10305-box-socket-1200-14nm-bx8070110305.jpg",
+  "name": "Intel Core i3-10305 Box (Socket 1200, 14nm, BX8070110305)",
+  "detail": "CPU Quad-Core, Socket 1200, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,8 GHz, Frequenza turbo massima 4,5 GHz, Comet Lake, TDP 65 Watt, Scheda video Intel UHD 630, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201205344/intel-core-i3-10305-box-socket-1200-14nm-bx8070110305.html",
+  "price": "185,99",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900d5cd529241ffd072214"
+    "$oid": "66905e944e3654bf34edf719"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/6565/5/6565532/s10_produktbild_mittelgross/intel-core-i3-9100f-box-socket-1151-14nm-bx80684i39100f.jpg",
-  "name": "Intel Core i3-9100F",
-  "detail": "CPU Quad-Core, Socket 1151, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,6 GHz, Frequenza turbo massima 4,2 GHz, Coffee Lake, TDP 65 Watt, L3 Cache 6 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6602597/intel-core-i3-9100f.html",
-  "price": "118,88",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/200344/3/200344352/s10_produktbild_gross/intel-xeon-gold-6240r-box-socket-3647-14nm-bx806956240r.jpg",
+  "name": "Intel Xeon Gold 6240R Box (Socket 3647, 14nm, BX806956240R)",
+  "detail": "CPU 24 Core, Socket 3647, Tipo processore server, Numero di Threads 48, Frequenza di clock 2,4 GHz, Frequenza turbo massima 4 GHz, Cascade Lake, TDP 165 Watt, L3 Cache 35 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/200344352/intel-xeon-gold-6240r-box-socket-3647-14nm-bx806956240r.html",
+  "price": "3.749,89",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900defd529241ffd07223f"
+    "$oid": "66905eee4e3654bf34edf742"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/202394/3/202394379/s10_produktbild_gross/amd-epyc-9534-tray.jpg",
-  "name": "AMD EPYC 9534 Tray",
-  "detail": "CPU 64 Core, Socket SP5, Tipo processore server, Numero di Threads 128, Frequenza di clock 2,45 GHz, Frequenza turbo massima 3,7 GHz, TDP 280 Watt, L3 Cache 256 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/202394379/amd-epyc-9534-tray.html",
-  "price": "3.723,38",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/4993/6/4993626/s10_produktbild_gross/intel-xeon-e5-2630v4-box-socket-2011-3-14-nm-bx80660e52630v4.jpg",
+  "name": "-15%",
+  "detail": "CPU 10 Core, Socket 2011-3, Numero di Threads 20, Frequenza di clock 2,2 GHz, Frequenza turbo massima 3,1 GHz, Broadwell, TDP 85 Watt, L3 Cache 25 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/4993626/intel-xeon-e5-2630v4-box-socket-2011-3-14-nm-bx80660e52630v4.html",
+  "price": "462,46",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900e83d529241ffd072272"
+    "$oid": "66905f3f4e3654bf34edf759"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/203564/0/203564093/s10_produktbild_mittelgross/amd-ryzen-threadripper-pro-7965wx-tray.jpg",
-  "name": "AMD Ryzen Threadripper PRO 7965WX Tray",
-  "detail": "CPU 24 Core, Socket sTR5, Tipo processore workstation, Numero di Threads 48, Frequenza di clock 4,2 GHz, Frequenza turbo massima 5,3 GHz, Storm Peak, TDP 350 Watt, L3 Cache 128 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203564093/amd-ryzen-threadripper-pro-7965wx-tray.html",
-  "price": "3.062,99",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5668/2/5668262/s10_produktbild_mittelgross/intel-xeon-gold-5118-tray-socket-3647-14nm-cd8067303536100.jpg",
+  "name": "Intel Xeon Gold 5118",
+  "detail": "CPU 12 Core, Socket 3647, Tipo processore server, Numero di Threads 24, Frequenza di clock 2,3 GHz, Frequenza turbo massima 3,2 GHz, Skylake-SP, TDP 105 Watt, L3 Cache 16 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/6315127/intel-xeon-gold-5118.html",
+  "price": "424,05",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900f27d529241ffd072291"
+    "$oid": "66905fa14e3654bf34edf782"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/201786/7/201786726/s10_produktbild_gross/intel-core-i9-12900f-tray-cm8071504549318.jpg",
-  "name": "Intel Core i9-12900F Tray (CM8071504549318)",
-  "detail": "CPU 16 Core, Socket 1700, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 2,4 GHz, Frequenza turbo massima 5,1 GHz, Alder Lake, TDP 65 Watt, L3 Cache 30 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201786726/intel-core-i9-12900f-tray-cm8071504549318.html",
-  "price": "450,99",
+  "imgurl": "https://cdn.idealo.com/folder/Product/203980/7/203980738/s10_produktbild_mittelgross/intel-xeon-e-2436-tray.jpg",
+  "name": "Intel Xeon E-2436 Tray",
+  "detail": "CPU 6 Core, Socket 1700, Tipo processore server, Numero di Threads 12, Frequenza di clock 2,9 GHz, Frequenza turbo massima 5 GHz, Raptor Lake, TDP 65 Watt, L3 Cache 18 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/203980738/intel-xeon-e-2436-tray.html",
+  "price": "377,80",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66900fc6d529241ffd0722b6"
+    "$oid": "66905feb4e3654bf34edf79f"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
+  "imgurl": "https://cdn.idealo.com/folder/Product/203980/7/203980738/s10_produktbild_mittelgross/intel-xeon-e-2436-tray.jpg",
   "name": "AMD Ryzen 5 1600",
   "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,2 GHz, Frequenza turbo massima 3,6 GHz, TDP 65 Watt, L3 Cache 16 MB",
   "link": "https://www.idealo.it/confronta-prezzi/5488952/amd-ryzen-5-1600.html",
@@ -858,20 +462,20 @@
 },
 {
   "_id": {
-    "$oid": "6690105bd529241ffd0722d1"
+    "$oid": "669060614e3654bf34edf7ab"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "Intel Core i3-14100 Tray",
-  "detail": "CPU Quad-Core, Socket 1700, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,5 GHz, Frequenza turbo massima 4,7 GHz, Raptor Lake Refresh, TDP 60 Watt, Scheda video Intel UHD 730, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203710159/intel-core-i3-14100-tray.html",
-  "price": "154,70",
+  "imgurl": "https://cdn.idealo.com/folder/Product/203980/7/203980738/s10_produktbild_mittelgross/intel-xeon-e-2436-tray.jpg",
+  "name": "Intel Core i5-14500 Tray",
+  "detail": "CPU 14 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 2,6 GHz, Frequenza turbo massima 5 GHz, Raptor Lake Refresh, TDP 65 Watt, Scheda video Intel UHD 770, L3 Cache 24 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/203712573/intel-core-i5-14500-tray.html",
+  "price": "266,80",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669010c0d529241ffd0722ee"
+    "$oid": "6690609f4e3654bf34edf7c8"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
+  "imgurl": "https://cdn.idealo.com/folder/Product/203980/7/203980738/s10_produktbild_mittelgross/intel-xeon-e-2436-tray.jpg",
   "name": "AMD EPYC 7401",
   "detail": "CPU 24 Core, Tipo processore server, Numero di Threads 48, Frequenza di clock 2 GHz, Frequenza turbo massima 3 GHz, Naples, TDP 170 Watt, L3 Cache 64 MB",
   "link": "https://www.idealo.it/confronta-prezzi/6041307/amd-epyc-7401.html",
@@ -880,359 +484,513 @@
 },
 {
   "_id": {
-    "$oid": "6690111dd529241ffd072305"
+    "$oid": "669088489a5eeefd82b89369"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "Intel Xeon E-2436 Tray",
-  "detail": "CPU 6 Core, Socket 1700, Tipo processore server, Numero di Threads 12, Frequenza di clock 2,9 GHz, Frequenza turbo massima 5 GHz, Raptor Lake, TDP 65 Watt, L3 Cache 18 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203980738/intel-xeon-e-2436-tray.html",
-  "price": "378,29",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1642/0/1642035/s10_produktbild_gross/intel-xeon-e5506-2-13ghz-box-socket-1366-45nm-bx80602e5506.jpg",
+  "name": "Intel Xeon E5506 2.13GHz Box (Socket 1366, 45nm, BX80602E5506)",
+  "detail": "CPU Quad-Core, Socket 1366, Tipo processore server, Numero di Threads 4, Frequenza di clock 2,13 GHz, Nehalem EX, TDP 80 Watt, L3 Cache 4 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/1642035/intel-xeon-e5506-2-13ghz-box-socket-1366-45nm-bx80602e5506.html",
+  "price": "119,15",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901172d529241ffd072322"
+    "$oid": "669088809a5eeefd82b89376"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "AMD FX-8350",
-  "detail": "CPU 8 Core, Socket AM3+, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 4 GHz, Frequenza turbo massima 4,2 GHz, Vishera, TDP 125 Watt, L3 Cache 8 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/3604059/amd-fx-8350.html",
-  "price": "285,00",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/2150/2/2150274/s10_produktbild_gross/intel-xeon-l5630-2-13ghz-box-socket-1366-32nm-bx80614l5630.jpg",
+  "name": "Intel Xeon L5630 2.13GHz Box (Socket 1366, 32nm, BX80614L5630)",
+  "detail": "CPU Quad-Core, Socket 1366, Tipo processore server, Frequenza di clock 2,13 GHz, Westmere EP, TDP 40 Watt, L3 Cache 12 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/2150274/intel-xeon-l5630-2-13ghz-box-socket-1366-32nm-bx80614l5630.html",
+  "price": "301,12",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669011b8d529241ffd072331"
+    "$oid": "669088d59a5eeefd82b89385"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "Intel Core i5-14400 Tray",
-  "detail": "CPU 10 Core, Socket 1700, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,7 GHz, Raptor Lake Refresh, TDP 65 Watt, Scheda video Intel UHD 730, L3 Cache 20 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203711130/intel-core-i5-14400-tray.html",
-  "price": "254,80",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5765/8/5765877/s10_produktbild_gross/intel-core-i5-8400-tray-socket-1151-14nm-cm8068403358811.jpg",
+  "name": "Intel Core i5-8400 Tray (Socket 1151, 14nm, CM8068403358811)",
+  "detail": "CPU 6 Core, Socket 1151, Tipo processore desktop, Numero di Threads 6, Frequenza di clock 2,8 GHz, Frequenza turbo massima 4 GHz, Coffee Lake, TDP 65 Watt, Scheda video Intel UHD 630, L3 Cache 9 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/5765877/intel-core-i5-8400-tray-socket-1151-14nm-cm8068403358811.html",
+  "price": "519,30",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901267d529241ffd072354"
+    "$oid": "669089689a5eeefd82b89394"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "AMD Ryzen 5 1600 Box (Socket AM4, 12nm, YD1600BBAFBOX)",
-  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,2 GHz, Frequenza turbo massima 3,6 GHz, TDP 65 Watt, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6981357/amd-ryzen-5-1600-box-socket-am4-12nm-yd1600bbafbox.html",
-  "price": "191,69",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5669/9/5669968/s10_produktbild_gross/intel-xeon-bronze-3106-tray-socket-3647-14nm-cd8067303561900.jpg",
+  "name": "Intel Xeon Bronze 3106 Tray (Socket 3647, 14nm, CD8067303561900)",
+  "detail": "CPU 8 Core, Socket 3647, Tipo processore server, Numero di Threads 8, Frequenza di clock 1,7 GHz, Skylake-SP, TDP 85 Watt, L3 Cache 11 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/5669968/intel-xeon-bronze-3106-tray-socket-3647-14nm-cd8067303561900.html",
+  "price": "362,59",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669012dbd529241ffd07236b"
+    "$oid": "669089af9a5eeefd82b893a5"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "Intel Core i5-14400F Tray",
-  "detail": "CPU 10 Core, Socket 1700, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,7 GHz, Raptor Lake Refresh, TDP 65 Watt, L3 Cache 20 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203711842/intel-core-i5-14400f-tray.html",
-  "price": "393,47",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3276/6/3276655/s10_produktbild_gross/intel-xeon-e5-2407-box-socket-1356-32nm-bx80621e52407.jpg",
+  "name": "Intel Xeon E5-2407 Box (Socket 1356, 32nm, BX80621E52407)",
+  "detail": "CPU Quad-Core, Socket 1356, Tipo processore server, Numero di Threads 4, Frequenza di clock 2,2 GHz, Sandy Bridge-EN, TDP 80 Watt, L3 Cache 10 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3276655/intel-xeon-e5-2407-box-socket-1356-32nm-bx80621e52407.html",
+  "price": "508,59",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901367d529241ffd07238a"
+    "$oid": "669089d89a5eeefd82b893b0"
   },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "AMD Ryzen 9 3950X",
-  "detail": "CPU 16 Core, Socket AM4, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 3,5 GHz, Frequenza turbo massima 4,7 GHz, Matisse, TDP 105 Watt, L3 Cache 64 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6639711/amd-ryzen-9-3950x.html",
-  "price": "579,70",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669013dfd529241ffd0723a3"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "Intel 300 Tray",
-  "detail": "CPU Dual-Core, Socket 1700, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,9 GHz, Raptor Lake Refresh, TDP 46 Watt, Scheda video Intel UHD 770, L3 Cache 6 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203993519/intel-300-tray.html",
-  "price": "96,20",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66901425d529241ffd0723be"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "AMD Ryzen 7 2700X Box (Socket AM4, 12nm, YD270XBGAFBOX)",
-  "detail": "CPU 8 Core, Socket AM4, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,3 GHz, Pinnacle Ridge, TDP 105 Watt, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6130186/amd-ryzen-7-2700x-box-socket-am4-12nm-yd270xbgafbox.html",
-  "price": "290,43",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690149bd529241ffd0723d3"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "Intel Core i3-8350K",
-  "detail": "CPU Quad-Core, Socket 1151, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 4 GHz, Coffee Lake, TDP 91 Watt, Scheda video Intel UHD 630, L3 Cache 8 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/5765936/intel-core-i3-8350k.html",
-  "price": "186,88",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66901528d529241ffd0723f6"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "AMD Ryzen 7 3800XT",
-  "detail": "CPU 8 Core, Socket AM4, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,9 GHz, Frequenza turbo massima 4,7 GHz, Matisse, TDP 105 Watt, L3 Cache 32 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/200445893/amd-ryzen-7-3800xt.html",
-  "price": "263,99",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669015aad529241ffd07240b"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "Intel Core i7-6700K",
-  "detail": "CPU Quad-Core, Socket 1151, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 4 GHz, Frequenza turbo massima 4,2 GHz, Skylake-S, TDP 95 Watt, Scheda video Intel HD 530, L3 Cache 8 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/4810790/intel-core-i7-6700k.html",
-  "price": "128,88",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690162ed529241ffd072421"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "AMD Ryzen 9 3900X Box",
-  "detail": "CPU 12 Core, Socket AM4, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 3,8 GHz, Frequenza turbo massima 4,6 GHz, Matisse, TDP 105 Watt, L3 Cache 64 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6639738/amd-ryzen-9-3900x-box.html",
-  "price": "410,53",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669016c4d529241ffd072442"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/5488/9/5488952/s10_produktbild_mittelgross/amd-ryzen-5-1600.jpg",
-  "name": "Intel Core i5 760",
-  "detail": "CPU Quad-Core, Socket 1156, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 2,8 GHz, Frequenza turbo massima 3,46 GHz, Lynnfield, TDP 95 Watt, L3 Cache 8 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/2856297/intel-core-i5-760.html",
-  "price": "182,45",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690176fd529241ffd072455"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/4813/4/4813404/s10_produktbild_gross/amd-a8-7670k-box-socket-fm2-28-nm-ad767kxbjcbox.jpg",
-  "name": "AMD A8-7670K Box (Socket FM2+, 28 nm, AD767KXBJCBOX)",
-  "detail": "CPU Quad-Core, Socket FM2+, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,6 GHz, Frequenza turbo massima 3,9 GHz, Godavari, TDP 95 Watt, Scheda video AMD Radeon R7",
-  "link": "https://www.idealo.it/confronta-prezzi/4813404/amd-a8-7670k-box-socket-fm2-28-nm-ad767kxbjcbox.html",
-  "price": "47,68",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669017cbd529241ffd072468"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/6331/7/6331706/s10_produktbild_mittelgross/intel-core-i9-9900k.jpg",
-  "name": "Intel Core i9-9900K",
-  "detail": "CPU 8 Core, Socket 1151, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 3,6 GHz, Frequenza turbo massima 5 GHz, Coffee Lake, TDP 95 Watt, Scheda video Intel UHD 630, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6331706/intel-core-i9-9900k.html",
-  "price": "484,88",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66901866d529241ffd072485"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/202270/8/202270883/s10_produktbild_gross/amd-epyc-7373x-tray.jpg",
-  "name": "AMD EPYC 7373X Tray",
-  "detail": "CPU 16 Core, Socket SP3, Tipo processore server, Numero di Threads 32, Frequenza di clock 3,05 GHz, Frequenza turbo massima 3,8 GHz, Milan, TDP 240 Watt",
-  "link": "https://www.idealo.it/confronta-prezzi/202270883/amd-epyc-7373x-tray.html",
-  "price": "2.958,70",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669018ebd529241ffd0724aa"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/6119/8/6119880/s10_produktbild_mittelgross/intel-core-i5-8600.jpg",
-  "name": "Intel Core i5-8600",
-  "detail": "CPU 6 Core, Socket 1151, Tipo processore desktop, Numero di Threads 6, Frequenza di clock 3,1 GHz, Frequenza turbo massima 4,3 GHz, Coffee Lake, TDP 65 Watt, Scheda video Intel UHD 630, L3 Cache 9 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6119880/intel-core-i5-8600.html",
-  "price": "238,88",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66901966d529241ffd0724c1"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/6119/8/6119880/s10_produktbild_mittelgross/intel-core-i5-8600.jpg",
-  "name": "Intel Core i5-8500",
-  "detail": "CPU 6 Core, Socket 1151, Tipo processore desktop, Numero di Threads 6, Frequenza di clock 3 GHz, Frequenza turbo massima 4,1 GHz, Coffee Lake, TDP 65 Watt, Scheda video Intel UHD 630, L3 Cache 9 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6119816/intel-core-i5-8500.html",
-  "price": "199,88",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669019a5d529241ffd0724d2"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/6119/8/6119880/s10_produktbild_mittelgross/intel-core-i5-8600.jpg",
-  "name": "Intel Core i7-7800X",
-  "detail": "CPU 6 Core, Socket 2066, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,5 GHz, Frequenza turbo massima 4 GHz, Skylake X, TDP 140 Watt, L3 Cache 8 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/5616417/intel-core-i7-7800x.html",
-  "price": "201,15",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66901a01d529241ffd0724e1"
-  },
-  "imgurl": "https://cdn.idealo.com/folder/Product/6119/8/6119880/s10_produktbild_mittelgross/intel-core-i5-8600.jpg",
-  "name": "Intel Core i7-8700K",
-  "detail": "CPU 6 Core, Socket 1151, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,7 GHz, Coffee Lake, TDP 95 Watt, Scheda video Intel UHD 630, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/5765818/intel-core-i7-8700k.html",
-  "price": "288,88",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66901a6bd529241ffd0724fa"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/2786/5/2786503/s10_produktbild_gross/intel-xeon-e7-4820-2-0-ghz-hewlett-packard-upgrade-socket-1567-32nm-643774-b21.jpg",
-  "name": "Intel Xeon E7 4820 2.0 GHz (Hewlett-Packard-Upgrade, Socket 1567, 32nm, 643774-B21)",
-  "detail": "CPU 8 Core, Socket 1567, Tipo processore server",
-  "link": "https://www.idealo.it/confronta-prezzi/2786503/intel-xeon-e7-4820-2-0-ghz-hewlett-packard-upgrade-socket-1567-32nm-643774-b21.html",
-  "price": "609,44",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66901af2d529241ffd07250b"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/5669/9/5669925/s10_produktbild_mittelgross/intel-xeon-bronze-3104-tray-socket-3647-14nm-cd8067303562000.jpg",
-  "name": "Intel Xeon Bronze 3104",
-  "detail": "CPU 6 Core, Socket 3647, Tipo processore server, Numero di Threads 6, Frequenza di clock 1,7 GHz, Skylake-SP, TDP 85 Watt, L3 Cache 8 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/5669954/intel-xeon-bronze-3104.html",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/6703/8/6703874/s10_produktbild_mittelgross/intel-pentium-gold-g5620-box-socket-1151-14nm-bx80684g5620.jpg",
+  "name": "Intel Pentium Gold G5620",
+  "detail": "CPU Dual-Core, Socket 1151, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 4 GHz, Coffee Lake, TDP 54 Watt, Scheda video Intel UHD 630, L3 Cache 4 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/6703886/intel-pentium-gold-g5620.html",
   "price": "193,59",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901b8ad529241ffd072526"
+    "$oid": "66908a009a5eeefd82b893bb"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/203995/1/203995157/s10_produktbild_gross/amd-epyc-7303p-tray.jpg",
-  "name": "AMD EPYC 7303P Tray",
-  "detail": "CPU 16 Core, Socket SP3, Tipo processore server, Numero di Threads 32, Frequenza di clock 2,4 GHz, Frequenza turbo massima 3,4 GHz, Milan, TDP 130 Watt, L3 Cache 64 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/203995157/amd-epyc-7303p-tray.html",
-  "price": "626,24",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5427/6/5427660/s10_produktbild_gross/intel-xeon-e3-1225v6-tray-socket-1151-14nm-cm8067702871024.jpg",
+  "name": "Intel Xeon E3-1225V6 Tray (Socket 1151, 14nm, CM8067702871024)",
+  "detail": "CPU Quad-Core, Socket 1151, Tipo processore server, Numero di Threads 4, Frequenza di clock 3,3 GHz, Kaby Lake, TDP 73 Watt, Scheda video Intel HD P630, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/5427660/intel-xeon-e3-1225v6-tray-socket-1151-14nm-cm8067702871024.html",
+  "price": "586,12",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901c2bd529241ffd072542"
+    "$oid": "66908a279a5eeefd82b893c6"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/201138/0/201138058/s10_produktbild_gross/amd-ryzen-threadripper-pro-3955wx-box-wof.jpg",
-  "name": "AMD Ryzen Threadripper PRO 3955WX Box WOF",
-  "detail": "CPU 16 Core, Socket sWRX8, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 3,9 GHz, Frequenza turbo massima 4,3 GHz, Castle Peak, TDP 280 Watt, L3 Cache 64 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201138058/amd-ryzen-threadripper-pro-3955wx-box-wof.html",
-  "price": "1.835,12",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5667/9/5667971/s10_produktbild_gross/intel-xeon-silver-4108-tray-socket-3647-14nm-cd8067303561500.jpg",
+  "name": "Intel Xeon Silver 4108 Tray (Socket 3647, 14nm, CD8067303561500)",
+  "detail": "CPU 8 Core, Socket 3647, Tipo processore server, Numero di Threads 16, Frequenza di clock 1,8 GHz, Frequenza turbo massima 3 GHz, Skylake-SP, TDP 85 Watt, L3 Cache 11 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/5667971/intel-xeon-silver-4108-tray-socket-3647-14nm-cd8067303561500.html",
+  "price": "331,86",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901c8fd529241ffd072557"
+    "$oid": "66908a5c9a5eeefd82b893d5"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/1786/7/1786763/s10_produktbild_gross/intel-xeon-e5504-2ghz-hewlett-packard-upgrade-socket-1366-45nm-508341-b21.jpg",
-  "name": "Intel Xeon E5504 2GHz (Hewlett-Packard-Upgrade, Socket 1366, 45nm, 508341-B21)",
-  "detail": "CPU Quad-Core, Socket 1366, Tipo processore server",
-  "link": "https://www.idealo.it/confronta-prezzi/1786763/intel-xeon-e5504-2ghz-hewlett-packard-upgrade-socket-1366-45nm-508341-b21.html",
-  "price": "12,00",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66901cead529241ffd07256a"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/5031/2/5031264/s10_produktbild_gross/intel-core-i7-6800k-tray-socket-2011-3-14nm-cm8067102056201.jpg",
-  "name": "Intel Core i7-6800K Tray (Socket 2011-3, 14nm, CM8067102056201)",
-  "detail": "CPU 6 Core, Socket 2011-3, Numero di Threads 12, Frequenza di clock 3,4 GHz, Frequenza turbo massima 3,6 GHz, Broadwell, TDP 140 Watt, L3 Cache 15 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/5031264/intel-core-i7-6800k-tray-socket-2011-3-14nm-cm8067102056201.html",
-  "price": "524,05",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66901d2ad529241ffd072575"
-  },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/2299/1/2299100/s10_produktbild_gross/intel-core-i5-760-box-socket-1156-45nm-bx80605i5760.jpg",
-  "name": "Intel Core i5 760 Box (Socket 1156, 45nm, BX80605I5760)",
-  "detail": "CPU Quad-Core, Socket 1156, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 2,8 GHz, Frequenza turbo massima 3,46 GHz, Lynnfield, TDP 95 Watt, L3 Cache 8 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/2299100/intel-core-i5-760-box-socket-1156-45nm-bx80605i5760.html",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3297/2/3297238/s10_produktbild_gross/intel-core-i5-3450s-box-socket-1155-22nm-bx80637i53450s.jpg",
+  "name": "Intel Core i5-3450S Box (Socket 1155, 22nm, BX80637I53450S)",
+  "detail": "CPU Quad-Core, Socket 1155, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 2,8 GHz, Frequenza turbo massima 3,5 GHz, Ivy Bridge, TDP 65 Watt, Scheda video Intel HD 2500, L3 Cache 6 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3297238/intel-core-i5-3450s-box-socket-1155-22nm-bx80637i53450s.html",
   "price": "182,45",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901da4d529241ffd072588"
+    "$oid": "66908a7a9a5eeefd82b893d9"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/200386/6/200386676/s10_produktbild_gross/intel-xeon-silver-4215r-lenovo-upgrade-socket-3647-14nm-4xg7a63298.jpg",
-  "name": "Intel Xeon Silver 4215R (Lenovo Upgrade, Socket 3647, 14nm, 4XG7A63298)",
-  "detail": "CPU 8 Core, Socket 3647, Tipo processore server",
-  "link": "https://www.idealo.it/confronta-prezzi/200386676/intel-xeon-silver-4215r-lenovo-upgrade-socket-3647-14nm-4xg7a63298.html",
-  "price": "1.948,80",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/288/3/288302/s10_produktbild_gross/intel-pentium-4-xeon-2800-603-400-512.jpg",
+  "name": "Intel Pentium 4 Xeon 2800 (603/400/512)",
+  "detail": "CPU Single-Core, Socket 603, Tipo processore server, Frequenza di clock 2,8 GHz, Prestonia, TDP 75 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/288302/intel-pentium-4-xeon-2800-603-400-512.html",
+  "price": "41,47",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901e65d529241ffd0725b1"
+    "$oid": "66908aa19a5eeefd82b893dd"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/6721/8/6721850/s10_produktbild_gross/intel-xeon-silver-4210-lenovo-upgrade-socket-3647-14nm-4xg7a14811.jpg",
-  "name": "Intel Xeon Silver 4210 (Lenovo Upgrade, Socket 3647, 14nm, 4XG7A14811)",
-  "detail": "CPU 10 Core, Socket 3647, Tipo processore server, Numero di Threads 20, Frequenza di clock 2,2 GHz, Frequenza turbo massima 3,2 GHz, Cascade Lake, TDP 85 Watt, L3 Cache 14 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6721850/intel-xeon-silver-4210-lenovo-upgrade-socket-3647-14nm-4xg7a14811.html",
-  "price": "1.416,90",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/202266/7/202266704/s10_produktbild_gross/intel-core-i9-13900f-tray.jpg",
+  "name": "Intel Core i9-13900F Tray",
+  "detail": "CPU 24 Core, Socket 1700, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 2 GHz, Frequenza turbo massima 5,6 GHz, Raptor Lake, TDP 65 Watt, L3 Cache 36 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202266704/intel-core-i9-13900f-tray.html",
+  "price": "577,50",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901ed4d529241ffd0725d6"
+    "$oid": "66908b089a5eeefd82b89400"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/2356/4/2356410/s10_produktbild_mittelgross/intel-core-i5-2540m-box-socket-g2-32nm-bx80627i52540m.jpg",
-  "name": "Intel Core i5 2540M",
-  "detail": "CPU Dual-Core, Socket 1155, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 2,6 GHz, Frequenza turbo massima 3,3 GHz, Sandy Bridge, TDP 35 Watt, Scheda video Intel HD Graphics, L3 Cache 3 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/3029006/intel-core-i5-2540m.html",
-  "price": "136,04",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/4993/5/4993597/s10_produktbild_gross/intel-xeon-e5-2697v4-box-socket-2011-3-14nm-bx80660e52697v4.jpg",
+  "name": "Intel Xeon E5-2697V4 Box (Socket 2011-3, 14nm, BX80660E52697V4)",
+  "detail": "CPU 18 Core, Socket 2011-3, Numero di Threads 36, Frequenza di clock 2,3 GHz, Frequenza turbo massima 3,6 GHz, Broadwell, TDP 145 Watt, L3 Cache 45 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/4993597/intel-xeon-e5-2697v4-box-socket-2011-3-14nm-bx80660e52697v4.html",
+  "price": "387,45",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901effd529241ffd0725da"
+    "$oid": "66908b3d9a5eeefd82b8940f"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/4961/9/4961998/s10_produktbild_gross/intel-core-i5-6402p-box-socket-1151-14nm-bx80662i56402p.jpg",
-  "name": "Intel Core i5-6402P Box (Socket 1151, 14nm, BX80662I56402P)",
-  "detail": "CPU Quad-Core, Socket 1151, Numero di Threads 4, Frequenza di clock 2,8 GHz, Frequenza turbo massima 3,4 GHz, Skylake-S, TDP 65 Watt, Scheda video Intel HD 510, L3 Cache 6 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/4961998/intel-core-i5-6402p-box-socket-1151-14nm-bx80662i56402p.html",
-  "price": "127,45",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/4769/0/4769091/s10_produktbild_mittelgross/intel-core-i3-4170-box-socket-1150-22nm-bx80646i34170.jpg",
+  "name": "Intel Core i3-4170",
+  "detail": "CPU Dual-Core, Socket 1150, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,7 GHz, Haswell, TDP 54 Watt, Scheda video Intel HD 4400, L3 Cache 3 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/4857161/intel-core-i3-4170.html",
+  "price": "29,90",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66901f52d529241ffd0725e9"
+    "$oid": "66908b809a5eeefd82b89424"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/201785/4/201785474/s10_produktbild_gross/intel-core-i3-12100f-tray-cm8071504651013.jpg",
-  "name": "Intel Core i3-12100F Tray (CM8071504651013)",
-  "detail": "CPU Quad-Core, Socket 1700, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,3 GHz, Frequenza turbo massima 4,3 GHz, Alder Lake, TDP 58 Watt, L3 Cache 12 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/201785474/intel-core-i3-12100f-tray-cm8071504651013.html",
-  "price": "85,04",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/202641/7/202641725/s10_produktbild_mittelgross/intel-xeon-w7-2475x-boxed.jpg",
+  "name": "Intel Xeon w7-2475X",
+  "detail": "CPU 20 Core, Socket 4677, Tipo processore workstation, Numero di Threads 40, Frequenza di clock 2,6 GHz, Frequenza turbo massima 4,8 GHz, Sapphire Rapids, TDP 225 Watt, L3 Cache 37 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202641582/intel-xeon-w7-2475x.html",
+  "price": "2.244,13",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6690205bd529241ffd072612"
+    "$oid": "66908be89a5eeefd82b8944b"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/4791/1/4791143/s10_produktbild_gross/intel-xeon-e5-2609v3-hewlett-packard-upgrade-socket-2011-3-22nm-755378-b21.jpg",
+  "name": "Intel Xeon E5-2609V3 (Hewlett-Packard Upgrade, Socket 2011-3, 22nm, 755378-B21)",
+  "detail": "CPU 6 Core, Socket 2011-3, Tipo processore server",
+  "link": "https://www.idealo.it/confronta-prezzi/4791143/intel-xeon-e5-2609v3-hewlett-packard-upgrade-socket-2011-3-22nm-755378-b21.html",
+  "price": "427,91",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908c3e9a5eeefd82b89460"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5288/3/5288335/s10_produktbild_gross/intel-core-i7-7700k-box-wof-socket-1151-14nm-bx80677i77700k.jpg",
+  "name": "Intel Core i7-7700K Box WOF (Socket 1151, 14nm, BX80677I77700K)",
+  "detail": "CPU Quad-Core, Socket 1151, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 4,2 GHz, Frequenza turbo massima 4,5 GHz, Kaby Lake, TDP 95 Watt, Scheda video Intel HD 630, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/5288335/intel-core-i7-7700k-box-wof-socket-1151-14nm-bx80677i77700k.html",
+  "price": "348,88",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908c959a5eeefd82b89471"
+  },
+  "imgurl": "https:https://cdn.idealo.com/images/product/4217951/it_IT/0/mittelgross.jpg",
+  "name": "Intel Xeon E5-2640V2",
+  "detail": "CPU 8 Core, Socket 2011, Tipo processore server, Numero di Threads 16, Frequenza di clock 2 GHz, Frequenza turbo massima 2,5 GHz, Ivy Bridge-EP, TDP 95 Watt, L3 Cache 20 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/4062882/intel-xeon-e5-2640v2.html",
+  "price": "754,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908cf79a5eeefd82b89496"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1334/8/1334837/s10_produktbild_gross/intel-core2-duo-t9550-socket-p-45nm-bx80576t9550.jpg",
+  "name": "Intel Core2 Duo T9550 (Socket P, 45nm, BX80576T9550)",
+  "detail": "CPU Dual-Core, Socket 479, Tipo processore desktop, Frequenza di clock 2,66 GHz, Penryn, TDP 35 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/1334837/intel-core2-duo-t9550-socket-p-45nm-bx80576t9550.html",
+  "price": "402,25",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908d3a9a5eeefd82b894a5"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/4394/4/4394440/s10_produktbild_gross/intel-celeron-g1840-box-socket-1150-22nm-bx80646g1840.jpg",
+  "name": "Intel Celeron G1840 Box (Socket 1150, 22nm, BX80646G1840)",
+  "detail": "CPU Dual-Core, Socket 1150, Tipo processore desktop, Numero di Threads 2, Frequenza di clock 2,8 GHz, Haswell, TDP 53 Watt, Scheda video Intel HD Graphics, L3 Cache 2 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/4394440/intel-celeron-g1840-box-socket-1150-22nm-bx80646g1840.html",
+  "price": "79,88",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908d749a5eeefd82b894b2"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1822/2/1822299/s10_produktbild_gross/intel-xeon-e5335-8mb-l2-cache-hewlett-packard-upgrade-socket-771-437905-b21.jpg",
+  "name": "Intel Xeon E5335 8MB L2-Cache (Hewlett-Packard-Upgrade, Socket 771, 437905-B21)",
+  "detail": "CPU Quad-Core, Socket 771, Tipo processore server",
+  "link": "https://www.idealo.it/confronta-prezzi/1822299/intel-xeon-e5335-8mb-l2-cache-hewlett-packard-upgrade-socket-771-437905-b21.html",
+  "price": "527,80",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908d989a5eeefd82b894bd"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/2311/3/2311304/s10_produktbild_gross/intel-core-i3-2120-box-socket-1155-32nm-bxc80623i32120.jpg",
+  "name": "Intel Core i3 2120 Box (Socket 1155, 32nm, BXC80623I32120)",
+  "detail": "CPU Dual-Core, Socket 1155, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,3 GHz, Sandy Bridge, TDP 65 Watt, Scheda video Intel HD 2000, L3 Cache 3 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/2311304/intel-core-i3-2120-box-socket-1155-32nm-bxc80623i32120.html",
+  "price": "61,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908de49a5eeefd82b894ce"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i9-13900F",
+  "detail": "CPU 24 Core, Socket 1700, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 2 GHz, Frequenza turbo massima 5,6 GHz, Raptor Lake, TDP 65 Watt, L3 Cache 36 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202266883/intel-core-i9-13900f.html",
+  "price": "498,55",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908e449a5eeefd82b89505"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i7-13700",
+  "detail": "CPU 16 Core, Socket 1700, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 2,1 GHz, Frequenza turbo massima 5,2 GHz, Raptor Lake, TDP 65 Watt, Scheda video Intel UHD 770, L3 Cache 30 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202266545/intel-core-i7-13700.html",
+  "price": "375,72",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908ea09a5eeefd82b8953c"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i5-12500",
+  "detail": "CPU 6 Core, Socket 1700, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3 GHz, Frequenza turbo massima 4,6 GHz, Alder Lake, TDP 65 Watt, Scheda video Intel UHD 770, L3 Cache 18 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201786657/intel-core-i5-12500.html",
+  "price": "185,10",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908f029a5eeefd82b89573"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Pentium Gold G6405",
+  "detail": "CPU Dual-Core, Socket 1200, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 4,1 GHz, Comet Lake, TDP 58 Watt, Scheda video Intel UHD 610, L3 Cache 4 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201206046/intel-pentium-gold-g6405.html",
+  "price": "60,89",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908f659a5eeefd82b895aa"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Xeon w7-2495X",
+  "detail": "CPU 24 Core, Socket 4677, Tipo processore workstation, Numero di Threads 48, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,8 GHz, Sapphire Rapids, TDP 225 Watt, L3 Cache 45 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202722787/intel-xeon-w7-2495x.html",
+  "price": "2.680,92",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66908fc49a5eeefd82b895e1"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Xeon Gold 6426Y Tray",
+  "detail": "CPU 16 Core, Socket 4677, Tipo processore server, Numero di Threads 32, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,1 GHz, Sapphire Rapids, TDP 185 Watt, L3 Cache 37 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/203002779/intel-xeon-gold-6426y-tray.html",
+  "price": "1.805,51",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669090249a5eeefd82b89616"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Celeron G6900",
+  "detail": "CPU Dual-Core, Socket 1700, Tipo processore desktop, Numero di Threads 2, Frequenza di clock 3,4 GHz, Alder Lake, TDP 46 Watt, Scheda video Intel UHD 710, L3 Cache 4 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201844127/intel-celeron-g6900.html",
+  "price": "62,44",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669090859a5eeefd82b8964d"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Xeon E-2336",
+  "detail": "CPU 6 Core, Socket 1200, Tipo processore server, Numero di Threads 12, Frequenza di clock 2,9 GHz, Frequenza turbo massima 4,8 GHz, Rocket Lake-E, TDP 65 Watt, L3 Cache 12 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201873466/intel-xeon-e-2336.html",
+  "price": "373,94",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669090e59a5eeefd82b89680"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Xeon E-2434",
+  "detail": "CPU Quad-Core, Socket 1700, Tipo processore server, Numero di Threads 8, Frequenza di clock 3,4 GHz, Frequenza turbo massima 5 GHz, Raptor Lake, TDP 55 Watt, L3 Cache 12 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/203980766/intel-xeon-e-2434.html",
+  "price": "325,61",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690914e9a5eeefd82b896b5"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Xeon E-2478",
+  "detail": "CPU 8 Core, Socket 1700, Tipo processore server, Numero di Threads 16, Frequenza di clock 2,8 GHz, Frequenza turbo massima 5,2 GHz, Raptor Lake, TDP 80 Watt, L3 Cache 24 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/203980647/intel-xeon-e-2478.html",
+  "price": "651,07",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669091b69a5eeefd82b896e4"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Xeon E-2414",
+  "detail": "CPU Quad-Core, Socket 1700, Tipo processore server, Numero di Threads 4, Frequenza di clock 2,6 GHz, Frequenza turbo massima 4,5 GHz, Raptor Lake, TDP 55 Watt, L3 Cache 12 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/203980772/intel-xeon-e-2414.html",
+  "price": "250,31",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669092209a5eeefd82b89719"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i7-11700",
+  "detail": "CPU 8 Core, Socket 1200, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,9 GHz, Rocket Lake-S, TDP 65 Watt, Scheda video Intel UHD 750, L3 Cache 16 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201173934/intel-core-i7-11700.html",
+  "price": "247,50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669092839a5eeefd82b89750"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i9-11900",
+  "detail": "CPU 8 Core, Socket 1200, Tipo processore desktop, Numero di Threads 16, Frequenza di clock 2,5 GHz, Frequenza turbo massima 5,2 GHz, Rocket Lake-S, TDP 65 Watt, Scheda video Intel UHD 750, L3 Cache 16 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201171975/intel-core-i9-11900.html",
+  "price": "253,41",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669092e59a5eeefd82b89787"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Xeon Silver 4316",
+  "detail": "CPU 20 Core, Socket 4189, Tipo processore server, Numero di Threads 40, Frequenza di clock 2,3 GHz, Frequenza turbo massima 3,4 GHz, Ice Lake-SP, TDP 150 Watt, L3 Cache 30 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201637791/intel-xeon-silver-4316.html",
+  "price": "1.018,08",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669093459a5eeefd82b897bc"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i3-10105F",
+  "detail": "CPU Quad-Core, Socket 1200, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,4 GHz, Comet Lake, TDP 65 Watt, L3 Cache 6 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201205274/intel-core-i3-10105f.html",
+  "price": "55,40",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669093a39a5eeefd82b897f3"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202266883/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i5-10500",
+  "detail": "CPU 6 Core, Socket 1200, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,1 GHz, Frequenza turbo massima 4,5 GHz, Comet Lake, TDP 65 Watt, Scheda video Intel UHD 630, L3 Cache 12 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/200362686/intel-core-i5-10500.html",
+  "price": "125,06",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669094089a5eeefd82b8982a"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/201807/0/201807098/s10_produktbild_mittelgross/intel-xeon-e-2324g-tray-cm8070804496015.jpg",
+  "name": "Intel Xeon E-2324G",
+  "detail": "CPU Quad-Core, Socket 1200, Tipo processore server, Numero di Threads 4, Frequenza di clock 3,1 GHz, Frequenza turbo massima 4,6 GHz, Rocket Lake-E, TDP 65 Watt, Scheda video Intel UHD P750, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201873486/intel-xeon-e-2324g.html",
+  "price": "267,03",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669094779a5eeefd82b89861"
+  },
+  "imgurl": "https:https://cdn.idealo.com/images/product/2029585/it_IT/0/gross.jpg",
+  "name": "AMD Athlon II P320 2.1GHz Tray (Socket S1, 45nm, AMP320SGR22GM)",
+  "detail": "CPU Dual-Core, Socket S1, Tipo processore desktop, Frequenza di clock 2,1 GHz, Champlain, TDP 25 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/2029585/amd-athlon-ii-p320-2-1ghz-tray-socket-s1-45nm-amp320sgr22gm.html",
+  "price": "15,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669094979a5eeefd82b89865"
+  },
+  "imgurl": "https:https://cdn.idealo.com/images/product/3276586/it_IT/0/gross.jpg",
+  "name": "Intel Xeon E5-2403 Box (Socket 1356, 32nm, BX80621E52403)",
+  "detail": "CPU Quad-Core, Socket 1356, Tipo processore server, Frequenza di clock 1,8 GHz, Sandy Bridge-EN, TDP 80 Watt, L3 Cache 10 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3276586/intel-xeon-e5-2403-box-socket-1356-32nm-bx80621e52403.html",
+  "price": "284,23",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669094ed9a5eeefd82b8987c"
+  },
+  "imgurl": "https:https://cdn.idealo.com/images/product/4356332/it_IT/0/gross.jpg",
+  "name": "Intel Core i3-4150 Tray (Socket 1150, 22nm, CM8064601483643)",
+  "detail": "CPU Dual-Core, Socket 1150, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,5 GHz, Haswell, TDP 54 Watt, Scheda video Intel HD 4000, L3 Cache 3 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/4356332/intel-core-i3-4150-tray-socket-1150-22nm-cm8064601483643.html",
+  "price": "79,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690952d9a5eeefd82b8988b"
+  },
+  "imgurl": "https:https://cdn.idealo.com/images/product/4220776/it_IT/0/gross.jpg",
+  "name": "Intel Xeon E5-2630V2 (IBM Upgrade, Socket 2011, 22nm, 46W4364)",
+  "detail": "CPU 6 Core, Socket 2011, Tipo processore server, Numero di Threads 12, Frequenza di clock 2,6 GHz, Frequenza turbo massima 3,1 GHz, Ivy Bridge-EP, TDP 80 Watt, L3 Cache 15 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/4220776/intel-xeon-e5-2630v2-ibm-upgrade-socket-2011-22nm-46w4364.html",
+  "price": "1.900,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669095919a5eeefd82b8989e"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1078/2/1078212/s10_produktbild_gross/intel-core-2-duo-t8100-box-socket-p-45nm-bx80577t8100.jpg",
+  "name": "Intel Core 2 Duo T8100 Box (Socket P, 45nm, BX80577T8100)",
+  "detail": "CPU Dual-Core, Socket 478, Tipo processore desktop, Frequenza di clock 2,1 GHz, Penryn, TDP 35 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/1078212/intel-core-2-duo-t8100-box-socket-p-45nm-bx80577t8100.html",
+  "price": "239,68",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669095e89a5eeefd82b898af"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/4810/7/4810750/s10_produktbild_gross/intel-core-i5-6500-box-socket-1151-14nm-bx80662i56500.jpg",
+  "name": "Intel Core i5-6500 Box (Socket 1151, 14nm, BX80662I56500)",
+  "detail": "CPU Quad-Core, Socket 1151, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,2 GHz, Frequenza turbo massima 3,6 GHz, Skylake-S, TDP 65 Watt, Scheda video Intel HD 530, L3 Cache 6 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/4810750/intel-core-i5-6500-box-socket-1151-14nm-bx80662i56500.html",
+  "price": "118,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690963b9a5eeefd82b898c2"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/2042/5/2042595/s10_produktbild_gross/intel-core-i5-650-3-2ghz-box-socket-1156-32nm-c2-bx80616i5650.jpg",
+  "name": "Intel Core i5 650 3.2GHz Box (Socket 1156, 32nm, C2, BX80616I5650)",
+  "detail": "CPU Dual-Core, Socket 1156, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,2 GHz, Frequenza turbo massima 3,46 GHz, Clarkdale, TDP 73 Watt, Scheda video Intel HD Graphics, L3 Cache 4 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/2042595/intel-core-i5-650-3-2ghz-box-socket-1156-32nm-c2-bx80616i5650.html",
+  "price": "142,65",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669096719a5eeefd82b898cf"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/711/3/711334/s10_produktbild_gross/intel-core-2-duo-e6320-tray-socket-775-65nm-hh80557ph0364m.jpg",
+  "name": "Intel Core 2 Duo E6320 Tray (Socket 775, 65nm, HH80557PH0364M)",
+  "detail": "CPU Dual-Core, Socket 775, Tipo processore desktop, Frequenza di clock 1,86 GHz, Allendale, TDP 65 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/711334/intel-core-2-duo-e6320-tray-socket-775-65nm-hh80557ph0364m.html",
+  "price": "182,45",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669096899a5eeefd82b898d3"
   },
   "imgurl": "https:https://cdn.idealo.com/folder/Product/3228/8/3228881/s10_produktbild_gross/intel-xeon-e5-2680-box-socket-2011-32nm-bx80621e52680.jpg",
   "name": "Intel Xeon E5-2680 Box (Socket 2011, 32nm, BX80621E52680)",
@@ -1243,89 +1001,232 @@
 },
 {
   "_id": {
-    "$oid": "669020bbd529241ffd07261f"
+    "$oid": "669096c49a5eeefd82b898e0"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/1922/9/1922928/s10_produktbild_mittelgross/intel-core-i3-540-3-06ghz-box-socket-1156-32nm-c2.jpg",
-  "name": "Intel Core i3 540",
-  "detail": "CPU Dual-Core, Socket 1156, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,06 GHz, Clarkdale, TDP 73 Watt, Scheda video Intel HD Graphics, L3 Cache 4 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/2999159/intel-core-i3-540.html",
-  "price": "123,65",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3329/4/3329406/s10_produktbild_gross/intel-xeon-e3-1245v2-box-socket-1155-22nm-bx80637e31245v2.jpg",
+  "name": "Intel Xeon E3-1245V2 Box (Socket 1155, 22nm, BX80637E31245V2)",
+  "detail": "CPU Quad-Core, Socket 1155, Tipo processore server, Numero di Threads 8, Frequenza di clock 3,4 GHz, Frequenza turbo massima 3,8 GHz, Ivy Bridge, TDP 77 Watt, Scheda video Intel HD 4000, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3329406/intel-xeon-e3-1245v2-box-socket-1155-22nm-bx80637e31245v2.html",
+  "price": "409,00",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6690214fd529241ffd07263e"
+    "$oid": "669096f89a5eeefd82b898ed"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/5661/6/5661606/s10_produktbild_gross/intel-xeon-gold-6148-box-socket-3647-14nm-bx806736148.jpg",
-  "name": "Intel Xeon Gold 6148 Box (Socket 3647, 14nm, BX806736148)",
-  "detail": "CPU 20 Core, Socket 3647, Tipo processore server, Numero di Threads 40, Frequenza di clock 2,4 GHz, Frequenza turbo massima 3,7 GHz, Skylake-SP, TDP 150 Watt, L3 Cache 27 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/5661606/intel-xeon-gold-6148-box-socket-3647-14nm-bx806736148.html",
-  "price": "617,63",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5329/3/5329322/s10_produktbild_gross/intel-celeron-g3900te-tray-socket-1151-14nm-cm8066201938802.jpg",
+  "name": "Intel Celeron G3900TE Tray (Socket 1151, 14nm, CM8066201938802)",
+  "detail": "CPU Dual-Core, Socket 1151, Numero di Threads 2, Frequenza di clock 2,3 GHz, Skylake, TDP 35 Watt, Scheda video Intel HD 510, L3 Cache 2 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/5329322/intel-celeron-g3900te-tray-socket-1151-14nm-cm8066201938802.html",
+  "price": "97,46",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669021bed529241ffd072651"
+    "$oid": "669097509a5eeefd82b898fe"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/1762/3/1762326/s10_produktbild_gross/intel-xeon-e5420-tray-socket-771-45nm-eu80574kj060n.jpg",
-  "name": "Intel Xeon E5420 Tray (Socket 771, 45nm, EU80574KJ060N)",
-  "detail": "CPU Quad-Core, Socket 771, Tipo processore server, Numero di Threads 4, Frequenza di clock 2,5 GHz, Harpertown, TDP 80 Watt",
-  "link": "https://www.idealo.it/confronta-prezzi/1762326/intel-xeon-e5420-tray-socket-771-45nm-eu80574kj060n.html",
-  "price": "182,45",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/2382/1/2382119/s10_produktbild_mittelgross/intel-xeon-w3670-3-2ghz-box-socket-1366-32nm-bx80613w3670.jpg",
+  "name": "Intel Xeon W3670",
+  "detail": "CPU 6 Core, Socket 1366, Tipo processore server, Frequenza di clock 3,2 GHz, Frequenza turbo massima 3,46 GHz, Westmere EP, TDP 130 Watt, L3 Cache 12 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/2994400/intel-xeon-w3670.html",
+  "price": "229,46",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "66902262d529241ffd07265f"
+    "$oid": "669097949a5eeefd82b8990d"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/2551/8/2551848/s10_produktbild_gross/intel-xeon-e5630-2-53ghz-hewlett-packard-upgrade-socket-1366-32nm-610862-b21.jpg",
-  "name": "Intel Xeon E5630 2.53GHz (Hewlett-Packard-Upgrade, Socket 1366, 32nm, 610862-B21)",
-  "detail": "CPU Quad-Core, Socket 1366, Tipo processore server",
-  "link": "https://www.idealo.it/confronta-prezzi/2551848/intel-xeon-e5630-2-53ghz-hewlett-packard-upgrade-socket-1366-32nm-610862-b21.html",
-  "price": "166,56",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3868/9/3868973/s10_produktbild_mittelgross/intel-xeon-e3-1230v3-box-socket-1150-22nm-bx80646e31230v3.jpg",
+  "name": "Intel Xeon E3-1230V3",
+  "detail": "CPU Quad-Core, Socket 1150, Tipo processore server, Numero di Threads 8, Frequenza di clock 3,3 GHz, Frequenza turbo massima 3,7 GHz, Haswell, TDP 80 Watt, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3868942/intel-xeon-e3-1230v3.html",
+  "price": "511,62",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6690227dd529241ffd072663"
+    "$oid": "669097b19a5eeefd82b89911"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/248/5/248544/s10_produktbild_gross/amd-sempron-2400-tray-socket-a.jpg",
-  "name": "AMD Sempron 2400+ Tray (Socket A)",
-  "detail": "CPU Single-Core, Socket A (462), Tipo processore desktop, Frequenza di clock 1,67 GHz, Thoroughbred, TDP 62 Watt",
-  "link": "https://www.idealo.it/confronta-prezzi/248544/amd-sempron-2400-tray-socket-a.html",
-  "price": "16,15",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1820/9/1820906/s10_produktbild_mittelgross/intel-xeon-e7320-4mb-l2-cache-hewlett-packard-upgrade-socket-771-65nm-443692-b21.jpg",
+  "name": "Intel Xeon E7320",
+  "detail": "CPU Quad-Core, Socket 604, Tipo processore server, Frequenza di clock 2,13 GHz, Tigerton, TDP 80 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/3088526/intel-xeon-e7320.html",
+  "price": "3.342,46",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669022aad529241ffd072667"
+    "$oid": "669098bb9a5eeefd82b89956"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/1339/6/1339640/s10_produktbild_gross/amd-athlon-xp-1700-socket-a-130nm-axda1700dlt3c.jpg",
-  "name": "AMD Athlon XP 1700+ (Socket A, 130nm, AXDA1700DLT3C)",
-  "detail": "CPU Single-Core, Socket A (462), Tipo processore desktop, Frequenza di clock 1,47 GHz, Thoroughbred, TDP 50 Watt",
-  "link": "https://www.idealo.it/confronta-prezzi/1339640/amd-athlon-xp-1700-socket-a-130nm-axda1700dlt3c.html",
-  "price": "15,07",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/144/0/144082/s10_produktbild_gross/intel-pentium-4-550-3-4-ghz-socket-775-90nm.jpg",
+  "name": "Intel Pentium 4 550 3.4 GHz (Socket 775, 90nm)",
+  "detail": "CPU Single-Core, Socket 775, Tipo processore desktop, Numero di Threads 2, Frequenza di clock 3,4 GHz, Prescott, TDP 115 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/144082/intel-pentium-4-550-3-4-ghz-socket-775-90nm.html",
+  "price": "303,48",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "669022d2d529241ffd07266b"
+    "$oid": "669098ff9a5eeefd82b89965"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/6130/2/6130292/s10_produktbild_gross/amd-ryzen-5-2600-box-socket-am4-12nm-yd2600bbafbox.jpg",
-  "name": "AMD Ryzen 5 2600 Box (Socket AM4, 12nm, YD2600BBAFBOX)",
-  "detail": "CPU 6 Core, Socket AM4, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,4 GHz, Frequenza turbo massima 3,9 GHz, Pinnacle Ridge, TDP 65 Watt, L3 Cache 16 MB",
-  "link": "https://www.idealo.it/confronta-prezzi/6130292/amd-ryzen-5-2600-box-socket-am4-12nm-yd2600bbafbox.html",
-  "price": "199,43",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/272/2/272243/s10_produktbild_gross/intel-pentium-4-520j.jpg",
+  "name": "Intel Pentium 4 520J",
+  "detail": "CPU Single-Core, Socket 775, Tipo processore desktop, Frequenza di clock 2,8 GHz, Prescott, TDP 84 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/272243/intel-pentium-4-520j.html",
+  "price": "183,03",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6690235fd529241ffd07267e"
+    "$oid": "669099379a5eeefd82b89972"
   },
-  "imgurl": "https:https://cdn.idealo.com/folder/Product/1318/0/1318041/s10_produktbild_mittelgross/intel-e7310-4mb-l2-cache-hewlett-packard-upgrade-socket-604-65nm-443693-b21.jpg",
-  "name": "Intel Xeon E7310",
-  "detail": "CPU Quad-Core, Socket 604, Tipo processore server, Frequenza di clock 1,6 GHz, Tigerton, TDP 80 Watt",
-  "link": "https://www.idealo.it/confronta-prezzi/3001107/intel-xeon-e7310.html",
-  "price": "2.510,20",
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5765/9/5765917/s10_produktbild_gross/intel-core-i3-8100-box-socket-1151-14nm-bx80684i38100.jpg",
+  "name": "Intel Core i3-8100 Box (Socket 1151, 14nm, BX80684I38100)",
+  "detail": "CPU Quad-Core, Socket 1151, Numero di Threads 4, Frequenza di clock 3,6 GHz, Coffee Lake, TDP 65 Watt, Scheda video Intel UHD 630, L3 Cache 6 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/5765917/intel-core-i3-8100-box-socket-1151-14nm-bx80684i38100.html",
+  "price": "151,03",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690998e9a5eeefd82b89985"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3943/0/3943081/s10_produktbild_gross/intel-core-i7-4770k-box-socket-1150-22nm-bxf80646i74770k.jpg",
+  "name": "Intel Core i7-4770K Box (Socket 1150, 22nm, BXF80646I74770K)",
+  "detail": "CPU Quad-Core, Socket 1150, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,5 GHz, Frequenza turbo massima 3,9 GHz, Haswell, TDP 84 Watt, Scheda video Intel HD 4600, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3943081/intel-core-i7-4770k-box-socket-1150-22nm-bxf80646i74770k.html",
+  "price": "200,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669099c69a5eeefd82b89992"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5357/1/5357169/s10_produktbild_gross/intel-xeon-e5-2637v4-hewlett-packard-upgrade-socket-2011-3-14nm-817935-b21.jpg",
+  "name": "Intel Xeon E5-2637V4 (Hewlett-Packard Upgrade, Socket 2011-3, 14nm, 817935-B21)",
+  "detail": "CPU Quad-Core, Socket 2011-3, Numero di Threads 8",
+  "link": "https://www.idealo.it/confronta-prezzi/5357169/intel-xeon-e5-2637v4-hewlett-packard-upgrade-socket-2011-3-14nm-817935-b21.html",
+  "price": "303,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66909a299a5eeefd82b899ad"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3408/2/3408203/s10_produktbild_mittelgross/intel-core-duo-t2500-tray-socket-479-65nm-lf80539gf0412m.jpg",
+  "name": "Intel Core Duo T2500",
+  "detail": "CPU Dual-Core, Socket 479, Tipo processore desktop, Frequenza di clock 2 GHz, Yonah, TDP 31 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/3012244/intel-core-duo-t2500.html",
+  "price": "264,39",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66909a709a5eeefd82b899bc"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3258/4/3258452/s10_produktbild_gross/intel-xeon-e7-4807-1-86-ghz-fujitsu-siemens-upgrade-socket-1567-32nm-s26361-f3999-l480.jpg",
+  "name": "Intel Xeon E7 4807 1.86 GHz (Fujitsu-Siemens Upgrade, Socket 1567, 32nm, S26361-F3999-L480)",
+  "detail": "CPU 6 Core, Socket 1567, Tipo processore server",
+  "link": "https://www.idealo.it/confronta-prezzi/3258452/intel-xeon-e7-4807-1-86-ghz-fujitsu-siemens-upgrade-socket-1567-32nm-s26361-f3999-l480.html",
+  "price": "480,00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66909aa69a5eeefd82b899c9"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1887/6/1887675/s10_produktbild_mittelgross/intel-xeon-x3440-2-53ghz-box-socket-1156-45nm-bx80605x3440.jpg",
+  "name": "Intel Xeon X3440",
+  "detail": "CPU Quad-Core, Socket 1156, Tipo processore server, Frequenza di clock 2,53 GHz, Lynnfield, TDP 95 Watt, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/2998797/intel-xeon-x3440.html",
+  "price": "265,83",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66909acb9a5eeefd82b899d4"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202722794/it_IT/0/mittelgross.jpg",
+  "name": "Intel Xeon w7-3465X",
+  "detail": "CPU 28 Core, Socket 4677, Tipo processore workstation, Numero di Threads 56, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,8 GHz, Sapphire Rapids, TDP 300 Watt, L3 Cache 75 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202722794/intel-xeon-w7-3465x.html",
+  "price": "3.685,12",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66909b269a5eeefd82b899ff"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202722794/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i9-13900",
+  "detail": "CPU 24 Core, Socket 1700, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 2 GHz, Frequenza turbo massima 5,6 GHz, Raptor Lake, TDP 65 Watt, Scheda video Intel UHD 770, L3 Cache 36 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202266881/intel-core-i9-13900.html",
+  "price": "530,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66909b879a5eeefd82b89a36"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202722794/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i9-14900KS",
+  "detail": "CPU 24 Core, Socket 1700, Tipo processore desktop, Numero di Threads 32, Frequenza di clock 3,2 GHz, Frequenza turbo massima 6,2 GHz, Raptor Lake Refresh, TDP 150 Watt, Scheda video Intel UHD 770, L3 Cache 36 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/203993262/intel-core-i9-14900ks.html",
+  "price": "726,60",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66909be79a5eeefd82b89a6d"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202722794/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i5-13500",
+  "detail": "CPU 14 Core, Socket 1700, Tipo processore desktop, Numero di Threads 20, Frequenza di clock 2,5 GHz, Frequenza turbo massima 4,8 GHz, Raptor Lake, TDP 65 Watt, Scheda video Intel UHD 770, L3 Cache 24 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/202265873/intel-core-i5-13500.html",
+  "price": "219,40",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66909c4f9a5eeefd82b89aa4"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202722794/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core i3-10105",
+  "detail": "CPU Quad-Core, Socket 1200, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,7 GHz, Frequenza turbo massima 4,4 GHz, Comet Lake, TDP 65 Watt, Scheda video Intel UHD 630, L3 Cache 6 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/201205516/intel-core-i3-10105.html",
+  "price": "78,43",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66909cb39a5eeefd82b89adb"
+  },
+  "imgurl": "https://cdn.idealo.com/images/product/202722794/it_IT/0/mittelgross.jpg",
+  "name": "Intel Pentium Gold G6400",
+  "detail": "CPU Dual-Core, Socket 1200, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 4 GHz, Comet Lake, TDP 58 Watt, Scheda video Intel UHD 610, L3 Cache 4 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/200386637/intel-pentium-gold-g6400.html",
+  "price": "64,28",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690a39f5cfd6d2f5f93fe9e"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3868/5/3868585/s10_produktbild_mittelgross/intel-core-i7-4930k-box-socket-2011-22nm-bx80633i74930k.jpg",
+  "name": "Intel Core i7-4930K",
+  "detail": "CPU 6 Core, Socket 2011, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 3,4 GHz, Frequenza turbo massima 3,9 GHz, Ivy Bridge, TDP 130 Watt, L3 Cache 12 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3868574/intel-core-i7-4930k.html",
+  "price": "203,98",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690a3c95cfd6d2f5f93fead"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3228/8/3228881/s10_produktbild_mittelgross/intel-xeon-e5-2680-box-socket-2011-32nm-bx80621e52680.jpg",
+  "name": "Intel Xeon E5-2680",
+  "detail": "CPU 8 Core, Socket 2011, Tipo processore server, Numero di Threads 16, Frequenza di clock 2,7 GHz, Frequenza turbo massima 3,5 GHz, Sandy Bridge-EP, TDP 130 Watt, L3 Cache 20 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3534035/intel-xeon-e5-2680.html",
+  "price": "186,21",
   "__v": 0
 }]

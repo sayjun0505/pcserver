@@ -12,7 +12,7 @@ async function fetchCPU() {
 
   const driver = await new Builder().forBrowser("chrome").build();
   let arr = [];
-  let pages = 1;
+  let pages = 53;
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {
