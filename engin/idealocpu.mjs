@@ -6,13 +6,17 @@ import CPUVendorList from "../model/cpuvendorlist.js";
 import CPUNat from "../model/cpunat.js";
 import mongoose from "mongoose";
 
+
+
 async function fetchCPU() {
   const chromeOptions = new chrome.Options();
-  chromeOptions.addArguments("--headless");
+  // chromeOptions.addArguments("--headless");
+  chromeOptions.addArguments("--disable-gpu");
+  chromeOptions.addArguments('--disable-images');
 
-  const driver = await new Builder().forBrowser("chrome").build();
+  const driver = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
   let arr = [];
-  let pages = 53;
+  let pages = 10;
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {
@@ -20,8 +24,9 @@ async function fetchCPU() {
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
+      console.log("a");
       await driver.get(url);
-      console.log(url)
+      console.log(url);
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
       );
@@ -75,76 +80,79 @@ async function fetchCPU() {
             }
             await CPUVendorList.deleteMany({ cpuid: cpuid });
             //   await new Promise(resolve => setTimeout(resolve, 200));
-            const detail = await new Builder().forBrowser("chrome").build();
-            await detail.get(href);
-            console.log("Acurrent url:", href);
-            const nationality = await detail.findElement(By.id("i18nPrices"));
-            const ulElement = await nationality.findElement(By.tagName("ul"));
+            const detail = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
+            try {
+              console.log("b");
+              await detail.get(href);
+              console.log("Acurrent url:", href);
+              const nationality = await detail.findElement(By.id("i18nPrices"));
+              const ulElement = await nationality.findElement(By.tagName("ul"));
 
-            const htmlString = ulElement.getAttribute("outerHTML");
-            await saveToDatabase(cpuid, htmlString);
+              const htmlString = ulElement.getAttribute("outerHTML");
+              await saveToDatabase(cpuid, htmlString);
 
-            const timeout = 10000;
-            const listinfo = await detail.wait(
-              until.elementsLocated(
-                By.className("product-offers-items-soop-4576-fallback")
-              ),
-              timeout
-            );
-            let count = 0;
-            for (const info of listinfo) {
-              try {
-                const nameinfo = await info.findElement(
-                  By.className("productOffers-listItemTitleWrapper")
-                );
-                const nameContent = await nameinfo.getText();
+              const timeout = 10000;
+              const listinfo = await detail.wait(
+                until.elementsLocated(
+                  By.className("product-offers-items-soop-4576-fallback")
+                ),
+                timeout
+              );
+              let count = 0;
+              for (const info of listinfo) {
+                try {
+                  const nameinfo = await info.findElement(
+                    By.className("productOffers-listItemTitleWrapper")
+                  );
+                  const nameContent = await nameinfo.getText();
 
-                const paymentinfo = await info.findElement(
-                  By.className(
-                    "productOffers-listItemOfferShippingDetailsRight"
-                  )
-                );
-                const paymentContent = await paymentinfo.getAttribute(
-                  "outerHTML"
-                );
+                  const paymentinfo = await info.findElement(
+                    By.className(
+                      "productOffers-listItemOfferShippingDetailsRight"
+                    )
+                  );
+                  const paymentContent = await paymentinfo.getAttribute(
+                    "outerHTML"
+                  );
 
-                const detailinfo = await info.findElement(
-                  By.className("productOffers-listItemTitle")
-                );
-                const detailContent =
-                  "https://www.idealo.it" +
-                  (await detailinfo.getAttribute("href"));
+                  const detailinfo = await info.findElement(
+                    By.className("productOffers-listItemTitle")
+                  );
+                  const detailContent =
+                    "https://www.idealo.it" +
+                    (await detailinfo.getAttribute("href"));
 
-                const prcinfo = await info.findElement(
-                  By.className("productOffers-listItemOfferPrice")
-                );
-                const prcContent = await prcinfo.getText();
+                  const prcinfo = await info.findElement(
+                    By.className("productOffers-listItemOfferPrice")
+                  );
+                  const prcContent = await prcinfo.getText();
 
-                const vendorinfo = await info.findElement(
-                  By.className("productOffers-listItemOfferShopV2LogoImage")
-                );
-                const subimgurl = await vendorinfo.getAttribute("src");                
-                let item = {
-                  cpuid: cpuid,
-                  displayname: nameContent,
-                  payment: paymentContent,
-                  vendorimgurl: subimgurl,
-                  // price: parseFloat(
-                  //   prcContent.replace("€", "").trim().replace(",", ".").trim().replace(" ", "")
-                  // ),
-                  price:prcContent,
-                  directlink: detailContent
-                };
-                await CPUVendorList.create(item);
-              } catch (err) {
-                console.error("Error processing element:", err.message);
+                  const vendorinfo = await info.findElement(
+                    By.className("productOffers-listItemOfferShopV2LogoImage")
+                  );
+                  const subimgurl = await vendorinfo.getAttribute("src");
+                  let item = {
+                    cpuid: cpuid,
+                    displayname: nameContent,
+                    payment: paymentContent,
+                    vendorimgurl: subimgurl,
+                    // price: parseFloat(
+                    //   prcContent.replace("€", "").trim().replace(",", ".").trim().replace(" ", "")
+                    // ),
+                    price: prcContent,
+                    directlink: detailContent
+                  };
+                  await CPUVendorList.create(item);
+                } catch (err) {
+                  console.error("Error processing element:", err.message);
+                }
+                if (count >= 3) break;
+                count++;
               }
-              if (count >= 3) break;
-              count++;
+              await driver.manage().deleteAllCookies();
+            } finally {
+              await detail.quit();
             }
-            await driver.manage().deleteAllCookies();
-
-            await detail.quit();
           } catch (err) {
             if (err.name === "NoSuchElementError") {
               // console.log("There happened no 'a' tag");
@@ -215,86 +223,78 @@ async function fetchCPU() {
                 cpuid = createdProduct._id;
               }
               await CPUVendorList.deleteMany({ cpuid: cpuid });
-              const detail = await new Builder().forBrowser("chrome").build();
-              await detail.get(href);
-              console.log("Bcurrent url:", href);
+              const detail = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
+              try {
+                console.log("c");
+                await detail.get(href);
+                console.log("Bcurrent url:", href);
 
-              const timeout = 10000;
-              const listinfo = await detail.wait(
-                until.elementsLocated(
-                  By.className("product-offers-items-soop-4576-fallback")
-                ),
-                timeout
-              );
-              const nationality = await detail.findElement(By.id("i18nPrices"));
-              const ulElement = await nationality.findElement(By.tagName("ul"));
-              const htmlString = ulElement.getAttribute("outerHTML");
-              await saveToDatabase(cpuid, htmlString);
-              let count = 0;
-              for (const info of listinfo) {
-                try {
-                  const nameinfo = await info.findElement(
-                    By.className("productOffers-listItemTitleWrapper")
-                  );
-                  const nameContent = await nameinfo.getText();
+                const timeout = 10000;
+                const listinfo = await detail.wait(
+                  until.elementsLocated(
+                    By.className("product-offers-items-soop-4576-fallback")
+                  ),
+                  timeout
+                );
+                const nationality = await detail.findElement(
+                  By.id("i18nPrices")
+                );
+                const ulElement = await nationality.findElement(
+                  By.tagName("ul")
+                );
+                const htmlString = ulElement.getAttribute("outerHTML");
+                await saveToDatabase(cpuid, htmlString);
+                let count = 0;
+                for (const info of listinfo) {
+                  try {
+                    const nameinfo = await info.findElement(
+                      By.className("productOffers-listItemTitleWrapper")
+                    );
+                    const nameContent = await nameinfo.getText();
 
-                  const paymentinfo = await info.findElement(
-                    By.className(
-                      "productOffers-listItemOfferShippingDetailsRight"
-                    )
-                  );
-                  const paymentContent = await paymentinfo.getAttribute(
-                    "outerHTML"
-                  );
+                    const paymentinfo = await info.findElement(
+                      By.className(
+                        "productOffers-listItemOfferShippingDetailsRight"
+                      )
+                    );
+                    const paymentContent = await paymentinfo.getAttribute(
+                      "outerHTML"
+                    );
 
-                  const detailinfo = await info.findElement(
-                    By.className("productOffers-listItemTitle")
-                  );
-                  const detailContent =
-                    "https://www.idealo.it" +
-                    (await detailinfo.getAttribute("href"));
+                    const detailinfo = await info.findElement(
+                      By.className("productOffers-listItemTitle")
+                    );
+                    const detailContent =
+                      "https://www.idealo.it" +
+                      (await detailinfo.getAttribute("href"));
+                    const prcinfo = await info.findElement(
+                      By.className("productOffers-listItemOfferPrice")
+                    );
+                    const prcContent = await prcinfo.getText();
 
-                  // const driverURL = await new Builder().forBrowser('chrome').build(); 
-                  // await driverURL.get(detailContent);
-                  // let currentUrl = await driver.getCurrentUrl();
-                  // console.log("AAA----------------currentUrl:",currentUrl)
-                  // await driverURL.quit();
-
-
-
-                  const prcinfo = await info.findElement(
-                    By.className("productOffers-listItemOfferPrice")
-                  );
-                  const prcContent = await prcinfo.getText();
-
-                  const vendorinfo = await info.findElement(
-                    By.className("productOffers-listItemOfferShopV2LogoImage")
-                  );
-                  const subimgurl = await vendorinfo.getAttribute("src");
-                  let item = {
-                    cpuid: cpuid,
-                    displayname: nameContent,
-                    payment: paymentContent,
-                    vendorimgurl: subimgurl,
-                    // price: parseFloat(
-                    //   prcContent
-                    //     .replace("€", "")
-                    //     .trim()
-                    //     .replace(",", ".")
-                    //     .trim()
-                    // ),
-                    price:prcContent,
-                    directlink: detailContent
-                  };
-                  await CPUVendorList.create(item);
-                } catch (err) {
-                  console.error("Error processing element:", err.message);
+                    const vendorinfo = await info.findElement(
+                      By.className("productOffers-listItemOfferShopV2LogoImage")
+                    );
+                    const subimgurl = await vendorinfo.getAttribute("src");
+                    let item = {
+                      cpuid: cpuid,
+                      displayname: nameContent,
+                      payment: paymentContent,
+                      vendorimgurl: subimgurl,
+                      price: prcContent,
+                      directlink: detailContent
+                    };
+                    await CPUVendorList.create(item);
+                  } catch (err) {
+                    console.error("Error processing element:", err.message);
+                  }
+                  if (count >= 3) break;
+                  count++;
                 }
-                if (count >= 3) break;
-                count++;
+                await driver.manage().deleteAllCookies();
+              } finally {
+                await detail.quit();
               }
-              await driver.manage().deleteAllCookies();
-              await detail.quit();
             }
           }
         } catch (err) {}
@@ -312,69 +312,60 @@ async function fetchCPU() {
   }
 }
 async function getdatafromLink(cpuid, link) {
-  const countrywebshop = await new Builder().forBrowser("chrome").build();
-  await countrywebshop.get(link);
+  const chromeOptions = new chrome.Options();
+  // chromeOptions.addArguments("--headless");
+  chromeOptions.addArguments("--disable-gpu");
+  chromeOptions.addArguments('--disable-images');
 
-  const timeout = 10000;
-  const listinfo = await countrywebshop.wait(
-    until.elementsLocated(
-      By.className("product-offers-items-soop-4576-fallback")
-    ),
-    timeout
-  );
-  let count = 0;
-  for (const info of listinfo) {
-    try {
-      const nameinfo = await info.findElement(
-        By.className("productOffers-listItemTitleWrapper")
-      );
-      const nameContent = await nameinfo.getText();
+  const countrywebshop = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
+  try {
+    console.log("Navigating to link:", link);
+    await countrywebshop.get(link);
 
-      const paymentinfo = await info.findElement(
-        By.className("productOffers-listItemOfferShippingDetailsRight")
-      );
-      const paymentContent = await paymentinfo.getAttribute("outerHTML");
+    const timeout = 10000;
+    const listinfo = await countrywebshop.wait(until.elementsLocated(By.className("product-offers-items-soop-4576-fallback")), timeout);
 
-      const detailinfo = await info.findElement(
-        By.className("productOffers-listItemTitle")
-      );
-      const detailContent =
-        "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
-      const prcinfo = await info.findElement(
-        By.className("productOffers-listItemOfferPrice")
-      );
-      const prcContent = await prcinfo.getText();
+    let count = 0;
+    for (const info of listinfo) {
+      try {
+        const nameinfo = await info.findElement(By.className("productOffers-listItemTitleWrapper"));
+        const nameContent = await nameinfo.getText();
 
-      const vendorinfo = await info.findElement(
-        By.className("productOffers-listItemOfferShopV2LogoImage")
-      );
-      const subimgurl = await vendorinfo.getAttribute("src");
-      let item = {
-        cpuid: cpuid,
-        displayname: nameContent,
-        payment: paymentContent,
-        vendorimgurl: subimgurl,
-        // price: parseFloat(
-        //   prcContent
-        //     .replace("€", "")
-        //     .replace("£", "")
-        //     .trim()
-        //     .replace(",", ".")
-        //     .trim()
-        // ),
-        price:prcContent,
-        directlink: detailContent
-      };
-      await CPUVendorList.create(item);
-      if (count >= 3) {
-        break;
+        const paymentinfo = await info.findElement(By.className("productOffers-listItemOfferShippingDetailsRight"));
+        const paymentContent = await paymentinfo.getAttribute("outerHTML");
+
+        const detailinfo = await info.findElement(By.className("productOffers-listItemTitle"));
+        const detailHref = "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
+
+        const prcinfo = await info.findElement(By.className("productOffers-listItemOfferPrice"));
+        const prcContent = await prcinfo.getText();
+
+        const vendorinfo = await info.findElement(By.className("productOffers-listItemOfferShopV2LogoImage"));
+        const subimgurl = await vendorinfo.getAttribute("src");
+
+        let item = {
+          cpuid: cpuid,
+          displayname: nameContent,
+          payment: paymentContent,
+          vendorimgurl: subimgurl,
+          price: prcContent,
+          directlink: detailHref
+        };
+        await CPUVendorList.create(item);
+
+        count++;
+        if (count >= 3) {
+          break;
+        }
+      } catch (err) {
+        console.error("Error processing element:", err);
       }
-      count++;
-    } catch (err) {
-      console.error("Error processing element:", err.message);
     }
+  } catch (err) {
+    console.error("Error accessing the webpage:", err);
+  } finally {
+    await countrywebshop.quit();
   }
-  await countrywebshop.quit();
 }
 async function saveToDatabase(cpuid, htmlString) {
   try {
