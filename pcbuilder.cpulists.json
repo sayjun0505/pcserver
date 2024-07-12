@@ -2439,4 +2439,136 @@
   "link": "https://www.idealo.it/confronta-prezzi/6567924/intel-xeon-silver-4208-hpe-upgrade-socket-3647-14nm-p02491-b21.html",
   "price": "655,80",
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690ec5440c94b4c2acc771c"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3695/1/3695195/s10_produktbild_mittelgross/intel-core-i5-4670-box-socket-1150-22nm-bx80646i54670.jpg",
+  "name": "Intel Core i5-4670",
+  "detail": "CPU Quad-Core, Socket 1150, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,4 GHz, Frequenza turbo massima 3,8 GHz, Haswell, TDP 84 Watt, Scheda video Intel HD 4600, L3 Cache 6 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3695186/intel-core-i5-4670.html",
+  "price": "136,88",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690ec9b40c94b4c2acc772f"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3356/6/3356638/s10_produktbild_gross/intel-pentium-dual-core-g870-3-1-ghz-box-socket-1155-32nm-bx80623g870.jpg",
+  "name": "Intel Pentium Dual-Core G870 3.1 GHz Box (Socket 1155, 32nm, BX80623G870)",
+  "detail": "CPU Dual-Core, Socket 1155, Tipo processore desktop, Frequenza di clock 3,1 GHz, Sandy Bridge, TDP 65 Watt, Scheda video Intel HD Graphics, L3 Cache 3 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3356638/intel-pentium-dual-core-g870-3-1-ghz-box-socket-1155-32nm-bx80623g870.html",
+  "price": "29,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690ecbb40c94b4c2acc7733"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1707/4/1707481/s10_produktbild_gross/intel-core-2-duo-t8100-tray-socket-p-45nm-ff80577gg0453m.jpg",
+  "name": "Intel Core 2 Duo T8100 Tray (Socket P, 45nm, FF80577GG0453M)",
+  "detail": "CPU Dual-Core, Socket 478, Tipo processore desktop, Frequenza di clock 2,1 GHz, TDP 35 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/1707481/intel-core-2-duo-t8100-tray-socket-p-45nm-ff80577gg0453m.html",
+  "price": "167,36",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690ece240c94b4c2acc773e"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3868/5/3868568/s10_produktbild_gross/intel-core-i7-4820k-box-socket-2011-22nm-bx80633i74820k.jpg",
+  "name": "Intel Core i7-4820K Box (Socket 2011, 22nm, BX80633I74820K)",
+  "detail": "CPU Quad-Core, Socket 2011, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,7 GHz, Frequenza turbo massima 3,9 GHz, Sandy Bridge-E, TDP 130 Watt, L3 Cache 10 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3868568/intel-core-i7-4820k-box-socket-2011-22nm-bx80633i74820k.html",
+  "price": "325,50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690f09040c94b4c2acc781a"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1887/6/1887675/s10_produktbild_gross/intel-xeon-x3440-2-53ghz-box-socket-1156-45nm-bx80605x3440.jpg",
+  "name": "Intel Xeon X3440 2.53GHz Box (Socket 1156, 45nm, BX80605X3440)",
+  "detail": "CPU Quad-Core, Socket 1156, Tipo processore server, Numero di Threads 8, Frequenza di clock 2,53 GHz, Lynnfield, TDP 95 Watt, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/1887675/intel-xeon-x3440-2-53ghz-box-socket-1156-45nm-bx80605x3440.html",
+  "price": "265,83",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690f0ba40c94b4c2acc7825"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/6119/9/6119923/s10_produktbild_gross/intel-core-i3-8300-box-socket-1151-14nm-bx80684i38300.jpg",
+  "name": "Intel Core i3-8300 Box (Socket 1151, 14nm, BX80684I38300)",
+  "detail": "CPU Quad-Core, Socket 1151, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,7 GHz, Coffee Lake, TDP 62 Watt, Scheda video Intel UHD 630, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/6119923/intel-core-i3-8300-box-socket-1151-14nm-bx80684i38300.html",
+  "price": "199,88",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690f0f440c94b4c2acc7834"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1066/9/1066976/s10_produktbild_gross/intel-xeon-e5410-box-socket-771-45nm-bx80574e5410a.jpg",
+  "name": "Intel Xeon E5410 Box (Socket 771, 45nm, BX80574E5410A)",
+  "detail": "CPU Quad-Core, Socket 771, Tipo processore server, Frequenza di clock 2,33 GHz, Harpertown, TDP 80 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/1066976/intel-xeon-e5410-box-socket-771-45nm-bx80574e5410a.html",
+  "price": "62,25",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690f12c40c94b4c2acc7841"
+  },
+  "imgurl": "https:https://cdn.idealo.com/images/product/3444197/it_IT/0/mittelgross.jpg",
+  "name": "Intel Core 2 Duo T7250",
+  "detail": "CPU Dual-Core, Socket 479, Tipo processore desktop, Numero di Threads 2, Frequenza di clock 2 GHz, Merom, TDP 65 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/2797959/intel-core-2-duo-t7250.html",
+  "price": "418,53",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690f1a940c94b4c2acc785d"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/6119/8/6119887/s10_produktbild_gross/intel-core-i7-8700t-tray-socket-1151-14nm-cm8068403358413.jpg",
+  "name": "Intel Core i7-8700T Tray (Socket 1151, 14nm, CM8068403358413)",
+  "detail": "CPU 6 Core, Socket 1151, Tipo processore desktop, Numero di Threads 12, Frequenza di clock 2,4 GHz, Frequenza turbo massima 4 GHz, Coffee Lake, TDP 35 Watt, Scheda video Intel UHD 630, L3 Cache 12 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/6119887/intel-core-i7-8700t-tray-socket-1151-14nm-cm8068403358413.html",
+  "price": "435,67",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690f25140c94b4c2acc7883"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/5670/6/5670660/s10_produktbild_gross/intel-core-i9-7920x-box-socket-2066-14nm-bx80673i97920x.jpg",
+  "name": "Intel Core i9-7920X Box (Socket 2066, 14nm, BX80673I97920X)",
+  "detail": "CPU 12 Core, Socket 2066, Tipo processore desktop, Numero di Threads 24, Frequenza di clock 2,9 GHz, Skylake X, L3 Cache 16 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/5670660/intel-core-i9-7920x-box-socket-2066-14nm-bx80673i97920x.html",
+  "price": "478,88",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690f39c40c94b4c2acc78de"
+  },
+  "imgurl": "https:https://cdn.idealo.com/images/product/3307832/it_IT/0/gross.jpg",
+  "name": "Intel Xeon E5-2650 (IBM Upgrade, Sockel 2011, 32nm, 69Y5329)",
+  "detail": "CPU 8 Core, Socket 2011, Tipo processore server, Numero di Threads 16, Frequenza di clock 2 GHz, Frequenza turbo massima 2,8 GHz, Sandy Bridge-EP, TDP 95 Watt, L3 Cache 20 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3307832/intel-xeon-e5-2650-ibm-upgrade-sockel-2011-32nm-69y5329.html",
+  "price": "1.135,68",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690f3df40c94b4c2acc78ed"
+  },
+  "imgurl": "https:https://cdn.idealo.com/images/product/3366252/it_IT/0/gross.jpg",
+  "name": "Intel Xeon X3450 2.66GHz Tray (Socket 1156, 45nm, BV80605001911AQ)",
+  "detail": "CPU Quad-Core, Socket 1156, Tipo processore server, Numero di Threads 8, Frequenza di clock 2,66 GHz, Frequenza turbo massima 3,2 GHz, Lynnfield, TDP 95 Watt, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3366252/intel-xeon-x3450-2-66ghz-tray-socket-1156-45nm-bv80605001911aq.html",
+  "price": "79,99",
+  "__v": 0
 }]

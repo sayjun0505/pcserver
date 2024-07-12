@@ -16,7 +16,7 @@ async function fetchCPU() {
 
   const driver = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
   let arr = [];
-  let pages = 24;
+  let pages = 0;
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {
@@ -149,7 +149,7 @@ async function fetchCPU() {
                 if (count >= 3) break;
                 count++;
               }
-              await driver.manage().deleteAllCookies();
+              // await driver.manage().deleteAllCookies();
             } finally {
               await detail.quit();
             }
