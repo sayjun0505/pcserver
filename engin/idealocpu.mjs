@@ -36,6 +36,13 @@ async function fetchCPU() {
 
       for (const element of priceElements) {
         try {
+          ///get id///
+          const spanElement = await element.findElement(By.css("span[data-wishlist-heart]"));
+          const dataAttr = await spanElement.getAttribute("data-wishlist-heart");
+          const data = JSON.parse(dataAttr);
+          const id = data.id;
+          console.log(id)
+          ///////
           const textContent = await element.getText();
           let a = textContent.split("\n");
           let details = "";
