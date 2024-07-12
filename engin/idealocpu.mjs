@@ -15,7 +15,7 @@ async function fetchCPU() {
   chromeOptions.addArguments('--disable-images');
 
   const driver = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
-  let arr = [];
+  // let arr = [];
   let pages = 0;
   let count = 15;
   await mongoose.connect(dbConfig.db);
