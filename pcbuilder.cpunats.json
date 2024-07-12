@@ -3088,14 +3088,6 @@
 },
 {
   "_id": {
-    "$oid": "669088769a5eeefd82b89371"
-  },
-  "cpuid": "669088489a5eeefd82b89369",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;119,15</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/1642035/intel-xeon-e5506-2-13ghz-box-socket-1366-45nm-bx80602e5506.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;138,34</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/1642035/intel-xeon-e5506-2-13ghz-box-socket-1366-45nm-bx80602e5506.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;177,79</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "669088b89a5eeefd82b89380"
   },
   "cpuid": "669088809a5eeefd82b89376",
@@ -3124,22 +3116,6 @@
   },
   "cpuid": "669089af9a5eeefd82b893a5",
   "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;508,59</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/3276655/intel-xeon-e5-2407-box-socket-1356-32nm-bx80621e52407.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;708,10</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "669089f69a5eeefd82b893b6"
-  },
-  "cpuid": "669089d89a5eeefd82b893b0",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;193,59</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6703886/intel-pentium-gold-g5620.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;271,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66908a1b9a5eeefd82b893c1"
-  },
-  "cpuid": "66908a009a5eeefd82b893bb",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;586,12</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5427660/intel-xeon-e3-1225v6-tray-socket-1151-14nm-cm8067702871024.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;831,78</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
   "__v": 0
 },
 {
@@ -3600,14 +3576,6 @@
 },
 {
   "_id": {
-    "$oid": "6690b421579de4946664adcc"
-  },
-  "cpuid": "6690b3cb579de4946664ada4",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/202265412_-core-i5-13400-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;190,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/202265412_-core-i5-13400-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;192,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/202265412/intel-core-i5-13400-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;205,66</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/202265412/intel-core-i5-13400-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;207,38</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;209,09</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/202265412/intel-core-i5-13400-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;236,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "6690b48a579de4946664adf9"
   },
   "cpuid": "6690b42d579de4946664add7",
@@ -3616,34 +3584,10 @@
 },
 {
   "_id": {
-    "$oid": "6690b5e3076bc8ca9d8f94ae"
-  },
-  "cpuid": "6690b582076bc8ca9d8f948c",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201920548/intel-xeon-e-2356g-tray-cm8070804495016.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;387,05</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201920548_-xeon-e-2356g-tray-cm8070804495016-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;398,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;404,70</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201920548/intel-xeon-e-2356g-tray-cm8070804495016.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;410,34</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201920548_-xeon-e-2356g-tray-cm8070804495016-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;411,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201920548/intel-xeon-e-2356g-tray-cm8070804495016.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;452,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690b64c076bc8ca9d8f94d7"
-  },
-  "cpuid": "6690b5ee076bc8ca9d8f94b9",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201873485_-xeon-e-2324g-boxed-bx80708e2324g-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;278,26</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201873485_-xeon-e-2324g-boxed-bx80708e2324g-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;295,20</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201873485/intel-xeon-e-2324g-boxed-bx80708e2324g.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;314,19</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201873485/intel-xeon-e-2324g-boxed-bx80708e2324g.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;314,19</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201873485/intel-xeon-e-2324g-boxed-bx80708e2324g.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;350,51</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "6690b6ba076bc8ca9d8f9504"
   },
   "cpuid": "6690b65a076bc8ca9d8f94e2",
   "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;194,18</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201173907/intel-core-i7-11700kf-box.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;200,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201173907_-core-i7-11700kf-box-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;208,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201173907_-core-i7-11700kf-box-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;208,75</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201173907/intel-core-i7-11700kf-box.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;212,32</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201173907/intel-core-i7-11700kf-box.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;215,75</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690b71e076bc8ca9d8f9531"
-  },
-  "cpuid": "6690b6c6076bc8ca9d8f950f",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201707549_-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;772,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;778,88</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201707549/intel-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;781,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201707549_-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;781,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201707549/intel-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;788,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201707549/intel-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;865,30</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
   "__v": 0
 },
 {
@@ -3680,14 +3624,6 @@
 },
 {
   "_id": {
-    "$oid": "6690bc48fe2481271c4d7aeb"
-  },
-  "cpuid": "6690bbf2fe2481271c4d7acd",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201707570_-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,07</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201707570_-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.006,46</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.032,79</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201707570/intel-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.036,26</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201707570/intel-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.044,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201707570/intel-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.423,40</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "6690bcaefe2481271c4d7b16"
   },
   "cpuid": "6690bc55fe2481271c4d7af6",
@@ -3696,34 +3632,10 @@
 },
 {
   "_id": {
-    "$oid": "6690bd0ffe2481271c4d7b3b"
-  },
-  "cpuid": "6690b48f579de4946664ae04",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203712140_-core-i7-14700f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;384,44</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203712140_-core-i7-14700f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;384,57</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/203712140/intel-core-i7-14700f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;403,26</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/203712140/intel-core-i7-14700f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;406,62</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;409,40</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/203712140/intel-core-i7-14700f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;453,71</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690bd6efe2481271c4d7b5c"
-  },
-  "cpuid": "6690bd16fe2481271c4d7b46",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;487,26</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203995272_-epyc-7303-tray-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;510,70</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203995272_-epyc-7303-tray-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;514,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/203995272/amd-epyc-7303-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;515,03</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/203995272/amd-epyc-7303-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;519,28</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/203995272/amd-epyc-7303-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;701,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "6690bdd1fe2481271c4d7b83"
   },
   "cpuid": "6690b7eb076bc8ca9d8f9586",
   "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.814,31</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6997162_-xeon-gold-6234-tray-sockel-3647-14nnm-cd8069504283304-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.818,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/6997162_-xeon-gold-6234-tray-sockel-3647-14nnm-cd8069504283304-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.877,69</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6997162/intel-xeon-gold-6234-tray-socket-3647-14nnm-cd8069504283304.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.944,92</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6997162/intel-xeon-gold-6234-tray-socket-3647-14nnm-cd8069504283304.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.968,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6997162/intel-xeon-gold-6234-tray-socket-3647-14nnm-cd8069504283304.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.061,66</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690be3efe2481271c4d7bae"
-  },
-  "cpuid": "6690bddcfe2481271c4d7b8e",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5311557/intel-core-i7-7700-tray-socket-1151-14nm-cm8067702868314.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;224,60</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5311557/intel-core-i7-7700-tray-socket-1151-14nm-cm8067702868314.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;272,81</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/5311557_-core-i7-7700-tray-sockel-1151-14nm-cm8067702868314-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;301,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/5311557_-core-i7-7700-tray-sockel-1151-14nm-cm8067702868314-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;303,53</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/5311557/intel-core-i7-7700-tray-socket-1151-14nm-cm8067702868314.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;320,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;320,49</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
   "__v": 0
 },
 {
@@ -3744,106 +3656,10 @@
 },
 {
   "_id": {
-    "$oid": "6690bf60fe2481271c4d7c13"
-  },
-  "cpuid": "6690b98f076bc8ca9d8f961a",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203711842_-core-i5-14400f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;206,77</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203711842_-core-i5-14400f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;207,77</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/203711842/intel-core-i5-14400f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;225,37</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/203711842/intel-core-i5-14400f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;269,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;393,47</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690bfb5fe2481271c4d7c26"
-  },
-  "cpuid": "6690b9db076bc8ca9d8f9635",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6981357/amd-ryzen-5-1600-box-socket-am4-12nm-yd1600bbafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;179,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6981357/amd-ryzen-5-1600-box-socket-am4-12nm-yd1600bbafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;191,69</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;191,69</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6981357_-ryzen-5-1600-box-sockel-am4-12nm-yd1600bbafbox-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;191,69</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6981357/amd-ryzen-5-1600-box-socket-am4-12nm-yd1600bbafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;195,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690bff3fe2481271c4d7c3b"
-  },
-  "cpuid": "6690ba28076bc8ca9d8f964a",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203993519_-300-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;90,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203993519_-300-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;91,86</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;96,20</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/203993519/intel-300-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;126,18</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c044fe2481271c4d7c50"
-  },
-  "cpuid": "6690ba63076bc8ca9d8f9663",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6130186/amd-ryzen-7-2700x-box-socket-am4-12nm-yd270xbgafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;177,92</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6130186/amd-ryzen-7-2700x-box-socket-am4-12nm-yd270xbgafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,43</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,43</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6130186/amd-ryzen-7-2700x-box-socket-am4-12nm-yd270xbgafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,43</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6130186_-ryzen-7-2700x-box-sockel-am4-12nm-yd270xbgafbox-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,43</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c08ffe2481271c4d7c6b"
-  },
-  "cpuid": "6690c044fe2481271c4d7c55",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/5765936_-core-i3-8350k-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;55,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/5765936_-core-i3-8350k-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;55,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;186,88</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5765936/intel-core-i3-8350k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;212,19</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5765936/intel-core-i3-8350k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;234,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c0dbfe2481271c4d7c84"
-  },
-  "cpuid": "6690c090fe2481271c4d7c74",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/200445893/amd-ryzen-7-3800xt.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;263,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;263,99</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/200445893/amd-ryzen-7-3800xt.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;263,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/200445893_-ryzen-7-3800xt-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;293,40</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/200445893_-ryzen-7-3800xt-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;326,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c12bfe2481271c4d7c9d"
-  },
-  "cpuid": "6690c0dbfe2481271c4d7c89",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;128,88</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4810790/intel-core-i7-6700k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;158,88</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4810790/intel-core-i7-6700k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;188,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/4810790/intel-core-i7-6700k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;212,19</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4810790_-core-i7-6700k-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;237,87</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c17ffe2481271c4d7cbc"
-  },
-  "cpuid": "6690c12bfe2481271c4d7ca4",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6639738_-ryzen-9-3900x-box-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;380,53</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;410,53</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6639738/amd-ryzen-9-3900x-box.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;415,16</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6639738/amd-ryzen-9-3900x-box.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;463,53</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6639738/amd-ryzen-9-3900x-box.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;463,53</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/6639738_-ryzen-9-3900x-box-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;524,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c1dcfe2481271c4d7cd1"
-  },
-  "cpuid": "6690c17ffe2481271c4d7cc3",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/2856297/intel-core-i5-760.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;164,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;182,45</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/2856297/intel-core-i5-760.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;192,79</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/2856297/intel-core-i5-760.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;398,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/2856297_-core-i5-760-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;398,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/2856297_-core-i5-760-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;398,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c21ffe2481271c4d7ce4"
-  },
-  "cpuid": "6690c1e1fe2481271c4d7cd6",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4813404_-a8-7670k-box-sockel-fm2-28-nm-ad767kxbjcbox-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;46,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4813404/amd-a8-7670k-box-socket-fm2-28-nm-ad767kxbjcbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;46,89</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;47,68</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4813404_-a8-7670k-box-sockel-fm2-28-nm-ad767kxbjcbox-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;88,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c254fe2481271c4d7cf1"
-  },
-  "cpuid": "6690c225fe2481271c4d7ce9",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;135,81</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5311584/intel-pentium-g4560.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;348,83</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5311584/intel-pentium-g4560.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;351,15</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "6690c2d1fe2481271c4d7d00"
   },
   "cpuid": "6690c26efe2481271c4d7cf6",
   "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5658447/amd-ryzen-3-1200-box-socket-am4-14nm-yd1200bbaebox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;99,48</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5658447/amd-ryzen-3-1200-box-socket-am4-14nm-yd1200bbaebox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;183,38</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;203,14</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c32cfe2481271c4d7d13"
-  },
-  "cpuid": "6690c2ddfe2481271c4d7d05",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4874136_-xeon-e3-1230v5-box-sockel-1151-14nm-bx80662e31230v5-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;124,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4874136_-xeon-e3-1230v5-box-sockel-1151-14nm-bx80662e31230v5-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;124,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4874136/intel-xeon-e3-1230v5-box-socket-1151-14nm-bx80662e31230v5.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;172,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4874136/intel-xeon-e3-1230v5-box-socket-1151-14nm-bx80662e31230v5.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;180,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;271,91</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
   "__v": 0
 },
 {
@@ -3984,70 +3800,6 @@
 },
 {
   "_id": {
-    "$oid": "6690c939fe2481271c4d7e91"
-  },
-  "cpuid": "6690c8fbfe2481271c4d7e7f",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4069461_-xeon-e5-2670v2-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;938,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4069461_-xeon-e5-2670v2-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;966,14</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4069461/intel-xeon-e5-2670v2.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;975,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.900,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c998fe2481271c4d7ea4"
-  },
-  "cpuid": "6690c942fe2481271c4d7e96",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/2045687_-core-i3-540-3-06ghz-tray-sockel-1156-32nm-c2-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;39,95</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/2045687_-core-i3-540-3-06ghz-tray-sockel-1156-32nm-c2-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;39,95</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/2045687/intel-core-i3-540-3-06ghz-tray-socket-1156-32nm-c2.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;298,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;298,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/2045687/intel-core-i3-540-3-06ghz-tray-socket-1156-32nm-c2.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;298,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/2045687/intel-core-i3-540-3-06ghz-tray-socket-1156-32nm-c2.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;329,76</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690c9eafe2481271c4d7eb5"
-  },
-  "cpuid": "6690c9a4fe2481271c4d7ea9",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/1722787/intel-xeon-e5540-2-53ghz-hewlett-packard-upgrade-socket-1366-45nm-505880-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/1722787/intel-xeon-e5540-2-53ghz-hewlett-packard-upgrade-socket-1366-45nm-505880-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/1722787_-xeon-e5540-2-53ghz-hewlett-packard-upgrade-sockel-1366-45nm-505880-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/1722787/intel-xeon-e5540-2-53ghz-hewlett-packard-upgrade-socket-1366-45nm-505880-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.124,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690ca39fe2481271c4d7ec6"
-  },
-  "cpuid": "6690c9f2fe2481271c4d7eba",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/1815621/intel-xeon-e5540-2-53ghz-fujitsu-siemens-upgrade-socket-1366-45nm-s26361-f3279-l253.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/1815621/intel-xeon-e5540-2-53ghz-fujitsu-siemens-upgrade-socket-1366-45nm-s26361-f3279-l253.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/1815621_-xeon-e5540-2-53ghz-fujitsu-siemens-upgrade-sockel-1366-45nm-s26361-f3279-l253-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/1815621/intel-xeon-e5540-2-53ghz-fujitsu-siemens-upgrade-socket-1366-45nm-s26361-f3279-l253.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.124,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690ca7efe2481271c4d7ed5"
-  },
-  "cpuid": "6690ca41fe2481271c4d7ecb",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;242,95</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4769125/intel-g3470.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;254,01</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/4769125/intel-g3470.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;281,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4769125/intel-g3470.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;422,13</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690caedfe2481271c4d7eee"
-  },
-  "cpuid": "669099c69a5eeefd82b89992",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5357169/intel-xeon-e5-2637v4-hewlett-packard-upgrade-socket-2011-3-14nm-817935-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;225,32</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/5357169/intel-xeon-e5-2637v4-hewlett-packard-upgrade-socket-2011-3-14nm-817935-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;303,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;303,99</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5357169/intel-xeon-e5-2637v4-hewlett-packard-upgrade-socket-2011-3-14nm-817935-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;303,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/5357169_-xeon-e5-2637v4-hewlett-packard-upgrade-sockel-2011-3-14nm-817935-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;527,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/5357169_-xeon-e5-2637v4-hewlett-packard-upgrade-sockel-2011-3-14nm-817935-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;535,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690cb33fe2481271c4d7efd"
-  },
-  "cpuid": "6690caf8fe2481271c4d7ef3",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/3698805/intel-core-i5-4570s-tray-socket-1150-cm8064601465605.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;317,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/3698805/intel-core-i5-4570s-tray-socket-1150-cm8064601465605.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;319,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;377,72</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/3698805/intel-core-i5-4570s-tray-socket-1150-cm8064601465605.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;379,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6690cb6cfe2481271c4d7f08"
-  },
-  "cpuid": "66909a709a5eeefd82b899bc",
-  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/3258452/intel-xeon-e7-4807-1-86-ghz-fujitsu-siemens-upgrade-socket-1567-32nm-s26361-f3999-l480.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;480,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;480,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/3258452/intel-xeon-e7-4807-1-86-ghz-fujitsu-siemens-upgrade-socket-1567-32nm-s26361-f3999-l480.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;480,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "6690cb95fe2481271c4d7f13"
   },
   "cpuid": "6690cb77fe2481271c4d7f0d",
@@ -4092,5 +3844,533 @@
   },
   "cpuid": "6690ccd2fe2481271c4d7f58",
   "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/202000579/intel-xeon-silver-4310-tray-338-cbxk.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;777,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/202000579/intel-xeon-silver-4310-tray-338-cbxk.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;807,19</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;824,48</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/202000579/intel-xeon-silver-4310-tray-338-cbxk.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;833,85</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/202000579_-xeon-silver-4310-tray-338-cbxk-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;849,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/202000579_-xeon-silver-4310-tray-338-cbxk-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;867,87</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690cd8efe2481271c4d7fa1"
+  },
+  "cpuid": "6690cd35fe2481271c4d7f85",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/202642260_-xeon-w3-2425-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;592,96</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/202642260_-xeon-w3-2425-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;609,11</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;622,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/202642260/intel-xeon-w3-2425.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;711,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/202642260/intel-xeon-w3-2425.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;711,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/202642260/intel-xeon-w3-2425.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;715,29</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690cdf3fe2481271c4d7fca"
+  },
+  "cpuid": "6690b3cb579de4946664ada4",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/202265412_-core-i5-13400-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;190,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/202265412_-core-i5-13400-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;192,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/202265412/intel-core-i5-13400-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;205,66</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/202265412/intel-core-i5-13400-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;207,38</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;209,09</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/202265412/intel-core-i5-13400-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;236,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690ceb5fe2481271c4d8018"
+  },
+  "cpuid": "6690b48f579de4946664ae04",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203712140_-core-i7-14700f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;383,74</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203712140_-core-i7-14700f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;384,57</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/203712140/intel-core-i7-14700f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;403,26</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/203712140/intel-core-i7-14700f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;406,62</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;409,40</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/203712140/intel-core-i7-14700f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;453,71</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690cf1efe2481271c4d8045"
+  },
+  "cpuid": "6690cebcfe2481271c4d8023",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201634669_-epyc-7443-tray-100-000000340-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;948,67</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201634669/amd-epyc-7443-tray-100-000000340.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;961,70</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;961,70</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201634669/amd-epyc-7443-tray-100-000000340.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;961,70</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201634669_-epyc-7443-tray-100-000000340-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;996,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201634669/amd-epyc-7443-tray-100-000000340.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.742,44</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690cf8cfe2481271c4d806e"
+  },
+  "cpuid": "6690cf29fe2481271c4d8050",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201205759_-core-i5-11600kf-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;106,01</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201205759_-core-i5-11600kf-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;106,73</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201205759/intel-core-i5-11600kf-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;107,80</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201205759/intel-core-i5-11600kf-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;108,70</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;109,60</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201205759/intel-core-i5-11600kf-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;144,21</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690cffbfe2481271c4d8095"
+  },
+  "cpuid": "6690bddcfe2481271c4d7b8e",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5311557/intel-core-i7-7700-tray-socket-1151-14nm-cm8067702868314.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;224,60</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5311557/intel-core-i7-7700-tray-socket-1151-14nm-cm8067702868314.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;272,81</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/5311557_-core-i7-7700-tray-sockel-1151-14nm-cm8067702868314-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;301,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/5311557_-core-i7-7700-tray-sockel-1151-14nm-cm8067702868314-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;303,53</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/5311557/intel-core-i7-7700-tray-socket-1151-14nm-cm8067702868314.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;320,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;320,49</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d15afe2481271c4d8105"
+  },
+  "cpuid": "6690d122fe2481271c4d80fd",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/3604059/amd-fx-8350.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;285,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;285,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/3604059/amd-fx-8350.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;285,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d45dfe2481271c4d81e0"
+  },
+  "cpuid": "6690d3fefe2481271c4d81c0",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4398273/intel-core-i7-4790.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;124,25</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4398273_-core-i7-4790-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;157,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4398273/intel-core-i7-4790.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;162,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;162,65</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/4398273/intel-core-i7-4790.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;166,07</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4398273_-core-i7-4790-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;363,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d4a6fe2481271c4d81f5"
+  },
+  "cpuid": "6690c1e1fe2481271c4d7cd6",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4813404_-a8-7670k-box-sockel-fm2-28-nm-ad767kxbjcbox-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;46,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4813404/amd-a8-7670k-box-socket-fm2-28-nm-ad767kxbjcbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;46,89</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;47,68</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4813404_-a8-7670k-box-sockel-fm2-28-nm-ad767kxbjcbox-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;88,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d4dafe2481271c4d8200"
+  },
+  "cpuid": "6690c225fe2481271c4d7ce9",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;135,81</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5311584/intel-pentium-g4560.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;348,83</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5311584/intel-pentium-g4560.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;351,15</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d58dfe2481271c4d8230"
+  },
+  "cpuid": "6690d543fe2481271c4d8224",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/2786503/intel-xeon-e7-4820-2-0-ghz-hewlett-packard-upgrade-socket-1567-32nm-643774-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;609,44</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;609,44</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/2786503/intel-xeon-e7-4820-2-0-ghz-hewlett-packard-upgrade-socket-1567-32nm-643774-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;609,44</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/2786503/intel-xeon-e7-4820-2-0-ghz-hewlett-packard-upgrade-socket-1567-32nm-643774-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;621,17</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/2786503_-xeon-e7-4820-2-0-ghz-hewlett-packard-upgrade-sockel-1567-32nm-643774-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;4.548,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d662fe2481271c4d8272"
+  },
+  "cpuid": "6690d603fe2481271c4d825c",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4535704_-core-i7-5820k-tray-sockel-2011-3-22nm-cm8064801548435-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;190,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4535704_-core-i7-5820k-tray-sockel-2011-3-22nm-cm8064801548435-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;206,93</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4535704/intel-core-i7-5820k-tray-socket-2011-3-22nm-cm8064801548435.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;246,39</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;279,50</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4535704/intel-core-i7-5820k-tray-socket-2011-3-22nm-cm8064801548435.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;330,33</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/4535704/intel-core-i7-5820k-tray-socket-2011-3-22nm-cm8064801548435.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;844,81</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d6d5fe2481271c4d8295"
+  },
+  "cpuid": "6690d66cfe2481271c4d8279",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/200332031/intel-core-i5-10600k-tray-socket-1200-14nm-cm8070104282134.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;171,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/200332031_-core-i5-10600k-tray-sockel-1200-14nm-cm8070104282134-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;252,18</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/200332031_-core-i5-10600k-tray-sockel-1200-14nm-cm8070104282134-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;253,14</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/200332031/intel-core-i5-10600k-tray-socket-1200-14nm-cm8070104282134.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;294,80</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/200332031/intel-core-i5-10600k-tray-socket-1200-14nm-cm8070104282134.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;297,96</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;306,94</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d734fe2481271c4d82ae"
+  },
+  "cpuid": "6690d6e2fe2481271c4d829c",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;161,64</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/2867153/intel-xeon-e5606.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;257,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/2867153/intel-xeon-e5606.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;257,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/2867153_-xeon-e5606-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;309,40</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/2867153_-xeon-e5606-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;309,40</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d77bfe2481271c4d82c5"
+  },
+  "cpuid": "6690d740fe2481271c4d82b3",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6558364/intel-xeon-gold-5218-box-socket-3647-14nm-bx806955218.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;918,29</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.230,66</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6558364_-xeon-gold-5218-box-sockel-3647-14nm-bx806955218-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.593,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/6558364_-xeon-gold-5218-box-sockel-3647-14nm-bx806955218-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.729,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d7ccfe2481271c4d82de"
+  },
+  "cpuid": "6690d786fe2481271c4d82ca",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4394470_-celeron-g1850-tray-sockel-1150-22nm-cm8064601483406-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;9,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4394470_-celeron-g1850-tray-sockel-1150-22nm-cm8064601483406-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;9,98</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4394470/intel-celeron-g1850-tray-socket-1150-22nm-cm8064601483406.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;98,47</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;103,71</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4394470/intel-celeron-g1850-tray-socket-1150-22nm-cm8064601483406.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;104,98</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d805fe2481271c4d82eb"
+  },
+  "cpuid": "6690d7d5fe2481271c4d82e3",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/6540177_-xeon-gold-6130-hpe-upgrade-sockel-3647-14nm-826866-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.785,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6540177_-xeon-gold-6130-hpe-upgrade-sockel-3647-14nm-826866-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.785,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.793,16</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d830fe2481271c4d82f6"
+  },
+  "cpuid": "6690d810fe2481271c4d82f0",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.199,97</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/3868593/intel-core-i7-4960x.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.304,78</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d868fe2481271c4d8301"
+  },
+  "cpuid": "669088489a5eeefd82b89369",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;119,15</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/1642035/intel-xeon-e5506-2-13ghz-box-socket-1366-45nm-bx80602e5506.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;138,34</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/1642035/intel-xeon-e5506-2-13ghz-box-socket-1366-45nm-bx80602e5506.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;177,79</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d8b4fe2481271c4d8312"
+  },
+  "cpuid": "6690d878fe2481271c4d8306",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4356392/intel-core-i5-4460-box-socket-1150-22nm-bx80646i54460.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;65,87</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;139,93</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4356392/intel-core-i5-4460-box-socket-1150-22nm-bx80646i54460.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;151,03</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4356392_-core-i5-4460-box-sockel-1150-22nm-bx80646i54460-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;151,03</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d922fe2481271c4d8331"
+  },
+  "cpuid": "6690d8bcfe2481271c4d8317",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6569496_-xeon-gold-5217-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.865,71</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/6569496_-xeon-gold-5217-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.023,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.727,90</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6569496/intel-xeon-gold-5217.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.859,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6569496/intel-xeon-gold-5217.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;4.068,22</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6569496/intel-xeon-gold-5217.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;4.744,67</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d980fe2481271c4d834c"
+  },
+  "cpuid": "6690d92dfe2481271c4d8338",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6120923_-pentium-gold-g5400-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;88,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6120923/intel-pentium-gold-g5400.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;91,15</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6120923/intel-pentium-gold-g5400.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;91,96</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;98,88</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6120923/intel-pentium-gold-g5400.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;144,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d9a5fe2481271c4d8357"
+  },
+  "cpuid": "669089d89a5eeefd82b893b0",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;193,59</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6703886/intel-pentium-gold-g5620.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;271,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690d9ccfe2481271c4d8360"
+  },
+  "cpuid": "66908a009a5eeefd82b893bb",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;586,12</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5427660/intel-xeon-e3-1225v6-tray-socket-1151-14nm-cm8067702871024.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;831,78</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690da12fe2481271c4d836f"
+  },
+  "cpuid": "6690d9d6fe2481271c4d8365",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/325516/intel-celeron-d-331.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;103,51</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;103,74</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/325516/intel-celeron-d-331.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;130,96</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/325516/intel-celeron-d-331.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;170,24</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690da78fe2481271c4d838c"
+  },
+  "cpuid": "6690da1cfe2481271c4d8374",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/6556950_-xeon-gold-6230-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;892,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6556950_-xeon-gold-6230-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;892,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.129,25</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6556950/intel-xeon-gold-6230.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;3.051,94</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6556950/intel-xeon-gold-6230.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;3.558,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6556950/intel-xeon-gold-6230.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;6.432,39</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690daa1fe2481271c4d8397"
+  },
+  "cpuid": "6690da82fe2481271c4d8391",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/3002766/intel-xeon-e7450.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;3.881,18</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;7.057,68</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690dafefe2481271c4d83b0"
+  },
+  "cpuid": "6690daacfe2481271c4d839c",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4874209_-xeon-e3-1220v5-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;120,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4874209_-xeon-e3-1220v5-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;120,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4874209/intel-xeon-e3-1220v5.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;177,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;504,11</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4874209/intel-xeon-e3-1220v5.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;556,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690db2dfe2481271c4d83bb"
+  },
+  "cpuid": "6690db0dfe2481271c4d83b5",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;401,90</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/1895467/intel-xeon-e5504-2ghz-hewlett-packard-upgrade-socket-1366-45nm-503584-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;431,24</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690db93fe2481271c4d83d0"
+  },
+  "cpuid": "6690db4dfe2481271c4d83c4",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/870332/intel-core-2-duo-e8400-tray-socket-775-45nm-eu80570pj0806m.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;53,67</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;59,90</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/870332/intel-core-2-duo-e8400-tray-socket-775-45nm-eu80570pj0806m.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;59,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/870332_-core-2-duo-e8400-tray-sockel-775-45nm-eu80570pj0806m-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;59,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/870332/intel-core-2-duo-e8400-tray-socket-775-45nm-eu80570pj0806m.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;102,17</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690dbd7fe2481271c4d83e5"
+  },
+  "cpuid": "6690c8fbfe2481271c4d7e7f",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4069461_-xeon-e5-2670v2-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;938,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4069461_-xeon-e5-2670v2-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;966,14</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4069461/intel-xeon-e5-2670v2.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;975,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.900,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690dc33fe2481271c4d83f6"
+  },
+  "cpuid": "6690c942fe2481271c4d7e96",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/2045687_-core-i3-540-3-06ghz-tray-sockel-1156-32nm-c2-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;39,95</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/2045687_-core-i3-540-3-06ghz-tray-sockel-1156-32nm-c2-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;39,95</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/2045687/intel-core-i3-540-3-06ghz-tray-socket-1156-32nm-c2.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;298,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;298,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/2045687/intel-core-i3-540-3-06ghz-tray-socket-1156-32nm-c2.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;298,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/2045687/intel-core-i3-540-3-06ghz-tray-socket-1156-32nm-c2.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;329,76</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690dc85fe2481271c4d8405"
+  },
+  "cpuid": "6690c9a4fe2481271c4d7ea9",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/1722787/intel-xeon-e5540-2-53ghz-hewlett-packard-upgrade-socket-1366-45nm-505880-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/1722787/intel-xeon-e5540-2-53ghz-hewlett-packard-upgrade-socket-1366-45nm-505880-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/1722787_-xeon-e5540-2-53ghz-hewlett-packard-upgrade-sockel-1366-45nm-505880-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/1722787/intel-xeon-e5540-2-53ghz-hewlett-packard-upgrade-socket-1366-45nm-505880-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.124,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690dcd3fe2481271c4d8414"
+  },
+  "cpuid": "6690c9f2fe2481271c4d7eba",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/1815621/intel-xeon-e5540-2-53ghz-fujitsu-siemens-upgrade-socket-1366-45nm-s26361-f3279-l253.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/1815621/intel-xeon-e5540-2-53ghz-fujitsu-siemens-upgrade-socket-1366-45nm-s26361-f3279-l253.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/1815621_-xeon-e5540-2-53ghz-fujitsu-siemens-upgrade-sockel-1366-45nm-s26361-f3279-l253-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/1815621/intel-xeon-e5540-2-53ghz-fujitsu-siemens-upgrade-socket-1366-45nm-s26361-f3279-l253.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.124,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690dd23fe2481271c4d8421"
+  },
+  "cpuid": "6690ca41fe2481271c4d7ecb",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;242,95</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4769125/intel-g3470.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;254,01</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/4769125/intel-g3470.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;281,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4769125/intel-g3470.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;422,13</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690dd86fe2481271c4d843a"
+  },
+  "cpuid": "669099c69a5eeefd82b89992",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5357169/intel-xeon-e5-2637v4-hewlett-packard-upgrade-socket-2011-3-14nm-817935-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;225,32</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/5357169/intel-xeon-e5-2637v4-hewlett-packard-upgrade-socket-2011-3-14nm-817935-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;303,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;303,99</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5357169/intel-xeon-e5-2637v4-hewlett-packard-upgrade-socket-2011-3-14nm-817935-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;303,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/5357169_-xeon-e5-2637v4-hewlett-packard-upgrade-sockel-2011-3-14nm-817935-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;527,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/5357169_-xeon-e5-2637v4-hewlett-packard-upgrade-sockel-2011-3-14nm-817935-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;535,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690ddcdfe2481271c4d8447"
+  },
+  "cpuid": "6690caf8fe2481271c4d7ef3",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/3698805/intel-core-i5-4570s-tray-socket-1150-cm8064601465605.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;317,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/3698805/intel-core-i5-4570s-tray-socket-1150-cm8064601465605.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;319,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;377,72</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/3698805/intel-core-i5-4570s-tray-socket-1150-cm8064601465605.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;379,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690de07fe2481271c4d8452"
+  },
+  "cpuid": "66909a709a5eeefd82b899bc",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/3258452/intel-xeon-e7-4807-1-86-ghz-fujitsu-siemens-upgrade-socket-1567-32nm-s26361-f3999-l480.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;480,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;480,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/3258452/intel-xeon-e7-4807-1-86-ghz-fujitsu-siemens-upgrade-socket-1567-32nm-s26361-f3999-l480.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;480,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690de3efe2481271c4d845f"
+  },
+  "cpuid": "6690de13fe2481271c4d8457",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/2617758/intel-xeon-e3-1275-3-4-ghz-box-socket-1155-32nm-bx80623e31275.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;238,83</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/2617758/intel-xeon-e3-1275-3-4-ghz-box-socket-1155-32nm-bx80623e31275.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;245,57</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;254,88</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690de99fe2481271c4d8478"
+  },
+  "cpuid": "6690de4bfe2481271c4d8464",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;368,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5357251/intel-xeon-e5-2620v4-hewlett-packard-upgrade-socket-2011-3-14nm-818172-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;368,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5357251/intel-xeon-e5-2620v4-hewlett-packard-upgrade-socket-2011-3-14nm-818172-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;450,75</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/5357251_-xeon-e5-2620v4-hewlett-packard-upgrade-sockel-2011-3-14nm-818172-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;498,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/5357251_-xeon-e5-2620v4-hewlett-packard-upgrade-sockel-2011-3-14nm-818172-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;505,75</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690defafe2481271c4d8499"
+  },
+  "cpuid": "6690de9dfe2481271c4d847d",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203358124_-xeon-gold-6430-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.319,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/203358124/intel-xeon-gold-6430.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.321,23</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203358124_-xeon-gold-6430-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.407,60</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.455,30</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/203358124/intel-xeon-gold-6430.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.682,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/203358124/intel-xeon-gold-6430.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;3.132,01</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690df4bfe2481271c4d84ae"
+  },
+  "cpuid": "6690df15fe2481271c4d84a4",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;182,45</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/3921034/intel-core-2-duo-t5600-tray-socket-479-65nm-lf80537gf0342m.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;204,51</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/3921034/intel-core-2-duo-t5600-tray-socket-479-65nm-lf80537gf0342m.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;212,40</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/3921034/intel-core-2-duo-t5600-tray-socket-479-65nm-lf80537gf0342m.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;229,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690df93fe2481271c4d84bd"
+  },
+  "cpuid": "6690df74fe2481271c4d84b7",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;592,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/3258475/intel-xeon-e5-2640-ibm-upgrade-socket-2011-32nm-69y5328.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;592,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e01afe2481271c4d84e2"
+  },
+  "cpuid": "6690b582076bc8ca9d8f948c",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201920548/intel-xeon-e-2356g-tray-cm8070804495016.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;387,05</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201920548_-xeon-e-2356g-tray-cm8070804495016-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;398,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;404,70</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201920548/intel-xeon-e-2356g-tray-cm8070804495016.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;410,34</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201920548_-xeon-e-2356g-tray-cm8070804495016-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;411,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201920548/intel-xeon-e-2356g-tray-cm8070804495016.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;452,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e083fe2481271c4d8509"
+  },
+  "cpuid": "6690b5ee076bc8ca9d8f94b9",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201873485_-xeon-e-2324g-boxed-bx80708e2324g-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;278,26</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201873485_-xeon-e-2324g-boxed-bx80708e2324g-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;295,20</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201873485/intel-xeon-e-2324g-boxed-bx80708e2324g.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;314,19</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201873485/intel-xeon-e-2324g-boxed-bx80708e2324g.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;314,19</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201873485/intel-xeon-e-2324g-boxed-bx80708e2324g.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;350,51</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e0e4fe2481271c4d8530"
+  },
+  "cpuid": "6690bbf2fe2481271c4d7acd",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201707570_-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;998,07</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201707570_-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.006,46</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.032,79</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201707570/intel-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.036,26</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201707570/intel-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.044,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201707570/intel-xeon-silver-4214r-hpe-upgrade-socket-3647-14nm-p19792-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.423,40</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e157fe2481271c4d8559"
+  },
+  "cpuid": "6690b6c6076bc8ca9d8f950f",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/201707549_-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;772,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;778,88</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/201707549/intel-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;781,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/201707549_-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;781,49</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/201707549/intel-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;788,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/201707549/intel-xeon-silver-4210r-hpe-upgrade-socket-3647-14nm-p15974-b21.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;865,30</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e1bffe2481271c4d8580"
+  },
+  "cpuid": "6690e15dfe2481271c4d8564",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/200340552_-xeon-w-2255-tray-sockel-2066-14nm-cd8069504393600-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;889,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/200340552_-xeon-w-2255-tray-sockel-2066-14nm-cd8069504393600-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;889,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;962,17</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/200340552/intel-xeon-w-2255-tray-socket-2066-14nm-cd8069504393600.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.038,53</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/200340552/intel-xeon-w-2255-tray-socket-2066-14nm-cd8069504393600.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.088,41</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/200340552/intel-xeon-w-2255-tray-socket-2066-14nm-cd8069504393600.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.164,15</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e225fe2481271c4d859d"
+  },
+  "cpuid": "6690bd16fe2481271c4d7b46",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;487,26</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203995272_-epyc-7303-tray-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;509,01</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203995272_-epyc-7303-tray-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;513,29</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/203995272/amd-epyc-7303-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;513,32</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/203995272/amd-epyc-7303-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;517,57</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/203995272/amd-epyc-7303-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;701,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e28bfe2481271c4d85c8"
+  },
+  "cpuid": "6690e231fe2481271c4d85a6",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/202266523_-core-i7-13700f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;376,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/202266523_-core-i7-13700f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;377,14</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/202266523/intel-core-i7-13700f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;384,15</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/202266523/intel-core-i7-13700f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;387,35</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;390,55</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/202266523/intel-core-i7-13700f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;415,15</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e2effe2481271c4d85ed"
+  },
+  "cpuid": "6690e295fe2481271c4d85d3",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/202728182_-xeon-w5-3425-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.371,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.376,70</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/202728182_-xeon-w5-3425-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.399,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/202728182/intel-xeon-w5-3425.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.487,30</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/202728182/intel-xeon-w5-3425.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.596,37</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/202728182/intel-xeon-w5-3425.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.596,37</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e344fe2481271c4d860e"
+  },
+  "cpuid": "6690d006fe2481271c4d80a0",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5311304/intel-core-i5-7500-tray-socket-1151-14nm-cm8067702868012.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;140,09</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5311304/intel-core-i5-7500-tray-socket-1151-14nm-cm8067702868012.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;188,46</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;219,40</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/5311304_-core-i5-7500-tray-sockel-1151-14nm-cm8067702868012-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;223,60</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/5311304_-core-i5-7500-tray-sockel-1151-14nm-cm8067702868012-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;223,98</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e3b2fe2481271c4d862f"
+  },
+  "cpuid": "6690d059fe2481271c4d80c1",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;570,00</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/5667929_-xeon-silver-4116-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;768,31</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/5667929_-xeon-silver-4116-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;768,31</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5667929/intel-xeon-silver-4116.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;787,37</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5667929/intel-xeon-silver-4116.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.310,14</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/5667929/intel-xeon-silver-4116.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;2.131,89</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e3fffe2481271c4d864c"
+  },
+  "cpuid": "6690b98f076bc8ca9d8f961a",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203711842_-core-i5-14400f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;206,77</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203711842_-core-i5-14400f-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;207,77</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/203711842/intel-core-i5-14400f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;225,37</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/203711842/intel-core-i5-14400f-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;269,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;393,47</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e44efe2481271c4d865f"
+  },
+  "cpuid": "6690b9db076bc8ca9d8f9635",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6981357/amd-ryzen-5-1600-box-socket-am4-12nm-yd1600bbafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;179,90</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6981357/amd-ryzen-5-1600-box-socket-am4-12nm-yd1600bbafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;191,69</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;191,69</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6981357_-ryzen-5-1600-box-sockel-am4-12nm-yd1600bbafbox-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;191,69</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6981357/amd-ryzen-5-1600-box-socket-am4-12nm-yd1600bbafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;195,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e48afe2481271c4d8674"
+  },
+  "cpuid": "6690ba28076bc8ca9d8f964a",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203993519_-300-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;90,72</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203993519_-300-tray-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;91,86</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;96,20</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/203993519/intel-300-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;126,18</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e4e0fe2481271c4d8689"
+  },
+  "cpuid": "6690ba63076bc8ca9d8f9663",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6130186/amd-ryzen-7-2700x-box-socket-am4-12nm-yd270xbgafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;177,92</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6130186/amd-ryzen-7-2700x-box-socket-am4-12nm-yd270xbgafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,43</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,43</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6130186/amd-ryzen-7-2700x-box-socket-am4-12nm-yd270xbgafbox.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,43</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6130186_-ryzen-7-2700x-box-sockel-am4-12nm-yd270xbgafbox-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;290,43</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e535fe2481271c4d86a2"
+  },
+  "cpuid": "6690c044fe2481271c4d7c55",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/5765936_-core-i3-8350k-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;55,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/5765936_-core-i3-8350k-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;55,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;186,88</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/5765936/intel-core-i3-8350k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;212,19</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/5765936/intel-core-i3-8350k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;234,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e582fe2481271c4d86b9"
+  },
+  "cpuid": "6690c090fe2481271c4d7c74",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/200445893/amd-ryzen-7-3800xt.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;263,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;263,99</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/200445893/amd-ryzen-7-3800xt.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;263,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/200445893_-ryzen-7-3800xt-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;293,40</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/200445893_-ryzen-7-3800xt-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;326,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e5d2fe2481271c4d86d0"
+  },
+  "cpuid": "6690c0dbfe2481271c4d7c89",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;128,88</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4810790/intel-core-i7-6700k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;158,88</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4810790/intel-core-i7-6700k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;188,52</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/4810790/intel-core-i7-6700k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;212,19</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4810790_-core-i7-6700k-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;237,87</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e62dfe2481271c4d86ed"
+  },
+  "cpuid": "6690c12bfe2481271c4d7ca4",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6639738_-ryzen-9-3900x-box-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;380,53</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;410,53</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6639738/amd-ryzen-9-3900x-box.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;415,16</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6639738/amd-ryzen-9-3900x-box.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;463,53</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6639738/amd-ryzen-9-3900x-box.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;463,53</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/6639738_-ryzen-9-3900x-box-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;524,50</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e68efe2481271c4d8700"
+  },
+  "cpuid": "6690c17ffe2481271c4d7cc3",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/2856297/intel-core-i5-760.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;164,65</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;182,45</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/2856297/intel-core-i5-760.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;192,79</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/2856297/intel-core-i5-760.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;398,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/2856297_-core-i5-760-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;398,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/2856297_-core-i5-760-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;398,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e852fe2481271c4d871f"
+  },
+  "cpuid": "6690e7e4fe2481271c4d8707",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6331792/intel-i5-9600k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;164,74</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6331792/intel-i5-9600k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;178,88</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6331792_-i5-9600k-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;209,12</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6331792/intel-i5-9600k.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;245,70</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/6331792_-i5-9600k-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;249,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;624,45</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e8b4fe2481271c4d873c"
+  },
+  "cpuid": "6690d4dffe2481271c4d8205",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.579,76</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/203995525_-epyc-8434p-tray-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.698,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/203995525_-epyc-8434p-tray-amd.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.766,95</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/203995525/amd-epyc-8434p-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;1.807,73</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/203995525/amd-epyc-8434p-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;3.091,55</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/203995525/amd-epyc-8434p-tray.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;3.131,32</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e90dfe2481271c4d874d"
+  },
+  "cpuid": "6690c2ddfe2481271c4d7d05",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/4874136_-xeon-e3-1230v5-box-sockel-1151-14nm-bx80662e31230v5-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;124,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/4874136_-xeon-e3-1230v5-box-sockel-1151-14nm-bx80662e31230v5-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;124,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/4874136/intel-xeon-e3-1230v5-box-socket-1151-14nm-bx80662e31230v5.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;172,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/4874136/intel-xeon-e3-1230v5-box-socket-1151-14nm-bx80662e31230v5.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;180,00</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;271,91</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t</ul>",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6690e982fe2481271c4d8772"
+  },
+  "cpuid": "6690d599fe2481271c4d8235",
+  "html": "<ul>\n\t\t<li class=\"flags-round flags-round--at\">\n\n\t\t\t\t<a href=\"https://www.idealo.at/preisvergleich/OffersOfProduct/6821467_-xeon-e-2234-tray-sockel-1151-14nm-cm8068404174806-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.at\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;317,44</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--de\">\n\n\t\t\t\t<a href=\"https://www.idealo.de/preisvergleich/OffersOfProduct/6821467_-xeon-e-2234-tray-sockel-1151-14nm-cm8068404174806-intel.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.de\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;318,39</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--es\">\n\n\t\t\t\t<a href=\"https://www.idealo.es/precios/6821467/intel-xeon-e-2234-tray-socket-1151-14nm-cm8068404174806.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.es\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;340,99</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--it\">\n\n\t\t\t\t<strong>\n\t\t\t\t\t<span>\n\t\t\t\t\tidealo.it</span>\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;340,99</span>\n\n\t\t\t\t</strong>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--gb\">\n\n\t\t\t\t<a href=\"https://www.idealo.co.uk/compare/6821467/intel-xeon-e-2234-tray-socket-1151-14nm-cm8068404174806.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.co.uk\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;348,73</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t<li class=\"flags-round flags-round--fr\">\n\n\t\t\t\t<a href=\"https://www.idealo.fr/prix/6821467/intel-xeon-e-2234-tray-socket-1151-14nm-cm8068404174806.html\" rel=\"nofollow\" target=\"_blank\" <span=\"\">\n\t\t\t\t\tidealo.fr\n\n\t\t\t\t<span>\n\t\t\t\t\tda&nbsp;€&nbsp;362,16</span>\n\n\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t</ul>",
   "__v": 0
 }]
