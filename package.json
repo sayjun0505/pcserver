@@ -8,7 +8,7 @@
     "start:server": "node --experimental-modules server.mjs",
     "start:cpu": "node --experimental-modules cpu.mjs",
     "start:mboard": "node --experimental-modules mboard.mjs",
-    "start": "concurrently \"npm run start:server\" \"npm run start:idealo\" "
+    "start": "concurrently \"npm run start:server\" \"npm run start:cpu\" "
   },
   "keywords": [],
   "author": "",
