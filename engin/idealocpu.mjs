@@ -54,9 +54,17 @@ async function fetchCPU() {
             const imgElements = await parentElement.findElement(
               By.className("sr-resultItemTile__image_ivkex")
             );
+            let nameVal=a[0];
+            if(a[0].includes("%")){
+              const nameElements = await parentElement.findElement(
+                By.className("sr-productSummary__title_f5flP")
+              );
+              nameVal=await nameElements.getText()
+            }
+            
             const imgurl = await imgElements.getAttribute("src");
             let x = {
-              name: a[0],
+              name: nameVal,
               details: details,
               price: val,
               link: href,
