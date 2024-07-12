@@ -4254,4 +4254,81 @@
   "link": "https://www.idealo.it/confronta-prezzi/3327265/intel-xeon-e3-1230v2-box-socket-1155-22nm-bx80637e31230v2.html",
   "price": "430,19",
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6691471030f559a1b4b00394"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/4398/2/4398260/s10_produktbild_gross/intel-core-i7-4790s-tray-socket-1150-22nm-cm8064601561014.jpg",
+  "name": "Intel Core i7-4790S Tray (Socket 1150, 22nm, CM8064601561014)",
+  "detail": "CPU Quad-Core, Socket 1150, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,2 GHz, Frequenza turbo massima 4 GHz, Haswell, TDP 65 Watt, Scheda video Intel HD 4000, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/4398260/intel-core-i7-4790s-tray-socket-1150-22nm-cm8064601561014.html",
+  "price": "317,53",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6691478e30f559a1b4b003a9"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/2590/1/2590185/s10_produktbild_gross/intel-core-i5-2400-box-socket-1155-32nm-bx80623i52400.jpg",
+  "name": "Intel Core i5-2400 Box (Socket 1155, 32nm, BX80623I52400)",
+  "detail": "CPU Quad-Core, Socket 1155, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 3,1 GHz, Frequenza turbo massima 3,4 GHz, Sandy Bridge, TDP 95 Watt, Scheda video Intel HD 2000, L3 Cache 6 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/2590185/intel-core-i5-2400-box-socket-1155-32nm-bx80623i52400.html",
+  "price": "39,99",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669147bf30f559a1b4b003ad"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/1862/5/1862514/s10_produktbild_gross/intel-celeron-e3200-2-4ghz-box-socket-775-45nm-bx80571e3200.jpg",
+  "name": "Intel Celeron E3200 2.4GHz Box (Socket 775, 45nm, BX80571E3200)",
+  "detail": "CPU Dual-Core, Socket 775, Tipo processore desktop, Frequenza di clock 2,4 GHz, Wolfdale, TDP 65 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/1862514/intel-celeron-e3200-2-4ghz-box-socket-775-45nm-bx80571e3200.html",
+  "price": "75,07",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6691486030f559a1b4b003cb"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/534/0/534039/s10_produktbild_gross/intel-xeon-dp-5140-box-2he-socket-771-bx805565140p.jpg",
+  "name": "Intel Xeon DP 5140 Box 2HE (Socket 771, BX805565140P)",
+  "detail": "CPU Dual-Core, Socket 771, Tipo processore server, Frequenza di clock 2,33 GHz, Woodcrest, TDP 65 Watt",
+  "link": "https://www.idealo.it/confronta-prezzi/534039/intel-xeon-dp-5140-box-2he-socket-771-bx805565140p.html",
+  "price": "114,15",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6691489130f559a1b4b003cf"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/2562/9/2562925/s10_produktbild_gross/intel-xeon-e5620-2-4-ghz-cisco-upgrade-socket-1366-32nm-a01-x0111.jpg",
+  "name": "Intel Xeon E5620 2.4 GHz (Cisco-Upgrade, Socket 1366, 32nm, A01-X0111=)",
+  "detail": "CPU Quad-Core, Socket 1366, Tipo processore server",
+  "link": "https://www.idealo.it/confronta-prezzi/2562925/intel-xeon-e5620-2-4-ghz-cisco-upgrade-socket-1366-32nm-a01-x0111.html",
+  "price": "298,86",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669148ee30f559a1b4b003dc"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3296/0/3296077/s10_produktbild_mittelgross/intel-core-i7-3770s-box-socket-1155-22nm-bx80637i73770s.jpg",
+  "name": "Intel Core i7 3770S",
+  "detail": "CPU Quad-Core, Socket 1155, Tipo processore desktop, Numero di Threads 8, Frequenza di clock 3,1 GHz, Frequenza turbo massima 3,9 GHz, Ivy Bridge, TDP 65 Watt, Scheda video Intel HD 4000, L3 Cache 8 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3296058/intel-core-i7-3770s.html",
+  "price": "462,46",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6691493730f559a1b4b003e8"
+  },
+  "imgurl": "https:https://cdn.idealo.com/folder/Product/3698/8/3698819/s10_produktbild_gross/intel-core-i5-4570t-box-socket-1150-22nm-bx80646i54570t.jpg",
+  "name": "Intel Core i5-4570T Box (Socket 1150, 22nm, BX80646I54570T)",
+  "detail": "CPU Dual-Core, Socket 1150, Tipo processore desktop, Numero di Threads 4, Frequenza di clock 2,9 GHz, Frequenza turbo massima 3,6 GHz, Haswell, TDP 35 Watt, Scheda video Intel HD 4600, L3 Cache 4 MB",
+  "link": "https://www.idealo.it/confronta-prezzi/3698819/intel-core-i5-4570t-box-socket-1150-22nm-bx80646i54570t.html",
+  "price": "158,24",
+  "__v": 0
 }]
