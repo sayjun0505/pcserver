@@ -226,10 +226,10 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 40;
+  let pages = 49;
   let count = 15;
   try {
-    while (pages<=48) {  
+    while (true) {  
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
