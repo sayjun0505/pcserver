@@ -15,28 +15,31 @@ async function fetchCPU() {
   chromeOptions.addArguments('--disable-images');
 
   const driver = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
-  // let arr = [];
-  let pages = 6;
+  let arr = [];
+  let pages = 5;
   let count = 15;
   await mongoose.connect(dbConfig.db);
   try {
     while (true) {
+      let i=0;
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
-      console.log("a");
+      // console.log("a");
       await driver.get(url);
-      console.log(url);
+      // console.log(url);
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
       );
       const priceElements = await parentElement.findElements(
         By.className("sr-resultList__item_m6xdA")
       );
+      console.log("items:",priceElements.length)
 
       for (const element of priceElements) {
         try {
           ///get id///
+          console.log("getting id")
           const spanElement = await element.findElement(By.css("span[data-wishlist-heart]"));
           const dataAttr = await spanElement.getAttribute("data-wishlist-heart");
           const data = JSON.parse(dataAttr);
@@ -55,6 +58,7 @@ async function fetchCPU() {
           const prc = a[a.length - 1].match(regex);
           const val = prc ? prc[0] : "Price not found";
           var linkElement;
+          console.log("a")
           try {
             linkElement = await element.findElement(By.css("a"));
             const href = await linkElement.getAttribute("href");
@@ -75,10 +79,11 @@ async function fetchCPU() {
               details: details,
               price: val,
               link: href,
+              productid:id,
               imgurl: imgurl
             };
             let existingProduct = await CPUList.findOne({
-              name: x.name
+              productid: x.productid
             });
             let cpuid = "";
             if (existingProduct) {
@@ -86,20 +91,22 @@ async function fetchCPU() {
             } else {
               let createdProduct = await CPUList.create({
                 name: x.name,
+                productid: x.productid,
                 imgurl: x.imgurl,
                 detail: x.details,
                 link: x.link,
                 price: x.price
               });
               cpuid = createdProduct._id;
+             
             }
             await CPUVendorList.deleteMany({ cpuid: cpuid });
             //   await new Promise(resolve => setTimeout(resolve, 200));
             const detail = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
             try {
-              console.log("b");
+              // console.log("b");
               await detail.get(href);
-              console.log("Acurrent url:", href);
+              // console.log("Acurrent url:", href);
               const nationality = await detail.findElement(By.id("i18nPrices"));
               const ulElement = await nationality.findElement(By.tagName("ul"));
 
@@ -157,15 +164,18 @@ async function fetchCPU() {
                     price: prcContent,
                     directlink: detailContent
                   };
+                  console.log(nameContent)
                   await CPUVendorList.create(item);
+                  i++;
                 } catch (err) {
                   console.error("Error processing element:", err.message);
                 }
-                if (count >= 3) break;
-                count++;
+                if (i < 36) break;
+                i++;
               }
               // await driver.manage().deleteAllCookies();
             } finally {
+              console.log(pages+1,"++",i)
               await detail.quit();
             }
           } catch (err) {
@@ -217,11 +227,12 @@ async function fetchCPU() {
                 details: details,
                 // price: parseFloat(val.replace(",", ".")),
                 price: val,
+                productid: id,
                 link: href,
                 imgurl: imgurl
               };
               let existingProduct = await CPUList.findOne({
-                name: x.name
+                productid: x.productid
               });
               let cpuid = "";
 
@@ -231,6 +242,7 @@ async function fetchCPU() {
                 let createdProduct = await CPUList.create({
                   name: x.name,
                   imgurl: x.imgurl,
+                  productid: x.productid,
                   detail: x.details,
                   link: x.link,
                   price: x.price
@@ -240,9 +252,9 @@ async function fetchCPU() {
               await CPUVendorList.deleteMany({ cpuid: cpuid });
               const detail = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
               try {
-                console.log("c");
+                // console.log("c");
                 await detail.get(href);
-                console.log("Bcurrent url:", href);
+                // console.log("Bcurrent url:", href);
 
                 const timeout = 10000;
                 const listinfo = await detail.wait(
@@ -259,7 +271,6 @@ async function fetchCPU() {
                 );
                 const htmlString = ulElement.getAttribute("outerHTML");
                 await saveToDatabase(cpuid, htmlString);
-                let count = 0;
                 for (const info of listinfo) {
                   try {
                     const nameinfo = await info.findElement(
@@ -299,20 +310,25 @@ async function fetchCPU() {
                       price: prcContent,
                       directlink: detailContent
                     };
+                    console.log(nameContent)
                     await CPUVendorList.create(item);
+                    i++;
                   } catch (err) {
                     console.error("Error processing element:", err.message);
                   }
-                  if (count >= 3) break;
-                  count++;
+                  if (i <36) break;
+                  i++;
                 }
                 await driver.manage().deleteAllCookies();
               } finally {
+                console.log(pages+1,"++",i)
                 await detail.quit();
               }
             }
           }
-        } catch (err) {}
+        } catch (err) {
+          console.log("want to track error source:",err.stack)
+        }
       }
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
@@ -334,7 +350,7 @@ async function getdatafromLink(cpuid, link) {
 
   const countrywebshop = await new Builder().forBrowser("chrome").setChromeOptions(chromeOptions).build();
   try {
-    console.log("Navigating to link:", link);
+    // console.log("Navigating to link:", link);
     await countrywebshop.get(link);
 
     const timeout = 10000;

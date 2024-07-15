@@ -8,6 +8,9 @@ const mboardlistSchema = new Schema({
     name:{
         type:String
     },
+    productid:{
+        type:String
+    },
     detail:{
         type:String
     },
