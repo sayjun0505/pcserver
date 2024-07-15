@@ -221,7 +221,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 11;
+  let pages = 13;
   let count = 15;
   try {
     while (true) {
@@ -248,6 +248,9 @@ async function fetchCPU() {
       );
       let formindex = 0;
       for (const element of priceElements) {
+        // if(i>=31&&i<=35){
+
+        
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
         const formElements = await element.findElements(By.tagName("form"));
@@ -325,6 +328,8 @@ async function fetchCPU() {
           // Handle cases where neither <a> nor <form> tags are found
           console.log("Element does not contain <a> or <form> tags");
         }
+      // }
+        // i++;
       }
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
