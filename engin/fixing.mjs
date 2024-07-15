@@ -11,16 +11,26 @@ let arr = [];
 ///a form test 75, form test 450
 const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function handleA(url, nameval, detail, price, productid, imgurl) {
-  const chromeOptions = new chrome.Options();
-  chromeOptions.addArguments("--disable-gpu");
-  chromeOptions.addArguments("--disable-images");
-
-  const drivers = await new Builder()
-    .forBrowser("chrome")
-    .setChromeOptions(chromeOptions)
-    .build();
+async function handleA(
+  drivers,
+  url,
+  nameval,
+  detail,
+  price,
+  productid,
+  imgurl
+) {
   await drivers.get(url);
+  // const shadowHost = await drivers.findElement(By.id("usercentrics-cmp-ui"));
+  // await drivers.executeScript(
+  //   `
+  //       const shadowRoot = arguments[0].shadowRoot;
+  //       const acceptButton = shadowRoot.querySelector('button#accept');
+  //       acceptButton.click();
+  //   `,
+  //   shadowHost
+  // );
+
   let x = {
     name: nameval,
     details: detail,
@@ -29,7 +39,7 @@ async function handleA(url, nameval, detail, price, productid, imgurl) {
     productid: productid,
     imgurl: imgurl
   };
-  
+
   let existingProduct = await CPUList.findOne({
     productid: x.productid
   });
@@ -50,24 +60,12 @@ async function handleA(url, nameval, detail, price, productid, imgurl) {
   await CPUVendorList.deleteMany({ cpuid: cpuid });
   const nationality = await drivers.findElement(By.id("i18nPrices"));
   const ulElement = await nationality.findElement(By.tagName("ul"));
-  const htmlString = ulElement.getAttribute("outerHTML");
-  await saveToDatabase(cpuid, htmlString);
-  await drivers.quit();
+  const htmlString = await ulElement.getAttribute("outerHTML");
+  await saveToDatabase(drivers, cpuid, htmlString);
 }
-async function getdatafromLink(cpuid, link) {
-  const chromeOptions = new chrome.Options();
-  // chromeOptions.addArguments("--headless");
-  chromeOptions.addArguments("--disable-gpu");
-  chromeOptions.addArguments("--disable-images");
-
-  const countrywebshop = await new Builder()
-    .forBrowser("chrome")
-    .setChromeOptions(chromeOptions)
-    .build();
+async function getdatafromLink(countrywebshop, cpuid, link) {
   try {
-    // console.log("Navigating to link:", link);
     await countrywebshop.get(link);
-
     const timeout = 10000;
     const listinfo = await countrywebshop.wait(
       until.elementsLocated(
@@ -125,10 +123,10 @@ async function getdatafromLink(cpuid, link) {
   } catch (err) {
     console.error("Error accessing the webpage:", err);
   } finally {
-    await countrywebshop.quit();
+    // await countrywebshop.quit();
   }
 }
-async function saveToDatabase(cpuid, htmlString) {
+async function saveToDatabase(drivers, cpuid, htmlString) {
   try {
     await mongoose.connect(dbConfig.db);
     await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -136,7 +134,7 @@ async function saveToDatabase(cpuid, htmlString) {
     const hrefRegex = /href="([^"]*)"/g;
     let match;
     while ((match = hrefRegex.exec(html)) !== null) {
-      await getdatafromLink(cpuid, match[1]);
+      await getdatafromLink(drivers, cpuid, match[1]);
     }
     await CPUNat.deleteMany({ cpuid: cpuid });
     await CPUNat.create({
@@ -147,25 +145,27 @@ async function saveToDatabase(cpuid, htmlString) {
     console.error(error);
   }
 }
-async function handleform(url, current,nameVal, details, val, id, imgurl) {
-  const chromeOptions = new chrome.Options();
-  chromeOptions.addArguments("--disable-gpu");
-  chromeOptions.addArguments("--disable-images");
-
-  const drivers = await new Builder()
-    .forBrowser("chrome")
-    .setChromeOptions(chromeOptions)
-    .build();
+async function handleform(
+  drivers,
+  url,
+  current,
+  nameVal,
+  details,
+  val,
+  id,
+  imgurl
+) {
   await drivers.get(url);
-  const shadowHost = await drivers.findElement(By.id("usercentrics-cmp-ui"));
-  await drivers.executeScript(
-    `
-        const shadowRoot = arguments[0].shadowRoot; 
-        const acceptButton = shadowRoot.querySelector('button#accept');
-        acceptButton.click();
-    `,
-    shadowHost
-  );
+  // const shadowHost = await drivers.findElement(By.id("usercentrics-cmp-ui"));
+  // await drivers.executeScript(
+  //   `
+  //       const shadowRoot = arguments[0].shadowRoot;
+  //       const acceptButton = shadowRoot.querySelector('button#accept');
+  //       acceptButton.click();
+  //   `,
+  //   shadowHost
+  // );
+
   const parentElement = await drivers.findElement(
     By.css(".sr-resultList_NAJkZ")
   );
@@ -178,7 +178,7 @@ async function handleform(url, current,nameVal, details, val, id, imgurl) {
   await actions.move({ origin: button }).perform();
   await drivers.executeScript("arguments[0].click();", button);
   const currentUrl = await drivers.getCurrentUrl();
-   let x = {
+  let x = {
     name: nameVal,
     details: details,
     price: val,
@@ -206,46 +206,50 @@ async function handleform(url, current,nameVal, details, val, id, imgurl) {
   await CPUVendorList.deleteMany({ cpuid: cpuid });
   const nationality = await drivers.findElement(By.id("i18nPrices"));
   const ulElement = await nationality.findElement(By.tagName("ul"));
-  const htmlString = ulElement.getAttribute("outerHTML");
-  await saveToDatabase(cpuid, htmlString);
-  arr.push(currentUrl);
+  const htmlString = await ulElement.getAttribute("outerHTML");
+
+  await saveToDatabase(drivers, cpuid, htmlString);
   handledform = current + 1;
-  await drivers.quit();
 }
 async function fetchCPU() {
   const chromeOptions = new chrome.Options();
   chromeOptions.addArguments("--disable-gpu");
   chromeOptions.addArguments("--disable-images");
-
+  const detail_driver = await new Builder()
+    .forBrowser("chrome")
+    .setChromeOptions(chromeOptions)
+    .build();
   const driver = await new Builder()
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 17;
+  let pages = 0;
   let count = 15;
   try {
-    while (true) {
-      let i = 0;
+    while (pages<=20) {
+      let i = 0;      
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
       await driver.get(url);
+      // if (i == 0) {
+      const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
+      await driver.executeScript(
+        `
+        const shadowRoot = arguments[0].shadowRoot; 
+        const acceptButton = shadowRoot.querySelector('button#accept');
+        acceptButton.click();
+    `,
+        shadowHost
+      );
+      // }
+
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
       );
       const priceElements = await parentElement.findElements(
         By.className("sr-resultList__item_m6xdA")
       );
-      // const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
-      // await driver.executeScript(
-      //   `
-      //     const shadowRoot = arguments[0].shadowRoot; 
-      //     const acceptButton = shadowRoot.querySelector('button#accept');
-      //     acceptButton.click();
-      // `,
-      //   shadowHost
-      // );
-      // await driver.wait(until.elementLocated(By.id('usercentrics-cmp-ui')), 10000);  
       let formindex = 0;
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
@@ -258,7 +262,9 @@ async function fetchCPU() {
           const spanElement = await element.findElement(
             By.css("span[data-wishlist-heart]")
           );
-          const dataAttr = await spanElement.getAttribute("data-wishlist-heart");
+          const dataAttr = await spanElement.getAttribute(
+            "data-wishlist-heart"
+          );
           const data = JSON.parse(dataAttr);
           const id = data.id;
           const textContent = await element.getText();
@@ -282,14 +288,16 @@ async function fetchCPU() {
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
-          await handleA(href, nameVal, details, val, id, imgurl);
+          await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
           arr.push(href);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
             );
-            const dataAttr = await spanElement.getAttribute("data-wishlist-heart");
+            const dataAttr = await spanElement.getAttribute(
+              "data-wishlist-heart"
+            );
             const data = JSON.parse(dataAttr);
             const id = data.id;
             const textContent = await element.getText();
@@ -317,7 +325,16 @@ async function fetchCPU() {
             );
             const imgurl = await imgElements.getAttribute("src");
 
-            await handleform(url, handledform,nameVal, details, val, id, imgurl);
+            await handleform(
+              detail_driver,
+              url,
+              handledform,
+              nameVal,
+              details,
+              val,
+              id,
+              imgurl
+            );
           } else {
             formindex++;
             continue;
@@ -326,14 +343,16 @@ async function fetchCPU() {
           // Handle cases where neither <a> nor <form> tags are found
           console.log("Element does not contain <a> or <form> tags");
         }
-      // }
+        // }
         // i++;
       }
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
+      i++;
     }
     console.log("All data were just processed");
-  } catch (err) {console.error("An error occurred:", err);  
+  } catch (err) {
+    console.error("An error occurred:", err);
   } finally {
     if (driver) {
       await driver.quit();
