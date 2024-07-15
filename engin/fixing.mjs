@@ -226,32 +226,16 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 0;
+  let pages = 40;
   let count = 15;
   try {
-    while (true) {
-      let i = 0;      
+    while (pages<=48) {  
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
       await driver.get(url);
-      // if (i == 0) {
-    //   const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));    
-    //   await driver.executeScript(
-    //     `
-    //     const shadowRoot = arguments[0].shadowRoot; 
-    //     const acceptButton = shadowRoot.querySelector('button#accept');
-    //     acceptButton.click();
-    // `,
-    //     shadowHost
-    //   );
-    //   // }
-
-      const timeout = 20000; // Timeout for waiting  
-
-      let shadowHost = null;  
-
-      // Loop until the shadow host element is found or timeout is reached  
+      const timeout = 20000; 
+      let shadowHost = null; 
       const startTime = new Date().getTime();  
       while (new Date().getTime() - startTime < timeout) {  
           try {  
@@ -264,10 +248,9 @@ async function fetchCPU() {
             `,
                 shadowHost
               );
-              break; // Break the loop if element is found  
+              break; 
           } catch (error) {  
-              // Element not found yet, continue looping  
-              await driver.sleep(1000); // Wait for 1 second before retrying  
+              await driver.sleep(1000); 
           }  
       }  
 
