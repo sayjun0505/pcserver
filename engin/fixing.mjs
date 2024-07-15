@@ -237,7 +237,7 @@ async function fetchCPU() {
         By.className("sr-resultList__item_m6xdA")
       );
       // let arr = [];
-      delay(1000)
+      delay(2000)
       const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
       await driver.executeScript(
         `
