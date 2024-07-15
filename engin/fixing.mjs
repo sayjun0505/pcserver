@@ -221,7 +221,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 13;
+  let pages = 6;
   let count = 15;
   try {
     while (true) {
@@ -247,7 +247,7 @@ async function fetchCPU() {
       `,
         shadowHost
       );
-      await driver.wait(until.elementLocated(By.id('usercentrics-cmp-ui')), 10000);  
+      // await driver.wait(until.elementLocated(By.id('usercentrics-cmp-ui')), 10000);  
       let formindex = 0;
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
