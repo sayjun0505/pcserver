@@ -221,7 +221,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 6;
+  let pages = 16;
   let count = 15;
   try {
     while (true) {
@@ -236,23 +236,19 @@ async function fetchCPU() {
       const priceElements = await parentElement.findElements(
         By.className("sr-resultList__item_m6xdA")
       );
-      // let arr = [];
-      // delay(5000)
-      const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
-      await driver.executeScript(
-        `
-          const shadowRoot = arguments[0].shadowRoot; 
-          const acceptButton = shadowRoot.querySelector('button#accept');
-          acceptButton.click();
-      `,
-        shadowHost
-      );
+      // const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
+      // await driver.executeScript(
+      //   `
+      //     const shadowRoot = arguments[0].shadowRoot; 
+      //     const acceptButton = shadowRoot.querySelector('button#accept');
+      //     acceptButton.click();
+      // `,
+      //   shadowHost
+      // );
       // await driver.wait(until.elementLocated(By.id('usercentrics-cmp-ui')), 10000);  
       let formindex = 0;
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
-
-        
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
         const formElements = await element.findElements(By.tagName("form"));
