@@ -131,9 +131,15 @@ async function saveToDatabase(drivers, cpuid) {
     await mongoose.connect(dbConfig.db);
     await new Promise((resolve) => setTimeout(resolve, 1000));
     const hrefRegex = /href="([^"]*)"/g;
-    const nationality = await drivers.findElement(By.id("i18nPrices"));  
-    const ulElement = await nationality.findElement(By.tagName("ul"));  
-    const outerHTML = await ulElement.getAttribute("outerHTML");  
+    let outerHTML="";
+    try{
+      const nationality = await drivers.findElement(By.id("i18nPrices"));  
+      const ulElement = await nationality.findElement(By.tagName("ul"));  
+      outerHTML = await ulElement.getAttribute("outerHTML");  
+    }catch{
+
+    }
+    
 
     let match;
     while ((match = hrefRegex.exec(outerHTML)) !== null) {
@@ -159,16 +165,6 @@ async function handleform(
   imgurl
 ) {
   await drivers.get(url);
-  // const shadowHost = await drivers.findElement(By.id("usercentrics-cmp-ui"));
-  // await drivers.executeScript(
-  //   `
-  //       const shadowRoot = arguments[0].shadowRoot;
-  //       const acceptButton = shadowRoot.querySelector('button#accept');
-  //       acceptButton.click();
-  //   `,
-  //   shadowHost
-  // );
-
   const parentElement = await drivers.findElement(
     By.css(".sr-resultList_NAJkZ")
   );
@@ -207,10 +203,6 @@ async function handleform(
     cpuid = createdProduct._id;
   }
   await CPUVendorList.deleteMany({ cpuid: cpuid });
-  // const nationality = await drivers.findElement(By.id("i18nPrices"));
-  // const ulElement = await nationality.findElement(By.tagName("ul"));
-  // const htmlString = await ulElement.getAttribute("outerHTML");
-
   await saveToDatabase(drivers, cpuid);
   handledform = current + 1;
 }
