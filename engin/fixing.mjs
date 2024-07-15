@@ -215,18 +215,15 @@ async function fetchCPU() {
   const chromeOptions = new chrome.Options();
   chromeOptions.addArguments("--disable-gpu");
   chromeOptions.addArguments("--disable-images");
-  const detail_driver = await new Builder()
-    .forBrowser("chrome")
-    .setChromeOptions(chromeOptions)
-    .build();
+  
   const driver = await new Builder()
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 0;
+  let pages = 21;
   let count = 15;
   try {
-    while (pages<=20) {
+    while (true) {
       let i = 0;      
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
@@ -253,6 +250,10 @@ async function fetchCPU() {
       let formindex = 0;
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
+        const detail_driver = await new Builder()
+          .forBrowser("chrome")
+          .setChromeOptions(chromeOptions)
+          .build();
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
         const formElements = await element.findElements(By.tagName("form"));
@@ -289,7 +290,6 @@ async function fetchCPU() {
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
-          arr.push(href);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
             const spanElement = await element.findElement(
@@ -343,8 +343,7 @@ async function fetchCPU() {
           // Handle cases where neither <a> nor <form> tags are found
           console.log("Element does not contain <a> or <form> tags");
         }
-        // }
-        // i++;
+        await detail_driver.quit();
       }
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
