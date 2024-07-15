@@ -58,10 +58,10 @@ async function handleA(
     cpuid = createdProduct._id;
   }
   await CPUVendorList.deleteMany({ cpuid: cpuid });
-  const nationality = await drivers.findElement(By.id("i18nPrices"));
-  const ulElement = await nationality.findElement(By.tagName("ul"));
-  const htmlString = await ulElement.getAttribute("outerHTML");
-  await saveToDatabase(drivers, cpuid, htmlString);
+  // const nationality = await drivers.findElement(By.id("i18nPrices"));
+  // const ulElement = await nationality.findElement(By.tagName("ul"));
+  // const htmlString = await ulElement.getAttribute("outerHTML");
+  await saveToDatabase(drivers, cpuid);
 }
 async function getdatafromLink(countrywebshop, cpuid, link) {
   try {
@@ -126,14 +126,17 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
     // await countrywebshop.quit();
   }
 }
-async function saveToDatabase(drivers, cpuid, htmlString) {
+async function saveToDatabase(drivers, cpuid) {
   try {
     await mongoose.connect(dbConfig.db);
     await new Promise((resolve) => setTimeout(resolve, 1000));
-    const html = await htmlString;
     const hrefRegex = /href="([^"]*)"/g;
+    const nationality = await drivers.findElement(By.id("i18nPrices"));  
+    const ulElement = await nationality.findElement(By.tagName("ul"));  
+    const outerHTML = await ulElement.getAttribute("outerHTML");  
+
     let match;
-    while ((match = hrefRegex.exec(html)) !== null) {
+    while ((match = hrefRegex.exec(outerHTML)) !== null) {
       await getdatafromLink(drivers, cpuid, match[1]);
     }
     await CPUNat.deleteMany({ cpuid: cpuid });
@@ -204,11 +207,11 @@ async function handleform(
     cpuid = createdProduct._id;
   }
   await CPUVendorList.deleteMany({ cpuid: cpuid });
-  const nationality = await drivers.findElement(By.id("i18nPrices"));
-  const ulElement = await nationality.findElement(By.tagName("ul"));
-  const htmlString = await ulElement.getAttribute("outerHTML");
+  // const nationality = await drivers.findElement(By.id("i18nPrices"));
+  // const ulElement = await nationality.findElement(By.tagName("ul"));
+  // const htmlString = await ulElement.getAttribute("outerHTML");
 
-  await saveToDatabase(drivers, cpuid, htmlString);
+  await saveToDatabase(drivers, cpuid);
   handledform = current + 1;
 }
 async function fetchCPU() {
