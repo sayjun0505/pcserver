@@ -357,7 +357,6 @@ async function fetchCPU() {
       }
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
-      i++;
     }
     console.log("All data were just processed");
   } catch (err) {
