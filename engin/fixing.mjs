@@ -237,7 +237,7 @@ async function fetchCPU() {
       await driver.get(url);
       // if (i == 0) {
       const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
-      await driver.wait(until.elementIsVisible(shadowHost), 10000, 'Shadow host element is not visible');  
+      await driver.wait(until.elementIsVisible(shadowHost), 20000, 'Shadow host element is not visible');  
       await driver.executeScript(
         `
         const shadowRoot = arguments[0].shadowRoot; 
