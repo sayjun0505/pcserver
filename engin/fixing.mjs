@@ -218,7 +218,10 @@ async function fetchCPU() {
   const chromeOptions = new chrome.Options();
   chromeOptions.addArguments("--disable-gpu");
   chromeOptions.addArguments("--disable-images");
-  
+  const detail_driver = await new Builder()
+          .forBrowser("chrome")
+          .setChromeOptions(chromeOptions)
+          .build();
   const driver = await new Builder()
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
@@ -253,10 +256,7 @@ async function fetchCPU() {
       let formindex = 0;
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
-        const detail_driver = await new Builder()
-          .forBrowser("chrome")
-          .setChromeOptions(chromeOptions)
-          .build();
+        
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
         const formElements = await element.findElements(By.tagName("form"));
@@ -346,7 +346,7 @@ async function fetchCPU() {
           // Handle cases where neither <a> nor <form> tags are found
           console.log("Element does not contain <a> or <form> tags");
         }
-        await detail_driver.quit();
+       
       }
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
@@ -358,6 +358,7 @@ async function fetchCPU() {
   } finally {
     if (driver) {
       await driver.quit();
+      await detail_driver.quit();
       // console.log(arr)
     }
   }
