@@ -237,15 +237,16 @@ async function fetchCPU() {
         By.className("sr-resultList__item_m6xdA")
       );
       // let arr = [];
-      // const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
-      // await driver.executeScript(
-      //   `
-      //     const shadowRoot = arguments[0].shadowRoot; 
-      //     const acceptButton = shadowRoot.querySelector('button#accept');
-      //     acceptButton.click();
-      // `,
-      //   shadowHost
-      // );
+      delay(1000)
+      const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
+      await driver.executeScript(
+        `
+          const shadowRoot = arguments[0].shadowRoot; 
+          const acceptButton = shadowRoot.querySelector('button#accept');
+          acceptButton.click();
+      `,
+        shadowHost
+      );
       let formindex = 0;
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
