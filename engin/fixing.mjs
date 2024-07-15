@@ -237,7 +237,7 @@ async function fetchCPU() {
         By.className("sr-resultList__item_m6xdA")
       );
       // let arr = [];
-      delay(2000)
+      // delay(5000)
       const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
       await driver.executeScript(
         `
@@ -247,6 +247,7 @@ async function fetchCPU() {
       `,
         shadowHost
       );
+      await driver.wait(until.elementLocated(By.id('usercentrics-cmp-ui')), 10000);  
       let formindex = 0;
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
