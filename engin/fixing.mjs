@@ -247,7 +247,7 @@ async function fetchCPU() {
     //   );
     //   // }
 
-    //   const timeout = 20000; // Timeout for waiting  
+      const timeout = 20000; // Timeout for waiting  
 
       let shadowHost = null;  
 
