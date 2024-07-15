@@ -221,7 +221,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 12;
+  let pages = 13;
   let count = 15;
   try {
     while (true) {
@@ -330,7 +330,7 @@ async function fetchCPU() {
       pages++;
     }
     console.log("All data were just processed");
-  } catch (err) {
+  } catch (err) {console.error("An error occurred:", err);  
   } finally {
     if (driver) {
       await driver.quit();
