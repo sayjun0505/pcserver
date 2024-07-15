@@ -240,14 +240,8 @@ async function fetchCPU() {
       await driver.wait(async () => {  
         // Check if the shadow host becomes visible  
         const shadowRoot = await shadowHost.getShadowRoot();  
-        if (!shadowRoot) {  
-            return false;  
-        }  
-    
-        // Check if the accept button becomes visible inside the shadow DOM  
-        const acceptButton = shadowRoot.querySelector('button#accept');  
-        return acceptButton !== null;  
-    }, 20000, 'Shadow host or accept button is not visible');  
+        return shadowRoot !== null;  
+    }, 20000, 'Shadow host is not visible');  
     
       await driver.executeScript(
         `
