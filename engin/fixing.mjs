@@ -142,7 +142,7 @@ async function saveToDatabase(drivers, cpuid) {
     await CPUNat.deleteMany({ cpuid: cpuid });
     await CPUNat.create({
       cpuid: cpuid,
-      html: html
+      html: outerHTML
     });
   } catch (error) {
     console.error(error);
@@ -236,22 +236,40 @@ async function fetchCPU() {
       }/processori-cpu.html`;
       await driver.get(url);
       // if (i == 0) {
-      const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
-      await driver.wait(async () => {  
-        // Check if the shadow host becomes visible  
-        const shadowRoot = await shadowHost.getShadowRoot();  
-        return shadowRoot !== null;  
-    }, 20000, 'Shadow host is not visible');  
-    
-      await driver.executeScript(
-        `
-        const shadowRoot = arguments[0].shadowRoot; 
-        const acceptButton = shadowRoot.querySelector('button#accept');
-        acceptButton.click();
-    `,
-        shadowHost
-      );
-      // }
+    //   const shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));    
+    //   await driver.executeScript(
+    //     `
+    //     const shadowRoot = arguments[0].shadowRoot; 
+    //     const acceptButton = shadowRoot.querySelector('button#accept');
+    //     acceptButton.click();
+    // `,
+    //     shadowHost
+    //   );
+    //   // }
+
+    //   const timeout = 20000; // Timeout for waiting  
+
+      let shadowHost = null;  
+
+      // Loop until the shadow host element is found or timeout is reached  
+      const startTime = new Date().getTime();  
+      while (new Date().getTime() - startTime < timeout) {  
+          try {  
+              shadowHost = await driver.findElement(By.id('usercentrics-cmp-ui'));  
+              await driver.executeScript(
+                `
+                const shadowRoot = arguments[0].shadowRoot; 
+                const acceptButton = shadowRoot.querySelector('button#accept');
+                acceptButton.click();
+            `,
+                shadowHost
+              );
+              break; // Break the loop if element is found  
+          } catch (error) {  
+              // Element not found yet, continue looping  
+              await driver.sleep(1000); // Wait for 1 second before retrying  
+          }  
+      }  
 
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
