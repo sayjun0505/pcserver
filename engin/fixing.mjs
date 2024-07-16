@@ -7,6 +7,9 @@ import CPUNat from "../model/cpunat.js";
 import mongoose from "mongoose";
 import fs from "fs";
 
+const chromeOptions = new chrome.Options();
+chromeOptions.addArguments("--disable-gpu");
+chromeOptions.addArguments("--disable-images");
 let handledform = 0;
 let arr = [];
 let inn = 0;
@@ -63,7 +66,7 @@ async function handleA(
   // const nationality = await drivers.findElement(By.id("i18nPrices"));
   // const ulElement = await nationality.findElement(By.tagName("ul"));
   // const htmlString = await ulElement.getAttribute("outerHTML");
-  await saveToDatabase(drivers, cpuid,url);
+  await saveToDatabase(drivers, cpuid, url);
   inn++;
 }
 async function getdatafromLink(countrywebshop, cpuid, link) {
@@ -129,7 +132,7 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
     // await countrywebshop.quit();
   }
 }
-async function saveToDatabase(drivers, cpuid,url) {
+async function saveToDatabase(drivers, cpuid, url) {
   try {
     await mongoose.connect(dbConfig.db);
     await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -143,8 +146,11 @@ async function saveToDatabase(drivers, cpuid,url) {
 
     let match;
     await getdatafromLink(drivers, cpuid, url);
+    console.log("url:",url)
     while ((match = hrefRegex.exec(outerHTML)) !== null) {
       await getdatafromLink(drivers, cpuid, match[1]);
+    console.log(" match[1]:", match[1])
+
     }
     await CPUNat.deleteMany({ cpuid: cpuid });
     await CPUNat.create({
@@ -220,9 +226,6 @@ async function fetchCPU() {
   let count = 15;
   let arr = [];
   while (pages <= 52) {
-    const chromeOptions = new chrome.Options();
-    chromeOptions.addArguments("--disable-gpu");
-    chromeOptions.addArguments("--disable-images");
     const detail_driver = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
