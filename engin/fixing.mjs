@@ -106,29 +106,45 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
           By.className("productOffers-listItemOfferShopV2LogoImage")
         );
         const subimgurl = await vendorinfo.getAttribute("src");
-        // let shadowHost = null;
+        let shadowHost = null;
 
-        // const startTime = new Date().getTime();
-        // while (new Date().getTime() - startTime < timeout) {
-        //   try {
-        //     shadowHost = await countrywebshop.findElement(By.id("usercentrics-cmp-ui"));
-        //     await countrywebshop.executeScript(
-        //       `
-        //           const shadowRoot = arguments[0].shadowRoot; 
-        //           const acceptButton = shadowRoot.querySelector('button#accept');
-        //           acceptButton.click();
-        //       `,
-        //       shadowHost
-        //     );
-        //     break;
-        //   } catch (error) {
-        //     await countrywebshop.sleep(1000);
-        //   }
-        // }
+        const startTime = new Date().getTime();
+        while (new Date().getTime() - startTime < timeout) {
+          try {
+            shadowHost = await countrywebshop.findElement(By.id("usercentrics-cmp-ui"));
+            await countrywebshop.executeScript(
+              `
+                  const shadowRoot = arguments[0].shadowRoot; 
+                  const acceptButton = shadowRoot.querySelector('button#accept');
+                  acceptButton.click();
+              `,
+              shadowHost
+            );
+            break;
+          } catch (error) {
+            await countrywebshop.sleep(1000);
+          }
+        }
 
         
-        // await detailinfo.click();  
-        // const detailHrefs =await countrywebshop.getCurrentUrl();
+        await detailinfo.click();  
+        
+        const handles = await countrywebshop.getAllWindowHandles();  
+        await countrywebshop.switchTo().window(handles[1]); // Switch to the new tab  
+        const newTabURL = await countrywebshop.getCurrentUrl();  
+        console.log('URL of the new tab:', newTabURL);  
+
+        // Close the new tab  
+        await countrywebshop.close();  
+
+        // Switch back to the original tab  
+        await countrywebshop.switchTo().window(handles[0]);  
+
+
+
+
+
+
         const detailHref =
           "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
         // await countrywebshop.get(detailHrefs);
@@ -139,7 +155,7 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
           payment: paymentContent,
           vendorimgurl: subimgurl,
           price: prcContent,
-          directlink: detailHref
+          directlink: newTabURL
         };
         await CPUVendorList.create(item);
         count++;
