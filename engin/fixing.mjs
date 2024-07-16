@@ -96,9 +96,10 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
         const detailinfo = await info.findElement(
           By.className("productOffers-listItemTitle")
         );
-        const detailHref =
+        const detailHrefs =
           "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
-
+        await countrywebshop.get(detailHrefs);
+        const detailHref = await countrywebshop.getCurrentUrl();
         const prcinfo = await info.findElement(
           By.className("productOffers-listItemOfferPrice")
         );
@@ -220,7 +221,7 @@ async function handleform(
   inn++;
 }
 async function fetchCPU() {
-  let pages = 45;
+  let pages = 46;
   let count = 15;
   let arr = [];
   while (pages <= 52) {
