@@ -108,54 +108,38 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
         const subimgurl = await vendorinfo.getAttribute("src");
         let shadowHost = null;
 
-        const startTime = new Date().getTime();
-        while (new Date().getTime() - startTime < timeout) {
-          try {
-            shadowHost = await countrywebshop.findElement(By.id("usercentrics-cmp-ui"));
-            await countrywebshop.executeScript(
-              `
-                  const shadowRoot = arguments[0].shadowRoot; 
-                  const acceptButton = shadowRoot.querySelector('button#accept');
-                  acceptButton.click();
-              `,
-              shadowHost
-            );
-            break;
-          } catch (error) {
-            await countrywebshop.sleep(1000);
-          }
-        }
-
-        
-        await detailinfo.click();  
-        
-        const handles = await countrywebshop.getAllWindowHandles();  
-        await countrywebshop.switchTo().window(handles[1]); // Switch to the new tab  
-        const newTabURL = await countrywebshop.getCurrentUrl();  
-        console.log('URL of the new tab:', newTabURL);  
-
-        // Close the new tab  
-        await countrywebshop.close();  
-
-        // Switch back to the original tab  
-        await countrywebshop.switchTo().window(handles[0]);  
-
-
-
-
-
-
+        // const startTime = new Date().getTime();
+        // while (new Date().getTime() - startTime < timeout) {
+        //   try {
+        //     shadowHost = await countrywebshop.findElement(By.id("usercentrics-cmp-ui"));
+        //     await countrywebshop.executeScript(
+        //       `
+        //           const shadowRoot = arguments[0].shadowRoot; 
+        //           const acceptButton = shadowRoot.querySelector('button#accept');
+        //           acceptButton.click();
+        //       `,
+        //       shadowHost
+        //     );
+        //     break;
+        //   } catch (error) {
+        //     await countrywebshop.sleep(1000);
+        //   }
+        // }        
+        // await detailinfo.click();          
+        // const handles = await countrywebshop.getAllWindowHandles();  
+        // await countrywebshop.switchTo().window(handles[1]); // Switch to the new tab  
+        // const newTabURL = await countrywebshop.getCurrentUrl();  
+        // await countrywebshop.close();  
+        // await countrywebshop.switchTo().window(handles[0]);  
         const detailHref =
           "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
-        // await countrywebshop.get(detailHrefs);
-        // const detailHref = await countrywebshop.getCurrentUrl();
         let item = {
           cpuid: cpuid,
           displayname: nameContent,
           payment: paymentContent,
           vendorimgurl: subimgurl,
           price: prcContent,
-          directlink: newTabURL
+          directlink: detailHref
         };
         await CPUVendorList.create(item);
         count++;
