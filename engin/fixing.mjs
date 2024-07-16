@@ -236,7 +236,7 @@ async function fetchCPU() {
         count * pages
       }/processori-cpu.html`;
       await driver.get(url);
-      let shadowHost = null;np
+      let shadowHost = null;
       const startTime = new Date().getTime();
       while (new Date().getTime() - startTime < timeout) {
         try {
