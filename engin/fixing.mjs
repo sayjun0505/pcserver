@@ -171,7 +171,7 @@ async function handleform(
   const parentElement = await drivers.findElement(
     By.css(".sr-resultList_NAJkZ")
   );
-  
+  await drivers.wait(until.elementsLocated(By.tagName("form")), timeout); 
   const formElements = await parentElement.findElements(By.tagName("form"));
   const formElement = formElements[current];
   const button = await formElement.findElement(
