@@ -393,6 +393,8 @@ async function fetchCPU() {
       // }
     }
     pages++;
+    await driver.quit();  
+    await detail_driver.quit();  
     delay(5000)
   }
   const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
@@ -401,7 +403,7 @@ async function fetchCPU() {
   const csvFilePath = "output.csv";
   fs.writeFileSync(csvFilePath, csvData);
   console.log("All data were just processed");
-  await driver.quit();  
-  await detail_driver.quit();  
+  // await driver.quit();  
+  // await detail_driver.quit();  
 }
 export { fetchCPU };
