@@ -165,11 +165,12 @@ async function handleform(
   imgurl
 ) {
   await drivers.get(url);
-  // console.log("url:",url)
+  console.log("url:",url)
+  await drivers.wait(until.elementsLocated(By.css(".sr-resultList_NAJkZ")), timeout); 
   const parentElement = await drivers.findElement(
     By.css(".sr-resultList_NAJkZ")
   );
-  await drivers.wait(until.elementsLocated(By.className("sr-resultList_NAJkZ")), timeout); 
+  
   const formElements = await parentElement.findElements(By.tagName("form"));
   const formElement = formElements[current];
   const button = await formElement.findElement(
@@ -221,7 +222,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages =4;
+  let pages =7;
   let count = 15;
   try {
     while (true) {  
