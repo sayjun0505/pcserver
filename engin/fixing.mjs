@@ -165,7 +165,7 @@ async function handleform(
   imgurl
 ) {
   await drivers.get(url);
-  console.log("url:",url)
+  // console.log("url:",url)
   const parentElement = await drivers.findElement(
     By.css(".sr-resultList_NAJkZ")
   );
@@ -178,6 +178,7 @@ async function handleform(
   await actions.move({ origin: button }).perform();
   await drivers.executeScript("arguments[0].click();", button);
   const currentUrl = await drivers.getCurrentUrl();
+  // console.log("changedurl:",currentUrl,nameVal);
   let x = {
     name: nameVal,
     details: details,
@@ -219,7 +220,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages =22;
+  let pages =0;
   let count = 15;
   try {
     while (true) {  
@@ -299,6 +300,7 @@ async function fetchCPU() {
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
             );
+            
             const dataAttr = await spanElement.getAttribute(
               "data-wishlist-heart"
             );
@@ -322,6 +324,10 @@ async function fetchCPU() {
               );
               nameVal = await nameElements.getText();
             }
+            let divElement = await element.findElement(By.css('div.sr-productSummary__title_f5flP[data-testid="productSummary__title"]'));  
+
+            // Extract the text from the div tag  
+            let nametext = await divElement.getText();  
             const prc = a[a.length - 1].match(regex);
             const val = prc ? prc[0] : "Price not found";
             const imgElements = await parentElement.findElement(
@@ -333,12 +339,13 @@ async function fetchCPU() {
               detail_driver,
               url,
               handledform,
-              nameVal,
+              nametext,
               details,
               val,
               id,
               imgurl
             );
+            formindex++;
           } else {
             formindex++;
             continue;
