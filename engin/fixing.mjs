@@ -229,12 +229,12 @@ async function fetchCPU() {
   let pages = 28;
   let count = 15;
   let arr = [];
-  try {
-    while (pages<=52) {
-      inn = 0;
-      const url = `https://www.idealo.it/cat/3019I16-${
-        count * pages
-      }/processori-cpu.html`;
+  while (pages <= 52) {
+    inn = 0;
+    const url = `https://www.idealo.it/cat/3019I16-${
+      count * pages
+    }/processori-cpu.html`;
+    try {
       await driver.get(url);
       // await new Promise(resolve => setTimeout(resolve, 1000));
       let shadowHost = null;
@@ -308,7 +308,7 @@ async function fetchCPU() {
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
-          await detail_driver.executeScript("document.body.innerHTML = '';");  
+          // await detail_driver.executeScript("document.body.innerHTML = '';");
           // await new Promise(resolve => setTimeout(resolve, 1000));
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
@@ -364,7 +364,7 @@ async function fetchCPU() {
               id,
               imgurl
             );
-            await detail_driver.executeScript("document.body.innerHTML = '';");  
+            // await detail_driver.executeScript("document.body.innerHTML = '';");
             formindex++;
           } else {
             formindex++;
@@ -379,22 +379,21 @@ async function fetchCPU() {
       console.log(url, inn);
       arr.push({ url: url, inn: inn });
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
-      pages++;
-      delay(2000);
+    } catch (error) {
+      console.error("An error occurred in iteration", pages, ":", error);
+    } finally {
+      if (driver) {
+        await driver.quit(); // Close the driver at the end of each iteration
+        await detail_driver.quit();
+      }
     }
-    const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
-    const csvHeader = "url, counts\n";
-    const csvData = csvHeader + csvRows;
-    const csvFilePath = "output.csv";
-    fs.writeFileSync(csvFilePath, csvData);
-    console.log("All data were just processed");
-  } catch (err) {
-    console.error("An error occurred:", err);
-  } finally {
-    if (driver) {
-      await driver.quit();
-      await detail_driver.quit();
-    }
+    pages++;
   }
+  const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
+  const csvHeader = "url, counts\n";
+  const csvData = csvHeader + csvRows;
+  const csvFilePath = "output.csv";
+  fs.writeFileSync(csvFilePath, csvData);
+  console.log("All data were just processed");
 }
 export { fetchCPU };
