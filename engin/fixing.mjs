@@ -106,7 +106,8 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
           By.className("productOffers-listItemOfferShopV2LogoImage")
         );
         const subimgurl = await vendorinfo.getAttribute("src");
-
+        await detailinfo.click();  
+        const detailHrefs =await countrywebshop.getCurrentUrl();
         const detailHref =
           "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
         // await countrywebshop.get(detailHrefs);
@@ -117,7 +118,7 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
           payment: paymentContent,
           vendorimgurl: subimgurl,
           price: prcContent,
-          directlink: detailHref
+          directlink: detailHrefs
         };
         await CPUVendorList.create(item);
         count++;
@@ -222,10 +223,10 @@ async function handleform(
   inn++;
 }
 async function fetchCPU() {
-  let pages = 52;
+  let pages = 53;
   let count = 15;
   let arr = [];
-  while (pages <= 52) {
+  while (pages <= 53) {
     const detail_driver = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
