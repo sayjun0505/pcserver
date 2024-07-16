@@ -226,11 +226,11 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 53;
+  let pages = 21;
   let count = 15;
   let arr = [];
   try {
-    while (pages<=55) {
+    while (pages<=52) {
       inn = 0;
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
