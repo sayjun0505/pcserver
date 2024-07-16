@@ -106,6 +106,27 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
           By.className("productOffers-listItemOfferShopV2LogoImage")
         );
         const subimgurl = await vendorinfo.getAttribute("src");
+        let shadowHost = null;
+        
+        const startTime = new Date().getTime();
+        while (new Date().getTime() - startTime < timeout) {
+          try {
+            shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
+            await driver.executeScript(
+              `
+                  const shadowRoot = arguments[0].shadowRoot; 
+                  const acceptButton = shadowRoot.querySelector('button#accept');
+                  acceptButton.click();
+              `,
+              shadowHost
+            );
+            break;
+          } catch (error) {
+            await driver.sleep(1000);
+          }
+        }
+
+        
         await detailinfo.click();  
         const detailHrefs =await countrywebshop.getCurrentUrl();
         const detailHref =
