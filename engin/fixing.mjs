@@ -146,11 +146,8 @@ async function saveToDatabase(drivers, cpuid, url) {
 
     let match;
     await getdatafromLink(drivers, cpuid, url);
-    console.log("url:",url)
     while ((match = hrefRegex.exec(outerHTML)) !== null) {
       await getdatafromLink(drivers, cpuid, match[1]);
-    console.log(" match[1]:", match[1])
-
     }
     await CPUNat.deleteMany({ cpuid: cpuid });
     await CPUNat.create({
@@ -217,7 +214,7 @@ async function handleform(
     cpuid = createdProduct._id;
   }
   await CPUVendorList.deleteMany({ cpuid: cpuid });
-  await saveToDatabase(drivers, cpuid);
+  await saveToDatabase(drivers, cpuid,url);
   handledform = current + 1;
   inn++;
 }
