@@ -107,12 +107,12 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
         );
         const subimgurl = await vendorinfo.getAttribute("src");
         let shadowHost = null;
-        
+
         const startTime = new Date().getTime();
         while (new Date().getTime() - startTime < timeout) {
           try {
-            shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
-            await driver.executeScript(
+            shadowHost = await countrywebshop.findElement(By.id("usercentrics-cmp-ui"));
+            await countrywebshop.executeScript(
               `
                   const shadowRoot = arguments[0].shadowRoot; 
                   const acceptButton = shadowRoot.querySelector('button#accept');
@@ -122,7 +122,7 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
             );
             break;
           } catch (error) {
-            await driver.sleep(1000);
+            await countrywebshop.sleep(1000);
           }
         }
 
