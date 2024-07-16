@@ -8,6 +8,7 @@ import mongoose from "mongoose";
 
 let handledform = 0;
 let arr = [];
+let inn=0;
 ///a form test 75, form test 450
 const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const timeout = 20000; 
@@ -62,6 +63,7 @@ async function handleA(
   // const ulElement = await nationality.findElement(By.tagName("ul"));
   // const htmlString = await ulElement.getAttribute("outerHTML");
   await saveToDatabase(drivers, cpuid);
+  inn++;
 }
 async function getdatafromLink(countrywebshop, cpuid, link) {
   try {
@@ -165,7 +167,6 @@ async function handleform(
   imgurl
 ) {
   await drivers.get(url);
-  console.log("url:",url)
   await drivers.wait(until.elementsLocated(By.css(".sr-resultList_NAJkZ")), timeout); 
   const parentElement = await drivers.findElement(
     By.css(".sr-resultList_NAJkZ")
@@ -209,6 +210,7 @@ async function handleform(
   await CPUVendorList.deleteMany({ cpuid: cpuid });
   await saveToDatabase(drivers, cpuid);
   handledform = current + 1;
+  inn++;
 }
 async function fetchCPU() {
   const chromeOptions = new chrome.Options();
@@ -222,10 +224,11 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages =7;
+  let pages =0;
   let count = 15;
   try {
     while (true) {  
+      inn=0;
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
@@ -257,6 +260,7 @@ async function fetchCPU() {
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
+      
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
         
@@ -354,9 +358,9 @@ async function fetchCPU() {
         } else {
           // Handle cases where neither <a> nor <form> tags are found
           console.log("Element does not contain <a> or <form> tags");
-        }
-       
+        }       
       }
+      console.log(url,inn)
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
     }
