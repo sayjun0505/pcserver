@@ -96,8 +96,7 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
         const detailinfo = await info.findElement(
           By.className("productOffers-listItemTitle")
         );
-        
-        
+
         const prcinfo = await info.findElement(
           By.className("productOffers-listItemOfferPrice")
         );
@@ -227,20 +226,19 @@ async function fetchCPU() {
   let count = 15;
   let arr = [];
   while (pages <= 52) {
-    
+    const detail_driver = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(chromeOptions)
+      .build();
+    const driver = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(chromeOptions)
+      .build();
     inn = 0;
     const url = `https://www.idealo.it/cat/3019I16-${
       count * pages
     }/processori-cpu.html`;
     try {
-      const detail_driver = await new Builder()
-        .forBrowser("chrome")
-        .setChromeOptions(chromeOptions)
-        .build();
-      const driver = await new Builder()
-        .forBrowser("chrome")
-        .setChromeOptions(chromeOptions)
-        .build();
       await driver.get(url);
       // await new Promise(resolve => setTimeout(resolve, 1000));
       let shadowHost = null;
@@ -397,8 +395,8 @@ async function fetchCPU() {
       }
     }
     pages++;
-    // await driver.quit();  
-    // await detail_driver.quit(); 
+    // await driver.quit();
+    // await detail_driver.quit();
   }
   const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
   const csvHeader = "url, counts\n";
@@ -406,7 +404,7 @@ async function fetchCPU() {
   const csvFilePath = "output.csv";
   fs.writeFileSync(csvFilePath, csvData);
   console.log("All data were just processed");
-  // await driver.quit();  
-  // await detail_driver.quit();  
+  // await driver.quit();
+  // await detail_driver.quit();
 }
 export { fetchCPU };
