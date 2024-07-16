@@ -164,7 +164,7 @@ async function handleform(
   id,
   imgurl
 ) {
-  console.log(nameVal);
+  // console.log(nameVal);
   await drivers.get(url);
   await drivers.wait(
     until.elementsLocated(By.css(".sr-resultList_NAJkZ")),
@@ -226,7 +226,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 57;
+  let pages = 56;
   let count = 15;
   let arr = [];
   try {
@@ -236,7 +236,7 @@ async function fetchCPU() {
         count * pages
       }/processori-cpu.html`;
       await driver.get(url);
-      let shadowHost = null;
+      let shadowHost = null;np
       const startTime = new Date().getTime();
       while (new Date().getTime() - startTime < timeout) {
         try {
