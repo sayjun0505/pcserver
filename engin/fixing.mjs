@@ -219,7 +219,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages =9;
+  let pages =22;
   let count = 15;
   try {
     while (true) {  
@@ -250,6 +250,7 @@ async function fetchCPU() {
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
       );
+      await driver.wait(until.elementsLocated(By.className("sr-resultList_NAJkZ")), timeout);  
       const priceElements = await parentElement.findElements(
         By.className("sr-resultList__item_m6xdA")
       );
