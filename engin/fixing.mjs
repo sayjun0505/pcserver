@@ -220,7 +220,7 @@ async function handleform(
   inn++;
 }
 async function fetchCPU() {
-  let pages = 43;
+  let pages = 44;
   let count = 15;
   let arr = [];
   while (pages <= 52) {
