@@ -10,7 +10,7 @@ let handledform = 0;
 let arr = [];
 ///a form test 75, form test 450
 const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
+const timeout = 20000; 
 async function handleA(
   drivers,
   url,
@@ -169,6 +169,7 @@ async function handleform(
   const parentElement = await drivers.findElement(
     By.css(".sr-resultList_NAJkZ")
   );
+  await drivers.wait(until.elementsLocated(By.className("sr-resultList_NAJkZ")), timeout); 
   const formElements = await parentElement.findElements(By.tagName("form"));
   const formElement = formElements[current];
   const button = await formElement.findElement(
@@ -227,8 +228,7 @@ async function fetchCPU() {
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
-      await driver.get(url);
-      const timeout = 20000; 
+      await driver.get(url);      
       let shadowHost = null; 
       const startTime = new Date().getTime();  
       while (new Date().getTime() - startTime < timeout) {  
