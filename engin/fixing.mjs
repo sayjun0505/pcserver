@@ -215,21 +215,21 @@ async function handleform(
   inn++;
 }
 async function fetchCPU() {
-  const chromeOptions = new chrome.Options();
-  chromeOptions.addArguments("--disable-gpu");
-  chromeOptions.addArguments("--disable-images");
-  const detail_driver = await new Builder()
-    .forBrowser("chrome")
-    .setChromeOptions(chromeOptions)
-    .build();
-  const driver = await new Builder()
-    .forBrowser("chrome")
-    .setChromeOptions(chromeOptions)
-    .build();
   let pages = 28;
   let count = 15;
   let arr = [];
   while (pages <= 52) {
+    const chromeOptions = new chrome.Options();
+    chromeOptions.addArguments("--disable-gpu");
+    chromeOptions.addArguments("--disable-images");
+    const detail_driver = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(chromeOptions)
+      .build();
+    const driver = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(chromeOptions)
+      .build();
     inn = 0;
     const url = `https://www.idealo.it/cat/3019I16-${
       count * pages
