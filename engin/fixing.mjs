@@ -221,7 +221,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages =0;
+  let pages =4;
   let count = 15;
   try {
     while (true) {  
@@ -366,7 +366,6 @@ async function fetchCPU() {
     if (driver) {
       await driver.quit();
       await detail_driver.quit();
-      // console.log(arr)
     }
   }
 }
