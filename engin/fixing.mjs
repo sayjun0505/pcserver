@@ -165,6 +165,7 @@ async function handleform(
   imgurl
 ) {
   await drivers.get(url);
+  console.log("url:",url)
   const parentElement = await drivers.findElement(
     By.css(".sr-resultList_NAJkZ")
   );
