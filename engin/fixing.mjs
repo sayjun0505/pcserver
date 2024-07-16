@@ -96,10 +96,8 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
         const detailinfo = await info.findElement(
           By.className("productOffers-listItemTitle")
         );
-        const detailHrefs =
-          "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
-        await countrywebshop.get(detailHrefs);
-        const detailHref = await countrywebshop.getCurrentUrl();
+        
+        
         const prcinfo = await info.findElement(
           By.className("productOffers-listItemOfferPrice")
         );
@@ -110,6 +108,10 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
         );
         const subimgurl = await vendorinfo.getAttribute("src");
 
+        const detailHref =
+          "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
+        // await countrywebshop.get(detailHrefs);
+        // const detailHref = await countrywebshop.getCurrentUrl();
         let item = {
           cpuid: cpuid,
           displayname: nameContent,
