@@ -226,7 +226,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 23;
+  let pages = 24;
   let count = 15;
   let arr = [];
   try {
@@ -236,7 +236,7 @@ async function fetchCPU() {
         count * pages
       }/processori-cpu.html`;
       await driver.get(url);
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      // await new Promise(resolve => setTimeout(resolve, 1000));
       let shadowHost = null;
       const startTime = new Date().getTime();
       while (new Date().getTime() - startTime < timeout) {
@@ -308,7 +308,8 @@ async function fetchCPU() {
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
-          await new Promise(resolve => setTimeout(resolve, 1000));
+          await detail_driver.executeScript("document.body.innerHTML = '';");  
+          // await new Promise(resolve => setTimeout(resolve, 1000));
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
             const spanElement = await element.findElement(
@@ -363,7 +364,7 @@ async function fetchCPU() {
               id,
               imgurl
             );
-            await new Promise(resolve => setTimeout(resolve, 1000));
+            await detail_driver.executeScript("document.body.innerHTML = '';");  
             formindex++;
           } else {
             formindex++;
@@ -373,7 +374,7 @@ async function fetchCPU() {
           // Handle cases where neither <a> nor <form> tags are found
           console.log("Element does not contain <a> or <form> tags");
         }
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        // await new Promise(resolve => setTimeout(resolve, 1000));
       }
       console.log(url, inn);
       arr.push({ url: url, inn: inn });
