@@ -145,7 +145,7 @@ async function saveToDatabase(drivers, cpuid, url) {
     } catch {}
 
     let match;
-    // await getdatafromLink(drivers, cpuid, url);
+    await getdatafromLink(drivers, cpuid, url);
     while ((match = hrefRegex.exec(outerHTML)) !== null) {
       await getdatafromLink(drivers, cpuid, match[1]);
     }
@@ -214,12 +214,12 @@ async function handleform(
     cpuid = createdProduct._id;
   }
   await CPUVendorList.deleteMany({ cpuid: cpuid });
-  await saveToDatabase(drivers, cpuid, url);
+  await saveToDatabase(drivers, cpuid, currentUrl);
   handledform = current + 1;
   inn++;
 }
 async function fetchCPU() {
-  let pages = 30;
+  let pages = 31;
   let count = 15;
   let arr = [];
   while (pages <= 52) {
