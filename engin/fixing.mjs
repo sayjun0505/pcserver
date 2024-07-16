@@ -384,13 +384,13 @@ async function fetchCPU() {
     } catch (error) {
       console.error("An error occurred in iteration", pages, ":", error);
     } finally {
-      if (driver) {
-        await driver.quit(); // Close the driver at the end of each iteration
-      }
+      // if (driver) {
+      //   await driver.quit(); // Close the driver at the end of each iteration
+      // }
 
-      if (detail_driver) {
-        await detail_driver.quit(); // Close the detail_driver at the end of each iteration
-      }
+      // if (detail_driver) {
+      //   await detail_driver.quit(); // Close the detail_driver at the end of each iteration
+      // }
     }
     pages++;
     delay(5000)
@@ -401,5 +401,7 @@ async function fetchCPU() {
   const csvFilePath = "output.csv";
   fs.writeFileSync(csvFilePath, csvData);
   console.log("All data were just processed");
+  await driver.quit();  
+  await detail_driver.quit();  
 }
 export { fetchCPU };
