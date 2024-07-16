@@ -226,11 +226,11 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 40;
+  let pages = 58;
   let count = 15;
   let arr = [];
   try {
-    while (true) {
+    // while (true) {
       inn = 0;
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
@@ -273,6 +273,7 @@ async function fetchCPU() {
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
         const formElements = await element.findElements(By.tagName("form"));
+        // console.log("aaaaa")
         if (linkElements.length > 0) {
           const linkElement = linkElements[0];
           href = await linkElement.getAttribute("href");
@@ -372,9 +373,9 @@ async function fetchCPU() {
       }
       console.log(url, inn);
       arr.push({ url: url, inn: inn });
-      if (priceElements.length < 36) break; // Exit while loop if no price elements found
-      pages++;
-    }
+    //   if (priceElements.length < 36) break; // Exit while loop if no price elements found
+    //   pages++;
+    // }
     const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
     const csvHeader = "url, counts\n";
     const csvData = csvHeader + csvRows;
