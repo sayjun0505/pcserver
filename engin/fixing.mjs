@@ -214,7 +214,7 @@ async function handleform(
     cpuid = createdProduct._id;
   }
   await CPUVendorList.deleteMany({ cpuid: cpuid });
-  await saveToDatabase(drivers, cpuid,url);
+  await saveToDatabase(drivers, cpuid, url);
   handledform = current + 1;
   inn++;
 }
@@ -385,7 +385,10 @@ async function fetchCPU() {
     } finally {
       if (driver) {
         await driver.quit(); // Close the driver at the end of each iteration
-        await detail_driver.quit();
+      }
+
+      if (detail_driver) {
+        await detail_driver.quit(); // Close the detail_driver at the end of each iteration
       }
     }
     pages++;
