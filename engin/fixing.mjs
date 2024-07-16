@@ -127,7 +127,7 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
       }
     }
   } catch (err) {
-    console.error("Error accessing the webpage:", err);
+    // console.error("Error accessing the webpage:", err);
   } finally {
     // await countrywebshop.quit();
   }
@@ -220,7 +220,7 @@ async function handleform(
   inn++;
 }
 async function fetchCPU() {
-  let pages = 33;
+  let pages = 32;
   let count = 15;
   let arr = [];
   while (pages <= 52) {
