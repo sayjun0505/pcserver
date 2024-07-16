@@ -145,7 +145,7 @@ async function saveToDatabase(drivers, cpuid, url) {
     } catch {}
 
     let match;
-    console.log("url:",url)
+    // console.log("url:",url)
     await getdatafromLink(drivers, cpuid, url);
     while ((match = hrefRegex.exec(outerHTML)) !== null) {
       await getdatafromLink(drivers, cpuid, match[1]);
