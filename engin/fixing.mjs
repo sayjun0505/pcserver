@@ -5,6 +5,11 @@ import CPUList from "../model/cpulist.js";
 import CPUVendorList from "../model/cpuvendorlist.js";
 import CPUNat from "../model/cpunat.js";
 import mongoose from "mongoose";
+import fs from 'fs';  
+
+
+
+
 
 let handledform = 0;
 let arr = [];
@@ -226,6 +231,7 @@ async function fetchCPU() {
     .build();
   let pages =0;
   let count = 15;
+  let arr=[];
   try {
     while (true) {  
       inn=0;
@@ -361,9 +367,15 @@ async function fetchCPU() {
         }       
       }
       console.log(url,inn)
+      arr.push({url:url,inn:inn});
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
     }
+    const csvRows = arr.map(row => `${row.url}, ${row.inn}\n`).join(''); 
+    const csvHeader = 'url, counts\n';
+    const csvData = csvHeader + csvRows; 
+    const csvFilePath = 'output.csv';  
+    fs.writeFileSync(csvFilePath, csvData); 
     console.log("All data were just processed");
   } catch (err) {
     console.error("An error occurred:", err);
