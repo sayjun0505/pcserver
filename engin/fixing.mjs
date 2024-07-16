@@ -219,7 +219,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages =25;
+  let pages =9;
   let count = 15;
   try {
     while (true) {  
