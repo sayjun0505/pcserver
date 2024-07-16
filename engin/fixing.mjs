@@ -226,16 +226,17 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 22;
+  let pages = 23;
   let count = 15;
   let arr = [];
   try {
-    // while (pages<=52) {
+    while (pages<=52) {
       inn = 0;
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
       await driver.get(url);
+      await new Promise(resolve => setTimeout(resolve, 1000));
       let shadowHost = null;
       const startTime = new Date().getTime();
       while (new Date().getTime() - startTime < timeout) {
@@ -307,6 +308,7 @@ async function fetchCPU() {
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
+          await new Promise(resolve => setTimeout(resolve, 1000));
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
             const spanElement = await element.findElement(
@@ -361,6 +363,7 @@ async function fetchCPU() {
               id,
               imgurl
             );
+            await new Promise(resolve => setTimeout(resolve, 1000));
             formindex++;
           } else {
             formindex++;
@@ -374,9 +377,9 @@ async function fetchCPU() {
       }
       console.log(url, inn);
       arr.push({ url: url, inn: inn });
-    //   if (priceElements.length < 36) break; // Exit while loop if no price elements found
-    //   pages++;
-    // }
+      if (priceElements.length < 36) break; // Exit while loop if no price elements found
+      pages++;
+    }
     const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
     const csvHeader = "url, counts\n";
     const csvData = csvHeader + csvRows;
