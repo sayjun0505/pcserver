@@ -226,7 +226,7 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 24;
+  let pages = 25;
   let count = 15;
   let arr = [];
   try {
@@ -308,7 +308,7 @@ async function fetchCPU() {
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
-          await detail_driver.executeScript("document.body.innerHTML = '';");  
+          // await detail_driver.executeScript("document.body.innerHTML = '';");  
           // await new Promise(resolve => setTimeout(resolve, 1000));
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
@@ -364,7 +364,7 @@ async function fetchCPU() {
               id,
               imgurl
             );
-            await detail_driver.executeScript("document.body.innerHTML = '';");  
+            // await detail_driver.executeScript("document.body.innerHTML = '';");  
             formindex++;
           } else {
             formindex++;
@@ -380,6 +380,7 @@ async function fetchCPU() {
       arr.push({ url: url, inn: inn });
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
+      delay(2000);
     }
     const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
     const csvHeader = "url, counts\n";
