@@ -223,23 +223,24 @@ async function handleform(
   inn++;
 }
 async function fetchCPU() {
-  let pages = 49;
+  let pages = 50;
   let count = 15;
   let arr = [];
   while (pages <= 52) {
-    const detail_driver = await new Builder()
-      .forBrowser("chrome")
-      .setChromeOptions(chromeOptions)
-      .build();
-    const driver = await new Builder()
-      .forBrowser("chrome")
-      .setChromeOptions(chromeOptions)
-      .build();
+    
     inn = 0;
     const url = `https://www.idealo.it/cat/3019I16-${
       count * pages
     }/processori-cpu.html`;
     try {
+      const detail_driver = await new Builder()
+        .forBrowser("chrome")
+        .setChromeOptions(chromeOptions)
+        .build();
+      const driver = await new Builder()
+        .forBrowser("chrome")
+        .setChromeOptions(chromeOptions)
+        .build();
       await driver.get(url);
       // await new Promise(resolve => setTimeout(resolve, 1000));
       let shadowHost = null;
@@ -387,18 +388,17 @@ async function fetchCPU() {
     } catch (error) {
       console.error("An error occurred in iteration", pages, ":", error);
     } finally {
-      // if (driver) {
-      //   await driver.quit(); // Close the driver at the end of each iteration
-      // }
+      if (driver) {
+        await driver.quit(); // Close the driver at the end of each iteration
+      }
 
-      // if (detail_driver) {
-      //   await detail_driver.quit(); // Close the detail_driver at the end of each iteration
-      // }
+      if (detail_driver) {
+        await detail_driver.quit(); // Close the detail_driver at the end of each iteration
+      }
     }
     pages++;
-    await driver.quit();  
-    await detail_driver.quit();  
-    delay(5000)
+    // await driver.quit();  
+    // await detail_driver.quit(); 
   }
   const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
   const csvHeader = "url, counts\n";
