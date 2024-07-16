@@ -5,18 +5,14 @@ import CPUList from "../model/cpulist.js";
 import CPUVendorList from "../model/cpuvendorlist.js";
 import CPUNat from "../model/cpunat.js";
 import mongoose from "mongoose";
-import fs from 'fs';  
-
-
-
-
+import fs from "fs";
 
 let handledform = 0;
 let arr = [];
-let inn=0;
+let inn = 0;
 ///a form test 75, form test 450
 const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const timeout = 20000; 
+const timeout = 20000;
 async function handleA(
   drivers,
   url,
@@ -138,15 +134,12 @@ async function saveToDatabase(drivers, cpuid) {
     await mongoose.connect(dbConfig.db);
     await new Promise((resolve) => setTimeout(resolve, 1000));
     const hrefRegex = /href="([^"]*)"/g;
-    let outerHTML="";
-    try{
-      const nationality = await drivers.findElement(By.id("i18nPrices"));  
-      const ulElement = await nationality.findElement(By.tagName("ul"));  
-      outerHTML = await ulElement.getAttribute("outerHTML");  
-    }catch{
-
-    }
-    
+    let outerHTML = "";
+    try {
+      const nationality = await drivers.findElement(By.id("i18nPrices"));
+      const ulElement = await nationality.findElement(By.tagName("ul"));
+      outerHTML = await ulElement.getAttribute("outerHTML");
+    } catch {}
 
     let match;
     while ((match = hrefRegex.exec(outerHTML)) !== null) {
@@ -171,12 +164,16 @@ async function handleform(
   id,
   imgurl
 ) {
+  console.log(nameVal);
   await drivers.get(url);
-  await drivers.wait(until.elementsLocated(By.css(".sr-resultList_NAJkZ")), timeout); 
+  await drivers.wait(
+    until.elementsLocated(By.css(".sr-resultList_NAJkZ")),
+    timeout
+  );
   const parentElement = await drivers.findElement(
     By.css(".sr-resultList_NAJkZ")
   );
-  await drivers.wait(until.elementsLocated(By.tagName("form")), timeout); 
+  await drivers.wait(until.elementsLocated(By.tagName("form")), timeout);
   const formElements = await parentElement.findElements(By.tagName("form"));
   const formElement = formElements[current];
   const button = await formElement.findElement(
@@ -222,54 +219,57 @@ async function fetchCPU() {
   chromeOptions.addArguments("--disable-gpu");
   chromeOptions.addArguments("--disable-images");
   const detail_driver = await new Builder()
-          .forBrowser("chrome")
-          .setChromeOptions(chromeOptions)
-          .build();
+    .forBrowser("chrome")
+    .setChromeOptions(chromeOptions)
+    .build();
   const driver = await new Builder()
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages =0;
+  let pages = 4;
   let count = 15;
-  let arr=[];
+  let arr = [];
   try {
-    while (true) {  
-      inn=0;
+    while (true) {
+      inn = 0;
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
       }/processori-cpu.html`;
-      await driver.get(url);      
-      let shadowHost = null; 
-      const startTime = new Date().getTime();  
-      while (new Date().getTime() - startTime < timeout) {  
-          try {  
-              shadowHost = await driver.findElement(By.id('usercentrics-cmp-ui'));  
-              await driver.executeScript(
-                `
+      await driver.get(url);
+      let shadowHost = null;
+      const startTime = new Date().getTime();
+      while (new Date().getTime() - startTime < timeout) {
+        try {
+          shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
+          await driver.executeScript(
+            `
                 const shadowRoot = arguments[0].shadowRoot; 
                 const acceptButton = shadowRoot.querySelector('button#accept');
                 acceptButton.click();
             `,
-                shadowHost
-              );
-              break; 
-          } catch (error) {  
-              await driver.sleep(1000); 
-          }  
-      }  
-
+            shadowHost
+          );
+          break;
+        } catch (error) {
+          await driver.sleep(1000);
+        }
+      }
+      await driver.wait(
+        until.elementsLocated(By.className("sr-resultList_NAJkZ")),
+        timeout
+      );
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
       );
-      await driver.wait(until.elementsLocated(By.className("sr-resultList_NAJkZ")), timeout);  
+
       const priceElements = await parentElement.findElements(
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
-      
+
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
-        
+
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
         const formElements = await element.findElements(By.tagName("form"));
@@ -311,7 +311,7 @@ async function fetchCPU() {
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
             );
-            
+
             const dataAttr = await spanElement.getAttribute(
               "data-wishlist-heart"
             );
@@ -335,10 +335,14 @@ async function fetchCPU() {
               );
               nameVal = await nameElements.getText();
             }
-            let divElement = await element.findElement(By.css('div.sr-productSummary__title_f5flP[data-testid="productSummary__title"]'));  
+            let divElement = await element.findElement(
+              By.css(
+                'div.sr-productSummary__title_f5flP[data-testid="productSummary__title"]'
+              )
+            );
 
-            // Extract the text from the div tag  
-            let nametext = await divElement.getText();  
+            // Extract the text from the div tag
+            let nametext = await divElement.getText();
             const prc = a[a.length - 1].match(regex);
             const val = prc ? prc[0] : "Price not found";
             const imgElements = await parentElement.findElement(
@@ -364,18 +368,18 @@ async function fetchCPU() {
         } else {
           // Handle cases where neither <a> nor <form> tags are found
           console.log("Element does not contain <a> or <form> tags");
-        }       
+        }
       }
-      console.log(url,inn)
-      arr.push({url:url,inn:inn});
+      console.log(url, inn);
+      arr.push({ url: url, inn: inn });
       if (priceElements.length < 36) break; // Exit while loop if no price elements found
       pages++;
     }
-    const csvRows = arr.map(row => `${row.url}, ${row.inn}\n`).join(''); 
-    const csvHeader = 'url, counts\n';
-    const csvData = csvHeader + csvRows; 
-    const csvFilePath = 'output.csv';  
-    fs.writeFileSync(csvFilePath, csvData); 
+    const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
+    const csvHeader = "url, counts\n";
+    const csvData = csvHeader + csvRows;
+    const csvFilePath = "output.csv";
+    fs.writeFileSync(csvFilePath, csvData);
     console.log("All data were just processed");
   } catch (err) {
     console.error("An error occurred:", err);
