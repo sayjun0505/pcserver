@@ -393,6 +393,7 @@ async function fetchCPU() {
       }
     }
     pages++;
+    delay(5000)
   }
   const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
   const csvHeader = "url, counts\n";
