@@ -226,11 +226,11 @@ async function fetchCPU() {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  let pages = 55;
+  let pages = 53;
   let count = 15;
   let arr = [];
   try {
-    // while (true) {
+    while (pages<=55) {
       inn = 0;
       const url = `https://www.idealo.it/cat/3019I16-${
         count * pages
@@ -370,12 +370,13 @@ async function fetchCPU() {
           // Handle cases where neither <a> nor <form> tags are found
           console.log("Element does not contain <a> or <form> tags");
         }
+        await new Promise(resolve => setTimeout(resolve, 1000));
       }
       console.log(url, inn);
       arr.push({ url: url, inn: inn });
-    //   if (priceElements.length < 36) break; // Exit while loop if no price elements found
-    //   pages++;
-    // }
+      if (priceElements.length < 36) break; // Exit while loop if no price elements found
+      pages++;
+    }
     const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
     const csvHeader = "url, counts\n";
     const csvData = csvHeader + csvRows;
