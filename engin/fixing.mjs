@@ -216,12 +216,6 @@ async function fetchCPU() {
   const chromeOptions = new chrome.Options();
   chromeOptions.addArguments("--disable-gpu");
   chromeOptions.addArguments("--disable-images");
-  let loggingPrefs = new Map();  
-  loggingPrefs.set('driver', 'OFF');  
-  loggingPrefs.set('browser', 'OFF');  
-  loggingPrefs.set('performance', 'OFF');  
-  chromeOptions.setLoggingPrefs(loggingPrefs); 
-  
   const detail_driver = await new Builder()
           .forBrowser("chrome")
           .setChromeOptions(chromeOptions)
