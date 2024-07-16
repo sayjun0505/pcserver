@@ -63,7 +63,7 @@ async function handleA(
   // const nationality = await drivers.findElement(By.id("i18nPrices"));
   // const ulElement = await nationality.findElement(By.tagName("ul"));
   // const htmlString = await ulElement.getAttribute("outerHTML");
-  await saveToDatabase(drivers, cpuid);
+  await saveToDatabase(drivers, cpuid,url);
   inn++;
 }
 async function getdatafromLink(countrywebshop, cpuid, link) {
@@ -129,7 +129,7 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
     // await countrywebshop.quit();
   }
 }
-async function saveToDatabase(drivers, cpuid) {
+async function saveToDatabase(drivers, cpuid,url) {
   try {
     await mongoose.connect(dbConfig.db);
     await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -142,6 +142,7 @@ async function saveToDatabase(drivers, cpuid) {
     } catch {}
 
     let match;
+    await getdatafromLink(drivers, cpuid, url);
     while ((match = hrefRegex.exec(outerHTML)) !== null) {
       await getdatafromLink(drivers, cpuid, match[1]);
     }
