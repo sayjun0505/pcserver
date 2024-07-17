@@ -13,22 +13,20 @@ const operRouter = express.Router();
 
 operRouter.get("/api/alldata", async (req, res) => {
   try {
-    const filterstring=req.query.filter;
-    if(filterstring){
+    const filterstring = req.query.filter;
+    let allData;
+  
+    if (filterstring) {
       const regex = new RegExp(filterstring, "i");
-      const allData = await CPUList.find({ name: { $regex: regex } });
-      const returndata=allData.limit(36);
-      const count=allData.countDocuments({});
-      const ret = { data: returndata,count:count };
+      allData = await CPUList.find({ name: { $regex: regex } }).limit(36);
+    } else {
+      allData = await CPUList.find({}).limit(36);
     }
-    else{
-      const allData = await CPUList.find({})
-      const returndata=allData.limit(36);
-      const count=allData.countDocuments({});
-      const ret = { data: returndata,count:count };
-    }
+
+    const count = await CPUList.countDocuments({});
+    const ret = { data: allData, count: count };
     
-    res.json({ret});
+    res.json(ret);
   } catch (error) {
     console.error("Error fetching all data from MongoDB:", error);
     res.status(500).send("Internal Server Error");
