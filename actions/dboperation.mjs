@@ -14,7 +14,7 @@ const operRouter = express.Router();
 operRouter.get("/api/alldata", async (req, res) => {
   try {
     const filterstring=req.query.filter;
-    if(filter){
+    if(filterstring){
       const regex = new RegExp(filterstring, "i");
       const allData = await CPUList.find({ name: { $regex: regex } });
       const returndata=allData.limit(36);
