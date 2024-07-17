@@ -13,10 +13,21 @@ const operRouter = express.Router();
 
 operRouter.get("/api/alldata", async (req, res) => {
   try {
-    const allData = await CPUList.find({})
-    const returndata=allData.limit(36);
-    const count=allData.countDocuments({});
-    const ret = { data: returndata,count:count };
+    const filterstring=req.query.filter;
+    if(filter){
+      const regex = new RegExp(filterstring, "i");
+      const allData = await CPUList.find({ name: { $regex: regex } });
+      const returndata=allData.limit(36);
+      const count=allData.countDocuments({});
+      const ret = { data: returndata,count:count };
+    }
+    else{
+      const allData = await CPUList.find({})
+      const returndata=allData.limit(36);
+      const count=allData.countDocuments({});
+      const ret = { data: returndata,count:count };
+    }
+    
     res.json({ret});
   } catch (error) {
     console.error("Error fetching all data from MongoDB:", error);
