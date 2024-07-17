@@ -173,6 +173,17 @@ const getlink=(str)=>{
   if(str.toLowerCase().includes("trippodo"))return  "https://www.trippodo.com/it/573-processori";
   if(str.toLowerCase().includes("esus"))return  "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
   if(str.toLowerCase().includes("yeppon"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  if(str.toLowerCase().includes("eweki"))return  "https://www.eweki.it/informatica/componenti-assemblaggio/processori-cpu.html";
+  if(str.toLowerCase().includes("ollo"))return  "https://www.ollo.it/processori/c_334";
+  if(str.toLowerCase().includes("siimsrl"))return  "https://www.siimsrl.it/cpu.1.7.252.sp.uw?fd=1";
+  if(str.toLowerCase().includes("goldenprice"))return  "https://www.goldenprice.it/informatica/componenti-assemblaggio/cpu";
+  if(str.toLowerCase().includes("xfilesaversa"))return  "https://www.xfilesaversa.it/it/informatica/componentistica/processori/";
+  if(str.toLowerCase().includes("geopc"))return  "https://geopc.it/componenti-hardware-informatica/cpu-processori-intel-amd";
+  if(str.toLowerCase().includes("ldc"))return  "https://www.ldc.it/141-processori-e-cpu";
+  // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
   return  "https://www.bpm-power.com/it/online/componenti-pc/processori";
 
 }
