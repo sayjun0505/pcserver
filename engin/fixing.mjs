@@ -244,10 +244,10 @@ async function handleform(
   inn++;
 }
 async function fetchCPU() {
-  let pages = 18;
+  let pages = 19;
   let count = 15;
   let arr = [];
-  while (pages <= 18) {
+  while (pages <= 19) {
     const detail_driver = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
