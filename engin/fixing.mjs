@@ -158,10 +158,10 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
     // await countrywebshop.quit();
   }
 }
-const getlink=(str)=>{
-  if(str.includes("Amazon"))return "https://www.amazon.it/b/?ie=UTF8&node=460126031&pf_rd_p=e0a2c917-a1dd-4f87-a63e-d37c11434f01&pf_rd_r=E55XPXKWCPJYSV7QF279&pf_rd_s=pc-subnav-flyout-content-6&pf_rd_t=SubnavFlyout&ref_=sn_gfs_co_pc_460126031_3";
-  if(str.)
-}
+// const getlink=(str)=>{
+//   if(str.includes("Amazon"))return "https://www.amazon.it/b/?ie=UTF8&node=460126031&pf_rd_p=e0a2c917-a1dd-4f87-a63e-d37c11434f01&pf_rd_r=E55XPXKWCPJYSV7QF279&pf_rd_s=pc-subnav-flyout-content-6&pf_rd_t=SubnavFlyout&ref_=sn_gfs_co_pc_460126031_3";
+//   if(str.)
+// }
 async function saveToDatabase(drivers, cpuid, url) {
   try {
     await mongoose.connect(dbConfig.db);
