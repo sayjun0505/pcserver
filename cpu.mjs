@@ -15,10 +15,10 @@ mongoose
       await fetchCPU();
       busy = false;
     };
-    fetchDataFromWebshop();
-    // setInterval(() => {
-    //   if (!busy) fetchDataFromWebshop();
-    // }, interval);
+    // fetchDataFromWebshop();
+    setInterval(() => {
+      if (!busy) fetchDataFromWebshop();
+    }, interval);
   })
   .catch((error) => {
     console.log("Could not connect to database: " + error);
