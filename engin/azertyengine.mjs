@@ -8,22 +8,19 @@ import { dbConfig } from "../db/pcbuilderdb.mjs";
 let arr = [];
 const insertDB = async (formattedDateTime) => {
   try {
-    await mongoose.connect(dbConfig.db);    
-    // Iterate over each product in the arr and insert into the database
+    await mongoose.connect(dbConfig.db);  
     for (const product of arr) {
       let existingProduct = await CPUInfo.findOne({ MPN: product.MPN });
 
       if (existingProduct) {        
         let s="";
         if(existingProduct.MPN=="100-100000910WOF")s=existingProduct._id;
-        // If product name exists in CPUInfo collection, get id and insert into CPUVendor with vendorname as "a"
         const cpuid = existingProduct._id;
         let existcpuinfo = await CPUVendor.findOne({
           cpuid: cpuid,
           vendorname: "azerty"
         });
         if (existcpuinfo) {
-          //update price
           await CPUVendor.updateOne(
             { cpuid: cpuid },
             { price: product.price, date: formattedDateTime,prev: existcpuinfo.price }
@@ -39,7 +36,6 @@ const insertDB = async (formattedDateTime) => {
           });
         }
       } else {
-        // If product name doesn't exist in CPUInfo collection, insert name and get new id, then insert into CPUVendor with vendorname as "a"
         const newProduct = await CPUInfo.create({
           name: product.name,
           MPN: product.MPN,
@@ -65,7 +61,6 @@ const insertDB = async (formattedDateTime) => {
   } catch (error) {
     console.error(error);
   } finally {
-    // mongoose.connection.close();
   }
 };
 const parseProductDetails = async (url) => {
@@ -73,7 +68,6 @@ const parseProductDetails = async (url) => {
   const html = response.data;
   const $ = cheerio.load(html);
   const liCount = $(".products ul li").length;
-
   $(".products ul li").each(async (index, element) => {
     const nameVal = $(element).find(".product-item-link").text().trim();
     const descVal = $(element).find(".product-item-description").text().trim();

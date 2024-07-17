@@ -3,12 +3,10 @@ import { dbConfig } from "../db/pcbuilderdb.mjs";
 import CPUVendor from "../model/cpuvendor.js";
 import CPUInfo from "../model/cpuinfo.js";
 import mongoose from "mongoose";
-
 const pagecount = 28;
 let total = 0;
 const url_base = "https://www.bpm-power.com/api/v2/getProductsByDepartment";
 let arr = [];
-
 const insertDB = async (arr, formattedDateTime) => {
   try {
     await mongoose.connect(dbConfig.db);
@@ -60,14 +58,12 @@ const insertDB = async (arr, formattedDateTime) => {
         });
       }
     }
-    //send socket broadcast
     console.log(
       `${arr.length} products inserted into the cpuvendor collection`
     );
   } catch (error) {
     console.error(error);
   } finally {
-    // mongoose.connection.close();
   }
 };
 const fetchData = async (url, timeout = 10000) => {
