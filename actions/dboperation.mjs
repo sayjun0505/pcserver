@@ -14,16 +14,17 @@ const operRouter = express.Router();
 operRouter.get("/api/alldata", async (req, res) => {
   try {
     const filterstring = req.query.filter;
-    let allData;
+    let allData,count;
   
     if (filterstring) {
       const regex = new RegExp(filterstring, "i");
       allData = await CPUList.find({ name: { $regex: regex } }).limit(36);
+      count = await CPUList.find({ name: { $regex: regex } }).countDocuments({});
     } else {
       allData = await CPUList.find({}).limit(36);
+      count = await CPUList.countDocuments({});
     }
 
-    const count = await CPUList.countDocuments({});
     const ret = { data: allData, count: count };
     
     res.json(ret);
