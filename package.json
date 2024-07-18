@@ -7,8 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:server": "node --experimental-modules server.mjs",
     "start:cpu": "node --experimental-modules cpu.mjs",
+    "start:cpu1": "node --experimental-modules cpu1.mjs",
+    "start:cpu2": "node --experimental-modules cpu2.mjs",
+    "start:cpu3": "node --experimental-modules cpu3.mjs",
+    "start:cpu4": "node --experimental-modules cpu4.mjs",
+    "start:cpu5": "node --experimental-modules cpu5.mjs",
     "start:mboard": "node --experimental-modules mboard.mjs",
-    "start": "concurrently \"npm run start:server\" \"npm run start:cpu\" "
+    "start": "concurrently \"npm run start:server\" \"npm run start:cpu\" ",
+    "startcpus": "concurrently \"npm run start:cpu1\" \"npm run start:cpu2\" \"npm run start:cpu3\" \"npm run start:cpu4\" \"npm run start:cpu5\" "
   },
   "keywords": [],
   "author": "",
