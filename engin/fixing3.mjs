@@ -319,7 +319,7 @@ async function handleform(
   inn++;
 }
 async function fetchCPU3() {
-  let pages = 23;
+  let pages = 28;
   let count = 15;
   let arr = [];
   const detail_driver = await new Builder()
