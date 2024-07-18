@@ -182,7 +182,7 @@ const getlink=(str)=>{
   if(str.toLowerCase().includes("ldc"))return  "https://www.ldc.it/141-processori-e-cpu";
   if(str.toLowerCase().includes("cyberport"))return  "https://www.cyberport.at/pc-und-zubehoer/komponenten/prozessoren-cpu.html";
   if(str.toLowerCase().includes("proshop"))return  "https://www.proshop.at/CPU";
-  // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  if(str.toLowerCase().includes("redcomputer"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
   // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
   return  "https://www.bpm-power.com/it/online/componenti-pc/processori";
 
