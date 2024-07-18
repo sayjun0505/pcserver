@@ -286,7 +286,7 @@ async function handleform(
   handledform = current + 1;
   inn++;
 }
-async function fetchCPU() {
+async function fetchCPU2() {
   let pages = 2;
   let count = 15;
   let arr = [];
