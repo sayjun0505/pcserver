@@ -287,7 +287,7 @@ async function handleform(
   inn++;
 }
 async function fetchCPU() {
-  let pages = 35;
+  let pages = 0;
   let count = 15;
   let arr = [];
   while (true) {
@@ -460,8 +460,6 @@ async function fetchCPU() {
       }
     }
     pages++;
-    // await driver.quit();
-    // await detail_driver.quit();
   }
   const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
   const csvHeader = "url, counts\n";
@@ -469,7 +467,5 @@ async function fetchCPU() {
   const csvFilePath = "output.csv";
   fs.writeFileSync(csvFilePath, csvData);
   console.log("All data were just processed");
-  // await driver.quit();
-  // await detail_driver.quit();
 }
 export { fetchCPU };
