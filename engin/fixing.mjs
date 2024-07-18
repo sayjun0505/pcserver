@@ -183,7 +183,19 @@ const getlink=(str)=>{
   if(str.toLowerCase().includes("cyberport"))return  "https://www.cyberport.at/pc-und-zubehoer/komponenten/prozessoren-cpu.html";
   if(str.toLowerCase().includes("proshop"))return  "https://www.proshop.at/CPU";
   if(str.toLowerCase().includes("redcomputer"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
-  // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  if(str.toLowerCase().includes("notebooksbilliger"))return  "https://www.notebooksbilliger.de/pc+hardware/prozessoren+pc+hardware";
+  if(str.toLowerCase().includes("nullprozentshop"))return  "https://www.nullprozentshop.de/pc-hardware/amd/";
+  if(str.toLowerCase().includes("galaxus"))return  "https://www.galaxus.de/en/s1/producttype/processors-83";
+  if(str.toLowerCase().includes("speedler"))return  "https://www.speedler.es/componentes-hardware/componentes/procesadores";
+  if(str.toLowerCase().includes("senetic"))return  "https://www.senetic.es/product/100-100000063WOF";
+  if(str.toLowerCase().includes("alternate"))return  "https://www.alternate.fr/Processeurs";
+  if(str.toLowerCase().includes("reichelt"))return  "https://www.reichelt.com/fr/fr/processeurs-c6107.html?&nbc=1&SID=9375cc2b333b790349f63327bbddd5fe211712ca59a3416137c7a";
+  if(str.toLowerCase().includes("onbuy"))return  "https://www.onbuy.com/gb/computer-processors~c8568/";
+  if(str.toLowerCase().includes("computeruniverse"))return  "https://www.computeruniverse.net/de/c/hardware-komponenten/kuhlung-cooling";
+  // if(str.toLowerCase().includes("notebooksbilliger"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  // if(str.toLowerCase().includes("notebooksbilliger"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  // if(str.toLowerCase().includes("notebooksbilliger"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  // if(str.toLowerCase().includes("notebooksbilliger"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
   return  "https://www.bpm-power.com/it/online/componenti-pc/processori";
 
 }
@@ -275,7 +287,7 @@ async function handleform(
   inn++;
 }
 async function fetchCPU() {
-  let pages = 11;
+  let pages = 15;
   let count = 15;
   let arr = [];
   while (true) {
