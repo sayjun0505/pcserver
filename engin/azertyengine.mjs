@@ -81,8 +81,9 @@ const parseProductDetails = async (url) => {
     const innerHtml = response.data;
     const $inner = cheerio.load(innerHtml);
     let MPN = "";
+    let EAN = "";
     let processfamily = "";
-    let prcmodel = "";
+    let prcmodel = "";//px-2.5 py-2 md:pl-5 wrap-anywhere
     let freq = "";
     let sockets = "";
     let cores = "";
@@ -95,6 +96,13 @@ const parseProductDetails = async (url) => {
           const fabrikantcodeValue = tdText.trim();
           MPN = fabrikantcodeValue;
         }
+        ///EAN
+        // if (thText.includes("EAN")) {
+        //   const fabrikantcodeValue = tdText.trim();
+        //   EAN = fabrikantcodeValue;
+        // }
+
+
         if (thText.includes("Processorfamilie")) {
           const processfamilys = tdText.trim();
           processfamily = processfamilys;
@@ -131,6 +139,7 @@ const parseProductDetails = async (url) => {
         priceVal.trim().replace("€", "")
       ),
       MPN: MPN,
+      // EAN:EAN,
       freq: freq,
       sockets: sockets,
       cores: cores,

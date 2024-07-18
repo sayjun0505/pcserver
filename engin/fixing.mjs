@@ -107,8 +107,8 @@ async function getdatafromLink(countrywebshop, cpuid, link) {
         );
         const subimgurl = await vendorinfo.getAttribute("src");
         const alt=await vendorinfo.getAttribute("alt");
-        let shadowHost = null;
 
+        // let shadowHost = null;
         // const startTime = new Date().getTime();
         // while (new Date().getTime() - startTime < timeout) {
         //   try {
@@ -180,8 +180,8 @@ const getlink=(str)=>{
   if(str.toLowerCase().includes("xfilesaversa"))return  "https://www.xfilesaversa.it/it/informatica/componentistica/processori/";
   if(str.toLowerCase().includes("geopc"))return  "https://geopc.it/componenti-hardware-informatica/cpu-processori-intel-amd";
   if(str.toLowerCase().includes("ldc"))return  "https://www.ldc.it/141-processori-e-cpu";
-  // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
-  // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  if(str.toLowerCase().includes("cyberport"))return  "https://www.cyberport.at/pc-und-zubehoer/komponenten/prozessoren-cpu.html";
+  if(str.toLowerCase().includes("proshop"))return  "https://www.proshop.at/CPU";
   // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
   // if(str.toLowerCase().includes("redgaming"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
   return  "https://www.bpm-power.com/it/online/componenti-pc/processori";

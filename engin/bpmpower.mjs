@@ -42,6 +42,7 @@ const insertDB = async (arr, formattedDateTime) => {
         const newProduct = await CPUInfo.create({
           name: product.name,
           MPN: product.MPN,
+          // EAN: product.EAN,//from json object
           CoreCount: product.cores,
           CoreClock: product.freq,
           CoreFamily: product.processfamily,
