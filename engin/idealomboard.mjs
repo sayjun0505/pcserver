@@ -370,7 +370,7 @@ async function handleform(
 
 async function fetchMboard() {
   let arr = [];
-  let pages = 21;
+  let pages = 18;
   let count = 15;
   // while (true) {
     const detail_driver = await new Builder()
@@ -530,7 +530,7 @@ async function fetchMboard() {
   const csvHeader = "url, counts\n";
   const csvData = csvHeader + csvRows;
   const csvFilePath = "outputmboard.csv";
-  fs.writeFileSync(csvFilePath, csvData);
+  // fs.writeFileSync(csvFilePath, csvData);
   console.log("All data were just processed");
 }
 export { fetchMboard };
