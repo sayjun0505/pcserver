@@ -370,7 +370,7 @@ async function handleform(
 
 async function fetchMboard() {
   let arr = [];
-  let pages = 18;
+  let pages = 16;
   let count = 15;
   // while (true) {
     const detail_driver = await new Builder()
