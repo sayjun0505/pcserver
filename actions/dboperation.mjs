@@ -5,7 +5,7 @@ import CPUInfo from "../model/cpuinfo.js";
 import CPUVendorList from "../model/cpuvendorlist.js";
 import CPUNat from "../model/cpunat.js";
 import CPUList from "../model/cpulist.js";
-import MboardvendorList from "../model/mboardvendorlist.js";
+import MboardVendorList from "../model/mboardvendorlist.js";
 import MboardNat from "../model/mboardnat.js";
 import MboardList from "../model/mboardlist.js";
 import mongoose from "mongoose";
@@ -59,8 +59,21 @@ operRouter.get("/api/spec", async (req, res) => {
 
 operRouter.get("/api/allmdata", async (req, res) => {
   try {
-    const allData = await MboardList.find({});
-    const ret = { data: allData };
+    const filterstring = req.query.filter;
+    let allData,count;
+  
+    if (filterstring) {
+      const regex = new RegExp(filterstring, "i");
+      allData = await MboardList.find({ name: { $regex: regex } }).limit(36);
+      // allData = await CPUList.find({ name: { $regex: regex } }).limit(36);
+      count = await MboardList.find({ name: { $regex: regex } }).countDocuments({});
+    } else {
+      allData = await MboardList.find({}).limit(36);
+      count = await MboardList.countDocuments({});
+    }
+
+    const ret = { data: allData, count: count };
+    
     res.json(ret);
   } catch (error) {
     console.error("Error fetching all data from MongoDB:", error);
@@ -73,14 +86,14 @@ operRouter.get("/api/mspec", async (req, res) => {
     const id = req.query.id; 
     if (id) {
       const allData = await MboardList.findOne({ _id: id });
-      const vendorData = await MboardvendorList.find({ mboardid: id });
+      const vendorData = await MboardVendorList.find({ mboardid: id });
       const cpunatData = await MboardNat.findOne({ mboardid: id });
       const ret = { data: allData, vendor: vendorData,nat:cpunatData };
       res.json(ret);
     } else {
-      const allData = await MboardList.find({});
-      const vendorData = await MboardvendorList.find({});
-      const cpunatData = await MboardNat.find({ cpuid: id });
+      const allData = await MboardList.findOne({ _id: id });
+      const vendorData = await MboardVendorList.find({ mboardid: id });
+      const cpunatData = await MboardNat.findOne({ mboardid: id });
       const ret = { data: allData, vendor: vendorData,nat:cpunatData };
       res.json(ret);
     }

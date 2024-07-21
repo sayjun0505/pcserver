@@ -5,7 +5,7 @@ import MboardList from "../model/mboardlist.js";
 import MboardVendorList from "../model/mboardvendorlist.js";
 import MboardNat from "../model/mboardnat.js";
 import mongoose from "mongoose";
-
+import fs from "fs";
 
 
 const chromeOptions = new chrome.Options();
@@ -370,7 +370,7 @@ async function handleform(
 
 async function fetchMboard() {
   let arr = [];
-  let pages = 26;
+  let pages = 25;
   let count = 15;
   // while (true) {
     const detail_driver = await new Builder()
