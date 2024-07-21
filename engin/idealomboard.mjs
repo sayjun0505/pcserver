@@ -219,7 +219,6 @@ async function handleA(
     productid: productid,
     imgurl: imgurl
   };
-
   let existingProduct = await MboardList.findOne({
     productid: x.productid
   });
