@@ -370,7 +370,7 @@ async function handleform(
 
 async function fetchMboard() {
   let arr = [];
-  let pages = 28;
+  let pages = 29;
   let count = 15;
   // while (true) {
     const detail_driver = await new Builder()
@@ -437,7 +437,7 @@ async function fetchMboard() {
           const id = data.id;
           const textContent = await element.getText();
           let a = textContent.split("\n");
-          let details = "";
+          let details = a[1];
           const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
 
           const prc = a[a.length - 1].match(regex);
