@@ -17,6 +17,9 @@ const mboardvendorlistSchema = new Schema({
     payment: {
         type: String
     },
+    alink: {
+        type: String
+    },
     directlink: {
         type: String
     }
