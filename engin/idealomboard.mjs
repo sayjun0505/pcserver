@@ -465,7 +465,7 @@ async function fetchMboard() {
             const id = data.id;
             const textContent = await element.getText();
             let a = textContent.split("\n");
-            let details = "";
+            let details = a[1];
             const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
             let nameVal = a[0];
             if (a[0].includes("%")) {
