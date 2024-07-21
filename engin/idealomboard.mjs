@@ -370,7 +370,7 @@ async function handleform(
 
 async function fetchMboard() {
   let arr = [];
-  let pages = 28;
+  let pages = 26;
   let count = 15;
   // while (true) {
     const detail_driver = await new Builder()
@@ -515,7 +515,7 @@ async function fetchMboard() {
       arr.push({ url: url, inn: inn });
       // if (priceElements.length < 36) break;
     } catch (err) {
-      console.error("An error occurred in iteration", pages, ":", error);
+      console.error("An error occurred in iteration", pages, ":", err);
     } finally {
       if (driver) {
         await driver.quit();
