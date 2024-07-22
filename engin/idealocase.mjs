@@ -370,7 +370,7 @@ async function handleform(
 
 async function fetchCase() {
   let arr = [];
-  let pages = 13;
+  let pages = 0;
   let count = 15;
   // while (true) {
     const detail_driver = await new Builder()
@@ -443,7 +443,7 @@ async function fetchCase() {
           );
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
-          // console.log(href, nameVal, details, val, id, imgurl);
+          console.log("a tag:", href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
