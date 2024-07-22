@@ -90,7 +90,7 @@ operRouter.get("/api/allmdata", async (req, res) => {
     }
 
     const ret = { data: allData, count: count };
-    console.log(ret)
+    console.log(count)
     res.json(ret);
   } catch (error) {
     console.error("Error fetching all data from MongoDB:", error);
