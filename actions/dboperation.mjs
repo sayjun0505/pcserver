@@ -1,14 +1,18 @@
 import express from "express";
-import { dbConfig } from "../db/pcbuilderdb.mjs";
-import CPUVendor from "../model/cpuvendor.js";
-import CPUInfo from "../model/cpuinfo.js";
+// import { dbConfig } from "../db/pcbuilderdb.mjs";
+// import CPUVendor from "../model/cpuvendor.js";
+// import CPUInfo from "../model/cpuinfo.js";
 import CPUVendorList from "../model/cpuvendorlist.js";
 import CPUNat from "../model/cpunat.js";
 import CPUList from "../model/cpulist.js";
 import MboardVendorList from "../model/mboardvendorlist.js";
 import MboardNat from "../model/mboardnat.js";
 import MboardList from "../model/mboardlist.js";
-import mongoose from "mongoose";
+
+import RamVendorList from "../model/ramvendorlist.js";
+import RamNat from "../model/ramnat.js";
+import RamList from "../model/ramlist.js";
+// import mongoose from "mongoose";
 const operRouter = express.Router();
 
 operRouter.get("/api/alldata", async (req, res) => {
@@ -94,6 +98,100 @@ operRouter.get("/api/mspec", async (req, res) => {
       const allData = await MboardList.findOne({ _id: id });
       const vendorData = await MboardVendorList.find({ mboardid: id });
       const cpunatData = await MboardNat.findOne({ mboardid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
+      res.json(ret);
+    }
+  } catch (error) {
+    console.error("Error fetching data from MongoDB:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+
+operRouter.get("/api/allrdata", async (req, res) => {
+  try {
+    const filterstring = req.query.filter;
+    let allData,count;
+  
+    if (filterstring) {
+      const regex = new RegExp(filterstring, "i");
+      allData = await RamList.find({ name: { $regex: regex } }).limit(36);
+      // allData = await CPUList.find({ name: { $regex: regex } }).limit(36);
+      count = await RamList.find({ name: { $regex: regex } }).countDocuments({});
+    } else {
+      allData = await RamList.find({}).limit(36);
+      count = await RamList.countDocuments({});
+    }
+
+    const ret = { data: allData, count: count };
+    
+    res.json(ret);
+  } catch (error) {
+    console.error("Error fetching all data from MongoDB:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+operRouter.get("/api/rspec", async (req, res) => {
+  try {
+    const id = req.query.id; 
+    if (id) {
+      const allData = await RamList.findOne({ _id: id });
+      const vendorData = await RamVendorList.find({ ramid: id });
+      const cpunatData = await RamNat.findOne({ ramid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
+      res.json(ret);
+    } else {
+      const allData = await RamList.findOne({ _id: id });
+      const vendorData = await RamVendorList.find({ ramid: id });
+      const cpunatData = await RamNat.findOne({ ramid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
+      res.json(ret);
+    }
+  } catch (error) {
+    console.error("Error fetching data from MongoDB:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+
+operRouter.get("/api/allsdata", async (req, res) => {
+  try {
+    const filterstring = req.query.filter;
+    let allData,count;
+  
+    if (filterstring) {
+      const regex = new RegExp(filterstring, "i");
+      allData = await StorageList.find({ name: { $regex: regex } }).limit(36);
+      // allData = await CPUList.find({ name: { $regex: regex } }).limit(36);
+      count = await StorageList.find({ name: { $regex: regex } }).countDocuments({});
+    } else {
+      allData = await StorageList.find({}).limit(36);
+      count = await StorageList.countDocuments({});
+    }
+
+    const ret = { data: allData, count: count };
+    
+    res.json(ret);
+  } catch (error) {
+    console.error("Error fetching all data from MongoDB:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+operRouter.get("/api/sspec", async (req, res) => {
+  try {
+    const id = req.query.id; 
+    if (id) {
+      const allData = await StorageList.findOne({ _id: id });
+      const vendorData = await StorageVendorList.find({ storageid: id });
+      const cpunatData = await StorageNat.findOne({ storageid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
+      res.json(ret);
+    } else {
+      const allData = await StorageList.findOne({ _id: id });
+      const vendorData = await StorageVendorList.find({ storageid: id });
+      const cpunatData = await StorageNat.findOne({ storageid: id });
       const ret = { data: allData, vendor: vendorData,nat:cpunatData };
       res.json(ret);
     }
