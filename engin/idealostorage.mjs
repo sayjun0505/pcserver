@@ -270,7 +270,7 @@ async function handleform(
 }
 async function fetchStorage() {
   let arr = [];
-  let pages = 0;
+  let pages = 2;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
