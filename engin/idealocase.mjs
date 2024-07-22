@@ -284,9 +284,9 @@ async function handleform(
 
 async function fetchCase() {
   let arr = [];
-  let pages = 0;
+  let pages = 4;
   let count = 15;
-  // while (true) {
+  while (true) {
     const detail_driver = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
@@ -420,7 +420,7 @@ async function fetchCase() {
       }
       console.log(url, inn);
       arr.push({ url: url, inn: inn });
-      // if (priceElements.length < 36) break;
+      if (priceElements.length < 36) break;
     } catch (err) {
       console.error("An error occurred in iteration", pages, ":", err);
     } finally {
@@ -433,8 +433,8 @@ async function fetchCase() {
         await detail_driver.quit(); // Close the detail_driver at the end of each iteration
       }
     }
-  //   pages++;
-  // }
+    pages++;
+  }
   const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
   const csvHeader = "url, counts\n";
   const csvData = csvHeader + csvRows;
