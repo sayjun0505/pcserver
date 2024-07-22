@@ -14,6 +14,7 @@
     "start:cpu5": "node --experimental-modules cpu5.mjs",
     "start:mboard": "node --experimental-modules mboard.mjs",
     "start:ram": "node --experimental-modules ram.mjs",
+    "start:storage": "node --experimental-modules storage.mjs",
     "start": "concurrently \"npm run start:server\" \"npm run start:cpu\" ",
     "startcpus": "concurrently \"npm run start:cpu1\" \"npm run start:cpu2\" \"npm run start:cpu3\" \"npm run start:cpu4\" \"npm run start:cpu5\" "
   },
