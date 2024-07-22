@@ -12,6 +12,19 @@ import MboardList from "../model/mboardlist.js";
 import RamVendorList from "../model/ramvendorlist.js";
 import RamNat from "../model/ramnat.js";
 import RamList from "../model/ramlist.js";
+
+import StorageVendorList from "../model/storagevendorlist.js";
+import StorageNat from "../model/storagenat.js";
+import StorageList from "../model/storagelist.js";
+
+import CaseVendorList from "../model/casevendorlist.js";
+import CaseNat from "../model/casenat.js";
+import CaseList from "../model/caselist.js";
+
+import GPUVendorList from "../model/gpuvendorlist.js";
+import GPUNat from "../model/gpunat.js";
+import GPUList from "../model/gpulist.js";
+
 // import mongoose from "mongoose";
 const operRouter = express.Router();
 
@@ -200,6 +213,101 @@ operRouter.get("/api/sspec", async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 });
+
+
+operRouter.get("/api/allcasedata", async (req, res) => {
+  try {
+    const filterstring = req.query.filter;
+    let allData,count;
+  
+    if (filterstring) {
+      const regex = new RegExp(filterstring, "i");
+      allData = await CaseList.find({ name: { $regex: regex } }).limit(36);
+      // allData = await CPUList.find({ name: { $regex: regex } }).limit(36);
+      count = await CaseList.find({ name: { $regex: regex } }).countDocuments({});
+    } else {
+      allData = await CaseList.find({}).limit(36);
+      count = await CaseList.countDocuments({});
+    }
+
+    const ret = { data: allData, count: count };
+    
+    res.json(ret);
+  } catch (error) {
+    console.error("Error fetching all data from MongoDB:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+operRouter.get("/api/casespec", async (req, res) => {
+  try {
+    const id = req.query.id; 
+    if (id) {
+      const allData = await CaseList.findOne({ _id: id });
+      const vendorData = await CaseVendorList.find({ caseid: id });
+      const cpunatData = await CaseNat.findOne({ caseid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
+      res.json(ret);
+    } else {
+      const allData = await CaseList.findOne({ _id: id });
+      const vendorData = await CaseVendorList.find({ caseid: id });
+      const cpunatData = await CaseNat.findOne({ caseid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
+      res.json(ret);
+    }
+  } catch (error) {
+    console.error("Error fetching data from MongoDB:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+operRouter.get("/api/allgpudata", async (req, res) => {
+  try {
+    const filterstring = req.query.filter;
+    let allData,count;
+  
+    if (filterstring) {
+      const regex = new RegExp(filterstring, "i");
+      allData = await GPUList.find({ name: { $regex: regex } }).limit(36);
+      // allData = await CPUList.find({ name: { $regex: regex } }).limit(36);
+      count = await GPUList.find({ name: { $regex: regex } }).countDocuments({});
+    } else {
+      allData = await GPUList.find({}).limit(36);
+      count = await GPUList.countDocuments({});
+    }
+
+    const ret = { data: allData, count: count };
+    
+    res.json(ret);
+  } catch (error) {
+    console.error("Error fetching all data from MongoDB:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+operRouter.get("/api/gpuspec", async (req, res) => {
+  try {
+    const id = req.query.id; 
+    if (id) {
+      const allData = await GPUList.findOne({ _id: id });
+      const vendorData = await GPUVendorList.find({ gpuid: id });
+      const cpunatData = await GPUNat.findOne({ gpuid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
+      res.json(ret);
+    } else {
+      const allData = await GPUList.findOne({ _id: id });
+      const vendorData = await GPUVendorList.find({ gpuid: id });
+      const cpunatData = await GPUNat.findOne({ gpuid: id });
+      const ret = { data: allData, vendor: vendorData,nat:cpunatData };
+      res.json(ret);
+    }
+  } catch (error) {
+    console.error("Error fetching data from MongoDB:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+
+
 
 
 export default operRouter;
