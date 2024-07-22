@@ -357,7 +357,7 @@ async function fetchCase() {
           );
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
-          console.log("a tag:", href, nameVal, details, val, id, imgurl);
+          // console.log("a tag:", href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
