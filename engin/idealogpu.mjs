@@ -236,9 +236,6 @@ async function handleA(
     mid = createdProduct._id;
   }
   await GPUVendorList.deleteMany({ gpuid: mid });
-  // const nationality = await drivers.findElement(By.id("i18nPrices"));
-  // const ulElement = await nationality.findElement(By.tagName("ul"));
-  // const htmlString = await ulElement.getAttribute("outerHTML");
   await saveToDatabase(drivers, mid, url);
   inn++;
 }
@@ -348,7 +345,6 @@ async function handleform(
   id,
   imgurl
 ) {
-  // console.log(nameVal);
   await drivers.get(url);
   await drivers.wait(
     until.elementsLocated(By.css(".sr-resultList_NAJkZ")),
@@ -370,33 +366,33 @@ async function handleform(
   await drv.executeScript("arguments[0].click();", button);
   const currentUrl = await drv.getCurrentUrl();
   console.log("changedurl in form tag:",currentUrl,nameVal);
-  let x = {
-    name: nameVal,
-    details: details,
-    price: val,
-    link: currentUrl,
-    productid: id,
-    imgurl: imgurl
-  };
-  let existingProduct = await GPUList.findOne({
-    productid: x.productid
-  });
-  let mid = "";
-  if (existingProduct) {
-    mid = existingProduct._id;
-  } else {
-    let createdProduct = await GPUList.create({
-      name: x.name,
-      productid: x.productid,
-      imgurl: x.imgurl,
-      detail: x.details,
-      link: x.link,
-      price: x.price
-    });
-    mid = createdProduct._id;
-  }
-  await GPUVendorList.deleteMany({ gpuid: mid });
-  await saveToDatabase(drv, mid, currentUrl);
+  // let x = {
+  //   name: nameVal,
+  //   details: details,
+  //   price: val,
+  //   link: currentUrl,
+  //   productid: id,
+  //   imgurl: imgurl
+  // };
+  // let existingProduct = await GPUList.findOne({
+  //   productid: x.productid
+  // });
+  // let mid = "";
+  // if (existingProduct) {
+  //   mid = existingProduct._id;
+  // } else {
+  //   let createdProduct = await GPUList.create({
+  //     name: x.name,
+  //     productid: x.productid,
+  //     imgurl: x.imgurl,
+  //     detail: x.details,
+  //     link: x.link,
+  //     price: x.price
+  //   });
+  //   mid = createdProduct._id;
+  // }
+  // await GPUVendorList.deleteMany({ gpuid: mid });
+  // await saveToDatabase(drv, mid, currentUrl);
   handledform = current + 1;
   inn++;
 }
