@@ -443,7 +443,7 @@ async function fetchGPU() {
           );
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
-          // console.log(href, nameVal, details, val, id, imgurl);
+          console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
