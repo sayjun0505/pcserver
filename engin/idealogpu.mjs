@@ -364,6 +364,7 @@ async function handleform(
     By.css('button[role="button"].sr-resultItemLink__button_k3jEE')
   );
   let drv=drivers;
+  console.log("b")
   const actions = drv.actions();
   await actions.move({ origin: button }).perform();
   await drv.executeScript("arguments[0].click();", button);
@@ -417,10 +418,7 @@ async function fetchGPU() {
     const url = `https://www.idealo.it/cat/16073I16-${
       count * pages
     }/schede-video.html`;
-    console.log("a")
     try {
-    console.log("b")
-
       await driver.get(url);
       let shadowHost = null;
       const startTime = new Date().getTime();
@@ -440,7 +438,6 @@ async function fetchGPU() {
           await driver.sleep(1000);
         }
       }
-      console.log("c")
       await driver.wait(
         until.elementsLocated(By.className("sr-resultList_NAJkZ")),
         timeout
@@ -481,6 +478,7 @@ async function fetchGPU() {
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
+          console.log("a")
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
