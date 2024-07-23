@@ -512,16 +512,6 @@ async function fetchGPU() {
               By.className("sr-resultItemTile__image_ivkex")
             );
             const imgurl = await imgElements.getAttribute("src");
-            console.log(
-              detail_driver,
-              url,
-              handledform,
-              nametext,
-              details,
-              val,
-              id,
-              imgurl
-            );
             await handleform(
               detail_driver,
               url,
