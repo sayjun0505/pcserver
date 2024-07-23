@@ -480,7 +480,7 @@ async function fetchGPU() {
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
-          await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
+          // await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
             const spanElement = await element.findElement(
@@ -517,16 +517,16 @@ async function fetchGPU() {
               By.className("sr-resultItemTile__image_ivkex")
             );
             const imgurl = await imgElements.getAttribute("src");
-            await handleform(
-              detail_driver,
-              url,
-              handledform,
-              nametext,
-              details,
-              val,
-              id,
-              imgurl
-            );
+            // await handleform(
+            //   detail_driver,
+            //   url,
+            //   handledform,
+            //   nametext,
+            //   details,
+            //   val,
+            //   id,
+            //   imgurl
+            // );
             // await detail_driver.executeScript("document.body.innerHTML = '';");
             formindex++;
           } else {

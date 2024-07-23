@@ -370,7 +370,7 @@ async function handleform(
 
 async function fetchMboard() {
   let arr = [];
-  let pages = 0;
+  let pages = 29;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
@@ -444,7 +444,7 @@ async function fetchMboard() {
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
-          // await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
+          await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
             const spanElement = await element.findElement(
@@ -482,16 +482,16 @@ async function fetchMboard() {
             );
             const imgurl = await imgElements.getAttribute("src");
 
-            // await handleform(
-            //   detail_driver,
-            //   url,
-            //   handledform,
-            //   nametext,
-            //   details,
-            //   val,
-            //   id,
-            //   imgurl
-            // );
+            await handleform(
+              detail_driver,
+              url,
+              handledform,
+              nametext,
+              details,
+              val,
+              id,
+              imgurl
+            );
             // await detail_driver.executeScript("document.body.innerHTML = '';");
             formindex++;
           } else {
