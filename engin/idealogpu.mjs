@@ -209,7 +209,7 @@ async function handleA(
   //   `,
   //   shadowHost
   // );
-  console.log("changedurl in a tag:",imgurl,nameval);
+  // console.log("changedurl in a tag:",imgurl,nameval);
   let x = {
     name: nameval,
     details: detail,
