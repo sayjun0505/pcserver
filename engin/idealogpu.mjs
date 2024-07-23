@@ -416,7 +416,10 @@ async function fetchGPU() {
     const url = `https://www.idealo.it/cat/16073I16-${
       count * pages
     }/schede-video.html`;
+    console.log("a")
     try {
+    console.log("b")
+
       await driver.get(url);
       let shadowHost = null;
       const startTime = new Date().getTime();
