@@ -401,7 +401,7 @@ async function handleform(
 
 async function fetchGPU() {
   let arr = [];
-  let pages = 46;
+  let pages = 0;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
@@ -474,7 +474,7 @@ async function fetchGPU() {
           );
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
-          console.log(href, nameVal, details, val, id, imgurl);
+          // console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
@@ -534,7 +534,7 @@ async function fetchGPU() {
         }
         // await new Promise(resolve => setTimeout(resolve, 1000));
       }
-      console.log(url, inn);
+      // console.log(url, inn);
       arr.push({ url: url, inn: inn });
       if (priceElements.length < 36) break;
     } catch (err) {
