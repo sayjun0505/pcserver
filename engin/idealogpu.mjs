@@ -370,33 +370,33 @@ async function handleform(
   await drv.executeScript("arguments[0].click();", button);
   const currentUrl = await drv.getCurrentUrl();
   console.log("changedurl in form tag:",currentUrl,nameVal);
-  // let x = {
-  //   name: nameVal,
-  //   details: details,
-  //   price: val,
-  //   link: currentUrl,
-  //   productid: id,
-  //   imgurl: imgurl
-  // };
-  // let existingProduct = await GPUList.findOne({
-  //   productid: x.productid
-  // });
-  // let mid = "";
-  // if (existingProduct) {
-  //   mid = existingProduct._id;
-  // } else {
-  //   let createdProduct = await GPUList.create({
-  //     name: x.name,
-  //     productid: x.productid,
-  //     imgurl: x.imgurl,
-  //     detail: x.details,
-  //     link: x.link,
-  //     price: x.price
-  //   });
-  //   mid = createdProduct._id;
-  // }
-  // await GPUVendorList.deleteMany({ gpuid: mid });
-  // await saveToDatabase(drv, mid, currentUrl);
+  let x = {
+    name: nameVal,
+    details: details,
+    price: val,
+    link: currentUrl,
+    productid: id,
+    imgurl: imgurl
+  };
+  let existingProduct = await GPUList.findOne({
+    productid: x.productid
+  });
+  let mid = "";
+  if (existingProduct) {
+    mid = existingProduct._id;
+  } else {
+    let createdProduct = await GPUList.create({
+      name: x.name,
+      productid: x.productid,
+      imgurl: x.imgurl,
+      detail: x.details,
+      link: x.link,
+      price: x.price
+    });
+    mid = createdProduct._id;
+  }
+  await GPUVendorList.deleteMany({ gpuid: mid });
+  await saveToDatabase(drv, mid, currentUrl);
   handledform = current + 1;
   inn++;
 }
@@ -478,9 +478,9 @@ async function fetchGPU() {
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
-          console.log("a")
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
+          console.log(formindex ,handledform)
           if (formindex == handledform) {
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
@@ -516,6 +516,7 @@ async function fetchGPU() {
               By.className("sr-resultItemTile__image_ivkex")
             );
             const imgurl = await imgElements.getAttribute("src");
+            console.log("a")
             await handleform(
               detail_driver,
               url,
