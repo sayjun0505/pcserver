@@ -1,3 +1,3 @@
 export const dbConfig = {
-    db: 'mongodb://localhost:27017/pcbuilder'
+    db: 'mongodb://127.0.0.1:27017/pcbuilder'
 };
