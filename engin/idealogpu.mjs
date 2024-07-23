@@ -7,7 +7,6 @@ import GPUNat from "../model/gpunat.js";
 import mongoose from "mongoose";
 import fs from "fs";
 
-
 const chromeOptions = new chrome.Options();
 chromeOptions.addArguments("--disable-gpu");
 chromeOptions.addArguments("--disable-images");
@@ -139,7 +138,7 @@ async function getdatafromLink(countrywebshop, mid, link) {
           By.className("productOffers-listItemOfferShopV2LogoImage")
         );
         const subimgurl = await vendorinfo.getAttribute("src");
-        const alt=await vendorinfo.getAttribute("alt");
+        const alt = await vendorinfo.getAttribute("alt");
 
         // let shadowHost = null;
         // const startTime = new Date().getTime();
@@ -148,7 +147,7 @@ async function getdatafromLink(countrywebshop, mid, link) {
         //     shadowHost = await countrywebshop.findElement(By.id("usercentrics-cmp-ui"));
         //     await countrywebshop.executeScript(
         //       `
-        //           const shadowRoot = arguments[0].shadowRoot; 
+        //           const shadowRoot = arguments[0].shadowRoot;
         //           const acceptButton = shadowRoot.querySelector('button#accept');
         //           acceptButton.click();
         //       `,
@@ -158,13 +157,13 @@ async function getdatafromLink(countrywebshop, mid, link) {
         //   } catch (error) {
         //     await countrywebshop.sleep(1000);
         //   }
-        // }        
-        // await detailinfo.click();          
-        // const handles = await countrywebshop.getAllWindowHandles();  
-        // await countrywebshop.switchTo().window(handles[1]); // Switch to the new tab  
-        // const newTabURL = await countrywebshop.getCurrentUrl();  
-        // await countrywebshop.close();  
-        // await countrywebshop.switchTo().window(handles[0]);  
+        // }
+        // await detailinfo.click();
+        // const handles = await countrywebshop.getAllWindowHandles();
+        // await countrywebshop.switchTo().window(handles[1]); // Switch to the new tab
+        // const newTabURL = await countrywebshop.getCurrentUrl();
+        // await countrywebshop.close();
+        // await countrywebshop.switchTo().window(handles[0]);
         const detailHref =
           "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
         let item = {
@@ -243,43 +242,75 @@ async function handleA(
   await saveToDatabase(drivers, mid, url);
   inn++;
 }
-const getlink=(str)=>{
-  if(str.toLowerCase().includes("alternate"))return  "https://www.alternate.fr/Processeurs";
-  if(str.toLowerCase().includes("amazon"))return "https://www.amazon.it/dp/B0CFXZDLZD/?smid=A2NKETR112XW8D&tag=idealoit-mp-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B0CFXZDLZD&ascsubtag=2024-07-21_34a35559cdc77205700c21c4d9e6ead84b547193ceb106da190e6bec3034fdc4&th=1&psc=1";
-  if(str.toLowerCase().includes("bpm"))return  "https://www.bpm-power.com/it/online/componenti-pc/schede-madri";
-  if(str.toLowerCase().includes("computeruniverse"))return  "https://www.computeruniverse.net/de/c/hardware-komponenten/kuhlung-cooling";
-  if(str.toLowerCase().includes("cyberport"))return  "https://www.cyberport.at/pc-und-zubehoer/komponenten/mainboards.html";
-  if(str.toLowerCase().includes("ebay"))return  "https://www.ebay.it/itm/196115008578?var=0&mkevt=1&mkcid=1&mkrid=724-53478-19255-0&toolid=20006&campid=5337770569&customid=swBckVxgPQDe_7eiTtwCvg";
-  if(str.toLowerCase().includes("eprice"))return  "https://www.eprice.it/catalogo/informatica/componenti-pc";
-  if(str.toLowerCase().includes("esus"))return  "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
-  if(str.toLowerCase().includes("eweki"))return  "https://www.eweki.it/informatica/componenti-assemblaggio/processori-cpu.html";
-  if(str.toLowerCase().includes("galaxus"))return  "https://www.galaxus.de/en/s1/producttype/processors-83";
-  if(str.toLowerCase().includes("geopc"))return  "https://geopc.it/componenti-hardware-informatica/cpu-processori-intel-amd";
-  if(str.toLowerCase().includes("goldenprice"))return  "https://www.goldenprice.it/informatica/componenti-assemblaggio/cpu";
-  if(str.toLowerCase().includes("ldc"))return  "https://www.ldc.it/141-processori-e-cpu";
-  if(str.toLowerCase().includes("notebooksbilliger"))return  "https://www.notebooksbilliger.de/pc+hardware/prozessoren+pc+hardware";
-  if(str.toLowerCase().includes("nullprozentshop"))return  "https://www.nullprozentshop.de/pc-hardware/amd/";
-  if(str.toLowerCase().includes("pc componentes"))return  "https://www.pccomponentes.it/processori";
-  if(str.toLowerCase().includes("pixmart"))return  "https://www.pixmart.it/prodotto/asrock-b650e-taichi-lite-amd-b650-socket-am5-atx/?utm_source=Idealo.it&amp;utm_campaign=Feed%20per%20Idealo&amp;utm_medium=cpc&amp;utm_term=53220";
-  if(str.toLowerCase().includes("proshop"))return  "https://www.proshop.at/CPU";
-  if(str.toLowerCase().includes("ollo"))return  "https://www.ollo.it/schede-madri/c_229";
-  if(str.toLowerCase().includes("onbuy"))return  "https://www.onbuy.com/gb/computer-processors~c8568/";
-  if(str.toLowerCase().includes("redcomputer"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
-  if(str.toLowerCase().includes("redgaming"))return  "https://redgaming.it/schede-madri/16784-scheda-madre-asrock-b650m-pro-rs-amd-am5-ddr5-micro-atx-argento-4710483943096.html";
-  if(str.toLowerCase().includes("reichelt"))return  "https://www.reichelt.com/it/it/asrock-b650e-taichi-lite-am5--asr-90mxbmg0-p370362.html?utm_source=psuma&utm_medium=idealo.it&PROVID=2846";
-  if(str.toLowerCase().includes("senetic"))return  "https://www.senetic.es/product/100-100000063WOF";
-  if(str.toLowerCase().includes("sferaufficio"))return  "https://www.sferaufficio.com/articolo/asrock-b650e-taichi-lite-amd-b650-presa-di-corrente-am5-atx/L3507361353";
-  if(str.toLowerCase().includes("siimsrl"))return  "https://www.siimsrl.it/cpu.1.7.252.sp.uw?fd=1";
-  if(str.toLowerCase().includes("speedler"))return  "https://www.speedler.es/componentes-hardware/componentes/procesadores";
-  if(str.toLowerCase().includes("syswork"))return  "https://syswork.store/it/cpu";
-  if(str.toLowerCase().includes("topgamingpc"))return  "https://www.topgamingpc.it/categoria-prodotto/prodotti-it/cpu/?v=cd32106bcb6d";
-  if(str.toLowerCase().includes("techinn"))return  "https://www.tradeinn.com/techinn/it/componenti-processori/15978/s";
-  if(str.toLowerCase().includes("trippodo"))return  "https://www.trippodo.com/it/b650/201859-asrock-b650e-taichi-lite-amd-b650-presa-di-corrente-am5-atx-4710483943508.html";
-  if(str.toLowerCase().includes("xfilesaversa"))return  "https://www.xfilesaversa.it/it/informatica/componentistica/processori/";
-  if(str.toLowerCase().includes("yeppon"))return  "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
-  return  "https://www.amazon.it/dp/B0CFXZDLZD/?smid=A2NKETR112XW8D&tag=idealoit-mp-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B0CFXZDLZD&ascsubtag=2024-07-21_34a35559cdc77205700c21c4d9e6ead84b547193ceb106da190e6bec3034fdc4&th=1&psc=1";
-
-}
+const getlink = (str) => {
+  if (str.toLowerCase().includes("alternate"))
+    return "https://www.alternate.fr/Processeurs";
+  if (str.toLowerCase().includes("amazon"))
+    return "https://www.amazon.it/dp/B0CFXZDLZD/?smid=A2NKETR112XW8D&tag=idealoit-mp-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B0CFXZDLZD&ascsubtag=2024-07-21_34a35559cdc77205700c21c4d9e6ead84b547193ceb106da190e6bec3034fdc4&th=1&psc=1";
+  if (str.toLowerCase().includes("bpm"))
+    return "https://www.bpm-power.com/it/online/componenti-pc/schede-madri";
+  if (str.toLowerCase().includes("computeruniverse"))
+    return "https://www.computeruniverse.net/de/c/hardware-komponenten/kuhlung-cooling";
+  if (str.toLowerCase().includes("cyberport"))
+    return "https://www.cyberport.at/pc-und-zubehoer/komponenten/mainboards.html";
+  if (str.toLowerCase().includes("ebay"))
+    return "https://www.ebay.it/itm/196115008578?var=0&mkevt=1&mkcid=1&mkrid=724-53478-19255-0&toolid=20006&campid=5337770569&customid=swBckVxgPQDe_7eiTtwCvg";
+  if (str.toLowerCase().includes("eprice"))
+    return "https://www.eprice.it/catalogo/informatica/componenti-pc";
+  if (str.toLowerCase().includes("esus"))
+    return "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
+  if (str.toLowerCase().includes("eweki"))
+    return "https://www.eweki.it/informatica/componenti-assemblaggio/processori-cpu.html";
+  if (str.toLowerCase().includes("galaxus"))
+    return "https://www.galaxus.de/en/s1/producttype/processors-83";
+  if (str.toLowerCase().includes("geopc"))
+    return "https://geopc.it/componenti-hardware-informatica/cpu-processori-intel-amd";
+  if (str.toLowerCase().includes("goldenprice"))
+    return "https://www.goldenprice.it/informatica/componenti-assemblaggio/cpu";
+  if (str.toLowerCase().includes("ldc"))
+    return "https://www.ldc.it/141-processori-e-cpu";
+  if (str.toLowerCase().includes("notebooksbilliger"))
+    return "https://www.notebooksbilliger.de/pc+hardware/prozessoren+pc+hardware";
+  if (str.toLowerCase().includes("nullprozentshop"))
+    return "https://www.nullprozentshop.de/pc-hardware/amd/";
+  if (str.toLowerCase().includes("pc componentes"))
+    return "https://www.pccomponentes.it/processori";
+  if (str.toLowerCase().includes("pixmart"))
+    return "https://www.pixmart.it/prodotto/asrock-b650e-taichi-lite-amd-b650-socket-am5-atx/?utm_source=Idealo.it&amp;utm_campaign=Feed%20per%20Idealo&amp;utm_medium=cpc&amp;utm_term=53220";
+  if (str.toLowerCase().includes("proshop"))
+    return "https://www.proshop.at/CPU";
+  if (str.toLowerCase().includes("ollo"))
+    return "https://www.ollo.it/schede-madri/c_229";
+  if (str.toLowerCase().includes("onbuy"))
+    return "https://www.onbuy.com/gb/computer-processors~c8568/";
+  if (str.toLowerCase().includes("redcomputer"))
+    return "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  if (str.toLowerCase().includes("redgaming"))
+    return "https://redgaming.it/schede-madri/16784-scheda-madre-asrock-b650m-pro-rs-amd-am5-ddr5-micro-atx-argento-4710483943096.html";
+  if (str.toLowerCase().includes("reichelt"))
+    return "https://www.reichelt.com/it/it/asrock-b650e-taichi-lite-am5--asr-90mxbmg0-p370362.html?utm_source=psuma&utm_medium=idealo.it&PROVID=2846";
+  if (str.toLowerCase().includes("senetic"))
+    return "https://www.senetic.es/product/100-100000063WOF";
+  if (str.toLowerCase().includes("sferaufficio"))
+    return "https://www.sferaufficio.com/articolo/asrock-b650e-taichi-lite-amd-b650-presa-di-corrente-am5-atx/L3507361353";
+  if (str.toLowerCase().includes("siimsrl"))
+    return "https://www.siimsrl.it/cpu.1.7.252.sp.uw?fd=1";
+  if (str.toLowerCase().includes("speedler"))
+    return "https://www.speedler.es/componentes-hardware/componentes/procesadores";
+  if (str.toLowerCase().includes("syswork"))
+    return "https://syswork.store/it/cpu";
+  if (str.toLowerCase().includes("topgamingpc"))
+    return "https://www.topgamingpc.it/categoria-prodotto/prodotti-it/cpu/?v=cd32106bcb6d";
+  if (str.toLowerCase().includes("techinn"))
+    return "https://www.tradeinn.com/techinn/it/componenti-processori/15978/s";
+  if (str.toLowerCase().includes("trippodo"))
+    return "https://www.trippodo.com/it/b650/201859-asrock-b650e-taichi-lite-amd-b650-presa-di-corrente-am5-atx-4710483943508.html";
+  if (str.toLowerCase().includes("xfilesaversa"))
+    return "https://www.xfilesaversa.it/it/informatica/componentistica/processori/";
+  if (str.toLowerCase().includes("yeppon"))
+    return "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+  return "https://www.amazon.it/dp/B0CFXZDLZD/?smid=A2NKETR112XW8D&tag=idealoit-mp-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B0CFXZDLZD&ascsubtag=2024-07-21_34a35559cdc77205700c21c4d9e6ead84b547193ceb106da190e6bec3034fdc4&th=1&psc=1";
+};
 async function saveToDatabase(drivers, mid, url) {
   try {
     await mongoose.connect(dbConfig.db);
@@ -336,7 +367,7 @@ async function handleform(
   await actions.move({ origin: button }).perform();
   await drivers.executeScript("arguments[0].click();", button);
   const currentUrl = await drivers.getCurrentUrl();
-  // console.log("changedurl:",currentUrl,nameVal);
+  console.log("changedurl:",currentUrl,nameVal);
   let x = {
     name: nameVal,
     details: details,
@@ -481,7 +512,16 @@ async function fetchGPU() {
               By.className("sr-resultItemTile__image_ivkex")
             );
             const imgurl = await imgElements.getAttribute("src");
-
+            console.log(
+              detail_driver,
+              url,
+              handledform,
+              nametext,
+              details,
+              val,
+              id,
+              imgurl
+            );
             await handleform(
               detail_driver,
               url,
