@@ -452,95 +452,95 @@ async function fetchGPU() {
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
-      console.log("Number of price elements found:", priceElements.length);
-      // for (const element of priceElements) {
-      //   let href = "";
-      //   const linkElements = await element.findElements(By.tagName("a"));
-      //   const formElements = await element.findElements(By.tagName("form"));
-      //   if (linkElements.length > 0) {
-      //     const linkElement = linkElements[0];
-      //     href = await linkElement.getAttribute("href");
-      //     const spanElement = await element.findElement(
-      //       By.css("span[data-wishlist-heart]")
-      //     );
-      //     const dataAttr = await spanElement.getAttribute(
-      //       "data-wishlist-heart"
-      //     );
-      //     const data = JSON.parse(dataAttr);
-      //     const id = data.id;
-      //     const textContent = await element.getText();
-      //     let a = textContent.split("\n");
-      //     let details = a[1];
-      //     const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
-      //     const prc = a[a.length - 1].match(regex);
-      //     const val = prc ? prc[0] : "Price not found";
-      //     const imgElements = await parentElement.findElement(
-      //       By.className("sr-resultItemTile__image_ivkex")
-      //     );
-      //     const imgurl = await imgElements.getAttribute("src");
-      //     let nameVal = a[0];
-      //     // console.log(href, nameVal, details, val, id, imgurl);
-      //     await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
-      //   } else if (formElements.length > 0) {
-      //     if (formindex == handledform) {
-      //       const spanElement = await element.findElement(
-      //         By.css("span[data-wishlist-heart]")
-      //       );
+      console.log("Number of price elements found ", priceElements.length,"in page ",pages);
+      for (const element of priceElements) {
+        let href = "";
+        const linkElements = await element.findElements(By.tagName("a"));
+        const formElements = await element.findElements(By.tagName("form"));
+        if (linkElements.length > 0) {
+          const linkElement = linkElements[0];
+          href = await linkElement.getAttribute("href");
+          const spanElement = await element.findElement(
+            By.css("span[data-wishlist-heart]")
+          );
+          const dataAttr = await spanElement.getAttribute(
+            "data-wishlist-heart"
+          );
+          const data = JSON.parse(dataAttr);
+          const id = data.id;
+          const textContent = await element.getText();
+          let a = textContent.split("\n");
+          let details = a[1];
+          const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
+          const prc = a[a.length - 1].match(regex);
+          const val = prc ? prc[0] : "Price not found";
+          const imgElements = await parentElement.findElement(
+            By.className("sr-resultItemTile__image_ivkex")
+          );
+          const imgurl = await imgElements.getAttribute("src");
+          let nameVal = a[0];
+          // console.log(href, nameVal, details, val, id, imgurl);
+          await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
+        } else if (formElements.length > 0) {
+          if (formindex == handledform) {
+            const spanElement = await element.findElement(
+              By.css("span[data-wishlist-heart]")
+            );
 
-      //       const dataAttr = await spanElement.getAttribute(
-      //         "data-wishlist-heart"
-      //       );
-      //       const data = JSON.parse(dataAttr);
-      //       const id = data.id;
-      //       const textContent = await element.getText();
-      //       let a = textContent.split("\n");
-      //       let details = a[1];
-      //       const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
-      //       let nameVal = a[0];
-      //       if (a[0].includes("%")) {
-      //         const nameElements = await parentElement.findElement(
-      //           By.className("sr-productSummary__title_f5flP")
-      //         );
-      //         nameVal = await nameElements.getText();
-      //       }
-      //       let divElement = await element.findElement(
-      //         By.css(
-      //           'div.sr-productSummary__title_f5flP[data-testid="productSummary__title"]'
-      //         )
-      //       );
+            const dataAttr = await spanElement.getAttribute(
+              "data-wishlist-heart"
+            );
+            const data = JSON.parse(dataAttr);
+            const id = data.id;
+            const textContent = await element.getText();
+            let a = textContent.split("\n");
+            let details = a[1];
+            const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
+            let nameVal = a[0];
+            if (a[0].includes("%")) {
+              const nameElements = await parentElement.findElement(
+                By.className("sr-productSummary__title_f5flP")
+              );
+              nameVal = await nameElements.getText();
+            }
+            let divElement = await element.findElement(
+              By.css(
+                'div.sr-productSummary__title_f5flP[data-testid="productSummary__title"]'
+              )
+            );
 
-      //       // Extract the text from the div tag
-      //       let nametext = await divElement.getText();
-      //       const prc = a[a.length - 1].match(regex);
-      //       const val = prc ? prc[0] : "Price not found";
-      //       const imgElements = await parentElement.findElement(
-      //         By.className("sr-resultItemTile__image_ivkex")
-      //       );
-      //       const imgurl = await imgElements.getAttribute("src");
-      //       await handleform(
-      //         detail_driver,
-      //         url,
-      //         handledform,
-      //         nametext,
-      //         details,
-      //         val,
-      //         id,
-      //         imgurl
-      //       );
-      //       // await detail_driver.executeScript("document.body.innerHTML = '';");
-      //       formindex++;
-      //     } else {
-      //       formindex++;
-      //       continue;
-      //     }
-      //   } else {
-      //     // Handle cases where neither <a> nor <form> tags are found
-      //     console.log("Element does not contain <a> or <form> tags");
-      //   }
-      //   // await new Promise(resolve => setTimeout(resolve, 1000));
-      // }
-      // // console.log(url, inn);
-      // arr.push({ url: url, inn: inn });
+            // Extract the text from the div tag
+            let nametext = await divElement.getText();
+            const prc = a[a.length - 1].match(regex);
+            const val = prc ? prc[0] : "Price not found";
+            const imgElements = await parentElement.findElement(
+              By.className("sr-resultItemTile__image_ivkex")
+            );
+            const imgurl = await imgElements.getAttribute("src");
+            await handleform(
+              detail_driver,
+              url,
+              handledform,
+              nametext,
+              details,
+              val,
+              id,
+              imgurl
+            );
+            // await detail_driver.executeScript("document.body.innerHTML = '';");
+            formindex++;
+          } else {
+            formindex++;
+            continue;
+          }
+        } else {
+          // Handle cases where neither <a> nor <form> tags are found
+          console.log("Element does not contain <a> or <form> tags");
+        }
+        // await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+      // console.log(url, inn);
+      arr.push({ url: url, inn: inn });
       if (priceElements.length < 36) break;
     } catch (err) {
       console.error("An error occurred in iteration", pages, ":", err);
