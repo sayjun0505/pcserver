@@ -401,7 +401,7 @@ async function handleform(
 
 async function fetchGPU() {
   let arr = [];
-  let pages = 47;
+  let pages = 48;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
