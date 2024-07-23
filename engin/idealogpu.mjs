@@ -209,7 +209,7 @@ async function handleA(
   //   `,
   //   shadowHost
   // );
-
+  console.log("changedurl in a tag:",imgurl,nameval);
   let x = {
     name: nameval,
     details: detail,
@@ -363,11 +363,12 @@ async function handleform(
   const button = await formElement.findElement(
     By.css('button[role="button"].sr-resultItemLink__button_k3jEE')
   );
-  const actions = drivers.actions();
+  let drv=drivers;
+  const actions = drv.actions();
   await actions.move({ origin: button }).perform();
-  await drivers.executeScript("arguments[0].click();", button);
-  const currentUrl = await drivers.getCurrentUrl();
-  console.log("changedurl:",currentUrl,nameVal);
+  await drv.executeScript("arguments[0].click();", button);
+  const currentUrl = await drv.getCurrentUrl();
+  console.log("changedurl in form tag:",currentUrl,nameVal);
   let x = {
     name: nameVal,
     details: details,
@@ -394,7 +395,7 @@ async function handleform(
     mid = createdProduct._id;
   }
   await GPUVendorList.deleteMany({ gpuid: mid });
-  await saveToDatabase(drivers, mid, currentUrl);
+  await saveToDatabase(drv, mid, currentUrl);
   handledform = current + 1;
   inn++;
 }
@@ -480,8 +481,7 @@ async function fetchGPU() {
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
-          let x=detail_driver;
-          await handleA(x, href, nameVal, details, val, id, imgurl);
+          await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
             const spanElement = await element.findElement(
@@ -518,9 +518,8 @@ async function fetchGPU() {
               By.className("sr-resultItemTile__image_ivkex")
             );
             const imgurl = await imgElements.getAttribute("src");
-            let x=detail_driver;
             await handleform(
-              x,
+              detail_driver,
               url,
               handledform,
               nametext,
