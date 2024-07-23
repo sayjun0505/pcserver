@@ -434,6 +434,7 @@ async function fetchCase() {
       }
     }
     pages++;
+    handledform=0;
   }
   const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
   const csvHeader = "url, counts\n";

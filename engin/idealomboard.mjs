@@ -370,7 +370,7 @@ async function handleform(
 
 async function fetchMboard() {
   let arr = [];
-  let pages = 29;
+  let pages = 0;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
@@ -520,6 +520,7 @@ async function fetchMboard() {
       }
     }
     pages++;
+    handledform=0;
   }
   const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
   const csvHeader = "url, counts\n";

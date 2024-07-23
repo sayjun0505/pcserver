@@ -359,47 +359,46 @@ async function handleform(
   const button = await formElement.findElement(
     By.css('button[role="button"].sr-resultItemLink__button_k3jEE')
   );
-  let drv=drivers;
   console.log("b")
-  const actions = drv.actions();
+  const actions = drivers.actions();
   await actions.move({ origin: button }).perform();
-  await drv.executeScript("arguments[0].click();", button);
-  const currentUrl = await drv.getCurrentUrl();
+  await drivers.executeScript("arguments[0].click();", button);
+  const currentUrl = await drivers.getCurrentUrl();
   console.log("changedurl in form tag:",currentUrl,nameVal);
-  // let x = {
-  //   name: nameVal,
-  //   details: details,
-  //   price: val,
-  //   link: currentUrl,
-  //   productid: id,
-  //   imgurl: imgurl
-  // };
-  // let existingProduct = await GPUList.findOne({
-  //   productid: x.productid
-  // });
-  // let mid = "";
-  // if (existingProduct) {
-  //   mid = existingProduct._id;
-  // } else {
-  //   let createdProduct = await GPUList.create({
-  //     name: x.name,
-  //     productid: x.productid,
-  //     imgurl: x.imgurl,
-  //     detail: x.details,
-  //     link: x.link,
-  //     price: x.price
-  //   });
-  //   mid = createdProduct._id;
-  // }
-  // await GPUVendorList.deleteMany({ gpuid: mid });
-  // await saveToDatabase(drv, mid, currentUrl);
+  let x = {
+    name: nameVal,
+    details: details,
+    price: val,
+    link: currentUrl,
+    productid: id,
+    imgurl: imgurl
+  };
+  let existingProduct = await GPUList.findOne({
+    productid: x.productid
+  });
+  let mid = "";
+  if (existingProduct) {
+    mid = existingProduct._id;
+  } else {
+    let createdProduct = await GPUList.create({
+      name: x.name,
+      productid: x.productid,
+      imgurl: x.imgurl,
+      detail: x.details,
+      link: x.link,
+      price: x.price
+    });
+    mid = createdProduct._id;
+  }
+  await GPUVendorList.deleteMany({ gpuid: mid });
+  await saveToDatabase(drv, mid, currentUrl);
   handledform = current + 1;
   inn++;
 }
 
 async function fetchGPU() {
   let arr = [];
-  let pages = 48;
+  let pages = 0;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
@@ -476,7 +475,6 @@ async function fetchGPU() {
           // console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
-          console.log(formindex ,handledform)
           if (formindex == handledform) {
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
@@ -512,7 +510,6 @@ async function fetchGPU() {
               By.className("sr-resultItemTile__image_ivkex")
             );
             const imgurl = await imgElements.getAttribute("src");
-            console.log("a")
             await handleform(
               detail_driver,
               url,
