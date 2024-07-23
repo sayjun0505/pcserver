@@ -284,7 +284,7 @@ async function handleform(
 
 async function fetchCase() {
   let arr = [];
-  let pages = 63;
+  let pages = 64;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
