@@ -273,10 +273,6 @@ async function fetchRam() {
   let pages = 0;
   let count = 15;
   while (true) {
-    const detail_driver = await new Builder()
-      .forBrowser("chrome")
-      .setChromeOptions(chromeOptions)
-      .build();
     const driver = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
@@ -343,7 +339,8 @@ async function fetchRam() {
           );
           const imgurl = await imgElements.getAttribute("src");
           let nameVal = a[0];
-          await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
+          let dx=driver;
+          await handleA(dx, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
             const spanElement = await element.findElement(
@@ -380,9 +377,9 @@ async function fetchRam() {
               By.className("sr-resultItemTile__image_ivkex")
             );
             const imgurl = await imgElements.getAttribute("src");
-
+            let dx=driver;
             await handleform(
-              detail_driver,
+              dx,
               url,
               handledform,
               nametext,
@@ -413,10 +410,10 @@ async function fetchRam() {
         await driver.manage().deleteAllCookies();
         await driver.quit();
       }
-      if (detail_driver) {
-        await detail_driver.manage().deleteAllCookies();
-        await detail_driver.quit(); // Close the detail_driver at the end of each iteration
-      }
+      // if (detail_driver) {
+      //   await detail_driver.manage().deleteAllCookies();
+      //   await detail_driver.quit(); // Close the detail_driver at the end of each iteration
+      // }
     }
     pages++;
     handledform=0;
