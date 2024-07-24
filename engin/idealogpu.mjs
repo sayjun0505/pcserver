@@ -532,7 +532,7 @@ async function fetchGPU() {
         }
         // await new Promise(resolve => setTimeout(resolve, 1000));
       }
-      // console.log(url, inn);
+      console.log(url, inn);
       arr.push({ url: url, inn: inn });
       if (priceElements.length < 36) break;
     } catch (err) {
