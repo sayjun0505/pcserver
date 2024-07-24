@@ -16,92 +16,6 @@ let arr = [];
 let inn = 0;
 const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const timeout = 20000;
-// async function getdatafromLink(mboardid, link) {
-//   const countrywebshop = await new Builder().forBrowser("chrome").build();
-//   await countrywebshop.get(link);
-
-//   const timeout = 10000;
-//   const listinfo = await countrywebshop.wait(
-//     until.elementsLocated(
-//       By.className("product-offers-items-soop-4576-fallback")
-//     ),
-//     timeout
-//   );
-//   let count = 0;
-//   for (const info of listinfo) {
-//     try {
-//       const nameinfo = await info.findElement(
-//         By.className("productOffers-listItemTitleWrapper")
-//       );
-//       const nameContent = await nameinfo.getText();
-
-//       const paymentinfo = await info.findElement(
-//         By.className("productOffers-listItemOfferShippingDetailsRight")
-//       );
-//       const paymentContent = await paymentinfo.getAttribute("outerHTML");
-
-//       const detailinfo = await info.findElement(
-//         By.className("productOffers-listItemTitle")
-//       );
-//       const detailContent =
-//         "https://www.idealo.it" + (await detailinfo.getAttribute("href"));
-//       const prcinfo = await info.findElement(
-//         By.className("productOffers-listItemOfferPrice")
-//       );
-//       const prcContent = await prcinfo.getText();
-
-//       const vendorinfo = await info.findElement(
-//         By.className("productOffers-listItemOfferShopV2LogoImage")
-//       );
-//       const subimgurl = await vendorinfo.getAttribute("src");
-//       let item = {
-//         mboardid: mboardid,
-//         displayname: nameContent,
-//         payment: paymentContent,
-//         vendorimgurl: subimgurl,
-//         // price: parseFloat(
-//         //   prcContent
-//         //     .replace("€", "")
-//         //     .replace("£", "")
-//         //     .trim()
-//         //     .replace(",", ".")
-//         //     .trim()
-//         // ),
-//         price: prcContent,
-//         directlink: detailContent
-//       };
-//       await MboardVendorList.create(item);
-//       if (count >= 3) {
-//         break;
-//       }
-//       count++;
-//     } catch (err) {
-//       console.error("Error processing element:", err.message);
-//     }
-//   }
-//   await countrywebshop.quit();
-// }
-// async function saveToDatabase(mboardid, htmlString) {
-//   try {
-//     await mongoose.connect(dbConfig.db);
-//     await new Promise((resolve) => setTimeout(resolve, 1000));
-//     const html = await htmlString;
-//     const hrefRegex = /href="([^"]*)"/g;
-//     let hrefLinks = [];
-//     let match;
-//     while ((match = hrefRegex.exec(html)) !== null) {
-//       hrefLinks.push(match[1]);
-//       await getdatafromLink(mboardid, match[1]);
-//     }
-//     await MboardNat.deleteMany({ mboardid: mboardid });
-//     await MboardNat.create({
-//       mboardid: mboardid,
-//       html: html
-//     });
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
 async function getdatafromLink(countrywebshop, mid, link) {
   try {
     await countrywebshop.get(link);
@@ -417,6 +331,7 @@ async function fetchMboard() {
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
+      console.log("Number of price elements found ", priceElements.length,"in page ",pages);
       for (const element of priceElements) {
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));

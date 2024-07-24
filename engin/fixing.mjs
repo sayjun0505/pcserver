@@ -6,14 +6,12 @@ import CPUVendorList from "../model/cpuvendorlist.js";
 import CPUNat from "../model/cpunat.js";
 import mongoose from "mongoose";
 import fs from "fs";
-
 const chromeOptions = new chrome.Options();
 chromeOptions.addArguments("--disable-gpu");
 chromeOptions.addArguments("--disable-images");
 let handledform = 0;
 let arr = [];
 let inn = 0;
-///a form test 75, form test 450
 const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const timeout = 20000;
 async function handleA(
@@ -63,9 +61,6 @@ async function handleA(
     cpuid = createdProduct._id;
   }
   await CPUVendorList.deleteMany({ cpuid: cpuid });
-  // const nationality = await drivers.findElement(By.id("i18nPrices"));
-  // const ulElement = await nationality.findElement(By.tagName("ul"));
-  // const htmlString = await ulElement.getAttribute("outerHTML");
   await saveToDatabase(drivers, cpuid, url);
   inn++;
 }
@@ -336,7 +331,7 @@ async function fetchCPU() {
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
-
+      console.log("Number of price elements found ", priceElements.length,"in page ",pages);
       for (const element of priceElements) {
         // if(i>=31&&i<=35){
 

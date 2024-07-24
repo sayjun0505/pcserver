@@ -316,6 +316,7 @@ async function fetchRam() {
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
+      console.log("Number of price elements found ", priceElements.length,"in page ",pages);
       for (const element of priceElements) {
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));

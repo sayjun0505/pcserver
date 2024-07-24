@@ -6,8 +6,6 @@ import CaseVendorList from "../model/casevendorlist.js";
 import CaseNat from "../model/casenat.js";
 import mongoose from "mongoose";
 import fs from "fs";
-
-
 const chromeOptions = new chrome.Options();
 chromeOptions.addArguments("--disable-gpu");
 chromeOptions.addArguments("--disable-images");
@@ -331,6 +329,7 @@ async function fetchCase() {
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
+      console.log("Number of price elements found ", priceElements.length,"in page ",pages);
       for (const element of priceElements) {
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
