@@ -305,7 +305,7 @@ async function handleform(
     mid = createdProduct._id;
   }
   await GPUVendorList.deleteMany({ gpuid: mid });
-  await saveToDatabase(drv, mid, currentUrl);
+  await saveToDatabase(drivers, mid, currentUrl);
   handledform = current + 1;
   inn++;
 }
