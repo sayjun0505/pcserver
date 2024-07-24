@@ -273,12 +273,11 @@ async function handleform(
   const button = await formElement.findElement(
     By.css('button[role="button"].sr-resultItemLink__button_k3jEE')
   );
-  console.log("b")
   const actions = drivers.actions();
   await actions.move({ origin: button }).perform();
   await drivers.executeScript("arguments[0].click();", button);
   const currentUrl = await drivers.getCurrentUrl();
-  console.log("changedurl in form tag:",currentUrl,nameVal);
+  // console.log("changedurl in form tag:",currentUrl,nameVal);
   let x = {
     name: nameVal,
     details: details,
@@ -312,7 +311,7 @@ async function handleform(
 
 async function fetchGPU() {
   let arr = [];
-  let pages = 2;
+  let pages = 0;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
