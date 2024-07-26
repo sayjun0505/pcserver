@@ -284,15 +284,13 @@ async function fetchRam() {
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
       .build();
+      const actions = driver.actions();  
+      await actions.move({ duration: 2000, origin: someElement, x: Math.random()*10, y: Math.random()*10 }).click().perform();  
     const driver = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
       .build();
     inn = 0;
-    const cookies = await driver.manage().getCookies();  
-    for (const cookie of cookies) {  
-      await driver.manage().addCookie(cookie);  
-  }  
   
     const url = `https://www.idealo.it/cat/4552I16-${
       count * pages
