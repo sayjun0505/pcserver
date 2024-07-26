@@ -15,7 +15,11 @@ let inn = 0;
 function randomDelay(min = 1000, max = 3000) {  
   return Math.floor(Math.random() * (max - min + 1)) + min;  
 } 
-const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+// const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const delay = async (min, max) => {  
+  const ms = Math.floor(Math.random() * (max - min + 1)) + min;  
+  return new Promise((resolve) => setTimeout(resolve, ms));  
+}; 
 const timeout = 20000;
 async function getdatafromLink(countrywebshop, mid, link) {
   try {
@@ -290,7 +294,7 @@ async function fetchRam() {
     }/ram.html`;
     try {
       await driver.get(url);
-      await delay(1000);
+      await delay(1500, 3000);
       let shadowHost = null;
       const startTime = new Date().getTime();
       while (new Date().getTime() - startTime < timeout) {
@@ -313,7 +317,6 @@ async function fetchRam() {
         until.elementsLocated(By.className("sr-resultList_NAJkZ")),
         timeout
       );
-      await delay(1000);
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
       );
