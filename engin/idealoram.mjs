@@ -9,7 +9,7 @@ import fs from "fs";
 const chromeOptions = new chrome.Options();
 chromeOptions.addArguments("--disable-gpu");
 chromeOptions.addArguments("--disable-images");
-chromeOptions.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");  
+// chromeOptions.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");  
 // chromeOptions.addArguments("--disable-blink-features=AutomationControlled");  
 // chromeOptions.addArguments("--disable-infobars");  
 
@@ -295,7 +295,6 @@ async function fetchRam() {
     inn = 0;
     const url = `https://www.idealo.it/cat/4552I16-${count * pages}/ram.html`;
     try {
-      await delay(15000, 30000);
       await driver.get(url);
       let shadowHost = null;
       const startTime = new Date().getTime();
