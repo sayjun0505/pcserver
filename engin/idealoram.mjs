@@ -12,6 +12,9 @@ chromeOptions.addArguments("--disable-images");
 let handledform = 0;
 let arr = [];
 let inn = 0;
+function randomDelay(min = 1000, max = 3000) {  
+  return Math.floor(Math.random() * (max - min + 1)) + min;  
+} 
 const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const timeout = 20000;
 async function getdatafromLink(countrywebshop, mid, link) {
@@ -287,6 +290,7 @@ async function fetchRam() {
     }/ram.html`;
     try {
       await driver.get(url);
+      await sleep(randomDelay());
       let shadowHost = null;
       const startTime = new Date().getTime();
       while (new Date().getTime() - startTime < timeout) {
@@ -309,6 +313,7 @@ async function fetchRam() {
         until.elementsLocated(By.className("sr-resultList_NAJkZ")),
         timeout
       );
+      await sleep(randomDelay());
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
       );
