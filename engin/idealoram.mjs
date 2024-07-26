@@ -10,8 +10,8 @@ const chromeOptions = new chrome.Options();
 chromeOptions.addArguments("--disable-gpu");
 chromeOptions.addArguments("--disable-images");
 chromeOptions.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");  
-chromeOptions.addArguments("--disable-blink-features=AutomationControlled");  
-chromeOptions.addArguments("--disable-infobars");  
+// chromeOptions.addArguments("--disable-blink-features=AutomationControlled");  
+// chromeOptions.addArguments("--disable-infobars");  
 
 let handledform = 0;
 let arr = [];
@@ -293,130 +293,129 @@ async function fetchRam() {
       .setChromeOptions(chromeOptions)
       .build();
     inn = 0;
-console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaa")
     const url = `https://www.idealo.it/cat/4552I16-${count * pages}/ram.html`;
     try {
       await delay(15000, 30000);
       await driver.get(url);
-      // let shadowHost = null;
-      // const startTime = new Date().getTime();
-      // while (new Date().getTime() - startTime < timeout) {
-      //   try {
-      //     shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
-      //     await driver.executeScript(
-      //       `
-      //             const shadowRoot = arguments[0].shadowRoot; 
-      //             const acceptButton = shadowRoot.querySelector('button#accept');
-      //             acceptButton.click();
-      //         `,
-      //       shadowHost
-      //     );
-      //     break;
-      //   } catch (error) {
-      //     await driver.sleep(1000);
-      //   }
-      // }
-      // await driver.wait(
-      //   until.elementsLocated(By.className("sr-resultList_NAJkZ")),
-      //   timeout
-      // );
-      // const parentElement = await driver.findElement(
-      //   By.css(".sr-resultList_NAJkZ")
-      // );
-      // const priceElements = await parentElement.findElements(
-      //   By.className("sr-resultList__item_m6xdA")
-      // );
-      // let formindex = 0;
+      let shadowHost = null;
+      const startTime = new Date().getTime();
+      while (new Date().getTime() - startTime < timeout) {
+        try {
+          shadowHost = await driver.findElement(By.id("usercentrics-cmp-ui"));
+          await driver.executeScript(
+            `
+                  const shadowRoot = arguments[0].shadowRoot; 
+                  const acceptButton = shadowRoot.querySelector('button#accept');
+                  acceptButton.click();
+              `,
+            shadowHost
+          );
+          break;
+        } catch (error) {
+          await driver.sleep(1000);
+        }
+      }
+      await driver.wait(
+        until.elementsLocated(By.className("sr-resultList_NAJkZ")),
+        timeout
+      );
+      const parentElement = await driver.findElement(
+        By.css(".sr-resultList_NAJkZ")
+      );
+      const priceElements = await parentElement.findElements(
+        By.className("sr-resultList__item_m6xdA")
+      );
+      let formindex = 0;
 
-      // for (const element of priceElements) {
-      //   let href = "";
-      //   const linkElements = await element.findElements(By.tagName("a"));
-      //   const formElements = await element.findElements(By.tagName("form"));
-      //   if (linkElements.length > 0) {
-      //     const linkElement = linkElements[0];
-      //     href = await linkElement.getAttribute("href");
-      //     const spanElement = await element.findElement(
-      //       By.css("span[data-wishlist-heart]")
-      //     );
-      //     const dataAttr = await spanElement.getAttribute(
-      //       "data-wishlist-heart"
-      //     );
-      //     const data = JSON.parse(dataAttr);
-      //     const id = data.id;
-      //     const textContent = await element.getText();
-      //     let a = textContent.split("\n");
-      //     let details = a[1];
-      //     const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
-      //     const prc = a[a.length - 1].match(regex);
-      //     const val = prc ? prc[0] : "Price not found";
-      //     const imgElements = await parentElement.findElement(
-      //       By.className("sr-resultItemTile__image_ivkex")
-      //     );
-      //     const imgurl = await imgElements.getAttribute("src");
-      //     let nameVal = a[0];
-      //     await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
-      //   } else if (formElements.length > 0) {
-      //     if (formindex == handledform) {
-      //       const spanElement = await element.findElement(
-      //         By.css("span[data-wishlist-heart]")
-      //       );
+      for (const element of priceElements) {
+        let href = "";
+        const linkElements = await element.findElements(By.tagName("a"));
+        const formElements = await element.findElements(By.tagName("form"));
+        if (linkElements.length > 0) {
+          const linkElement = linkElements[0];
+          href = await linkElement.getAttribute("href");
+          const spanElement = await element.findElement(
+            By.css("span[data-wishlist-heart]")
+          );
+          const dataAttr = await spanElement.getAttribute(
+            "data-wishlist-heart"
+          );
+          const data = JSON.parse(dataAttr);
+          const id = data.id;
+          const textContent = await element.getText();
+          let a = textContent.split("\n");
+          let details = a[1];
+          const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
+          const prc = a[a.length - 1].match(regex);
+          const val = prc ? prc[0] : "Price not found";
+          const imgElements = await parentElement.findElement(
+            By.className("sr-resultItemTile__image_ivkex")
+          );
+          const imgurl = await imgElements.getAttribute("src");
+          let nameVal = a[0];
+          await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
+        } else if (formElements.length > 0) {
+          if (formindex == handledform) {
+            const spanElement = await element.findElement(
+              By.css("span[data-wishlist-heart]")
+            );
 
-      //       const dataAttr = await spanElement.getAttribute(
-      //         "data-wishlist-heart"
-      //       );
-      //       const data = JSON.parse(dataAttr);
-      //       const id = data.id;
-      //       const textContent = await element.getText();
-      //       let a = textContent.split("\n");
-      //       let details = a[1];
-      //       const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
-      //       let nameVal = a[0];
-      //       if (a[0].includes("%")) {
-      //         const nameElements = await parentElement.findElement(
-      //           By.className("sr-productSummary__title_f5flP")
-      //         );
-      //         nameVal = await nameElements.getText();
-      //       }
-      //       let divElement = await element.findElement(
-      //         By.css(
-      //           'div.sr-productSummary__title_f5flP[data-testid="productSummary__title"]'
-      //         )
-      //       );
+            const dataAttr = await spanElement.getAttribute(
+              "data-wishlist-heart"
+            );
+            const data = JSON.parse(dataAttr);
+            const id = data.id;
+            const textContent = await element.getText();
+            let a = textContent.split("\n");
+            let details = a[1];
+            const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
+            let nameVal = a[0];
+            if (a[0].includes("%")) {
+              const nameElements = await parentElement.findElement(
+                By.className("sr-productSummary__title_f5flP")
+              );
+              nameVal = await nameElements.getText();
+            }
+            let divElement = await element.findElement(
+              By.css(
+                'div.sr-productSummary__title_f5flP[data-testid="productSummary__title"]'
+              )
+            );
 
-      //       // Extract the text from the div tag
-      //       let nametext = await divElement.getText();
-      //       const prc = a[a.length - 1].match(regex);
-      //       const val = prc ? prc[0] : "Price not found";
-      //       const imgElements = await parentElement.findElement(
-      //         By.className("sr-resultItemTile__image_ivkex")
-      //       );
-      //       const imgurl = await imgElements.getAttribute("src");
+            // Extract the text from the div tag
+            let nametext = await divElement.getText();
+            const prc = a[a.length - 1].match(regex);
+            const val = prc ? prc[0] : "Price not found";
+            const imgElements = await parentElement.findElement(
+              By.className("sr-resultItemTile__image_ivkex")
+            );
+            const imgurl = await imgElements.getAttribute("src");
 
-      //       await handleform(
-      //         detail_driver,
-      //         url,
-      //         handledform,
-      //         nametext,
-      //         details,
-      //         val,
-      //         id,
-      //         imgurl
-      //       );
-      //       // await detail_driver.executeScript("document.body.innerHTML = '';");
-      //       formindex++;
-      //     } else {
-      //       formindex++;
-      //       continue;
-      //     }
-      //   } else {
-      //     // Handle cases where neither <a> nor <form> tags are found
-      //     console.log("Element does not contain <a> or <form> tags");
-      //   }
-      //   // await new Promise(resolve => setTimeout(resolve, 1000));
-      // }
-      // console.log(url, inn);
-      // arr.push({ url: url, inn: inn });
-      // if (priceElements.length < 36) break;
+            await handleform(
+              detail_driver,
+              url,
+              handledform,
+              nametext,
+              details,
+              val,
+              id,
+              imgurl
+            );
+            // await detail_driver.executeScript("document.body.innerHTML = '';");
+            formindex++;
+          } else {
+            formindex++;
+            continue;
+          }
+        } else {
+          // Handle cases where neither <a> nor <form> tags are found
+          console.log("Element does not contain <a> or <form> tags");
+        }
+        // await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+      console.log(url, inn);
+      arr.push({ url: url, inn: inn });
+      if (priceElements.length < 36) break;
     } catch (err) {
       console.error("An error occurred in iteration", pages, ":", err);
     } finally {
