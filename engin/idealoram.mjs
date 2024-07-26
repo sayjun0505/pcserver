@@ -280,10 +280,7 @@ async function fetchRam() {
   let pages = 25;
   let count = 15;
   while (true) {
-    const detail_driver = await new Builder()
-      .forBrowser("chrome")
-      .setChromeOptions(chromeOptions)
-      .build();
+    
     const driver = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
@@ -324,7 +321,10 @@ async function fetchRam() {
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
-      
+      const detail_driver = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(chromeOptions)
+      .build();
       for (const element of priceElements) {
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
