@@ -280,12 +280,20 @@ async function fetchRam() {
   let pages = 25;
   let count = 15;
   while (true) {
-    
+    const detail_driver = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(chromeOptions)
+      .build();
     const driver = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
       .build();
     inn = 0;
+    const cookies = await driver.manage().getCookies();  
+    for (const cookie of cookies) {  
+      await driver.manage().addCookie(cookie);  
+  }  
+  
     const url = `https://www.idealo.it/cat/4552I16-${
       count * pages
     }/ram.html`;
@@ -321,10 +329,7 @@ async function fetchRam() {
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
-      const detail_driver = await new Builder()
-      .forBrowser("chrome")
-      .setChromeOptions(chromeOptions)
-      .build();
+      
       for (const element of priceElements) {
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
