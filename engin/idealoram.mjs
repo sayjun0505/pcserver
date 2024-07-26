@@ -7,14 +7,11 @@ import RamNat from "../model/ramnat.js";
 import mongoose from "mongoose";
 import fs from "fs";
 const chromeOptions = new chrome.Options();
-chromeOptions.addArguments("--disable-gpu");
-chromeOptions.addArguments("--disable-images");
-chromeOptions.setExperimentalOption("excludeSwitches", ["enable-automation"]);  
-chromeOptions.setExperimentalOption("useAutomationExtension", false);  
-chromeOptions.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");  
-chromeOptions.addArguments("--disable-blink-features=AutomationControlled");  
+chromeOptions.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36");  
 chromeOptions.addArguments("--disable-infobars");  
-
+chromeOptions.addArguments("--disable-extensions");  
+chromeOptions.addArguments("--no-sandbox"); // For Linux environments  
+chromeOptions.addArguments("--disable-dev-shm-usage");
 let handledform = 0;
 let arr = [];
 let inn = 0;
