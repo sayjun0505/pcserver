@@ -293,7 +293,7 @@ console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaa")
     const url = `https://www.idealo.it/cat/4552I16-${count * pages}/ram.html`;
     try {
       await driver.get(url);
-      await delay(1500, 3000);
+      await delay(15000, 30000);
       let shadowHost = null;
       const startTime = new Date().getTime();
       while (new Date().getTime() - startTime < timeout) {
