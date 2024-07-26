@@ -12,14 +12,14 @@ chromeOptions.addArguments("--disable-images");
 let handledform = 0;
 let arr = [];
 let inn = 0;
-function randomDelay(min = 1000, max = 3000) {  
-  return Math.floor(Math.random() * (max - min + 1)) + min;  
-} 
+function randomDelay(min = 1000, max = 3000) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 // const delay = async (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const delay = async (min, max) => {  
-  const ms = Math.floor(Math.random() * (max - min + 1)) + min;  
-  return new Promise((resolve) => setTimeout(resolve, ms));  
-}; 
+const delay = async (min, max) => {
+  const ms = Math.floor(Math.random() * (max - min + 1)) + min;
+  return new Promise((resolve) => setTimeout(resolve, ms));
+};
 const timeout = 20000;
 async function getdatafromLink(countrywebshop, mid, link) {
   try {
@@ -284,17 +284,13 @@ async function fetchRam() {
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
       .build();
-      const driver = await new Builder()
+    const driver = await new Builder()
       .forBrowser("chrome")
       .setChromeOptions(chromeOptions)
       .build();
     inn = 0;
-  const actions = driver.actions();  
-      await actions.move({ duration: 2000, origin: someElement, x: Math.random()*10, y: Math.random()*10 }).click().perform();  
-    
-    const url = `https://www.idealo.it/cat/4552I16-${
-      count * pages
-    }/ram.html`;
+console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+    const url = `https://www.idealo.it/cat/4552I16-${count * pages}/ram.html`;
     try {
       await driver.get(url);
       await delay(1500, 3000);
@@ -327,7 +323,7 @@ async function fetchRam() {
         By.className("sr-resultList__item_m6xdA")
       );
       let formindex = 0;
-      
+
       for (const element of priceElements) {
         let href = "";
         const linkElements = await element.findElements(By.tagName("a"));
@@ -430,7 +426,7 @@ async function fetchRam() {
       }
     }
     pages++;
-    handledform=0;
+    handledform = 0;
   }
   const csvRows = arr.map((row) => `${row.url}, ${row.inn}\n`).join("");
   const csvHeader = "url, counts\n";
