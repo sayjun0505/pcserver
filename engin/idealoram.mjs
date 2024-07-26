@@ -12,6 +12,9 @@ chromeOptions.addArguments("--disable-infobars");
 chromeOptions.addArguments("--disable-extensions");  
 chromeOptions.addArguments("--no-sandbox"); // For Linux environments  
 chromeOptions.addArguments("--disable-dev-shm-usage");
+chromeOptions.setUserPreferences({  
+  'profile.default_content_setting_values.notifications': 2, // Disable notifications  
+});  
 let handledform = 0;
 let arr = [];
 let inn = 0;
