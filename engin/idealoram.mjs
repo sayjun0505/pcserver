@@ -290,7 +290,7 @@ async function fetchRam() {
     }/ram.html`;
     try {
       await driver.get(url);
-      await sleep(randomDelay());
+      await delay(1000);
       let shadowHost = null;
       const startTime = new Date().getTime();
       while (new Date().getTime() - startTime < timeout) {
@@ -313,7 +313,7 @@ async function fetchRam() {
         until.elementsLocated(By.className("sr-resultList_NAJkZ")),
         timeout
       );
-      await sleep(randomDelay());
+      await delay(1000);
       const parentElement = await driver.findElement(
         By.css(".sr-resultList_NAJkZ")
       );
