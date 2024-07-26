@@ -416,7 +416,7 @@ console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaa")
       // }
       // console.log(url, inn);
       // arr.push({ url: url, inn: inn });
-      if (priceElements.length < 36) break;
+      // if (priceElements.length < 36) break;
     } catch (err) {
       console.error("An error occurred in iteration", pages, ":", err);
     } finally {
