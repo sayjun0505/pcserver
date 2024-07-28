@@ -329,7 +329,7 @@ async function handleform(
 }
 async function fetchRam() {
   let arr = [];
-  let pages = 25;
+  let pages = 0;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()

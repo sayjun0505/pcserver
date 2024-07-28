@@ -116,74 +116,120 @@ async function handleA(
   await saveToDatabase(drivers, mid, url);
   inn++;
 }
+// const getlink = (str) => {
+//   if (str.toLowerCase().includes("alternate"))
+//     return "https://www.alternate.fr/Processeurs";
+//   if (str.toLowerCase().includes("amazon"))
+//     return "https://www.amazon.it/dp/B0CFXZDLZD/?smid=A2NKETR112XW8D&tag=idealoit-mp-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B0CFXZDLZD&ascsubtag=2024-07-21_34a35559cdc77205700c21c4d9e6ead84b547193ceb106da190e6bec3034fdc4&th=1&psc=1";
+//   if (str.toLowerCase().includes("bpm"))
+//     return "https://www.bpm-power.com/it/online/componenti-pc/schede-madri";
+//   if (str.toLowerCase().includes("computeruniverse"))
+//     return "https://www.computeruniverse.net/de/c/hardware-komponenten/kuhlung-cooling";
+//   if (str.toLowerCase().includes("cyberport"))
+//     return "https://www.cyberport.at/pc-und-zubehoer/komponenten/mainboards.html";
+//   if (str.toLowerCase().includes("ebay"))
+//     return "https://www.ebay.it/itm/196115008578?var=0&mkevt=1&mkcid=1&mkrid=724-53478-19255-0&toolid=20006&campid=5337770569&customid=swBckVxgPQDe_7eiTtwCvg";
+//   if (str.toLowerCase().includes("eprice"))
+//     return "https://www.eprice.it/catalogo/informatica/componenti-pc";
+//   if (str.toLowerCase().includes("esus"))
+//     return "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
+//   if (str.toLowerCase().includes("eweki"))
+//     return "https://www.eweki.it/informatica/componenti-assemblaggio/processori-cpu.html";
+//   if (str.toLowerCase().includes("galaxus"))
+//     return "https://www.galaxus.de/en/s1/producttype/processors-83";
+//   if (str.toLowerCase().includes("geopc"))
+//     return "https://geopc.it/componenti-hardware-informatica/cpu-processori-intel-amd";
+//   if (str.toLowerCase().includes("goldenprice"))
+//     return "https://www.goldenprice.it/informatica/componenti-assemblaggio/cpu";
+//   if (str.toLowerCase().includes("ldc"))
+//     return "https://www.ldc.it/141-processori-e-cpu";
+//   if (str.toLowerCase().includes("notebooksbilliger"))
+//     return "https://www.notebooksbilliger.de/pc+hardware/prozessoren+pc+hardware";
+//   if (str.toLowerCase().includes("nullprozentshop"))
+//     return "https://www.nullprozentshop.de/pc-hardware/amd/";
+//   if (str.toLowerCase().includes("pc componentes"))
+//     return "https://www.pccomponentes.it/processori";
+//   if (str.toLowerCase().includes("pixmart"))
+//     return "https://www.pixmart.it/prodotto/asrock-b650e-taichi-lite-amd-b650-socket-am5-atx/?utm_source=Idealo.it&amp;utm_campaign=Feed%20per%20Idealo&amp;utm_medium=cpc&amp;utm_term=53220";
+//   if (str.toLowerCase().includes("proshop"))
+//     return "https://www.proshop.at/CPU";
+//   if (str.toLowerCase().includes("ollo"))
+//     return "https://www.ollo.it/schede-madri/c_229";
+//   if (str.toLowerCase().includes("onbuy"))
+//     return "https://www.onbuy.com/gb/computer-processors~c8568/";
+//   if (str.toLowerCase().includes("redcomputer"))
+//     return "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+//   if (str.toLowerCase().includes("redgaming"))
+//     return "https://redgaming.it/schede-madri/16784-scheda-madre-asrock-b650m-pro-rs-amd-am5-ddr5-micro-atx-argento-4710483943096.html";
+//   if (str.toLowerCase().includes("reichelt"))
+//     return "https://www.reichelt.com/it/it/asrock-b650e-taichi-lite-am5--asr-90mxbmg0-p370362.html?utm_source=psuma&utm_medium=idealo.it&PROVID=2846";
+//   if (str.toLowerCase().includes("senetic"))
+//     return "https://www.senetic.es/product/100-100000063WOF";
+//   if (str.toLowerCase().includes("sferaufficio"))
+//     return "https://www.sferaufficio.com/articolo/asrock-b650e-taichi-lite-amd-b650-presa-di-corrente-am5-atx/L3507361353";
+//   if (str.toLowerCase().includes("siimsrl"))
+//     return "https://www.siimsrl.it/cpu.1.7.252.sp.uw?fd=1";
+//   if (str.toLowerCase().includes("speedler"))
+//     return "https://www.speedler.es/componentes-hardware/componentes/procesadores";
+//   if (str.toLowerCase().includes("syswork"))
+//     return "https://syswork.store/it/cpu";
+//   if (str.toLowerCase().includes("topgamingpc"))
+//     return "https://www.topgamingpc.it/categoria-prodotto/prodotti-it/cpu/?v=cd32106bcb6d";
+//   if (str.toLowerCase().includes("techinn"))
+//     return "https://www.tradeinn.com/techinn/it/componenti-processori/15978/s";
+//   if (str.toLowerCase().includes("trippodo"))
+//     return "https://www.trippodo.com/it/b650/201859-asrock-b650e-taichi-lite-amd-b650-presa-di-corrente-am5-atx-4710483943508.html";
+//   if (str.toLowerCase().includes("xfilesaversa"))
+//     return "https://www.xfilesaversa.it/it/informatica/componentistica/processori/";
+//   if (str.toLowerCase().includes("yeppon"))
+//     return "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
+//   return "https://www.amazon.it/dp/B0CFXZDLZD/?smid=A2NKETR112XW8D&tag=idealoit-mp-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B0CFXZDLZD&ascsubtag=2024-07-21_34a35559cdc77205700c21c4d9e6ead84b547193ceb106da190e6bec3034fdc4&th=1&psc=1";
+// };
 const getlink = (str) => {
-  if (str.toLowerCase().includes("alternate"))
-    return "https://www.alternate.fr/Processeurs";
-  if (str.toLowerCase().includes("amazon"))
-    return "https://www.amazon.it/dp/B0CFXZDLZD/?smid=A2NKETR112XW8D&tag=idealoit-mp-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B0CFXZDLZD&ascsubtag=2024-07-21_34a35559cdc77205700c21c4d9e6ead84b547193ceb106da190e6bec3034fdc4&th=1&psc=1";
-  if (str.toLowerCase().includes("bpm"))
-    return "https://www.bpm-power.com/it/online/componenti-pc/schede-madri";
-  if (str.toLowerCase().includes("computeruniverse"))
-    return "https://www.computeruniverse.net/de/c/hardware-komponenten/kuhlung-cooling";
-  if (str.toLowerCase().includes("cyberport"))
-    return "https://www.cyberport.at/pc-und-zubehoer/komponenten/mainboards.html";
-  if (str.toLowerCase().includes("ebay"))
-    return "https://www.ebay.it/itm/196115008578?var=0&mkevt=1&mkcid=1&mkrid=724-53478-19255-0&toolid=20006&campid=5337770569&customid=swBckVxgPQDe_7eiTtwCvg";
-  if (str.toLowerCase().includes("eprice"))
-    return "https://www.eprice.it/catalogo/informatica/componenti-pc";
-  if (str.toLowerCase().includes("esus"))
-    return "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
-  if (str.toLowerCase().includes("eweki"))
-    return "https://www.eweki.it/informatica/componenti-assemblaggio/processori-cpu.html";
-  if (str.toLowerCase().includes("galaxus"))
-    return "https://www.galaxus.de/en/s1/producttype/processors-83";
-  if (str.toLowerCase().includes("geopc"))
-    return "https://geopc.it/componenti-hardware-informatica/cpu-processori-intel-amd";
-  if (str.toLowerCase().includes("goldenprice"))
-    return "https://www.goldenprice.it/informatica/componenti-assemblaggio/cpu";
-  if (str.toLowerCase().includes("ldc"))
-    return "https://www.ldc.it/141-processori-e-cpu";
-  if (str.toLowerCase().includes("notebooksbilliger"))
-    return "https://www.notebooksbilliger.de/pc+hardware/prozessoren+pc+hardware";
-  if (str.toLowerCase().includes("nullprozentshop"))
-    return "https://www.nullprozentshop.de/pc-hardware/amd/";
-  if (str.toLowerCase().includes("pc componentes"))
-    return "https://www.pccomponentes.it/processori";
-  if (str.toLowerCase().includes("pixmart"))
-    return "https://www.pixmart.it/prodotto/asrock-b650e-taichi-lite-amd-b650-socket-am5-atx/?utm_source=Idealo.it&amp;utm_campaign=Feed%20per%20Idealo&amp;utm_medium=cpc&amp;utm_term=53220";
-  if (str.toLowerCase().includes("proshop"))
-    return "https://www.proshop.at/CPU";
-  if (str.toLowerCase().includes("ollo"))
-    return "https://www.ollo.it/schede-madri/c_229";
-  if (str.toLowerCase().includes("onbuy"))
-    return "https://www.onbuy.com/gb/computer-processors~c8568/";
-  if (str.toLowerCase().includes("redcomputer"))
-    return "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
-  if (str.toLowerCase().includes("redgaming"))
-    return "https://redgaming.it/schede-madri/16784-scheda-madre-asrock-b650m-pro-rs-amd-am5-ddr5-micro-atx-argento-4710483943096.html";
+  if (str.toLowerCase().includes("0815"))return "https://www.0815.at/Smartphone-IT/Komponenten/RAM-Speicher";    
+  if (str.toLowerCase().includes("1fodiscount"))return "https://www.1fodiscount.com/f3-memoire-ram/";
+  if (str.toLowerCase().includes("25n"))return "https://25n.de/Hardware/Arbeitsspeicher/";
+  if (str.toLowerCase().includes("alternate"))return "https://www.alternate.fr/M%C3%A9moire-vive";
+  if (str.toLowerCase().includes("amazon"))return "https://www.amazon.it/s?i=computers&bbn=17492754031&rh=n%3A425916031%2Cn%3A460080031%2Cn%3A17492754031%2Cn%3A460119031&dc&qid=1722138576&rnid=17492754031&ref=sr_nr_n_3&ds=v1%3AYLlaKPGYmg8jx%2B6q2cpYBGdNNOVf8A6E9z%2FIWnEs6S8";    
+  if (str.toLowerCase().includes("awd"))return "https://www.awd-it.co.uk/components/hard-disk-drives.html";
+  if (str.toLowerCase().includes("barax"))return "https://www.barax.de/_hardware/komponenten/hdd-festplatte/";  
+  if (str.toLowerCase().includes("bpm"))return "https://www.bpm-power.com/it/online/componenti-pc/schede-video";   
+  if (str.toLowerCase().includes("cdiscount"))return "https://www.cdiscount.com/informatique/disques-durs-internes/l-10768.html#_his_";
+  if (str.toLowerCase().includes("computeruniverse"))return "https://www.computeruniverse.net/de/c/hardware-komponenten/sata-serial-ata-festplatten";
+  if(str.toLowerCase().includes("coolmod"))return "https://www.coolmod.com/componentes-pc-discos-hdd/";
+  if (str.toLowerCase().includes("cyberport"))return "https://www.cyberport.at/pc-und-zubehoer/komponenten/ram-erweiterungen.html";
+  if (str.toLowerCase().includes("ebay"))return "https://www.ebay.it/b/Memoria-RAM-per-prodotti-informatici/170083/bn_16546714";
+  if (str.toLowerCase().includes("eprice"))return "https://www.eprice.it/pr/scheda-video";  
+  if (str.toLowerCase().includes("esus"))return "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
+  if (str.toLowerCase().includes("eweki"))return "https://www.eweki.it/informatica/componenti-assemblaggio/memorie-ram.html";
+  if (str.toLowerCase().includes("galaxus"))return "https://www.galaxus.de/en/s1/producttype/graphics-card-106";
+  if (str.toLowerCase().includes("geopc"))return "https://geopc.it/componenti-hardware-informatica/memorie-ram-ddr";
+  if (str.toLowerCase().includes("goldenprice"))return "https://www.goldenprice.it/informatica/componenti-assemblaggio/memorie-removibili";
+  if (str.toLowerCase().includes("ldc"))return "https://www.ldc.it/140-memoria-ram";
+  if (str.toLowerCase().includes("notebooksbilliger"))return "https://www.notebooksbilliger.de/pc+hardware/grafikkarten";
+  if (str.toLowerCase().includes("nullprozentshop"))return "https://www.nullprozentshop.de/pc-hardware/gigabyte/";
+  if (str.toLowerCase().includes("pc componentes"))return "https://www.pccomponentes.it/processori";
+  if (str.toLowerCase().includes("pixmart"))return "https://www.pixmart.it/categoria-prodotto/componenti-pc/ram/";
+  if (str.toLowerCase().includes("proshop"))return "https://www.proshop.at/RAM";
+  if (str.toLowerCase().includes("ollo"))return "https://www.ollo.it/memoria-ram/c_189";
+  if (str.toLowerCase().includes("onbuy"))return "https://www.onbuy.com/gb/ram-computer-components~c8570/";
+  if (str.toLowerCase().includes("redcomputer"))return "https://www.yeppon.it/c/videogames/componenti-gaming/schede-grafiche-gaming";
+  if (str.toLowerCase().includes("redgaming"))return "https://redgaming.it/11-ram";
   if (str.toLowerCase().includes("reichelt"))
     return "https://www.reichelt.com/it/it/asrock-b650e-taichi-lite-am5--asr-90mxbmg0-p370362.html?utm_source=psuma&utm_medium=idealo.it&PROVID=2846";
-  if (str.toLowerCase().includes("senetic"))
-    return "https://www.senetic.es/product/100-100000063WOF";
-  if (str.toLowerCase().includes("sferaufficio"))
-    return "https://www.sferaufficio.com/articolo/asrock-b650e-taichi-lite-amd-b650-presa-di-corrente-am5-atx/L3507361353";
-  if (str.toLowerCase().includes("siimsrl"))
-    return "https://www.siimsrl.it/cpu.1.7.252.sp.uw?fd=1";
-  if (str.toLowerCase().includes("speedler"))
-    return "https://www.speedler.es/componentes-hardware/componentes/procesadores";
-  if (str.toLowerCase().includes("syswork"))
-    return "https://syswork.store/it/cpu";
-  if (str.toLowerCase().includes("topgamingpc"))
-    return "https://www.topgamingpc.it/categoria-prodotto/prodotti-it/cpu/?v=cd32106bcb6d";
-  if (str.toLowerCase().includes("techinn"))
-    return "https://www.tradeinn.com/techinn/it/componenti-processori/15978/s";
-  if (str.toLowerCase().includes("trippodo"))
-    return "https://www.trippodo.com/it/b650/201859-asrock-b650e-taichi-lite-amd-b650-presa-di-corrente-am5-atx-4710483943508.html";
-  if (str.toLowerCase().includes("xfilesaversa"))
-    return "https://www.xfilesaversa.it/it/informatica/componentistica/processori/";
-  if (str.toLowerCase().includes("yeppon"))
-    return "https://www.yeppon.it/c/videogames/componenti-gaming/processori-cpu-gaming";
-  return "https://www.amazon.it/dp/B0CFXZDLZD/?smid=A2NKETR112XW8D&tag=idealoit-mp-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B0CFXZDLZD&ascsubtag=2024-07-21_34a35559cdc77205700c21c4d9e6ead84b547193ceb106da190e6bec3034fdc4&th=1&psc=1";
+  if (str.toLowerCase().includes("senetic"))return "https://www.senetic.es/product/100-100000063WOF";
+  if (str.toLowerCase().includes("sferaufficio"))return "https://www.sferaufficio.com/categorie/memorie";
+  if (str.toLowerCase().includes("siimsrl")) return "https://www.siimsrl.it/memorie-altre-marche.1.7.263.sp.uw?fd=1"; 
+  if (str.toLowerCase().includes("smartteck"))return "https://www.smartteck.co.uk/pc-components/graphics-cards-i-o";
+  if (str.toLowerCase().includes("speedler"))return "https://www.speedler.es/componentes-hardware/componentes/tarjetas-graficas";
+  if (str.toLowerCase().includes("syswork")) return "https://syswork.store/it/katid='%20Informatica@Componenti%20PC@RAM'";
+  if (str.toLowerCase().includes("topgamingpc"))return "https://www.topgamingpc.it/categoria-prodotto/prodotti-it/schede-video/?v=cd32106bcb6d";
+  if (str.toLowerCase().includes("techinn")) return "https://www.tradeinn.com/techinn/it/componenti-ram/15981/s";
+  if (str.toLowerCase().includes("trippodo"))return "https://www.trippodo.com/it/570-memorie-ram";
+  if (str.toLowerCase().includes("voelkner"))return "https://www.voelkner.de/categories/13140_13217_13616/Computer-Buero/PC-Komponenten/Grafikkarten.html?filter_cbeef3905458e7917901a59e2c6bc15e%5Bf%5D=Grafik-Prozessor+%2F+Marke&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CAMD&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CIntel&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CMicrosoft&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CNVIDIA&filter_90a93fbb6110f89425b9808f8d5bd318%5Bf%5D=showInCategory&filter_90a93fbb6110f89425b9808f8d5bd318%5Bv%5D%5B%5D=0%7Cor%7Ctrue&version=5&viewport=desktop&cPath=13140_13217_13616";
+  if (str.toLowerCase().includes("xfilesaversa"))return "https://www.xfilesaversa.it/it/informatica/componentistica/ram/";
+  if (str.toLowerCase().includes("yeppon"))return "https://www.yeppon.it/c/videogames/componenti-gaming/memorie-gaming";
+  return "https://www.amazon.it/s?i=computers&bbn=17492754031&rh=n%3A425916031%2Cn%3A460080031%2Cn%3A17492754031%2Cn%3A460119031&dc&qid=1722138576&rnid=17492754031&ref=sr_nr_n_3&ds=v1%3AYLlaKPGYmg8jx%2B6q2cpYBGdNNOVf8A6E9z%2FIWnEs6S8";
 };
 async function saveToDatabase(drivers, mid, url) {
   try {
