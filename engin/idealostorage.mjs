@@ -190,17 +190,18 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("1fodiscount"))return "https://www.1fodiscount.com/f6-stockage/";
   if (str.toLowerCase().includes("25n"))return "https://25n.de/Hardware/Festplatten/";
   if (str.toLowerCase().includes("alternate"))return "https://www.alternate.fr/Disques-durs";
-  if (str.toLowerCase().includes("amazon"))return "https://www.amazon.it/s?i=computers&bbn=17492754031&rh=n%3A425916031%2Cn%3A460080031%2Cn%3A17492754031%2Cn%3A14076167031&dc&qid=1722140139&rnid=17492754031&ref=sr_nr_n_2&ds=v1%3AB%2BgYURv%2BXM%2BWG6cePSrEZ%2BaFxLiFdFQ84TjBVXtHr58";    
+  if (str.toLowerCase().includes("amazon"))return "https://www.amazon.it/b/ref=dp_bc_aui_C_4?ie=UTF8&node=460102031";    
   if (str.toLowerCase().includes("awd"))return "https://www.awd-it.co.uk/components/hard-disk-drives.html";
   if (str.toLowerCase().includes("barax"))return "https://www.barax.de/_hardware/komponenten/hdd-festplatte/";  
-  if (str.toLowerCase().includes("bpm"))return "https://www.bpm-power.com/it/online/componenti-pc/schede-video";   
+  if (str.toLowerCase().includes("bpm"))return "https://www.bpm-power.com/it/online/componenti-pc/hard-disk-interni";   
   if (str.toLowerCase().includes("cdiscount"))return "https://www.cdiscount.com/informatique/disques-durs-internes/l-10768.html#_his_";
   if (str.toLowerCase().includes("computeruniverse"))return "https://www.computeruniverse.net/de/c/hardware-komponenten/sata-serial-ata-festplatten";
   if(str.toLowerCase().includes("coolmod"))return "https://www.coolmod.com/componentes-pc-discos-hdd/";
   if (str.toLowerCase().includes("cyberport"))return "https://www.cyberport.at/pc-und-zubehoer/festplatten-ssds.html";
-  if (str.toLowerCase().includes("ebay"))return "https://www.ebay.it/b/Memoria-RAM-per-prodotti-informatici/170083/bn_16546714";
+  if (str.toLowerCase().includes("ebay"))return "https://www.ebay.it/b/Hard-disk-interni/56083/bn_16546745";
   if (str.toLowerCase().includes("eprice"))return "https://www.eprice.it/pr/scheda-video";  
-  if (str.toLowerCase().includes("esus"))return "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
+  if (str.toLowerCase().includes("esus"))return "https://www.esus-it.it/ita_m_UNITA_DISCHI-HDD-10159.html";
+  if (str.toLowerCase().includes("esseshop"))return "https://www.esseshop.it/componenti-hardware-hard-disk-35-c-244-351.html";
   if (str.toLowerCase().includes("eweki"))return "https://www.eweki.it/informatica/hard-disk-storage/hard-disk-ssd.html";
   if (str.toLowerCase().includes("galaxus"))return "https://www.galaxus.de/en/s1/producttype/graphics-card-106";
   if (str.toLowerCase().includes("geopc"))return "https://geopc.it/storage-hdd-ssd-ram-ddr-nas/hard-disk-interni-personal-computer";
@@ -215,8 +216,7 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("onbuy"))return "https://www.onbuy.com/gb/internal-hard-drives~c11600/";
   if (str.toLowerCase().includes("redcomputer"))return "https://www.yeppon.it/c/videogames/componenti-gaming/schede-grafiche-gaming";
   if (str.toLowerCase().includes("redgaming"))return "https://redgaming.it/12-hard-disk";
-  if (str.toLowerCase().includes("reichelt"))
-    return "https://www.reichelt.com/it/it/asrock-b650e-taichi-lite-am5--asr-90mxbmg0-p370362.html?utm_source=psuma&utm_medium=idealo.it&PROVID=2846";
+  if (str.toLowerCase().includes("reichelt"))  return "https://www.reichelt.com/it/it/dischi-rigidi-c7276.html?&nbc=1";
   if (str.toLowerCase().includes("senetic"))return "https://www.senetic.es/product/100-100000063WOF";
   if (str.toLowerCase().includes("sferaufficio"))return "https://www.sferaufficio.com/categorie/dischi-rigidi-interni";
   if (str.toLowerCase().includes("siimsrl")) return "https://www.siimsrl.it/hdd.1.7.1105.sp.uw?fd=1"; 

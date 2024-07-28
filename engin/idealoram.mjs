@@ -134,29 +134,42 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("1fodiscount"))return "https://www.1fodiscount.com/f3-memoire-ram/";
   if (str.toLowerCase().includes("25n"))return "https://25n.de/Hardware/Arbeitsspeicher/";
   if (str.toLowerCase().includes("alternate"))return "https://www.alternate.fr/M%C3%A9moire-vive";
+  if (str.toLowerCase().includes("alza"))return "https://www.alza.at/ram-arbeitsspeicher/18842853.htm";
   if (str.toLowerCase().includes("amazon"))return "https://www.amazon.it/s?i=computers&bbn=17492754031&rh=n%3A425916031%2Cn%3A460080031%2Cn%3A17492754031%2Cn%3A460119031&dc&qid=1722138576&rnid=17492754031&ref=sr_nr_n_3&ds=v1%3AYLlaKPGYmg8jx%2B6q2cpYBGdNNOVf8A6E9z%2FIWnEs6S8";    
+  if (str.toLowerCase().includes("asus"))return "https://www.asusbymacman.es/buscador?s=ram";
   if (str.toLowerCase().includes("awd"))return "https://www.awd-it.co.uk/components/memory.html";
   if (str.toLowerCase().includes("barax"))return "https://www.barax.de/_hardware/komponenten/arbeitsspeicher/";  
-  if (str.toLowerCase().includes("bpm"))return "https://www.bpm-power.com/it/online/componenti-pc/schede-video";   
+  if (str.toLowerCase().includes("bpm"))return "https://www.bpm-power.com/it/online/componenti-pc/memorie";   
   if (str.toLowerCase().includes("cdiscount"))return "https://www.cdiscount.com/informatique/memoire-ram/l-10716.html#_his_";
+  if (str.toLowerCase().includes("cnishop"))return "https://www.cnishop.com/14083-memorie-ram";
   if (str.toLowerCase().includes("computeruniverse"))return "https://www.computeruniverse.net/de/c/hardware-komponenten/arbeitsspeicher";
   if(str.toLowerCase().includes("coolmod"))return "https://www.coolmod.com/componentes-pc-memorias-ram/";
+  if(str.toLowerCase().includes("csv-direct"))return "https://www.coolmod.com/componentes-pc-memorias-ram/";
   if (str.toLowerCase().includes("cyberport"))return "https://www.cyberport.at/pc-und-zubehoer/komponenten/ram-erweiterungen.html";
   if (str.toLowerCase().includes("ebay"))return "https://www.ebay.it/b/Memoria-RAM-per-prodotti-informatici/170083/bn_16546714";
   if (str.toLowerCase().includes("eprice"))return "https://www.eprice.it/pr/ram";  
   if (str.toLowerCase().includes("esus"))return "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
   if (str.toLowerCase().includes("eweki"))return "https://www.eweki.it/informatica/componenti-assemblaggio/memorie-ram.html";
-  if (str.toLowerCase().includes("galaxus"))return "https://www.galaxus.de/en/s1/producttype/graphics-card-106";
+  if (str.toLowerCase().includes("galaxus"))return "https://www.galaxus.de/en/s1/producttype/ram-2";
   if (str.toLowerCase().includes("geopc"))return "https://geopc.it/componenti-hardware-informatica/memorie-ram-ddr";
   if (str.toLowerCase().includes("goldenprice"))return "https://www.goldenprice.it/informatica/componenti-assemblaggio/memorie-removibili";
+  if (str.toLowerCase().includes("jacob"))return "https://direkt.jacob.de/arbeitsspeicher-ram/";
+  if (str.toLowerCase().includes("lashop"))return "https://www.1ashop.at/de/kategorie/komponenten/1232/ram.html";
   if (str.toLowerCase().includes("ldc"))return "https://www.ldc.it/140-memoria-ram";
+  if (str.toLowerCase().includes("lifeinformatica"))return "https://lifeinformatica.com/categoria-producto/componentes/memorias-ram/";
+  if (str.toLowerCase().includes("mindfactory"))return "https://www.mindfactory.de/Hardware/Arbeitsspeicher+(RAM).html";
+  if (str.toLowerCase().includes("neobyte"))return "https://www.neobyte.es/memorias-ram-108";
+  if (str.toLowerCase().includes("nexac"))return "https://www.nexoc-store.de/hardware/komponenten/arbeitsspeicher/";
+  if (str.toLowerCase().includes("next"))return "https://www.nexths.it/Products/getSkuFromLev/page/1/l0/Hardware%20Software/l1/Memorie%20Ram";
   if (str.toLowerCase().includes("notebooksbilliger"))return "https://www.notebooksbilliger.de/pc+hardware/grafikkarten";
   if (str.toLowerCase().includes("nullprozentshop"))return "https://www.nullprozentshop.de/pc-hardware/gigabyte/";
-  if (str.toLowerCase().includes("pc componentes"))return "https://www.pccomponentes.it/processori";
+  if (str.toLowerCase().includes("ottoversand"))return "https://www.ottoversand.at/technik/multimedia/computer/pc-komponenten/arbeitsspeicher/";
+  if (str.toLowerCase().includes("pc componentes"))return "https://www.pccomponentes.it/memorie-ram";
   if (str.toLowerCase().includes("pixmart"))return "https://www.pixmart.it/categoria-prodotto/componenti-pc/ram/";
   if (str.toLowerCase().includes("proshop"))return "https://www.proshop.at/RAM";
   if (str.toLowerCase().includes("ollo"))return "https://www.ollo.it/memoria-ram/c_189";
   if (str.toLowerCase().includes("onbuy"))return "https://www.onbuy.com/gb/ram-computer-components~c8570/";
+  if (str.toLowerCase().includes("overclockers"))return "https://www.overclockers.co.uk/pc-components/ram-computer-memory";  
   if (str.toLowerCase().includes("redcomputer"))return "https://www.yeppon.it/c/videogames/componenti-gaming/schede-grafiche-gaming";
   if (str.toLowerCase().includes("redgaming"))return "https://redgaming.it/11-ram";
   if (str.toLowerCase().includes("reichelt"))
@@ -165,6 +178,10 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("sferaufficio"))return "https://www.sferaufficio.com/categorie/memorie";
   if (str.toLowerCase().includes("siimsrl")) return "https://www.siimsrl.it/memorie-altre-marche.1.7.263.sp.uw?fd=1"; 
   if (str.toLowerCase().includes("smartteck"))return "https://www.smartteck.co.uk/pc-components/graphics-cards-i-o";
+  
+
+
+  if (str.toLowerCase().includes("slgstore"))return "https://www.slgstore.it/informatica/componenti-hardware/memorie.html";
   if (str.toLowerCase().includes("speedler"))return "https://www.speedler.es/componentes-hardware/componentes/tarjetas-graficas";
   if (str.toLowerCase().includes("syswork")) return "https://syswork.store/it/katid='%20Informatica@Componenti%20PC@RAM'";
   if (str.toLowerCase().includes("topgamingpc"))return "https://www.topgamingpc.it/categoria-prodotto/prodotti-it/schede-video/?v=cd32106bcb6d";

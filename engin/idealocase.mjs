@@ -197,11 +197,14 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("1fodiscount"))return "https://www.1fodiscount.com/search-pc%20case/";
   if (str.toLowerCase().includes("25n"))return "https://25n.de/Hardware/Gehaeuse/";
   if (str.toLowerCase().includes("alternate"))return "https://www.alternate.fr/Bo%C3%AEtiers-PC";
+  if (str.toLowerCase().includes("alza"))return "https://www.alza.at/pc-gehaeuse-serverschraenke-serverracks-und-zubehoer/18849057.htm";
   if (str.toLowerCase().includes("amazon"))return "https://www.amazon.it/s?k=pc+case&rh=n%3A460120031&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss";    
   if (str.toLowerCase().includes("awd"))return "https://www.awd-it.co.uk/components/cases.html";
   if (str.toLowerCase().includes("barax"))return "https://www.barax.de/_hardware/komponenten/gehaeuse/";  
   if (str.toLowerCase().includes("bpm"))return "https://www.bpm-power.com/it/ricerca?k=pc+case";   
+  if (str.toLowerCase().includes("caseking"))return "https://www.caseking.es/componentes/cajas";
   if (str.toLowerCase().includes("cdiscount"))return "https://www.cdiscount.com/informatique/boitiers-pc-alimentations/l-10766.html?#_his_";
+  if (str.toLowerCase().includes("cnishop"))return "https://www.cnishop.com/14064-case-cabinet";
   if (str.toLowerCase().includes("computeruniverse"))return "https://www.computeruniverse.net/de/search?query=pc%20case";
   if(str.toLowerCase().includes("coolmod"))return "https://www.coolmod.com/componentes-pc-torres-cajas/";
   if (str.toLowerCase().includes("cyberport"))return "https://www.cyberport.at/pc-und-zubehoer/komponenten/gehaeuse.html";
@@ -212,12 +215,23 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("galaxus"))return "https://www.galaxus.de/en/s1/producttype/pc-case-77";
   // if (str.toLowerCase().includes("geopc"))return "https://geopc.it/storage-hdd-ssd-ram-ddr-nas/hard-disk-interni-personal-computer";
   if (str.toLowerCase().includes("goldenprice"))return "https://www.goldenprice.it/informatica/componenti-assemblaggio/case";
+  if (str.toLowerCase().includes("kovendor"))return "https://kovendor.co.uk/search?q=pc+case&options%5Bprefix%5D=last";
+  if (str.toLowerCase().includes("kaufland"))return "https://www.kaufland.de/gehaeuse/";
   if (str.toLowerCase().includes("ldc"))return "https://www.ldc.it/ricerca?controller=search&s=pc+case";
+  if (str.toLowerCase().includes("life"))return "https://lifeinformatica.com/categoria-producto/componentes/cajas-y-accesorios/cajas/";
+  
+  if (str.toLowerCase().includes("mindfactory"))return "https://www.mindfactory.de/search_result.php?search_query=pc+case";
+   
+  if (str.toLowerCase().includes("next"))return "https://www.nexths.it/Products/getSkuFromLev/l0/Hardware%20Software/l1/Case";
   if (str.toLowerCase().includes("notebooksbilliger"))return "https://www.notebooksbilliger.de/pc+hardware/gehaeuse+pc+hardware";
-  // if (str.toLowerCase().includes("nullprozentshop"))return "https://www.nullprozentshop.de/pc-hardware/gigabyte/";
+  if (str.toLowerCase().includes("office-partner"))return "https://www.office-partner.de/pc-hardware/gehaeuse/";
+  if (str.toLowerCase().includes("ollo"))return "https://www.ollo.it/case/c_335";
   if (str.toLowerCase().includes("pc componentes"))return "https://www.pccomponentes.it/computer-case";
+  if (str.toLowerCase().includes("paloma")) return "https://it.paloma-tech.com/collections/boitier-pc-panneaux-lateraux";
   if (str.toLowerCase().includes("pixmart"))return "https://www.pixmart.it/categoria-prodotto/componenti-pc/case-e-cabinet/";
+  if (str.toLowerCase().includes("playox"))return "https://www.playox.de/pc-hardware/gehaeuse/";
   if (str.toLowerCase().includes("proshop"))return "https://www.proshop.at/?s=HDD";
+  if (str.toLowerCase().includes("quzo"))return "https://www.quzo.co.uk/products/pc-cases/";
   if (str.toLowerCase().includes("ollo"))return "https://www.ollo.it/case/c_335";
   if (str.toLowerCase().includes("onbuy"))return "https://www.onbuy.com/gb/internal-hard-drives~c11600/";
   if (str.toLowerCase().includes("redcomputer"))return "https://www.yeppon.it/c/videogames/componenti-gaming/pc-case-gaming";
@@ -229,9 +243,12 @@ const getlink = (str) => {
   // if (str.toLowerCase().includes("siimsrl")) return "https://www.siimsrl.it/hdd.1.7.1105.sp.uw?fd=1"; 
   if (str.toLowerCase().includes("smartteck"))return "https://www.smartteck.co.uk/pc-components/cases-cooling";
   if (str.toLowerCase().includes("speedler"))return "https://www.speedler.es/componentes-hardware/componentes/cajas";
-  // if (str.toLowerCase().includes("syswork")) return "https://syswork.store/it/katid='Informatica@Componenti%20PC@Periferiche@SSD@Samsung%20870%20Evo%202.5'";
+  if (str.toLowerCase().includes("syswork")) return "https://syswork.store/it/katid='Informatica@Componenti%20PC@Case%20per%20PC'";
   if (str.toLowerCase().includes("topgamingpc"))return "https://www.topgamingpc.it/categoria-prodotto/prodotti-it/pc-case/?v=cd32106bcb6d";
   if (str.toLowerCase().includes("techinn")) return "https://www.tradeinn.com/techinn/it/componenti-scatole-a-torre/16028/s";
+  if (str.toLowerCase().includes("technextday")) return "https://technextday.co.uk/?s=pc+case&post_type=product";
+  if (str.toLowerCase().includes("tptoner")) return "https://www.tptoner.at/burotechnik-it/computer-notebooks-und-tablets/computer/pc-komponenten/computergehausen/";
+  
   if (str.toLowerCase().includes("trippodo"))return "https://www.trippodo.com/it/487-case";
   // if (str.toLowerCase().includes("voelkner"))return "https://www.voelkner.de/categories/13140_13217_13616/Computer-Buero/PC-Komponenten/Grafikkarten.html?filter_cbeef3905458e7917901a59e2c6bc15e%5Bf%5D=Grafik-Prozessor+%2F+Marke&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CAMD&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CIntel&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CMicrosoft&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CNVIDIA&filter_90a93fbb6110f89425b9808f8d5bd318%5Bf%5D=showInCategory&filter_90a93fbb6110f89425b9808f8d5bd318%5Bv%5D%5B%5D=0%7Cor%7Ctrue&version=5&viewport=desktop&cPath=13140_13217_13616";
   if (str.toLowerCase().includes("xfilesaversa"))return "https://www.xfilesaversa.it/it/informatica/componentistica/case/";
