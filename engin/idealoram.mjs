@@ -143,7 +143,7 @@ const getlink = (str) => {
   if(str.toLowerCase().includes("coolmod"))return "https://www.coolmod.com/componentes-pc-memorias-ram/";
   if (str.toLowerCase().includes("cyberport"))return "https://www.cyberport.at/pc-und-zubehoer/komponenten/ram-erweiterungen.html";
   if (str.toLowerCase().includes("ebay"))return "https://www.ebay.it/b/Memoria-RAM-per-prodotti-informatici/170083/bn_16546714";
-  if (str.toLowerCase().includes("eprice"))return "https://www.eprice.it/pr/scheda-video";  
+  if (str.toLowerCase().includes("eprice"))return "https://www.eprice.it/pr/ram";  
   if (str.toLowerCase().includes("esus"))return "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
   if (str.toLowerCase().includes("eweki"))return "https://www.eweki.it/informatica/componenti-assemblaggio/memorie-ram.html";
   if (str.toLowerCase().includes("galaxus"))return "https://www.galaxus.de/en/s1/producttype/graphics-card-106";
@@ -329,7 +329,7 @@ async function handleform(
 }
 async function fetchRam() {
   let arr = [];
-  let pages = 0;
+  let pages = 1;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
