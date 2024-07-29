@@ -201,13 +201,16 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("amazon"))return "https://www.amazon.it/s?k=pc+case&rh=n%3A460120031&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss";    
   if (str.toLowerCase().includes("awd"))return "https://www.awd-it.co.uk/components/cases.html";
   if (str.toLowerCase().includes("barax"))return "https://www.barax.de/_hardware/komponenten/gehaeuse/";  
+  if (str.toLowerCase().includes("1fodiscount"))return "https://www.1fodiscount.com/f23-boitier-pc/";   
   if (str.toLowerCase().includes("bpm"))return "https://www.bpm-power.com/it/ricerca?k=pc+case";   
   if (str.toLowerCase().includes("caseking"))return "https://www.caseking.es/componentes/cajas";
   if (str.toLowerCase().includes("cdiscount"))return "https://www.cdiscount.com/informatique/boitiers-pc-alimentations/l-10766.html?#_his_";
+  if (str.toLowerCase().includes("cclonline"))return "https://www.cnishop.com/14064-case-cabinet";
   if (str.toLowerCase().includes("cnishop"))return "https://www.cnishop.com/14064-case-cabinet";
   if (str.toLowerCase().includes("computeruniverse"))return "https://www.computeruniverse.net/de/search?query=pc%20case";
   if(str.toLowerCase().includes("coolmod"))return "https://www.coolmod.com/componentes-pc-torres-cajas/";
   if (str.toLowerCase().includes("cyberport"))return "https://www.cyberport.at/pc-und-zubehoer/komponenten/gehaeuse.html";
+  if (str.toLowerCase().includes("darty"))return "https://www.darty.com/nav/achat/informatique/composant_informatique/boitier_pc/index.html";
   if (str.toLowerCase().includes("ebay"))return "https://www.ebay.it/b/Case-e-accessori-per-prodotti-informatici/175674/bn_16546707";
   if (str.toLowerCase().includes("eprice"))return "https://www.eprice.it/pr/case-pc";  
   // if (str.toLowerCase().includes("esus"))return "https://www.esus-it.it/ita_n_CPU-GPU-115.html";
@@ -215,6 +218,7 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("galaxus"))return "https://www.galaxus.de/en/s1/producttype/pc-case-77";
   // if (str.toLowerCase().includes("geopc"))return "https://geopc.it/storage-hdd-ssd-ram-ddr-nas/hard-disk-interni-personal-computer";
   if (str.toLowerCase().includes("goldenprice"))return "https://www.goldenprice.it/informatica/componenti-assemblaggio/case";
+  if (str.toLowerCase().includes("jacob"))return "https://direkt.jacob.de/gehaeuse/";
   if (str.toLowerCase().includes("kovendor"))return "https://kovendor.co.uk/search?q=pc+case&options%5Bprefix%5D=last";
   if (str.toLowerCase().includes("kaufland"))return "https://www.kaufland.de/gehaeuse/";
   if (str.toLowerCase().includes("ldc"))return "https://www.ldc.it/ricerca?controller=search&s=pc+case";
@@ -230,7 +234,7 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("paloma")) return "https://it.paloma-tech.com/collections/boitier-pc-panneaux-lateraux";
   if (str.toLowerCase().includes("pixmart"))return "https://www.pixmart.it/categoria-prodotto/componenti-pc/case-e-cabinet/";
   if (str.toLowerCase().includes("playox"))return "https://www.playox.de/pc-hardware/gehaeuse/";
-  if (str.toLowerCase().includes("proshop"))return "https://www.proshop.at/?s=HDD";
+  if (str.toLowerCase().includes("proshop"))return "https://www.proshop.at/Gehaeuse";
   if (str.toLowerCase().includes("quzo"))return "https://www.quzo.co.uk/products/pc-cases/";
   if (str.toLowerCase().includes("ollo"))return "https://www.ollo.it/case/c_335";
   if (str.toLowerCase().includes("onbuy"))return "https://www.onbuy.com/gb/internal-hard-drives~c11600/";
@@ -399,6 +403,10 @@ async function fetchCase() {
         const formElements = await element.findElements(By.tagName("form"));
         if (linkElements.length > 0) {
           const linkElement = linkElements[0];
+          const imgElements = await parentElement.findElement(
+            By.className("sr-resultItemTile__image_ivkex")
+          );
+          const imgurl = await imgElements.getAttribute("src");
           href = await linkElement.getAttribute("href");
           const spanElement = await element.findElement(
             By.css("span[data-wishlist-heart]")
@@ -414,15 +422,16 @@ async function fetchCase() {
           const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
           const prc = a[a.length - 1].match(regex);
           const val = prc ? prc[0] : "Price not found";
-          const imgElements = await parentElement.findElement(
-            By.className("sr-resultItemTile__image_ivkex")
-          );
-          const imgurl = await imgElements.getAttribute("src");
+          
           let nameVal = a[0];
           // console.log("a tag:", href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
+            const imgElements = await parentElement.findElement(
+              By.className("sr-resultItemTile__image_ivkex")
+            );
+            const imgurl = await imgElements.getAttribute("src");
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
             );
@@ -453,10 +462,7 @@ async function fetchCase() {
             let nametext = await divElement.getText();
             const prc = a[a.length - 1].match(regex);
             const val = prc ? prc[0] : "Price not found";
-            const imgElements = await parentElement.findElement(
-              By.className("sr-resultItemTile__image_ivkex")
-            );
-            const imgurl = await imgElements.getAttribute("src");
+            
 
             await handleform(
               detail_driver,

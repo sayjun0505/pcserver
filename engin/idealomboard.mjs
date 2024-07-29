@@ -227,6 +227,7 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("ldc"))return "https://www.ldc.it/143-schede-madri";
   if (str.toLowerCase().includes("next"))return "https://www.nexths.it/Products/getSkuFromLev/page/1/l0/Hardware%20Software/l1/Mainboard";
   if (str.toLowerCase().includes("notebooksbilliger"))return "https://www.notebooksbilliger.de/pc+hardware/mainboards+pc+hardware";
+  if (str.toLowerCase().includes("nullprozentshop"))return "https://www.notebooksbilliger.de/pc+hardware/mainboards+pc+hardware";
   if (str.toLowerCase().includes("pc componentes"))return "https://www.pccomponentes.it/schede-madri";
   if (str.toLowerCase().includes("pixmart"))return "https://www.pixmart.it/categoria-prodotto/componenti-pc/schede-madri/";
   if (str.toLowerCase().includes("proshop"))return "https://www.proshop.at/Mainboard";
@@ -396,6 +397,10 @@ async function fetchMboard() {
         const linkElements = await element.findElements(By.tagName("a"));
         const formElements = await element.findElements(By.tagName("form"));
         if (linkElements.length > 0) {
+          const imgElements = await parentElement.findElement(
+            By.className("sr-resultItemTile__image_ivkex")
+          );
+          const imgurl = await imgElements.getAttribute("src");
           const linkElement = linkElements[0];
           href = await linkElement.getAttribute("href");
           const spanElement = await element.findElement(
@@ -412,15 +417,16 @@ async function fetchMboard() {
           const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
           const prc = a[a.length - 1].match(regex);
           const val = prc ? prc[0] : "Price not found";
-          const imgElements = await parentElement.findElement(
-            By.className("sr-resultItemTile__image_ivkex")
-          );
-          const imgurl = await imgElements.getAttribute("src");
+         
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
+            const imgElements = await parentElement.findElement(
+              By.className("sr-resultItemTile__image_ivkex")
+            );
+            const imgurl = await imgElements.getAttribute("src");
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
             );
@@ -451,10 +457,7 @@ async function fetchMboard() {
             let nametext = await divElement.getText();
             const prc = a[a.length - 1].match(regex);
             const val = prc ? prc[0] : "Price not found";
-            const imgElements = await parentElement.findElement(
-              By.className("sr-resultItemTile__image_ivkex")
-            );
-            const imgurl = await imgElements.getAttribute("src");
+            
 
             await handleform(
               detail_driver,

@@ -378,6 +378,10 @@ async function fetchStorage() {
         const formElements = await element.findElements(By.tagName("form"));
         if (linkElements.length > 0) {
           const linkElement = linkElements[0];
+          const imgElements = await parentElement.findElement(
+            By.className("sr-resultItemTile__image_ivkex")
+          );
+          const imgurl = await imgElements.getAttribute("src");
           href = await linkElement.getAttribute("href");
           const spanElement = await element.findElement(
             By.css("span[data-wishlist-heart]")
@@ -393,14 +397,16 @@ async function fetchStorage() {
           const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
           const prc = a[a.length - 1].match(regex);
           const val = prc ? prc[0] : "Price not found";
-          const imgElements = await parentElement.findElement(
-            By.className("sr-resultItemTile__image_ivkex")
-          );
-          const imgurl = await imgElements.getAttribute("src");
+          
           let nameVal = a[0];
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
+            const imgElements = await parentElement.findElement(
+              By.className("sr-resultItemTile__image_ivkex")
+            );
+            const imgurl = await imgElements.getAttribute("src");
+
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
             );
@@ -431,11 +437,7 @@ async function fetchStorage() {
             let nametext = await divElement.getText();
             const prc = a[a.length - 1].match(regex);
             const val = prc ? prc[0] : "Price not found";
-            const imgElements = await parentElement.findElement(
-              By.className("sr-resultItemTile__image_ivkex")
-            );
-            const imgurl = await imgElements.getAttribute("src");
-
+            
             await handleform(
               detail_driver,
               url,

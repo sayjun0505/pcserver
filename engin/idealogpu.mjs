@@ -173,6 +173,7 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("galaxus"))return "https://www.galaxus.de/en/s1/producttype/graphics-card-106";
   if (str.toLowerCase().includes("geopc"))return "https://geopc.it/componenti-hardware-informatica/schede-video-nvidia-radeon-amd-geforce";
   if (str.toLowerCase().includes("goldenprice"))return "https://www.goldenprice.it/informatica/componenti-assemblaggio/schede-video";
+  if (str.toLowerCase().includes("kovendor"))return "https://kovendor.co.uk/search?q=gpu&options%5Bprefix%5D=last&filter.v.price.gte=&filter.v.price.lte=&filter.p.product_type=Graphics+Cards&sort_by=relevance";
   if (str.toLowerCase().includes("ldc"))return "https://www.ldc.it/144-schede-video-e-grafiche";
   if (str.toLowerCase().includes("notebooksbilliger"))return "https://www.notebooksbilliger.de/pc+hardware/grafikkarten";
   if (str.toLowerCase().includes("nullprozentshop"))return "https://www.nullprozentshop.de/pc-hardware/gigabyte/";
@@ -181,6 +182,8 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("proshop"))return "https://www.proshop.at/Grafikkarte";
   if (str.toLowerCase().includes("ollo"))return "https://www.ollo.it/schede-video/c_198";
   if (str.toLowerCase().includes("onbuy"))return "https://www.onbuy.com/gb/graphics-cards~c8572/";
+  if (str.toLowerCase().includes("quzo"))return "https://www.quzo.co.uk/products/graphics-cards/";
+ 
   if (str.toLowerCase().includes("redcomputer"))return "https://www.yeppon.it/c/videogames/componenti-gaming/schede-grafiche-gaming";
   if (str.toLowerCase().includes("redgaming"))return "https://redgaming.it/9-schede-video";
   if (str.toLowerCase().includes("reichelt"))
@@ -193,6 +196,7 @@ const getlink = (str) => {
   if (str.toLowerCase().includes("syswork")) return "https://syswork.store/it/cpu";
   if (str.toLowerCase().includes("topgamingpc"))return "https://www.topgamingpc.it/categoria-prodotto/prodotti-it/schede-video/?v=cd32106bcb6d";
   if (str.toLowerCase().includes("techinn")) return "https://www.tradeinn.com/techinn/it/componenti-schede-grafiche/15980/s";
+  if (str.toLowerCase().includes("technextday")) return "https://technextday.co.uk/product-category/pc-components/graphics-cards/";
   if (str.toLowerCase().includes("trippodo"))return "https://www.trippodo.com/it/491-schede-video";
   if (str.toLowerCase().includes("voelkner"))return "https://www.voelkner.de/categories/13140_13217_13616/Computer-Buero/PC-Komponenten/Grafikkarten.html?filter_cbeef3905458e7917901a59e2c6bc15e%5Bf%5D=Grafik-Prozessor+%2F+Marke&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CAMD&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CIntel&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CMicrosoft&filter_cbeef3905458e7917901a59e2c6bc15e%5Bv%5D%5B%5D=0%7Cor%7CNVIDIA&filter_90a93fbb6110f89425b9808f8d5bd318%5Bf%5D=showInCategory&filter_90a93fbb6110f89425b9808f8d5bd318%5Bv%5D%5B%5D=0%7Cor%7Ctrue&version=5&viewport=desktop&cPath=13140_13217_13616";
   if (str.toLowerCase().includes("xfilesaversa"))return "https://www.xfilesaversa.it/it/informatica/componenti/";
@@ -342,6 +346,10 @@ async function fetchGPU() {
         const formElements = await element.findElements(By.tagName("form"));
         if (linkElements.length > 0) {
           const linkElement = linkElements[0];
+          const imgElements = await parentElement.findElement(
+            By.className("sr-resultItemTile__image_ivkex")
+          );
+          const imgurl = await imgElements.getAttribute("src");
           href = await linkElement.getAttribute("href");
           const spanElement = await element.findElement(
             By.css("span[data-wishlist-heart]")
@@ -357,14 +365,15 @@ async function fetchGPU() {
           const regex = /(\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2}))/;
           const prc = a[a.length - 1].match(regex);
           const val = prc ? prc[0] : "Price not found";
-          const imgElements = await parentElement.findElement(
-            By.className("sr-resultItemTile__image_ivkex")
-          );
-          const imgurl = await imgElements.getAttribute("src");
+          
           let nameVal = a[0];
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
         } else if (formElements.length > 0) {
           if (formindex == handledform) {
+            const imgElements = await parentElement.findElement(
+              By.className("sr-resultItemTile__image_ivkex")
+            );
+            const imgurl = await imgElements.getAttribute("src");
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
             );
@@ -395,10 +404,7 @@ async function fetchGPU() {
             let nametext = await divElement.getText();
             const prc = a[a.length - 1].match(regex);
             const val = prc ? prc[0] : "Price not found";
-            const imgElements = await parentElement.findElement(
-              By.className("sr-resultItemTile__image_ivkex")
-            );
-            const imgurl = await imgElements.getAttribute("src");
+            
             await handleform(
               detail_driver,
               url,

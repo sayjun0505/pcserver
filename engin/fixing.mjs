@@ -341,6 +341,10 @@ async function fetchCPU() {
         // console.log("aaaaa")
         if (linkElements.length > 0) {
           const linkElement = linkElements[0];
+          const imgElements = await parentElement.findElement(
+            By.className("sr-resultItemTile__image_ivkex")
+          );
+          const imgurl = await imgElements.getAttribute("src");
           href = await linkElement.getAttribute("href");
           const spanElement = await element.findElement(
             By.css("span[data-wishlist-heart]")
@@ -365,10 +369,7 @@ async function fetchCPU() {
           const prc = a[a.length - 1].match(regex);
           const val = prc ? prc[0] : "Price not found";
 
-          const imgElements = await parentElement.findElement(
-            By.className("sr-resultItemTile__image_ivkex")
-          );
-          const imgurl = await imgElements.getAttribute("src");
+          
           let nameVal = a[0];
           // console.log(href, nameVal, details, val, id, imgurl);
           await handleA(detail_driver, href, nameVal, details, val, id, imgurl);
@@ -379,7 +380,10 @@ async function fetchCPU() {
             const spanElement = await element.findElement(
               By.css("span[data-wishlist-heart]")
             );
-
+            const imgElements = await parentElement.findElement(
+              By.className("sr-resultItemTile__image_ivkex")
+            );
+            const imgurl = await imgElements.getAttribute("src");
             const dataAttr = await spanElement.getAttribute(
               "data-wishlist-heart"
             );
@@ -413,10 +417,7 @@ async function fetchCPU() {
             let nametext = await divElement.getText();
             const prc = a[a.length - 1].match(regex);
             const val = prc ? prc[0] : "Price not found";
-            const imgElements = await parentElement.findElement(
-              By.className("sr-resultItemTile__image_ivkex")
-            );
-            const imgurl = await imgElements.getAttribute("src");
+            
 
             await handleform(
               detail_driver,
