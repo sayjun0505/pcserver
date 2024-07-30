@@ -49,6 +49,10 @@ async function handleA(
   let cpuid = "";
   if (existingProduct) {
     cpuid = existingProduct._id;
+    await CPUList.updateOne(  
+      { _id: cpuid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    );  
   } else {
     let createdProduct = await CPUList.create({
       name: x.name,
@@ -265,6 +269,10 @@ async function handleform(
   let cpuid = "";
   if (existingProduct) {
     cpuid = existingProduct._id;
+    await CPUList.updateOne(  
+      { _id: cpuid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    );  
   } else {
     let createdProduct = await CPUList.create({
       name: x.name,
