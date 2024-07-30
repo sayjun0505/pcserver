@@ -138,6 +138,10 @@ async function handleA(
   let mid = "";
   if (existingProduct) {
     mid = existingProduct._id;
+    await GPUList.updateOne(  
+      { _id: mid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    ); 
   } else {
     let createdProduct = await GPUList.create({
       name: x.name,
@@ -273,6 +277,10 @@ async function handleform(
   let mid = "";
   if (existingProduct) {
     mid = existingProduct._id;
+    await GPUList.updateOne(  
+      { _id: mid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    ); 
   } else {
     let createdProduct = await GPUList.create({
       name: x.name,

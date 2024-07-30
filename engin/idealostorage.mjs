@@ -101,6 +101,10 @@ async function handleA(
   let mid = "";
   if (existingProduct) {
     mid = existingProduct._id;
+    await StorageList.updateOne(  
+      { _id: mid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    ); 
   } else {
     let createdProduct = await StorageList.create({
       name: x.name,
@@ -308,6 +312,10 @@ async function handleform(
   let mid = "";
   if (existingProduct) {
     mid = existingProduct._id;
+    await StorageList.updateOne(  
+      { _id: mid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    ); 
   } else {
     let createdProduct = await StorageList.create({
       name: x.name,

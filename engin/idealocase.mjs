@@ -137,6 +137,10 @@ async function handleA(
   let mid = "";
   if (existingProduct) {
     mid = existingProduct._id;
+    await CaseList.updateOne(  
+      { _id: mid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    ); 
   } else {
     let createdProduct = await CaseList.create({
       name: x.name,
@@ -330,6 +334,10 @@ async function handleform(
   let mid = "";
   if (existingProduct) {
     mid = existingProduct._id;
+    await CaseList.updateOne(  
+      { _id: mid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    ); 
   } else {
     let createdProduct = await CaseList.create({
       name: x.name,

@@ -139,6 +139,10 @@ async function handleA(
   let mid = "";
   if (existingProduct) {
     mid = existingProduct._id;
+    await MboardList.updateOne(  
+      { _id: mid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    ); 
   } else {
     let createdProduct = await MboardList.create({
       name: x.name,
@@ -325,6 +329,10 @@ async function handleform(
   let mid = "";
   if (existingProduct) {
     mid = existingProduct._id;
+    await MboardList.updateOne(  
+      { _id: mid }, // Query to find the document  
+      { $set: { price: x.price } } // Update operation  
+    ); 
   } else {
     let createdProduct = await MboardList.create({
       name: x.name,
@@ -457,8 +465,6 @@ async function fetchMboard() {
             let nametext = await divElement.getText();
             const prc = a[a.length - 1].match(regex);
             const val = prc ? prc[0] : "Price not found";
-            
-
             await handleform(
               detail_driver,
               url,
