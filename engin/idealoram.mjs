@@ -346,7 +346,7 @@ async function handleform(
 }
 async function fetchRam() {
   let arr = [];
-  let pages = 6;
+  let pages = 0;
   let count = 15;
   while (true) {
     const detail_driver = await new Builder()
@@ -454,8 +454,6 @@ async function fetchRam() {
             let nametext = await divElement.getText();
             const prc = a[a.length - 1].match(regex);
             const val = prc ? prc[0] : "Price not found";
-            
-
             await handleform(
               detail_driver,
               url,
